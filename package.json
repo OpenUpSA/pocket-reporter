@@ -1,0 +1,39 @@
+{
+  "scripts": {
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "develop": "gatsby develop",
+    "start": "npm run develop"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.7.1",
+    "@material-ui/icons": "^3.0.1",
+    "@material-ui/lab": "^3.0.0-alpha.26",
+    "axios": "^0.18.0",
+    "gatsby": "^2.0.76",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-ga": "^2.5.6",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-localstorage": "^0.4.1",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.1.3"
+  },
+  "devDependencies": {
+    "@wapps/gatsby-plugin-material-ui": "^1.1.0",
+    "gatsby-plugin-google-analytics": "^2.0.8",
+    "gatsby-plugin-hotjar": "^1.0.1",
+    "gatsby-plugin-manifest": "^2.0.12",
+    "gatsby-plugin-netlify": "^2.0.6",
+    "gatsby-plugin-offline": "^2.0.20",
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby-plugin-sentry": "^1.0.0",
+    "gatsby-plugin-sitemap": "^2.0.3",
+    "gatsby-plugin-styled-components": "^3.0.4"
+  }
+}
