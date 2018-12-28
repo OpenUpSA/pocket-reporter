@@ -53,6 +53,7 @@ const AddButton = styled(Fab)`
   &&{
     background-color: grey;
     background-image: radial-gradient(circle at 50% 50%, #969696, #333);
+    border: 5px solid white;
   }
 `;
 
@@ -60,16 +61,16 @@ const Footer = () => (
   <FooterWrapper>
     <FooterBar position="fixed">
       <FooterToolbar>
-        <FooterButton color="inherit" aria-label="Open drawer">
+        <FooterButton color="inherit" aria-label="My stories">
           <ButtonDiv>
             <ListIcon />
             My stories
           </ButtonDiv>
         </FooterButton>
-        <AddButton color="secondary" aria-label="Add">
+        <AddButton color="secondary" aria-label="Add Story">
           <AddIcon />
         </AddButton>
-        <FooterButton color="inherit">
+        <FooterButton color="inherit" aria-label="About">
           <ButtonDiv>
             <HelpIcon />
             About

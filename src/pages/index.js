@@ -1,9 +1,11 @@
 import React from 'react'
-import Button from '@material-ui/core/Button';
 import styled from 'styled-components';
 
 import logo from '../assets/meta/logo.png';
+import Button from '@material-ui/core/Button';
 import Footer from '../components/Footer';
+
+import Header from '../components/Header';
 
 const StyledWrapper = styled.div`
   font-family: "Roboto", sans-serif;
@@ -78,27 +80,29 @@ const Link = styled.a`
 const IndexPage = () => (
 
   <React.Fragment>
-    <StyledWrapper>
-      <Go>
-        <StyledImage src={logo} />
-      </Go>
-      <Heading>
-        A News Editor in Your Pocket
-        </Heading>
-      <SubHeading>
-        Pocket Reporter helps you be a
-        <br />
-        better reporter by guiding you
-        <br />
-        through the news gathering process.
-      </SubHeading>
-      {/*TODO: Text to change to different language*/}
-      <Language>
-        <Link href="">Change language</Link>
-      </Language>
-    </StyledWrapper>
+    {/*<StyledWrapper>*/}
+      {/*<Go>*/}
+        {/*<StyledImage src={logo} />*/}
+      {/*</Go>*/}
+      {/*<Heading>*/}
+        {/*A News Editor in Your Pocket*/}
+        {/*</Heading>*/}
+      {/*<SubHeading>*/}
+        {/*Pocket Reporter helps you be a*/}
+        {/*<br />*/}
+        {/*better reporter by guiding you*/}
+        {/*<br />*/}
+        {/*through the news gathering process.*/}
+      {/*</SubHeading>*/}
+      {/*/!*TODO: Text to change to different language*!/*/}
+      {/*<Language>*/}
+        {/*<Link href="">Change language</Link>*/}
+      {/*</Language>*/}
+    {/*</StyledWrapper>*/}
 
-    <Footer> </Footer>
+    <Header />
+
+    <Footer />
 
   </React.Fragment>
 
