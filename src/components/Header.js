@@ -8,9 +8,6 @@ import BackIcon from '@material-ui/icons/ArrowBack';
 const HeaderWrapper = styled.div`
   color: white;
   font-family: "Roboto", sans-serif;
-  position: fixed;
-  top: 0px;
-  left: 0px;
   width: 100%;
   z-index: 999;
   @media (min-width: 760px) 
@@ -45,7 +42,6 @@ const HeaderText = styled.p`
 
 const HeaderTitle = styled.h3`
   color: #4a4a4a;
-  padding: 10px 0;
 `;
 
 const HeaderProgress = styled(LinearProgress)`

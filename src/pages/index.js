@@ -17,11 +17,6 @@ const StyledWrapper = styled.div`
   bottom: 50px;
   left: 0px;
   right: 0px;
-  @media (min-width: 760px) 
-  {
-    width: 50%;
-    margin: auto
-  }
 `;
 
 const Go = styled(Button)`
@@ -81,32 +76,33 @@ const Link = styled.a`
 const IndexPage = () => (
 
   <React.Fragment>
+
     {/*TODO: Show on landing page*/}
-    <StyledWrapper>
-      <Go>
-        <StyledImage src={logo} />
-      </Go>
-      <Heading>
-        A News Editor in Your Pocket
-        </Heading>
-      <SubHeading>
-        Pocket Reporter helps you be a
-        <br />
-        better reporter by guiding you
-        <br />
-        through the news gathering process.
-      </SubHeading>
-      {/*TODO: Text to change to different language*/}
-      <Language>
-        <Link href="">Change language</Link>
-      </Language>
-    </StyledWrapper>
+    {/*<StyledWrapper>*/}
+      {/*<Go>*/}
+        {/*<StyledImage src={logo} />*/}
+      {/*</Go>*/}
+      {/*<Heading>*/}
+        {/*A News Editor in Your Pocket*/}
+        {/*</Heading>*/}
+      {/*<SubHeading>*/}
+        {/*Pocket Reporter helps you be a*/}
+        {/*<br />*/}
+        {/*better reporter by guiding you*/}
+        {/*<br />*/}
+        {/*through the news gathering process.*/}
+      {/*</SubHeading>*/}
+      {/*/!*TODO: Text to change to different language*!/*/}
+      {/*<Language>*/}
+        {/*<Link href="">Change language</Link>*/}
+      {/*</Language>*/}
+    {/*</StyledWrapper>*/}
 
     {/*TODO: Show on all subsequent pages*/}
-    {/*<Header />*/}
+    <Header />
 
     {/*TODO: Show on first and second selection page*/}
-    {/*<Cards />*/}
+    <Cards />
 
     <Footer />
 
