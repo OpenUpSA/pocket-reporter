@@ -64,11 +64,11 @@ const Header = () => (
       </HeaderText>
     </HeaderBar>
     {/*TODO: Change wording to progress bar after second selection*/}
-    <HeaderTitle>
-      What type of story are you writing?
-    </HeaderTitle>
+    {/*<HeaderTitle>*/}
+      {/*What type of story are you writing?*/}
+    {/*</HeaderTitle>*/}
     {/*TODO: Change colour, dynamic value*/}
-    {/*<HeaderProgress color="secondary" variant="determinate" value="38" />*/}
+    <HeaderProgress color="secondary" variant="determinate" value="38" />
   </HeaderWrapper>
 );
 

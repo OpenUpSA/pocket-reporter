@@ -7,45 +7,49 @@ import Typography from '@material-ui/core/Typography';
 
 import Icon from '@material-ui/core/Icon';
 
-import GavelIcon from '@material-ui/icons/Gavel';
-import FlagIcon from '@material-ui/icons/Flag';
-
 const cardData = [
   {
-    icon: GavelIcon,
-    text: 'Legal'
+    icon: 'gavel',
+    text: 'Legal',
+    to: ''
   },
 
   {
-    icon: FlagIcon,
-    text: 'Elections'
+    icon: 'flag',
+    text: 'Elections',
+    to: ''
   },
 
   {
-    icon: GavelIcon,
-    text: 'Health'
+    icon: 'health',
+    text: 'Health',
+    to: ''
   },
 
   {
-    icon: GavelIcon,
-    text: 'Hard News'
+    icon: 'flame',
+    text: 'Hard News',
+    to: ''
   },
 
   {
-    icon: GavelIcon,
-    text: 'Service Delivery'
+    icon: 'group',
+    text: 'Service Delivery',
+    to: ''
   },
 
   {
-    icon: GavelIcon,
-    text: 'Sport'
+    icon: 'ball',
+    text: 'Sport',
+    to: ''
   },
 
   {
-    icon: GavelIcon,
-    text: 'Gender Violence'
+    icon: 'profile',
+    text: 'Gender Violence',
+    to: ''
   }
-]
+];
 
 const CardWrapper = styled.div`
   @media (min-width: 760px) 
@@ -70,7 +74,7 @@ const TopicCard = styled(Card)`
 const Content = styled(CardContent)`
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   justify-content: center;
 `;
 
@@ -81,7 +85,7 @@ const Cards = () => (
       {cardData.map(card => (
         <TopicCard>
           <Content>
-            <Icon>flag</Icon>
+            <Icon>{card.icon}</Icon>
             <Typography color="inherit" gutterBottom>
               {card.text}
             </Typography>

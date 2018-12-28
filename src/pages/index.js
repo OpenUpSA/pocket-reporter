@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 
 import Header from '../components/Header';
 import Cards from '../components/Cards';
+import Questions from '../components/Questions';
 
 const StyledWrapper = styled.div`
   font-family: "Roboto", sans-serif;
@@ -102,7 +103,10 @@ const IndexPage = () => (
     <Header />
 
     {/*TODO: Show on first and second selection page*/}
-    <Cards />
+    {/*<Cards />*/}
+
+    {/*TODO: Hook up questions*/}
+    <Questions />
 
     <Footer />
 
