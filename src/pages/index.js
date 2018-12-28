@@ -6,6 +6,7 @@ import Button from '@material-ui/core/Button';
 import Footer from '../components/Footer';
 
 import Header from '../components/Header';
+import Cards from '../components/Cards';
 
 const StyledWrapper = styled.div`
   font-family: "Roboto", sans-serif;
@@ -101,6 +102,8 @@ const IndexPage = () => (
     {/*</StyledWrapper>*/}
 
     <Header />
+
+    <Cards />
 
     <Footer />
 
