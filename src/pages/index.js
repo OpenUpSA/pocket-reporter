@@ -92,6 +92,7 @@ const IndexPage = () => (
         <br />
         through the news gathering process.
       </SubHeading>
+      {/*TODO: Text to change to different language*/}
       <Language>
         <Link href="">Change language</Link>
       </Language>

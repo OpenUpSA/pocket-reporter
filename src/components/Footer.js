@@ -32,6 +32,8 @@ const FooterBar = styled.div`
 
 const FooterToolbar = styled.div`
   padding: 0;
+  display: flex;
+  justify-content: space-around;
 `;
 
 const FooterButton = styled(IconButton)`
@@ -47,6 +49,13 @@ const ButtonDiv = styled.div`
   align-items: center;
 `;
 
+const AddButton = styled(Fab)`
+  &&{
+    background-color: grey;
+    background-image: radial-gradient(circle at 50% 50%, #969696, #333);
+  }
+`;
+
 const Footer = () => (
   <FooterWrapper>
     <FooterBar position="fixed">
@@ -57,9 +66,9 @@ const Footer = () => (
             My stories
           </ButtonDiv>
         </FooterButton>
-        <Fab color="secondary" aria-label="Add">
+        <AddButton color="secondary" aria-label="Add">
           <AddIcon />
-        </Fab>
+        </AddButton>
         <FooterButton color="inherit">
           <ButtonDiv>
             <HelpIcon />
