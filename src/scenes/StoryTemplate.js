@@ -100,7 +100,7 @@ const Answer = styled.input`
   height: 44px;
 `;
 
-const Questions = () => (
+const StoryTemplate = () => (
   <QuestionWrapper>
     <QuestionList>
       {questionData.map(questionItem => (
@@ -113,4 +113,4 @@ const Questions = () => (
   </QuestionWrapper>
 );
 
-export default Questions;
+export default StoryTemplate;
