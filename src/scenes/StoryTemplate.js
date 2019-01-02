@@ -73,7 +73,7 @@ const questionData = [
 ];
 
 const QuestionWrapper = styled.div`
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: scroll;
   height: 100vh;
   @media (min-width: 760px) 
@@ -100,7 +100,7 @@ const Answer = styled.input`
   height: 44px;
 `;
 
-const Questions = () => (
+const StoryTemplate = () => (
   <QuestionWrapper>
     <QuestionList>
       {questionData.map(questionItem => (
@@ -113,4 +113,4 @@ const Questions = () => (
   </QuestionWrapper>
 );
 
-export default Questions;
+export default StoryTemplate;
