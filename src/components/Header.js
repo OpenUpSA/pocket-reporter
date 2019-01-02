@@ -7,7 +7,7 @@ import BackIcon from '@material-ui/icons/ArrowBack';
 
 const HeaderWrapper = styled.div`
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 100%;
   z-index: 999;
   @media (min-width: 760px) 

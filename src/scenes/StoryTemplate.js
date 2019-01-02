@@ -73,7 +73,7 @@ const questionData = [
 ];
 
 const QuestionWrapper = styled.div`
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: scroll;
   height: 100vh;
   @media (min-width: 760px) 
