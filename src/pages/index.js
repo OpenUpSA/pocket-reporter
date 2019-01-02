@@ -2,10 +2,10 @@ import React from 'react'
 
 import Footer from '../components/Footer';
 
-import LandingPage from '../scenes/LandingPage';
+import LandingPage from '../views/LandingPage';
 import Header from '../components/Header';
 import Cards from '../components/Cards';
-import StoryTemplate from '../scenes/StoryTemplate';
+import StoryTemplate from '../views/StoryTemplate';
 
 
 
