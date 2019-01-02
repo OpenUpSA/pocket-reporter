@@ -1,5 +1,5 @@
-import React from 'react';
-import store from "./src/redux/store";
+// import React from 'react';
+// import store from "./src/redux/store";
 
 
-export default ({ element }) => <Provider {...{ store }}>{element}</Provider>
+// export default ({ element }) => <Provider {...{ store }}>{element}</Provider>

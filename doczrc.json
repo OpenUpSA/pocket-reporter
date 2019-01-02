@@ -1,0 +1,8 @@
+{
+  "title": "📱 Pocket Reporter",
+  "description": "Guidelines for those who wish to contribute to the project",
+  "files": "**/*.{md,markdown,mdx}",
+  "codeSandbox": false
+}
+
+
