@@ -30,6 +30,9 @@ const Go = styled(Button)`
     height: 200px;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    :hover {
+      background-color: transparent;
+    }
   }
 `;
 
