@@ -61,6 +61,7 @@ const CardWrapper = styled.ul`
   justify-content: space-between;
   flex-flow: row wrap;
   padding: 0;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 `;
 
 const CardItem = styled.li`
@@ -99,8 +100,8 @@ const Cards = () => (
         <CardItem>
           <TopicCard>
             <Content>
-              <Icon>{card.icon}</Icon>
-              <Typography color="inherit" gutterBottom>
+              <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
+              <Typography color="inherit">
                 {card.text}
               </Typography>
             </Content>
