@@ -4,7 +4,7 @@ Pocket Reporter is a free, open-source news editor in your pocket.
 
 ## Interested in contributing?
 
-Please visit the [project documentation](https://pocket-reporter-docs.netlify.com) to get started.
+Please visit the [project documentation](https://pocketreporter-docs.netlify.com) to get started.
 
 
 ## Setting up local environment
