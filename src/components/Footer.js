@@ -76,9 +76,9 @@ const AddButton = styled(Fab)`
     box-shadow: none;
     width: 30%;
     color: white;
-    height: 70px;
-    width: 70px;
-    top: -35px;
+    height: 75px;
+    width: 75px;
+    top: -30px;
     position: absolute;
   }
   
@@ -101,7 +101,7 @@ const Footer = () => (
           <FooterItem>
             <FooterButton href="/" >
               <AddButton aria-label="Add Story">
-                <AddIcon style={{height: '60px', width: '60px', border: '5px solid white', borderRadius: '50%', padding: '5px'}} />
+                <AddIcon style={{height: '65px', width: '65px', border: '5px solid white', borderRadius: '50%', padding: '5px'}} />
               </AddButton>
             </FooterButton>
           </FooterItem>
