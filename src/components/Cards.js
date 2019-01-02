@@ -51,7 +51,7 @@ const cardData = [
   }
 ];
 
-const CardWrapper = styled.div`
+const CardWrapper = styled.ul`
   @media (min-width: 760px) 
   {
     width: 50%;
@@ -60,14 +60,20 @@ const CardWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
+  padding: 0;
+`;
+
+const CardItem = styled.li`
+   list-style-type: none;
+   width: 30%;
+   margin-bottom: 10px;
 `;
 
 const TopicCard = styled(Card)`
   && {
-    width: 30%;
-    margin-bottom: 10px;
     color: white;
     background-color: #73c619;
+    height: 100px;
   }
 `;
 
@@ -76,6 +82,13 @@ const Content = styled(CardContent)`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  height: 100%;
+  && {
+    :last-child {
+      padding: 5px 20px;
+    }
+  }
 `;
 
 const Cards = () => (
@@ -83,14 +96,16 @@ const Cards = () => (
 
     <CardWrapper>
       {cardData.map(card => (
-        <TopicCard>
-          <Content>
-            <Icon>{card.icon}</Icon>
-            <Typography color="inherit" gutterBottom>
-              {card.text}
-            </Typography>
-          </Content>
-        </TopicCard>
+        <CardItem>
+          <TopicCard>
+            <Content>
+              <Icon>{card.icon}</Icon>
+              <Typography color="inherit" gutterBottom>
+                {card.text}
+              </Typography>
+            </Content>
+          </TopicCard>
+        </CardItem>
       ))}
   </CardWrapper>
 

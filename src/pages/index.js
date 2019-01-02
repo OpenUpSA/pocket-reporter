@@ -13,13 +13,13 @@ const IndexPage = () => (
 
   <React.Fragment>
 
-    <LandingPage />
+    {/*<LandingPage />*/}
 
     {/*TODO: Show on all subsequent pages*/}
-    {/*<Header />*/}
+    <Header />
 
     {/*TODO: Show on first and second selection page*/}
-    {/*<Cards />*/}
+    <Cards />
 
     {/*Story template*/}
     {/*<StoryTemplate />*/}
