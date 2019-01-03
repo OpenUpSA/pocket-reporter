@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 
+import Header from '../components/Header';
+
 const questionData = [
   {
     question: 'Name/Title of the story.',
@@ -76,6 +78,8 @@ const QuestionWrapper = styled.div`
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: scroll;
   height: 100vh;
+  position: relative;
+  top: 60px;
   @media (min-width: 760px) 
   {
     width: 50%;
@@ -85,11 +89,12 @@ const QuestionWrapper = styled.div`
 
 const QuestionList = styled.ol`
   padding: 0 0 0 25px;
-  margin: 10 0;
+  margin: 10px 0 80px 0;
 `;
 
 const ListItem = styled.li`
   font-weight: bold;
+  margin-bottom: 20px;
 `;
 
 const Answer = styled.input`
@@ -101,16 +106,21 @@ const Answer = styled.input`
 `;
 
 const StoryTemplate = () => (
-  <QuestionWrapper>
-    <QuestionList>
-      {questionData.map(questionItem => (
-        <ListItem>
-          {questionItem.question}
-          <Answer placeholder={questionItem.hint} />
-        </ListItem>
-      ))}
-    </QuestionList>
-  </QuestionWrapper>
+  <React.Fragment>
+
+    <Header />
+
+    <QuestionWrapper>
+      <QuestionList>
+        {questionData.map(questionItem => (
+          <ListItem>
+            {questionItem.question}
+            <Answer placeholder={questionItem.hint} />
+          </ListItem>
+        ))}
+      </QuestionList>
+    </QuestionWrapper>
+  </React.Fragment>
 );
 
 export default StoryTemplate;

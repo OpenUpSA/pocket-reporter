@@ -103,26 +103,22 @@ const Content = styled(CardContent)`
 `;
 
 const Cards = () => (
-  <React.Fragment>
-
-    <CardWrapper>
-      {cardData.map(card => (
-        <CardItem>
-          <CardLink href={card.to}>
-            <TopicCard>
-              <Content>
-                <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
-                <Typography color="inherit">
-                  {card.text}
-                </Typography>
-              </Content>
-            </TopicCard>
-          </CardLink>
-        </CardItem>
-      ))}
-  </CardWrapper>
-
-  </React.Fragment>
+  <CardWrapper>
+    {cardData.map(card => (
+      <CardItem>
+        <CardLink href={card.to}>
+          <TopicCard>
+            <Content>
+              <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
+              <Typography color="inherit">
+                {card.text}
+              </Typography>
+            </Content>
+          </TopicCard>
+        </CardLink>
+      </CardItem>
+    ))}
+</CardWrapper>
 );
 
 export default Cards;

@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import IconButton from '@material-ui/core/IconButton';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import BackIcon from '@material-ui/icons/ArrowBack';
+import EmailIcon from '@material-ui/icons/Email';
+import DeleteIcon from '@material-ui/icons/Delete';
 
 const HeaderWrapper = styled.div`
   color: white;
@@ -52,26 +54,38 @@ const HeaderProgress = styled(LinearProgress)`
     height: 10px;
     background-color: rgba(115, 198, 25, 0.4);
   }
+  colorPrimary: {
+    background-color: red;
+  }
 `;
 
 const Header = () => (
   <HeaderWrapper>
     <HeaderBar>
-      {/*<HeaderButton color="inherit">*/}
+      <HeaderButton color="inherit">
         {/*TODO: ONLY show after first select*/}
-        {/*<BackIcon />*/}
-      {/*</HeaderButton>*/}
+        <BackIcon />
+      </HeaderButton>
       <HeaderText>
         {/*TODO: Change language*/}
-        Start a New Story
+        {/*Start a New Story*/}
+        {/*TODO: Title of story on questions page*/}
+        Title of Story
       </HeaderText>
+      {/*TODO: Only show on StoryTemplate view*/}
+      <HeaderButton color="inherit">
+        <EmailIcon />
+      </HeaderButton>
+      <HeaderButton color="inherit">
+        <DeleteIcon />
+      </HeaderButton>
     </HeaderBar>
     {/*TODO: Change wording to progress bar after second selection*/}
-    <HeaderTitle>
-      What type of story are you writing?
-    </HeaderTitle>
+    {/*<HeaderTitle>*/}
+      {/*What type of story are you writing?*/}
+    {/*</HeaderTitle>*/}
     {/*TODO: Change colour, dynamic value*/}
-    {/*<HeaderProgress color="secondary" variant="determinate" value="38" />*/}
+    <HeaderProgress variant="determinate" value="38" />
   </HeaderWrapper>
 );
 

@@ -5,8 +5,6 @@ import Footer from '../components/Footer';
 
 import LandingPage from '../views/LandingPage';
 import FoldersPage from '../views/FoldersPage';
-import Header from '../components/Header';
-
 import StoryTemplate from '../views/StoryTemplate';
 
 
@@ -21,12 +19,11 @@ const IndexPage = () => (
 
     {/*<LandingPage />*/}
 
-    {/*TODO: Show on all subsequent pages*/}
-    {/*<Header />*/}
+    {/*<FoldersPage />*/}
 
-    <FoldersPage />
-    {/*Story template*/}
-    {/*<StoryTemplate />*/}
+    <StoryTemplate />
+
+    {/*<AboutPage />*/}
 
     <Footer />
 
