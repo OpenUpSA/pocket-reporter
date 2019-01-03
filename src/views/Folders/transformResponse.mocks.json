@@ -9,14 +9,24 @@
             "unusedValue": "Lorem Ipsum",
             "story_template": {
               "ID": 123,
-              "unusedValue": "Hello World!"
+              "unusedValue": "Hello World!",
+              "type": "resources"
             }
           },
           {
             "unusedValue": "Lorem Ipsum",
             "story_template": {
               "ID": 456,
-              "unusedValue": "Hello World!"
+              "unusedValue": "Lorem Ipsum",
+              "type": "resources"
+            }
+          },
+          {
+            "unusedValue": "Lorem Ipsum",
+            "story_template": {
+              "ID": 789,
+              "unusedValue": "Hello World!",
+              "type": "story_templates"
             }
           }
         ]
@@ -34,8 +44,9 @@
           {
             "unusedValue": "Lorem Ipsum",
             "story_template": {
-              "ID": 789,
-              "unusedValue": "Hello World!"
+              "ID": 367,
+              "unusedValue": "Hello World!",
+              "type": "resources"
             }
           }
         ]

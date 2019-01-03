@@ -6,12 +6,14 @@ const output = [
   {
     title: 'Example 1',
     icon: 'fa-bell',
-    storyTemplates: [123, 456]
+    storyTemplates: [789],
+    resources: [123, 456],
   },
   {
     title: 'Example 2',
     icon: 'fa-user',
-    storyTemplates: [789]
+    storyTemplates: [],
+    resources: [367]
   }, 
 ]
 
