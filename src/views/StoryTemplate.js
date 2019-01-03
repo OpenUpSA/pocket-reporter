@@ -141,6 +141,7 @@ const StoryTemplate = () => (
         <Button>
           Email Story
         </Button>
+        {/*TODO: Correct colour for button*/}
         <Button variant="contained" color="primary">
           Send Story and media via whatsapp
         </Button>
