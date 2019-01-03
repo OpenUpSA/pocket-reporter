@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
+import Button from '@material-ui/core/Button';
 import Header from '../components/Header';
 
 const questionData = [
@@ -77,7 +78,7 @@ const questionData = [
 const QuestionWrapper = styled.div`
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: scroll;
-  height: 100vh;
+  height: 90vh;
   position: relative;
   top: 60px;
   @media (min-width: 760px) 
@@ -89,7 +90,7 @@ const QuestionWrapper = styled.div`
 
 const QuestionList = styled.ol`
   padding: 0 0 0 25px;
-  margin: 10px 0 80px 0;
+  margin: 10px 0;
 `;
 
 const ListItem = styled.li`
@@ -103,6 +104,20 @@ const Answer = styled.input`
   background-color: #fafafa;
   border: none;
   height: 44px;
+`;
+
+const QuestionNotice = styled.div`
+  background-color: #e2e3e5;
+  margin: 0px 10px 10px 10px;
+  padding: 20px;
+  border-radius: 4px;
+`;
+
+const QuestionActions = styled.div`
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
 `;
 
 const StoryTemplate = () => (
@@ -119,6 +134,20 @@ const StoryTemplate = () => (
           </ListItem>
         ))}
       </QuestionList>
+      <QuestionNotice>
+        <p style={{margin: 0}}>If email submission does not work please change to the latest version of Chrome</p>
+      </QuestionNotice>
+      <QuestionActions>
+        <Button>
+          Email Story
+        </Button>
+        <Button variant="contained" color="primary">
+          Send Story and media via whatsapp
+        </Button>
+        <Button color="secondary">
+          Delete story
+        </Button>
+      </QuestionActions>
     </QuestionWrapper>
   </React.Fragment>
 );
