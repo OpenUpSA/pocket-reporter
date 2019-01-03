@@ -14,6 +14,7 @@ const HeaderWrapper = styled.div`
   z-index: 999;
   position: absolute;
   left: 0;
+  top: 0;
   @media (min-width: 760px) 
   {
     width: 50%;
@@ -70,22 +71,23 @@ const Header = () => (
         {/*TODO: Change language*/}
         {/*Start a New Story*/}
         {/*TODO: Title of story on questions page*/}
-        Title of Story
+        {/*Title of Story*/}
+        About Pocket Reporter
       </HeaderText>
       {/*TODO: Only show on StoryTemplate view*/}
-      <HeaderButton color="inherit">
-        <EmailIcon />
-      </HeaderButton>
-      <HeaderButton color="inherit">
-        <DeleteIcon />
-      </HeaderButton>
+      {/*<HeaderButton color="inherit">*/}
+        {/*<EmailIcon />*/}
+      {/*</HeaderButton>*/}
+      {/*<HeaderButton color="inherit">*/}
+        {/*<DeleteIcon />*/}
+      {/*</HeaderButton>*/}
     </HeaderBar>
     {/*TODO: Change wording to progress bar after second selection*/}
     {/*<HeaderTitle>*/}
       {/*What type of story are you writing?*/}
     {/*</HeaderTitle>*/}
     {/*TODO: Change colour, dynamic value*/}
-    <HeaderProgress variant="determinate" value="38" />
+    {/*<HeaderProgress variant="determinate" value="38" />*/}
   </HeaderWrapper>
 );
 
