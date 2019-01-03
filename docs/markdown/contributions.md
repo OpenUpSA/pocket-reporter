@@ -21,5 +21,5 @@ menu: Overview
 - The owner of the repository will automatically be tagged in pull requests via the `docs/CODEOWNERS` file.
 
 ### 3. Deployment
-- Your code will be reviewed and merged if it project owner does not have any concerns.
+- Your code will be reviewed and merged if the project owner does not have any concerns.
 - Once merged into `master` [Netlify](#netlify) will automatically deploy the changes to [pocket-reporter.netlify.com](http://pocket-reporter.netlify.com).
