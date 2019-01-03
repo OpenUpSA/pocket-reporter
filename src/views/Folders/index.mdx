@@ -24,9 +24,9 @@ This documentation covers the following
 
 ## index.js
 
-Having a 'folders' abstraction that organises story templates allows users to progressive disclose story templates depending on topics. 
+Having a 'folders' abstraction that organises story templates allows users to progressively disclose story templates depending on topics.
 
-The list of folders and their corresponding story templates are dynamically fetched from a headless Wordpress endpoint in the client. When initially loaded the page will display a loading animation until the most up to date folder information has been retrieved.
+The list of folders and their corresponding story templates are dynamically fetched from a headless Wordpress endpoint in the client. On initial load the page will display a loading animation until the most up to date folder information has been retrieved.
 
 ## config.json
 
@@ -36,7 +36,7 @@ Contains the hardcoded url path that the Axios should hit.
 
 This function removes all the values that are not needed from the Wordpress response and structures it into a model that is closer to the UI structure. It is plugged directly into the Axios request so that data is immediately returned in a formatted manner.
 
-Note that in the example below and the function's associated tests the input is forced into a String, since the endpoint exposes a string that first needs to be parsed in JSON.
+Note that in the example below and the function's associated tests, the input is forced into a string, since the endpoint exposes a string that first needs to be parsed in JSON.
 
 <Playground>
   <Fragment>
