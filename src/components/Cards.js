@@ -11,7 +11,7 @@ const cardData = [
   {
     icon: 'gavel',
     text: 'Legal',
-    to: ''
+    to: '/'
   },
 
   {
@@ -39,13 +39,13 @@ const cardData = [
   },
 
   {
-    icon: 'ball',
+    icon: 'fitness_center',
     text: 'Sport',
     to: ''
   },
 
   {
-    icon: 'profile',
+    icon: 'person',
     text: 'Gender Violence',
     to: ''
   }
@@ -70,11 +70,19 @@ const CardItem = styled.li`
    margin-bottom: 10px;
 `;
 
+const CardLink = styled.a`
+  text-decoration: none;
+`;
+
 const TopicCard = styled(Card)`
   && {
     color: white;
     background-color: #73c619;
     height: 100px;
+  }
+  
+  :hover {
+      background-color: #8fd247;
   }
 `;
 
@@ -98,14 +106,16 @@ const Cards = () => (
     <CardWrapper>
       {cardData.map(card => (
         <CardItem>
-          <TopicCard>
-            <Content>
-              <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
-              <Typography color="inherit">
-                {card.text}
-              </Typography>
-            </Content>
-          </TopicCard>
+          <CardLink href={card.to}>
+            <TopicCard>
+              <Content>
+                <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
+                <Typography color="inherit">
+                  {card.text}
+                </Typography>
+              </Content>
+            </TopicCard>
+          </CardLink>
         </CardItem>
       ))}
   </CardWrapper>
