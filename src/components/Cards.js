@@ -21,13 +21,13 @@ const cardData = [
   },
 
   {
-    icon: 'health',
+    icon: 'local_hospital',
     text: 'Health',
     to: ''
   },
 
   {
-    icon: 'flame',
+    icon: 'whatshot',
     text: 'Hard News',
     to: ''
   },
