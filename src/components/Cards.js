@@ -62,6 +62,8 @@ const CardWrapper = styled.ul`
   flex-flow: row wrap;
   padding: 0;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  top: 92px;
 `;
 
 const CardItem = styled.li`

@@ -4,8 +4,9 @@ import { Helmet } from "react-helmet"
 import Footer from '../components/Footer';
 
 import LandingPage from '../views/LandingPage';
+import FoldersPage from '../views/FoldersPage';
 import Header from '../components/Header';
-import Cards from '../components/Cards';
+
 import StoryTemplate from '../views/StoryTemplate';
 
 
@@ -21,11 +22,9 @@ const IndexPage = () => (
     {/*<LandingPage />*/}
 
     {/*TODO: Show on all subsequent pages*/}
-    <Header />
+    {/*<Header />*/}
 
-    {/*TODO: Show on first and second selection page*/}
-    <Cards />
-
+    <FoldersPage />
     {/*Story template*/}
     {/*<StoryTemplate />*/}
 

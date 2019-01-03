@@ -10,6 +10,8 @@ const HeaderWrapper = styled.div`
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 100%;
   z-index: 999;
+  position: absolute;
+  left: 0;
   @media (min-width: 760px) 
   {
     width: 50%;
@@ -41,6 +43,7 @@ const HeaderText = styled.p`
 `;
 
 const HeaderTitle = styled.h3`
+  margin: 10px 0;
   color: #4a4a4a;
 `;
 
@@ -54,10 +57,10 @@ const HeaderProgress = styled(LinearProgress)`
 const Header = () => (
   <HeaderWrapper>
     <HeaderBar>
-      <HeaderButton color="inherit">
+      {/*<HeaderButton color="inherit">*/}
         {/*TODO: ONLY show after first select*/}
         {/*<BackIcon />*/}
-      </HeaderButton>
+      {/*</HeaderButton>*/}
       <HeaderText>
         {/*TODO: Change language*/}
         Start a New Story
