@@ -1,7 +1,8 @@
 
 
 backend:
-  name: git-gateway
+  name: github
+  repo: OpenUpSA/pocket-reporter
 publish_mode: editorial_workflow
 media_folder: static/assets
 public_folder: assets
