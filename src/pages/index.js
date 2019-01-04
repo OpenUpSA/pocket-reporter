@@ -4,11 +4,12 @@ import { Helmet } from "react-helmet"
 import Footer from '../components/Footer';
 
 import LandingPage from '../views/LandingPage';
-import FoldersPage from '../views/FoldersPage';
+import FolderContent from '../views/FolderContent';
+import ListOfFolders from '../views/ListOfFolders';
 import StoryTemplate from '../views/StoryTemplate';
 import AboutPage from '../views/AboutPage';
-
-
+import Settings from '../views/Settings';
+import Stories from '../views/Stories';
 
 const IndexPage = () => (
   <React.Fragment>
@@ -20,11 +21,17 @@ const IndexPage = () => (
 
     {/*<LandingPage />*/}
 
-    {/*<FoldersPage />*/}
+    <ListOfFolders />
+
+    {/*<FolderContent />*/}
 
     {/*<StoryTemplate />*/}
 
-    <AboutPage />
+    {/*<AboutPage />*/}
+
+    {/*<Settings />*/}
+
+    {/*<Stories />*/}
 
     <Footer />
 

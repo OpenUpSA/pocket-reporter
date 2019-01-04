@@ -3,13 +3,13 @@ import React from 'react'
 import Header from '../components/Header';
 import Cards from '../components/Cards';
 
-const FoldersPage = () => (
+const ListOfFolders = () => (
   <React.Fragment>
     <Header />
 
-    <Cards />
+    <Cards stacked />
 
   </React.Fragment>
 )
 
-export default FoldersPage;
+export default ListOfFolders;
