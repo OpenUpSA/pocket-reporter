@@ -8,8 +8,7 @@ import FoldersPage from '../views/FoldersPage';
 import StoryTemplate from '../views/StoryTemplate';
 import AboutPage from '../views/AboutPage';
 import Settings from '../views/Settings';
-
-
+import Stories from '../views/Stories';
 
 const IndexPage = () => (
   <React.Fragment>
@@ -27,7 +26,9 @@ const IndexPage = () => (
 
     {/*<AboutPage />*/}
 
-    <Settings />
+    {/*<Settings />*/}
+
+    <Stories />
 
     <Footer />
 

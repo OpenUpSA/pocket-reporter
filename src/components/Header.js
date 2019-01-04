@@ -6,6 +6,7 @@ import LinearProgress from '@material-ui/core/LinearProgress';
 import BackIcon from '@material-ui/icons/ArrowBack';
 import EmailIcon from '@material-ui/icons/Email';
 import DeleteIcon from '@material-ui/icons/Delete';
+import SettingsIcon from '@material-ui/icons/Settings';
 
 const HeaderWrapper = styled.div`
   color: white;
@@ -63,17 +64,18 @@ const HeaderProgress = styled(LinearProgress)`
 const Header = () => (
   <HeaderWrapper>
     <HeaderBar>
-      <HeaderButton color="inherit">
+      {/*<HeaderButton color="inherit">*/}
         {/*TODO: ONLY show after first select*/}
-        <BackIcon />
-      </HeaderButton>
+        {/*<BackIcon />*/}
+      {/*</HeaderButton>*/}
       <HeaderText>
         {/*TODO: Change language*/}
         {/*Start a New Story*/}
         {/*TODO: Title of story on questions page*/}
         {/*Title of Story*/}
         {/*About Pocket Reporter*/}
-        Settings
+        {/*Settings*/}
+        Pocket Reporter
       </HeaderText>
       {/*TODO: Only show on StoryTemplate view*/}
       {/*<HeaderButton color="inherit">*/}
@@ -82,6 +84,10 @@ const Header = () => (
       {/*<HeaderButton color="inherit">*/}
         {/*<DeleteIcon />*/}
       {/*</HeaderButton>*/}
+      {/*TODO: Only show when stories have been saved on landing page*/}
+      <HeaderButton color="inherit">
+        <SettingsIcon />
+      </HeaderButton>
     </HeaderBar>
     {/*TODO: Change wording to progress bar after second selection*/}
     {/*<HeaderTitle>*/}
