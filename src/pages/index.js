@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 
 import LandingPage from '../views/LandingPage';
 import FolderContent from '../views/FolderContent';
+import ListOfFolders from '../views/ListOfFolders';
 import StoryTemplate from '../views/StoryTemplate';
 import AboutPage from '../views/AboutPage';
 import Settings from '../views/Settings';
@@ -20,6 +21,8 @@ const IndexPage = () => (
 
     {/*<LandingPage />*/}
 
+    <ListOfFolders />
+
     {/*<FolderContent />*/}
 
     {/*<StoryTemplate />*/}
@@ -28,7 +31,7 @@ const IndexPage = () => (
 
     {/*<Settings />*/}
 
-    <Stories />
+    {/*<Stories />*/}
 
     <Footer />
 

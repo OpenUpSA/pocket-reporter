@@ -72,6 +72,41 @@ const CardItem = styled.li`
    margin-bottom: 10px;
 `;
 
+const CardItemStacked = styled.li`
+   list-style-type: none;
+   width: 30%;
+   margin-bottom: 10px;  
+   position: relative;
+   z-index: 3;
+  
+   :before {
+      content: '';
+      position: absolute;
+      z-index: -2;
+      top: 6px;
+      left: 6px;
+      width: 100%;
+      height: 100px;
+      background-color: #69a626;
+      border: 1px solid #73c619;
+      box-sizing: border-box;
+      border-radius: 4px;
+   }
+   
+   :after {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      top: 3px;
+      left: 3px;
+      width: 100%;
+      height: 100px;
+      background-color: #69a626;
+      border: 1px solid #73c619;
+      border-radius: 4px;
+   }
+`;
+
 const CardLink = styled.a`
   text-decoration: none;
 `;
@@ -102,10 +137,11 @@ const Content = styled(CardContent)`
   }
 `;
 
-const Cards = () => (
+const Cards = (props) => (
   <CardWrapper>
+    {console.log(props)}
     {cardData.map(card => (
-      <CardItem>
+      <CardItemStacked>
         <CardLink href={card.to}>
           <TopicCard>
             <Content>
@@ -116,9 +152,9 @@ const Cards = () => (
             </Content>
           </TopicCard>
         </CardLink>
-      </CardItem>
+      </CardItemStacked>
     ))}
-</CardWrapper>
+  </CardWrapper>
 );
 
 export default Cards;
