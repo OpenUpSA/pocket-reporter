@@ -7,6 +7,7 @@ import LandingPage from '../views/LandingPage';
 import FoldersPage from '../views/FoldersPage';
 import StoryTemplate from '../views/StoryTemplate';
 import AboutPage from '../views/AboutPage';
+import Settings from '../views/Settings';
 
 
 
@@ -24,7 +25,9 @@ const IndexPage = () => (
 
     {/*<StoryTemplate />*/}
 
-    <AboutPage />
+    {/*<AboutPage />*/}
+
+    <Settings />
 
     <Footer />
 

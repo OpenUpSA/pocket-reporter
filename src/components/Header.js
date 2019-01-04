@@ -72,7 +72,8 @@ const Header = () => (
         {/*Start a New Story*/}
         {/*TODO: Title of story on questions page*/}
         {/*Title of Story*/}
-        About Pocket Reporter
+        {/*About Pocket Reporter*/}
+        Settings
       </HeaderText>
       {/*TODO: Only show on StoryTemplate view*/}
       {/*<HeaderButton color="inherit">*/}
