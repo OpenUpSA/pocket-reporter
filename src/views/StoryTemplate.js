@@ -1,6 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
 
+import Button from '@material-ui/core/Button';
+import Header from '../components/Header';
+
 const questionData = [
   {
     question: 'Name/Title of the story.',
@@ -75,7 +78,9 @@ const questionData = [
 const QuestionWrapper = styled.div`
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: scroll;
-  height: 100vh;
+  height: 90vh;
+  position: relative;
+  top: 60px;
   @media (min-width: 760px) 
   {
     width: 50%;
@@ -85,11 +90,12 @@ const QuestionWrapper = styled.div`
 
 const QuestionList = styled.ol`
   padding: 0 0 0 25px;
-  margin: 10 0;
+  margin: 10px 0;
 `;
 
 const ListItem = styled.li`
   font-weight: bold;
+  margin-bottom: 20px;
 `;
 
 const Answer = styled.input`
@@ -100,17 +106,51 @@ const Answer = styled.input`
   height: 44px;
 `;
 
+const QuestionNotice = styled.div`
+  background-color: #e2e3e5;
+  margin: 0px 10px 10px 10px;
+  padding: 20px;
+  border-radius: 4px;
+`;
+
+const QuestionActions = styled.div`
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+`;
+
 const StoryTemplate = () => (
-  <QuestionWrapper>
-    <QuestionList>
-      {questionData.map(questionItem => (
-        <ListItem>
-          {questionItem.question}
-          <Answer placeholder={questionItem.hint} />
-        </ListItem>
-      ))}
-    </QuestionList>
-  </QuestionWrapper>
+  <React.Fragment>
+
+    <Header />
+
+    <QuestionWrapper>
+      <QuestionList>
+        {questionData.map(questionItem => (
+          <ListItem>
+            {questionItem.question}
+            <Answer placeholder={questionItem.hint} />
+          </ListItem>
+        ))}
+      </QuestionList>
+      <QuestionNotice>
+        <p style={{margin: 0}}>If email submission does not work please change to the latest version of Chrome</p>
+      </QuestionNotice>
+      <QuestionActions>
+        <Button>
+          Email Story
+        </Button>
+        {/*TODO: Correct colour for button*/}
+        <Button variant="contained" color="primary">
+          Send Story and media via whatsapp
+        </Button>
+        <Button color="secondary">
+          Delete story
+        </Button>
+      </QuestionActions>
+    </QuestionWrapper>
+  </React.Fragment>
 );
 
 export default StoryTemplate;

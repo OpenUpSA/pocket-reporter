@@ -6,13 +6,13 @@ order: 1
 
 # Documentation
 
-**The following documents aim to serve as guidelines for all open-source and official project contributors. Please review and consult them while contributing to this project.**
+**The following documents aim to serve as guidelines for all open source and official project contributors. Please review and consult them while contributing to this project.**
 
 ## 🚀 Getting Started
 
 ### The Basics
 
-If this is your first time contributing to this project make sure to familiarise with the following in the 'Overview' section:
+If this is your first time contributing to this project make sure to familiarise yourself with the following in the 'Overview' section:
 
 - ❤️ [Guidelines for all contributors](/docs-markdown-contributions)
 - 🤖 [The entire tech stack used in this project](/docs-markdown-tech-stack)
@@ -29,7 +29,7 @@ The remaining sections each correspond to one of the following root folders in t
 - Views: `src/views/`
 - Helpers: `src/helpers`
 
-If all of these are not show it means that there might not be any code in that section or it has not been documented yet.
+If a section is not shown it means that there might not be any code in that section or it has not been documented yet.
 
 
 

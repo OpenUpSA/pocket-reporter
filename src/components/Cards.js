@@ -11,7 +11,7 @@ const cardData = [
   {
     icon: 'gavel',
     text: 'Legal',
-    to: ''
+    to: '/'
   },
 
   {
@@ -21,13 +21,13 @@ const cardData = [
   },
 
   {
-    icon: 'health',
+    icon: 'local_hospital',
     text: 'Health',
     to: ''
   },
 
   {
-    icon: 'flame',
+    icon: 'whatshot',
     text: 'Hard News',
     to: ''
   },
@@ -39,13 +39,13 @@ const cardData = [
   },
 
   {
-    icon: 'ball',
+    icon: 'fitness_center',
     text: 'Sport',
     to: ''
   },
 
   {
-    icon: 'profile',
+    icon: 'person',
     text: 'Gender Violence',
     to: ''
   }
@@ -62,6 +62,8 @@ const CardWrapper = styled.ul`
   flex-flow: row wrap;
   padding: 0;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: relative;
+  top: 92px;
 `;
 
 const CardItem = styled.li`
@@ -70,11 +72,19 @@ const CardItem = styled.li`
    margin-bottom: 10px;
 `;
 
+const CardLink = styled.a`
+  text-decoration: none;
+`;
+
 const TopicCard = styled(Card)`
   && {
     color: white;
     background-color: #73c619;
     height: 100px;
+  }
+  
+  :hover {
+      background-color: #8fd247;
   }
 `;
 
@@ -93,11 +103,10 @@ const Content = styled(CardContent)`
 `;
 
 const Cards = () => (
-  <React.Fragment>
-
-    <CardWrapper>
-      {cardData.map(card => (
-        <CardItem>
+  <CardWrapper>
+    {cardData.map(card => (
+      <CardItem>
+        <CardLink href={card.to}>
           <TopicCard>
             <Content>
               <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
@@ -106,11 +115,10 @@ const Cards = () => (
               </Typography>
             </Content>
           </TopicCard>
-        </CardItem>
-      ))}
-  </CardWrapper>
-
-  </React.Fragment>
+        </CardLink>
+      </CardItem>
+    ))}
+</CardWrapper>
 );
 
 export default Cards;

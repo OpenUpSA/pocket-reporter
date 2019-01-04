@@ -73,15 +73,15 @@ You can learn more in the ['Pages' section in the Gatsby documenation](https://w
 
 Similar to `src/pages` this folder is exclusively used to initialise components from `src/views`.
 
-The difference between `src/pages` and `src/templates` is that templates are not created by their mere existence in the `src/templates` folder. They need to be trigger through the `gatsby-node.js` file. 
+The difference between `src/pages` and `src/templates` is that templates are not created by their mere existence in the `src/templates` folder. They need to be triggered through the `gatsby-node.js` file. 
 
-Learn more in the ['Node API' section in the Gatsby documentation](https://www.gatsbyjs.org/docs/node-apis/) ('node' refers to GraphQL nodes and should not be confused for NodeJS)
+Learn more in the ['Node API' section in the Gatsby documentation](https://www.gatsbyjs.org/docs/node-apis/) ('node' refers to GraphQL nodes and should not be confused with NodeJS).
 
 All files inside `src/templates` have access to the GraphQL nodes during Gatsby's static file generation. This means that `src/templates` is useful for pages that are generated dynamically based on local `.md`, `.json` or remote API data.
 
 Learn how to create dynamic pages in gatsby in the ['Programmatically create pages from data' section in the Gatsby documenation](https://www.gatsbyjs.org/tutorial/part-seven/).
 
-Since these pages are not created by there mere existance in the `src/templates` folder it is helpful to embed both the required `gatsby-node.js` functions and template code in a folder.
+Since these pages are not created by there mere existence in the `src/templates` folder it is helpful to embed both the required `gatsby-node.js` functions and template code in a folder.
 
 This adheres to the rules of colocation and keeps the `gatsby-node.js` file from getting too messy.
 
@@ -183,7 +183,7 @@ For example if we have a `<Button>` component that is used in several places:
 - `src/views/User/tag.jsx`
 - `src/components/ButtonGroup.jsx`
 
-However note if this component is plugged into Redux by default it is a good idea to seperate the actual component class from the integration.
+However, note that if this component is plugged into Redux by default it is a good idea to separate the actual component class from the integration.
 
 For example:
 
@@ -266,7 +266,7 @@ class Container extends Component {
   }
 }
 ```
-As per the priciple of [grouping by features and routes](https://reactjs.org/docs/faq-structure.html#grouping-by-features-or-routes), numerous other files can be added into the component folder:
+As per the principle of [grouping by features and routes](https://reactjs.org/docs/faq-structure.html#grouping-by-features-or-routes), numerous other files can be added into the component folder:
 
 ```powershell
 ├── List.js
@@ -294,7 +294,7 @@ These could hypothetically be as follows:
 - `Markup.mocks.json`: Might contain the mock props that are passed to `Markup.test.js` during testing.
 - `Tooltip.jsx`: Might be another component that gets pulled into `Markup.jsx`.
 - `icon.svg` might be an image that is used as an icon in the button in `Markup.jsx`.
-- `stringToUppercase.js` might be a helper function that is used any of the above files.
+- `stringToUppercase.js` might be a helper function that is used in any of the above files.
 
 However, this means that folders might get a bit cluttered for complex views and/or components. Therefore these themselves can be nested into sub-folders. For example:
 
@@ -358,7 +358,7 @@ Similar to `src/components`, `src/views` will be where the majority of our compo
 
 ### Assets
 
-Generally all assets should be embedded in on a per components basis. For example:
+Generally all assets should be embedded in a per components basis. For example:
 
 ```powershell
 └── Example
@@ -368,7 +368,7 @@ Generally all assets should be embedded in on a per components basis. For exampl
     └── image-3.jpg
 ```
 
-If the amount of assets gets a bit overwhelming they can be broken off into helper script with it's own folder. For example: 
+If the number of assets get a bit overwhelming they can be broken off into a helper script with it's own folder. For example: 
 
 ```powershell
 └── Example
@@ -383,9 +383,9 @@ If the amount of assets gets a bit overwhelming they can be broken off into help
         └── ...
 ```
 
-This prevents the component folder from becomeing too noisy.
+This prevents the component folder from becoming too noisy.
 
-However, in cases where an asset is re-used in several component it should be placed in the root `src/assets` folder.
+However, in cases where an asset is re-used in several components it should be placed in the root `src/assets` folder.
 
 
 ### Redux
