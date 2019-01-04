@@ -3,7 +3,7 @@ import React from 'react'
 import Header from '../components/Header';
 import Cards from '../components/Cards';
 
-const FoldersPage = () => (
+const FolderContent = () => (
   <React.Fragment>
     <Header />
 
@@ -12,4 +12,4 @@ const FoldersPage = () => (
   </React.Fragment>
 )
 
-export default FoldersPage;
+export default FolderContent;
