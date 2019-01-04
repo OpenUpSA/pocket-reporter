@@ -1,0 +1,935 @@
+
+
+backend:
+  name: test-repo
+publish_mode: editorial_workflow
+media_folder: static/assets
+public_folder: assets
+editor:
+   preview: false
+
+collections:
+  -
+    name: questionsPages
+    label: Questions Pages
+    folder: src/data/pages/questions/
+    create: true
+    fields:
+
+
+      -
+        name: englishTitle
+        label: English Title
+        widget: string
+        require: true
+
+
+      -
+        name: englishQuestions
+        label: English Questions
+        widget: relation
+        require: true
+        collection: englishQuestions
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: afrikaansTitle
+        label: Afrikaans Title
+        widget: string
+        require: false
+
+
+      -
+        name: afrikaansQuestions
+        label: Afrikaans Questions
+        widget: relation
+        require: false
+        collection: afrikaansQuestions
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: spanishTitle
+        label: Spanish Title
+        widget: string
+        require: false
+
+
+      -
+        name: spanishQuestions
+        label: Spanish Questions
+        widget: relation
+        require: false
+        collection: spanishQuestions
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: xhosaTitle
+        label: Xhosa Title
+        widget: string
+        require: false
+
+
+      -
+        name: xhosaQuestions
+        label: Xhosa Questions
+        widget: relation
+        require: false
+        collection: xhosaQuestions
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: northernSothoTitle
+        label: Northern Sotho Title
+        widget: string
+        require: false
+
+
+      -
+        name: northernSothoQuestions
+        label: Northern Sotho Questions
+        widget: relation
+        require: false
+        collection: northernSothoQuestions
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: portugueseTitle
+        label: Portuguese Title
+        widget: string
+        require: false
+
+
+      -
+        name: portugueseQuestions
+        label: Portuguese Questions
+        widget: relation
+        require: false
+        collection: portugueseQuestions
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: southernSothoTitle
+        label: Southern Sotho Title
+        widget: string
+        require: false
+
+
+      -
+        name: southernSothoQuestions
+        label: Southern Sotho Questions
+        widget: relation
+        require: false
+        collection: southernSothoQuestions
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: tswanaTitle
+        label: Tswana Title
+        widget: string
+        require: false
+
+
+      -
+        name: tswanaQuestions
+        label: Tswana Questions
+        widget: relation
+        require: false
+        collection: tswanaQuestions
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: zuluTitle
+        label: Zulu Title
+        widget: string
+        require: false
+
+
+      -
+        name: zuluQuestions
+        label: Zulu Questions
+        widget: relation
+        require: false
+        collection: zuluQuestions
+        searchFields: 
+          - name
+        valueField: name
+
+
+  -
+    name: resourcesPages
+    label: Resources Pages
+    folder: src/data/pages/resources/
+    create: true
+    fields:
+      
+
+      -
+        name: englishTitle
+        label: English Title
+        widget: string
+        require: true
+
+
+      -
+        name: englishResource
+        label: English Resource
+        widget: relation
+        require: true
+        collection: englishResource
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: afrikaansTitle
+        label: Afrikaans Title
+        widget: string
+        require: false
+
+
+      -
+        name: afrikaansResource
+        label: Afrikaans Resource
+        widget: relation
+        require: false
+        collection: afrikaansResource
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: spanishTitle
+        label: Spanish Title
+        widget: string
+        require: false
+
+
+      -
+        name: spanishResource
+        label: Spanish Resource
+        widget: relation
+        require: false
+        collection: spanishResource
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: xhosaTitle
+        label: Xhosa Title
+        widget: string
+        require: false
+
+
+      -
+        name: xhosaResource
+        label: Xhosa Resource
+        widget: relation
+        require: false
+        collection: xhosaResource
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: northernSothoTitle
+        label: Northern Sotho Title
+        widget: string
+        require: false
+
+
+      -
+        name: northernSothoResource
+        label: Northern Sotho Resource
+        widget: relation
+        require: false
+        collection: northernSothoResource
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: portugueseTitle
+        label: Portuguese Title
+        widget: string
+        require: false
+
+
+      -
+        name: portugueseResource
+        label: Portuguese Resource
+        widget: relation
+        require: false
+        collection: portugueseResource
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: southernSothoTitle
+        label: Southern Sotho Title
+        widget: string
+        require: false
+
+
+      -
+        name: southernSothoResource
+        label: Southern Sotho Resource
+        widget: relation
+        require: false
+        collection: southernSothoResource
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: tswanaTitle
+        label: Tswana Title
+        widget: string
+        require: false
+
+
+      -
+        name: tswanaResource
+        label: Tswana Resource
+        widget: relation
+        require: false
+        collection: tswanaResource
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+      -
+        name: zuluTitle
+        label: Zulu Title
+        widget: string
+        require: false
+
+
+      -
+        name: zuluResource
+        label: Zulu Resource
+        widget: relation
+        require: false
+        collection: zuluResource
+        searchFields: 
+          - name
+        valueField: name
+
+
+
+
+  -
+    name: englishQuestions
+    label: English Questions
+    folder: src/data/questions/english/
+    create: true
+    fields:
+      - 
+        name: title
+        label: Title
+        widget: string
+      - 
+        name: Questions
+        label: Questions
+        widget: list
+        fields:
+          -
+            name: question
+            label: Question
+            widget: string
+          -
+            name: description
+            label: Description
+            widget: markdown
+            required: false
+          -
+            name: formatOfAnswer
+            label: Format of answer
+            widget: select
+            options:
+              - Single line of text
+              - Multiple lines of text
+              - True or False
+              - One from pre-selected options
+              - Several from pre-selected options
+          -
+            name: options
+            label: Options
+            widget: list
+            required: false
+            fields:
+              -
+                name: option
+                label: option
+                widget: string
+
+
+  -
+    name: englishResources
+    label: English Resources
+    folder: src/data/resources/english/
+    create: true
+    fields:
+        - 
+          name: title
+          label: Title
+          widget: string
+        - 
+          name: Content
+          label: Questions
+          widget: markdown
+
+
+
+  -
+    name: afrikaansQuestions
+    label: Afrikaans Questions
+    folder: src/data/questions/afrikaans/
+    create: true
+    fields:
+      - 
+        name: title
+        label: Title
+        widget: string
+      - 
+        name: Questions
+        label: Questions
+        widget: list
+        fields:
+          -
+            name: question
+            label: Question
+            widget: string
+          -
+            name: description
+            label: Description
+            widget: markdown
+            required: false
+          -
+            name: formatOfAnswer
+            label: Format of answer
+            widget: select
+            options:
+              - Single line of text
+              - Multiple lines of text
+              - True or False
+              - One from pre-selected options
+              - Several from pre-selected options
+          -
+            name: options
+            label: Options
+            widget: list
+            required: false
+            fields:
+              -
+                name: option
+                label: option
+                widget: string
+
+
+  -
+    name: afrikaansResources
+    label: Afrikaans Resources
+    folder: src/data/resources/afrikaans/
+    create: true
+    fields:
+        - 
+          name: title
+          label: Title
+          widget: string
+        - 
+          name: Content
+          label: Questions
+          widget: markdown
+
+
+
+  -
+    name: spanishQuestions
+    label: Spanish Questions
+    folder: src/data/questions/spanish/
+    create: true
+    fields:
+      - 
+        name: title
+        label: Title
+        widget: string
+      - 
+        name: Questions
+        label: Questions
+        widget: list
+        fields:
+          -
+            name: question
+            label: Question
+            widget: string
+          -
+            name: description
+            label: Description
+            widget: markdown
+            required: false
+          -
+            name: formatOfAnswer
+            label: Format of answer
+            widget: select
+            options:
+              - Single line of text
+              - Multiple lines of text
+              - True or False
+              - One from pre-selected options
+              - Several from pre-selected options
+          -
+            name: options
+            label: Options
+            widget: list
+            required: false
+            fields:
+              -
+                name: option
+                label: option
+                widget: string
+
+
+  -
+    name: spanishResources
+    label: Spanish Resources
+    folder: src/data/resources/spanish/
+    create: true
+    fields:
+        - 
+          name: title
+          label: Title
+          widget: string
+        - 
+          name: Content
+          label: Questions
+          widget: markdown
+
+
+
+  -
+    name: xhosaQuestions
+    label: Xhosa Questions
+    folder: src/data/questions/xhosa/
+    create: true
+    fields:
+      - 
+        name: title
+        label: Title
+        widget: string
+      - 
+        name: Questions
+        label: Questions
+        widget: list
+        fields:
+          -
+            name: question
+            label: Question
+            widget: string
+          -
+            name: description
+            label: Description
+            widget: markdown
+            required: false
+          -
+            name: formatOfAnswer
+            label: Format of answer
+            widget: select
+            options:
+              - Single line of text
+              - Multiple lines of text
+              - True or False
+              - One from pre-selected options
+              - Several from pre-selected options
+          -
+            name: options
+            label: Options
+            widget: list
+            required: false
+            fields:
+              -
+                name: option
+                label: option
+                widget: string
+
+
+  -
+    name: xhosaResources
+    label: Xhosa Resources
+    folder: src/data/resources/xhosa/
+    create: true
+    fields:
+        - 
+          name: title
+          label: Title
+          widget: string
+        - 
+          name: Content
+          label: Questions
+          widget: markdown
+
+
+
+  -
+    name: northernSothoQuestions
+    label: Northern Sotho Questions
+    folder: src/data/questions/northern-sotho/
+    create: true
+    fields:
+      - 
+        name: title
+        label: Title
+        widget: string
+      - 
+        name: Questions
+        label: Questions
+        widget: list
+        fields:
+          -
+            name: question
+            label: Question
+            widget: string
+          -
+            name: description
+            label: Description
+            widget: markdown
+            required: false
+          -
+            name: formatOfAnswer
+            label: Format of answer
+            widget: select
+            options:
+              - Single line of text
+              - Multiple lines of text
+              - True or False
+              - One from pre-selected options
+              - Several from pre-selected options
+          -
+            name: options
+            label: Options
+            widget: list
+            required: false
+            fields:
+              -
+                name: option
+                label: option
+                widget: string
+
+
+  -
+    name: northernSothoResources
+    label: Northern Sotho Resources
+    folder: src/data/resources/northern-sotho/
+    create: true
+    fields:
+        - 
+          name: title
+          label: Title
+          widget: string
+        - 
+          name: Content
+          label: Questions
+          widget: markdown
+
+
+
+  -
+    name: portugueseQuestions
+    label: Portuguese Questions
+    folder: src/data/questions/portuguese/
+    create: true
+    fields:
+      - 
+        name: title
+        label: Title
+        widget: string
+      - 
+        name: Questions
+        label: Questions
+        widget: list
+        fields:
+          -
+            name: question
+            label: Question
+            widget: string
+          -
+            name: description
+            label: Description
+            widget: markdown
+            required: false
+          -
+            name: formatOfAnswer
+            label: Format of answer
+            widget: select
+            options:
+              - Single line of text
+              - Multiple lines of text
+              - True or False
+              - One from pre-selected options
+              - Several from pre-selected options
+          -
+            name: options
+            label: Options
+            widget: list
+            required: false
+            fields:
+              -
+                name: option
+                label: option
+                widget: string
+
+
+  -
+    name: portugueseResources
+    label: Portuguese Resources
+    folder: src/data/resources/portuguese/
+    create: true
+    fields:
+        - 
+          name: title
+          label: Title
+          widget: string
+        - 
+          name: Content
+          label: Questions
+          widget: markdown
+
+
+
+  -
+    name: southernSothoQuestions
+    label: Southern Sotho Questions
+    folder: src/data/questions/southern-sotho/
+    create: true
+    fields:
+      - 
+        name: title
+        label: Title
+        widget: string
+      - 
+        name: Questions
+        label: Questions
+        widget: list
+        fields:
+          -
+            name: question
+            label: Question
+            widget: string
+          -
+            name: description
+            label: Description
+            widget: markdown
+            required: false
+          -
+            name: formatOfAnswer
+            label: Format of answer
+            widget: select
+            options:
+              - Single line of text
+              - Multiple lines of text
+              - True or False
+              - One from pre-selected options
+              - Several from pre-selected options
+          -
+            name: options
+            label: Options
+            widget: list
+            required: false
+            fields:
+              -
+                name: option
+                label: option
+                widget: string
+
+
+  -
+    name: southernSothoResources
+    label: Southern Sotho Resources
+    folder: src/data/resources/southern-sotho/
+    create: true
+    fields:
+        - 
+          name: title
+          label: Title
+          widget: string
+        - 
+          name: Content
+          label: Questions
+          widget: markdown
+
+
+
+  -
+    name: tswanaQuestions
+    label: Tswana Questions
+    folder: src/data/questions/tswana/
+    create: true
+    fields:
+      - 
+        name: title
+        label: Title
+        widget: string
+      - 
+        name: Questions
+        label: Questions
+        widget: list
+        fields:
+          -
+            name: question
+            label: Question
+            widget: string
+          -
+            name: description
+            label: Description
+            widget: markdown
+            required: false
+          -
+            name: formatOfAnswer
+            label: Format of answer
+            widget: select
+            options:
+              - Single line of text
+              - Multiple lines of text
+              - True or False
+              - One from pre-selected options
+              - Several from pre-selected options
+          -
+            name: options
+            label: Options
+            widget: list
+            required: false
+            fields:
+              -
+                name: option
+                label: option
+                widget: string
+
+
+  -
+    name: tswanaResources
+    label: Tswana Resources
+    folder: src/data/resources/tswana/
+    create: true
+    fields:
+        - 
+          name: title
+          label: Title
+          widget: string
+        - 
+          name: Content
+          label: Questions
+          widget: markdown
+
+
+
+  -
+    name: zuluQuestions
+    label: Zulu Questions
+    folder: src/data/questions/zulu/
+    create: true
+    fields:
+      - 
+        name: title
+        label: Title
+        widget: string
+      - 
+        name: Questions
+        label: Questions
+        widget: list
+        fields:
+          -
+            name: question
+            label: Question
+            widget: string
+          -
+            name: description
+            label: Description
+            widget: markdown
+            required: false
+          -
+            name: formatOfAnswer
+            label: Format of answer
+            widget: select
+            options:
+              - Single line of text
+              - Multiple lines of text
+              - True or False
+              - One from pre-selected options
+              - Several from pre-selected options
+          -
+            name: options
+            label: Options
+            widget: list
+            required: false
+            fields:
+              -
+                name: option
+                label: option
+                widget: string
+
+
+  -
+    name: zuluResources
+    label: Zulu Resources
+    folder: src/data/resources/zulu/
+    create: true
+    fields:
+        - 
+          name: title
+          label: Title
+          widget: string
+        - 
+          name: Content
+          label: Questions
+          widget: markdown
+
+
