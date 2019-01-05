@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 
 import LandingPage from '../views/LandingPage';
 import FolderContent from '../views/FolderContent';
-import ListOfFolders from '../views/ListOfFolders';
 import StoryTemplate from '../views/StoryTemplate';
 import AboutPage from '../views/AboutPage';
 import Settings from '../views/Settings';
@@ -19,9 +18,7 @@ const IndexPage = () => (
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     </Helmet>
 
-    {/*<LandingPage />*/}
-
-    <ListOfFolders />
+    <LandingPage />
 
     {/*<FolderContent />*/}
 

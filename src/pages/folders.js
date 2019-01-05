@@ -1,5 +1,5 @@
 import React from 'react';
-import Folders from '../views/Folders';
+import ListOfFolders from '../views/ListOfFolders';
 
 
-export default () => <Folders />
+export default () => <ListOfFolders />

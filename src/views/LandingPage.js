@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { Component } from 'react'
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 import logo from '../assets/meta/logo.png';
 import Button from '@material-ui/core/Button';
@@ -71,31 +72,40 @@ const Language = styled.h4`
   white-space: nowrap;
 `;
 
-const Link = styled.a`
+const LandingLink = styled.a`
   color: white;
   text-decoration: none;
 `;
 
-const LandingPage = () => (
-  <StyledWrapper>
-    <Go>
-      <StyledImage src={logo} />
-    </Go>
-    <Heading>
-      A News Editor in Your Pocket
-    </Heading>
-    <SubHeading>
-      Pocket Reporter helps you be a
-      <br />
-      better reporter by guiding you
-      <br />
-      through the news gathering process.
-    </SubHeading>
-    {/*TODO: Text to change to different language*/}
-    <Language>
-      <Link href="">Change language</Link>
-    </Language>
-  </StyledWrapper>
-);
+class LandingPage extends Component {
+  render() {
+    return (
+      <StyledWrapper>
+        <Go>
+          <Link
+            to="/folders"
+          >
+            <StyledImage src={logo} />
+          </Link>
+        </Go>
+        <Heading>
+          A News Editor in Your Pocket
+        </Heading>
+        <SubHeading>
+          Pocket Reporter helps you be a
+          <br />
+          better reporter by guiding you
+          <br />
+          through the news gathering process.
+        </SubHeading>
+        {/*TODO: Text to change to different language*/}
+        <Language>
+          <LandingLink href="">Change language</LandingLink>
+        </Language>
+
+      </StyledWrapper>
+    )
+  }
+};
 
 export default LandingPage;
