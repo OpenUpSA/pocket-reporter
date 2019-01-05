@@ -137,24 +137,48 @@ const Content = styled(CardContent)`
   }
 `;
 
-const Cards = (props) => (
-  <CardWrapper>
-    {console.log(props)}
-    {cardData.map(card => (
-      <CardItemStacked>
-        <CardLink href={card.to}>
-          <TopicCard>
-            <Content>
-              <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
-              <Typography color="inherit">
-                {card.text}
-              </Typography>
-            </Content>
-          </TopicCard>
-        </CardLink>
-      </CardItemStacked>
-    ))}
-  </CardWrapper>
-);
+function Cards(props) {
+  {console.log(props)}
+
+  if (props.stacked) {
+    return (
+      <CardWrapper>
+        {cardData.map(card => (
+          <CardItemStacked>
+            <CardLink href={card.to}>
+              <TopicCard>
+                <Content>
+                  <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
+                  <Typography color="inherit">
+                    {card.text}
+                  </Typography>
+                </Content>
+              </TopicCard>
+            </CardLink>
+          </CardItemStacked>
+        ))}
+      </CardWrapper>
+    )
+  }
+  return (
+    <CardWrapper>
+      {cardData.map(card => (
+        <CardItem>
+          <CardLink href={card.to}>
+            <TopicCard>
+              <Content>
+                <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
+                <Typography color="inherit">
+                  {card.text}
+                </Typography>
+              </Content>
+            </TopicCard>
+          </CardLink>
+        </CardItem>
+      ))}
+    </CardWrapper>
+  )
+
+}
 
 export default Cards;
