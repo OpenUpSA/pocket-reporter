@@ -1,5 +1,5 @@
 import React from 'react'
-import {Helmet} from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 import Header from '../components/Header';
 import Cards from '../components/Cards';
@@ -11,7 +11,7 @@ const ListOfFolders = () => (
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     </Helmet>
 
-    <Header start/>
+    <Header start />
 
     <Cards stacked />
 

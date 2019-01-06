@@ -26,7 +26,7 @@ const SettingsHead = styled.h2`
 
 const Settings = () => (
   <React.Fragment>
-    <Header />
+    <Header settings/>
     <SettingsWrapper>
       <FormControl component="fieldset">
         <SettingsHead component="legend">Choose your language:</SettingsHead>

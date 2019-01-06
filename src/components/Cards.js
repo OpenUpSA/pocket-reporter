@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -11,7 +12,7 @@ const cardData = [
   {
     icon: 'gavel',
     text: 'Legal',
-    to: '/'
+    to: 'folder'
   },
 
   {
@@ -107,7 +108,7 @@ const CardItemStacked = styled.li`
    }
 `;
 
-const CardLink = styled.a`
+const CardLink = styled(Link)`
   text-decoration: none;
 `;
 
@@ -138,14 +139,13 @@ const Content = styled(CardContent)`
 `;
 
 function Cards(props) {
-  {console.log(props)}
 
   if (props.stacked) {
     return (
       <CardWrapper>
         {cardData.map(card => (
           <CardItemStacked>
-            <CardLink href={card.to}>
+            <CardLink to={card.to}>
               <TopicCard>
                 <Content>
                   <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>

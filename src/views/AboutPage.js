@@ -60,7 +60,7 @@ const AboutLink = styled.a`
 
 const AboutPage = () => (
   <React.Fragment>
-    <Header />
+    <Header about />
 
     <AboutWrapper>
       <p>Pocket Reporter is a news editor in your pocket that helps you be a better reporter.</p>
