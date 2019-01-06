@@ -72,6 +72,8 @@ class Header extends Component {
     const titleStart = this.props.start;
     const titleAbout = this.props.about;
     const titleSettings = this.props.settings;
+    const titleStory = this.props.story;
+    const titleStoryList = this.props.storyList;
 
     let title;
 
@@ -81,6 +83,10 @@ class Header extends Component {
       title = 'About Pocket Reporter'
     } else if (titleSettings) {
       title = 'Settings'
+    } else if (titleStory) {
+      title = 'Title of Story'
+    } else if (titleStoryList) {
+      title = 'Pocket Reporter'
     }
 
     const back = this.props.back;
@@ -101,11 +107,8 @@ class Header extends Component {
         <HeaderBar>
           {backButton}
           <HeaderText>
-            {/*TODO: Change language*/}
+          {/*TODO: Change language*/}
             {title}
-            {/*TODO: Title of story on questions page*/}
-            {/*Title of Story*/}
-            {/*Pocket Reporter*/}
           </HeaderText>
           {/*TODO: Only show on StoryTemplate view*/}
           {/*<HeaderButton color="inherit">*/}

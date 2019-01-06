@@ -52,6 +52,26 @@ const cardData = [
   }
 ];
 
+const NotStacked = [
+  {
+    icon: 'group',
+    text: 'Service Delivery',
+    to: 'questions'
+  },
+
+  {
+    icon: 'fitness_center',
+    text: 'Sport',
+    to: 'questions'
+  },
+
+  {
+    icon: 'person',
+    text: 'Gender Violence',
+    to: 'questions'
+  }
+]
+
 const CardWrapper = styled.ul`
   @media (min-width: 760px) 
   {
@@ -162,7 +182,7 @@ function Cards(props) {
   }
   return (
     <CardWrapper>
-      {cardData.map(card => (
+      {NotStacked.map(card => (
         <CardItem>
           <CardLink to={card.to}>
             <TopicCard>

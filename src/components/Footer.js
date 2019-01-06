@@ -99,7 +99,7 @@ const Footer = () => (
             </FooterButton>
           </FooterItem>
           <FooterItem>
-            <FooterButton href="/" >
+            <FooterButton href="/list" >
               <AddButton aria-label="Add Story">
                 <AddIcon style={{height: '65px', width: '65px', border: '5px solid white', borderRadius: '50%', padding: '5px'}} />
               </AddButton>

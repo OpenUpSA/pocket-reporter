@@ -15,6 +15,8 @@ const AboutWrapper = styled.div`
   position: relative;
   top: 50px;
   font-size: 21px;
+  overflow: scroll;
+  height: calc(100vh - 100px);
   @media (min-width: 760px) 
   {
     width: 50%;
