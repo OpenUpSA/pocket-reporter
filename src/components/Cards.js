@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -11,7 +12,7 @@ const cardData = [
   {
     icon: 'gavel',
     text: 'Legal',
-    to: '/'
+    to: 'folder'
   },
 
   {
@@ -50,6 +51,26 @@ const cardData = [
     to: ''
   }
 ];
+
+const NotStacked = [
+  {
+    icon: 'group',
+    text: 'Service Delivery',
+    to: 'questions'
+  },
+
+  {
+    icon: 'fitness_center',
+    text: 'Sport',
+    to: 'questions'
+  },
+
+  {
+    icon: 'person',
+    text: 'Gender Violence',
+    to: 'questions'
+  }
+]
 
 const CardWrapper = styled.ul`
   @media (min-width: 760px) 
@@ -107,7 +128,7 @@ const CardItemStacked = styled.li`
    }
 `;
 
-const CardLink = styled.a`
+const CardLink = styled(Link)`
   text-decoration: none;
 `;
 
@@ -137,24 +158,47 @@ const Content = styled(CardContent)`
   }
 `;
 
-const Cards = (props) => (
-  <CardWrapper>
-    {console.log(props)}
-    {cardData.map(card => (
-      <CardItemStacked>
-        <CardLink href={card.to}>
-          <TopicCard>
-            <Content>
-              <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
-              <Typography color="inherit">
-                {card.text}
-              </Typography>
-            </Content>
-          </TopicCard>
-        </CardLink>
-      </CardItemStacked>
-    ))}
-  </CardWrapper>
-);
+function Cards(props) {
+
+  if (props.stacked) {
+    return (
+      <CardWrapper>
+        {cardData.map(card => (
+          <CardItemStacked>
+            <CardLink to={card.to}>
+              <TopicCard>
+                <Content>
+                  <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
+                  <Typography color="inherit">
+                    {card.text}
+                  </Typography>
+                </Content>
+              </TopicCard>
+            </CardLink>
+          </CardItemStacked>
+        ))}
+      </CardWrapper>
+    )
+  }
+  return (
+    <CardWrapper>
+      {NotStacked.map(card => (
+        <CardItem>
+          <CardLink to={card.to}>
+            <TopicCard>
+              <Content>
+                <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
+                <Typography color="inherit">
+                  {card.text}
+                </Typography>
+              </Content>
+            </TopicCard>
+          </CardLink>
+        </CardItem>
+      ))}
+    </CardWrapper>
+  )
+
+}
 
 export default Cards;

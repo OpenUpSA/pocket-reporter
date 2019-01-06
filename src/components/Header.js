@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { Component } from 'react'
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 import IconButton from '@material-ui/core/IconButton';
 import LinearProgress from '@material-ui/core/LinearProgress';
@@ -38,6 +39,10 @@ const HeaderButton = styled(IconButton)`
   
 `;
 
+const HeaderLink = styled(Link)`
+  color: white;
+`;
+
 //TODO: Add negative margin-left when back button is visible
 const HeaderText = styled.p`
   width: 100%;
@@ -61,41 +66,71 @@ const HeaderProgress = styled(LinearProgress)`
   }
 `;
 
-const Header = () => (
-  <HeaderWrapper>
-    <HeaderBar>
-      {/*<HeaderButton color="inherit">*/}
-        {/*TODO: ONLY show after first select*/}
-        {/*<BackIcon />*/}
-      {/*</HeaderButton>*/}
-      <HeaderText>
-        {/*TODO: Change language*/}
-        {/*Start a New Story*/}
-        {/*TODO: Title of story on questions page*/}
-        {/*Title of Story*/}
-        {/*About Pocket Reporter*/}
-        {/*Settings*/}
-        Pocket Reporter
-      </HeaderText>
-      {/*TODO: Only show on StoryTemplate view*/}
-      {/*<HeaderButton color="inherit">*/}
-        {/*<EmailIcon />*/}
-      {/*</HeaderButton>*/}
-      {/*<HeaderButton color="inherit">*/}
-        {/*<DeleteIcon />*/}
-      {/*</HeaderButton>*/}
-      {/*TODO: Only show when stories have been saved on landing page*/}
-      <HeaderButton color="inherit">
-        <SettingsIcon />
-      </HeaderButton>
-    </HeaderBar>
-    {/*TODO: Change wording to progress bar after second selection*/}
-    {/*<HeaderTitle>*/}
-      {/*What type of story are you writing?*/}
-    {/*</HeaderTitle>*/}
-    {/*TODO: Change colour, dynamic value*/}
-    {/*<HeaderProgress variant="determinate" value="38" />*/}
-  </HeaderWrapper>
-);
+class Header extends Component {
+
+  render() {
+    const titleStart = this.props.start;
+    const titleAbout = this.props.about;
+    const titleSettings = this.props.settings;
+    const titleStory = this.props.story;
+    const titleStoryList = this.props.storyList;
+
+    let title;
+
+    if (titleStart) {
+      title = 'Start a New Story'
+    } else if (titleAbout) {
+      title = 'About Pocket Reporter'
+    } else if (titleSettings) {
+      title = 'Settings'
+    } else if (titleStory) {
+      title = 'Title of Story'
+    } else if (titleStoryList) {
+      title = 'Pocket Reporter'
+    }
+
+    const back = this.props.back;
+    let backButton;
+
+    if (back) {
+      backButton = (
+        <HeaderButton color="inherit">
+          <HeaderLink to="/list">
+            <BackIcon />
+          </HeaderLink>
+        </HeaderButton>
+        )
+    }
+
+    return (
+      <HeaderWrapper>
+        <HeaderBar>
+          {backButton}
+          <HeaderText>
+          {/*TODO: Change language*/}
+            {title}
+          </HeaderText>
+          {/*TODO: Only show on StoryTemplate view*/}
+          {/*<HeaderButton color="inherit">*/}
+          {/*<EmailIcon />*/}
+          {/*</HeaderButton>*/}
+          {/*<HeaderButton color="inherit">*/}
+          {/*<DeleteIcon />*/}
+          {/*</HeaderButton>*/}
+          {/*TODO: Only show when stories have been saved on landing page*/}
+          {/*<HeaderButton color="inherit">*/}
+            {/*<SettingsIcon/>*/}
+          {/*</HeaderButton>*/}
+        </HeaderBar>
+        {/*TODO: Change wording to progress bar after second selection*/}
+        {/*<HeaderTitle>*/}
+        {/*What type of story are you writing?*/}
+        {/*</HeaderTitle>*/}
+        {/*TODO: Change colour, dynamic value*/}
+        {/*<HeaderProgress variant="determinate" value="38" />*/}
+      </HeaderWrapper>
+    )
+  }
+};
 
 export default Header

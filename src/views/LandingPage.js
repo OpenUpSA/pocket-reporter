@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react'
 import styled from 'styled-components';
+import { Link } from 'gatsby';
+import { Helmet } from 'react-helmet'
 
+import Footer from '../components/Footer';
 import logo from '../assets/meta/logo.png';
 import Button from '@material-ui/core/Button';
 
@@ -71,31 +74,49 @@ const Language = styled.h4`
   white-space: nowrap;
 `;
 
-const Link = styled.a`
+const LandingLink = styled.a`
   color: white;
   text-decoration: none;
 `;
 
-const LandingPage = () => (
-  <StyledWrapper>
-    <Go>
-      <StyledImage src={logo} />
-    </Go>
-    <Heading>
-      A News Editor in Your Pocket
-    </Heading>
-    <SubHeading>
-      Pocket Reporter helps you be a
-      <br />
-      better reporter by guiding you
-      <br />
-      through the news gathering process.
-    </SubHeading>
-    {/*TODO: Text to change to different language*/}
-    <Language>
-      <Link href="">Change language</Link>
-    </Language>
-  </StyledWrapper>
-);
+class LandingPage extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        {/*TODO: Is this used correctly?*/}
+        <Helmet>
+          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        </Helmet>
+
+        <StyledWrapper>
+          <Go>
+            <Link
+              to="/list"
+            >
+              <StyledImage src={logo} />
+            </Link>
+          </Go>
+          <Heading>
+            A News Editor in Your Pocket
+          </Heading>
+          <SubHeading>
+            Pocket Reporter helps you be a
+            <br />
+            better reporter by guiding you
+            <br />
+            through the news gathering process.
+          </SubHeading>
+          {/*TODO: Text to change to different language*/}
+          <Language>
+            <LandingLink href="">Change language</LandingLink>
+          </Language>
+        </StyledWrapper>
+
+        <Footer />
+      </React.Fragment>
+    )
+  }
+};
 
 export default LandingPage;

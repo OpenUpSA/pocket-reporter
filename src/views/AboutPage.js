@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 import Button from '@material-ui/core/Button';
 import OpenUpLogo from '../assets/logos/openup-logo.svg'
@@ -14,6 +15,8 @@ const AboutWrapper = styled.div`
   position: relative;
   top: 50px;
   font-size: 21px;
+  overflow: scroll;
+  height: calc(100vh - 100px);
   @media (min-width: 760px) 
   {
     width: 50%;
@@ -60,7 +63,7 @@ const AboutLink = styled.a`
 
 const AboutPage = () => (
   <React.Fragment>
-    <Header />
+    <Header about />
 
     <AboutWrapper>
       <p>Pocket Reporter is a news editor in your pocket that helps you be a better reporter.</p>
@@ -110,6 +113,7 @@ const AboutPage = () => (
 
     </AboutWrapper>
 
+    <Footer />
   </React.Fragment>
 );
 

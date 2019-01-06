@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 import Button from '@material-ui/core/Button';
 import Header from '../components/Header';
+import {Helmet} from "react-helmet";
+import Footer from "./AboutPage";
 
 const questionData = [
   {
@@ -122,8 +124,12 @@ const QuestionActions = styled.div`
 
 const StoryTemplate = () => (
   <React.Fragment>
+    <Helmet>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    </Helmet>
 
-    <Header />
+    <Header story/>
 
     <QuestionWrapper>
       <QuestionList>
@@ -150,6 +156,8 @@ const StoryTemplate = () => (
         </Button>
       </QuestionActions>
     </QuestionWrapper>
+
+    <Footer />
   </React.Fragment>
 );
 
