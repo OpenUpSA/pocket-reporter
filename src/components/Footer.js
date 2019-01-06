@@ -106,7 +106,7 @@ const Footer = () => (
             </FooterButton>
           </FooterItem>
           <FooterItem>
-            <FooterButton href="/" >
+            <FooterButton href="/about" >
               <HelpIcon />
               About
             </FooterButton>

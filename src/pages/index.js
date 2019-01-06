@@ -4,9 +4,8 @@ import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer';
 
 import LandingPage from '../views/LandingPage';
-import FolderContent from '../views/FolderContent';
 import StoryTemplate from '../views/StoryTemplate';
-import AboutPage from '../views/AboutPage';
+
 import Settings from '../views/Settings';
 import Stories from '../views/Stories';
 
@@ -19,8 +18,6 @@ const IndexPage = () => (
     </Helmet>
 
     <LandingPage />
-
-    {/*<FolderContent />*/}
 
     {/*<StoryTemplate />*/}
 

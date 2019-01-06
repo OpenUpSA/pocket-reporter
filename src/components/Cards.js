@@ -164,7 +164,7 @@ function Cards(props) {
     <CardWrapper>
       {cardData.map(card => (
         <CardItem>
-          <CardLink href={card.to}>
+          <CardLink to={card.to}>
             <TopicCard>
               <Content>
                 <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>

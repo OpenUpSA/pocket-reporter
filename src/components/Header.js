@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 import IconButton from '@material-ui/core/IconButton';
 import LinearProgress from '@material-ui/core/LinearProgress';
@@ -36,6 +37,10 @@ const HeaderBar = styled.div`
 
 const HeaderButton = styled(IconButton)`
   
+`;
+
+const HeaderLink = styled(Link)`
+  color: white;
 `;
 
 //TODO: Add negative margin-left when back button is visible
@@ -84,7 +89,9 @@ class Header extends Component {
     if (back) {
       backButton = (
         <HeaderButton color="inherit">
-          <BackIcon />
+          <HeaderLink to="/list">
+            <BackIcon />
+          </HeaderLink>
         </HeaderButton>
         )
     }
