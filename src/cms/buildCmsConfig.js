@@ -6,7 +6,7 @@ const languages = require('../config/languages.json');
 const config = `
 backend:
   name: github
-  repo: OpenUpSa/pocket-reporter
+  repo: OpenUpSA/pocket-reporter
 media_folder: static/assets
 public_folder: assets
 editor:

@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "gatsby build",
+    "build": "npm run build:cms && gatsby build",
     "build:cms": "node src/cms/buildCmsConfig",
     "build:docs": "docz build",
     "serve": "gatsby serve",
