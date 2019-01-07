@@ -110,19 +110,41 @@ const createSentryConfig = ({ dsn }) => {
 };
 
 
+const filesystemConfig = {
+  resolve: `gatsby-source-filesystem`,
+  options: {
+    name: `data`,
+    path: `${__dirname}/src/data/`,
+  },
+}
+
+
+const netlifyCmsConfig = {
+  resolve: 'gatsby-plugin-netlify-cms',
+  options: {
+    modulePath: `${__dirname}/src/cms/index.js`,
+  },
+}
+
+
 module.exports = {
-  siteMetadata,
+  siteMetadata: {
+    title: nameValue,
+    siteUrl: 'https://pocketreporter.netlify.com',
+  },
   plugins: [
     materialUiConfig,
+    filesystemConfig,
+    netlifyCmsConfig,
     ...(buildManifestConfig({ name: nameValue, theme: themeValue, background: backgroundValue })),
     ...(createHotjarConfig({ id: HOTJAR_ID, sv: HOTJAR_SNIPPET_VERSION })),
     ...(createAnalyticsConfig({ trackingId: GOOGLE_ANALYTICS_ID })),
     ...(createSentryConfig({ dsn: SENTRY_DNS })),
+    'gatsby-transformer-remark',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-offline',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-netlify',
-    'gatsby-plugin-netlify-cms',
   ],
 };
