@@ -1,6 +1,7 @@
 {
   "scripts": {
     "build": "gatsby build",
+    "build:cms": "node src/cms/buildCmsConfig",
     "build:docs": "docz build",
     "serve": "gatsby serve",
     "develop": "gatsby develop",
@@ -13,7 +14,9 @@
     "@material-ui/icons": "^3.0.1",
     "@material-ui/lab": "^3.0.0-alpha.26",
     "axios": "^0.18.0",
+    "change-case": "^3.0.2",
     "gatsby": "^2.0.76",
+    "indent-string": "^3.2.0",
     "lodash": "^4.17.11",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
@@ -46,6 +49,8 @@
     "gatsby-plugin-sentry": "^1.0.0",
     "gatsby-plugin-sitemap": "^2.0.3",
     "gatsby-plugin-styled-components": "^3.0.4",
+    "gatsby-source-filesystem": "^2.0.12",
+    "gatsby-transformer-remark": "^2.1.19",
     "jest": "^23.6.0",
     "netlify-cms": "^2.3.2",
     "regenerator-runtime": "^0.13.1"
