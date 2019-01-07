@@ -1,7 +1,7 @@
 import React from 'react';
-import ListOfFoldersData from '../../views/ListOfFoldersData';
+import ResourcePage from '../../views/ResourcePage';
 
 
 export default ({ pageContext }) => {
-  return <ListOfFoldersData {...pageContext} />;
+  return <ResourcePage {...pageContext} />;
 }
