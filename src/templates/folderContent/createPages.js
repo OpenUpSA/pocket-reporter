@@ -1,46 +1,19 @@
 const { resolve } = require('path');
 const parseData = require('./parseData');
-const { param, snakeCase } = require('change-case');
+const { param, snake } = require('change-case');
 const indent = require('indent-string');
 
 const languages = require('../../config/languages.json');
+const createInitialQuery = require('./createInitialQuery');
 
 
 const languagesQuery = languages
   .filter(language => language !== 'English')
-  .map(language => snakeCase(language))
+  .map(language => snake(language))
   .join(indent('\n', 6));
 
 
-const query = `{
-  allMarkdownRemark (
-    filter: {
-      frontmatter: {
-        type: {
-          eq: "pages"
-        }
-        page: {
-          eq: "folders"
-        }
-      }
-    }
-  ) {
-    edges {
-      node {
-        html
-        frontmatter {
-          title
-          icon
-          translated_title {
-            ${languagesQuery}
-          }
-          storyPages
-          resourcesPages
-        }
-      }
-    }
-  }
-}`;
+const query = createInitialQuery(languagesQuery);
 
 
 const buildPages = ({ reject, createPage }) => ({ data: rawData, errors }) => {
@@ -67,22 +40,18 @@ const buildPages = ({ reject, createPage }) => ({ data: rawData, errors }) => {
           ...data,
           language,
           getLanguageSpecificUrl,
-        },
+        }
       })
     });
   });
 }
 
 
-const createPages = ({ graphql, actions }) => {
-  const { createPage } = actions
-
-  return new Promise((resolve, reject) => {
-    resolve(
-      graphql(query).then(buildPages({ reject, createPage }))
-    );
-  })
-};
+const createPages = ({ graphql, actions }) => new Promise((resolve, reject) => {
+const { createPage } = actions
+  const result = graphql(query).then(buildPages({ reject, createPage }));
+  resolve(result);
+});
 
 
 module.exports = createPages;
