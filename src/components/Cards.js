@@ -4,7 +4,6 @@ import { Link } from 'gatsby';
 
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
 
 import Icon from '@material-ui/core/Icon';
 
@@ -169,9 +168,9 @@ function Cards(props) {
               <TopicCard>
                 <Content>
                   <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
-                  <Typography color="inherit">
+                  <body1 color="inherit">
                     {card.text}
-                  </Typography>
+                  </body1>
                 </Content>
               </TopicCard>
             </CardLink>
@@ -188,9 +187,9 @@ function Cards(props) {
             <TopicCard>
               <Content>
                 <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
-                <Typography color="inherit">
+                <body1 color="inherit">
                   {card.text}
-                </Typography>
+                </body1>
               </Content>
             </TopicCard>
           </CardLink>
