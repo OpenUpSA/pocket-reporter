@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import styled from 'styled-components';
 
 import Header from '../components/Header';
@@ -26,7 +26,7 @@ const SettingsHead = styled.h2`
 `;
 
 const Settings = () => (
-  <React.Fragment>
+  <Fragment>
     <Header settings />
     <SettingsWrapper>
       <FormControl component="fieldset">
@@ -50,7 +50,7 @@ const Settings = () => (
       </FormControl>
     </SettingsWrapper>
     <Footer />
-  </React.Fragment>
+  </Fragment>
 );
 
 export default Settings

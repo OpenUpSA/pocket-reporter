@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import styled from 'styled-components';
 
 import Header from '../components/Header';
@@ -48,7 +48,7 @@ const StoriesItem = styled.li`
 `;
 
 const Stories = () => (
-  <React.Fragment>
+  <Fragment>
     <Header />
 
     <StoriesWrapper>
@@ -77,7 +77,7 @@ const Stories = () => (
       </StoriesList>
 
     </StoriesWrapper>
-  </React.Fragment>
+  </Fragment>
 );
 
 export default Stories;

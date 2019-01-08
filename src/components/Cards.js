@@ -1,31 +1,12 @@
 import React from 'react'
 import styled from 'styled-components';
 import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
 
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 
 import Icon from '../components/Icon';
-
-const NotStacked = [
-  {
-    icon: 'group',
-    text: 'Service Delivery',
-    to: 'questions'
-  },
-
-  {
-    icon: 'fitness_center',
-    text: 'Sport',
-    to: 'questions'
-  },
-
-  {
-    icon: 'person',
-    text: 'Gender Violence',
-    to: 'questions'
-  }
-]
 
 const CardWrapper = styled.ul`
   @media (min-width: 760px) 
@@ -120,9 +101,9 @@ const Content = styled(CardContent)`
 function Cards(props) {
 
   const foldersArray = props.foldersArray;
+  const folderContent = props;
 
   if (props.stacked) {
-
     return (
       <CardWrapper>
         {foldersArray.map(card => (
@@ -143,16 +124,18 @@ function Cards(props) {
       </CardWrapper>
     )
   }
+
   return (
     <CardWrapper>
-      {NotStacked.map(card => (
-        <CardItem>
-          <CardLink to={card.to}>
+      {console.log(folderContent)}
+      {folderContent.map(card => (
+        <CardItem key={folderContent.icon}>
+          <CardLink to={folderContent.questionPages.url}>
             <TopicCard>
               <Content>
-                <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
+                <Icon type={folderContent.icon} />
                 <Text color="inherit">
-                  {card.text}
+                  {folderContent.title}
                 </Text>
               </Content>
             </TopicCard>
@@ -163,5 +146,11 @@ function Cards(props) {
   )
 
 }
+
+Cards.PropTypes = {
+  folderContent: PropTypes.array
+}
+
+
 
 export default Cards;

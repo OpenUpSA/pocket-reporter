@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
 
@@ -140,7 +140,7 @@ const QuestionActions = styled.div`
 `;
 
 const StoryTemplate = () => (
-  <React.Fragment>
+  <Fragment>
     <Helmet>
       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -175,7 +175,7 @@ const StoryTemplate = () => (
     </QuestionWrapper>
 
     <Footer />
-  </React.Fragment>
+  </Fragment>
 );
 
 export default StoryTemplate;
