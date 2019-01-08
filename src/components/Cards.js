@@ -5,51 +5,7 @@ import { Link } from 'gatsby';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 
-import Icon from '@material-ui/core/Icon';
-
-const cardData = [
-  {
-    icon: 'gavel',
-    text: 'Legal',
-    to: 'folder'
-  },
-
-  {
-    icon: 'flag',
-    text: 'Elections',
-    to: ''
-  },
-
-  {
-    icon: 'local_hospital',
-    text: 'Health',
-    to: ''
-  },
-
-  {
-    icon: 'whatshot',
-    text: 'Hard News',
-    to: ''
-  },
-
-  {
-    icon: 'group',
-    text: 'Service Delivery',
-    to: ''
-  },
-
-  {
-    icon: 'fitness_center',
-    text: 'Sport',
-    to: ''
-  },
-
-  {
-    icon: 'person',
-    text: 'Gender Violence',
-    to: ''
-  }
-];
+import Icon from '../components/Icon';
 
 const NotStacked = [
   {
@@ -143,6 +99,10 @@ const TopicCard = styled(Card)`
   }
 `;
 
+const Text = styled.p`
+  margin: 0;
+`;
+
 const Content = styled(CardContent)`
   display: flex;
   flex-direction: column;
@@ -159,18 +119,22 @@ const Content = styled(CardContent)`
 
 function Cards(props) {
 
+  const foldersArray = props.foldersArray;
+
   if (props.stacked) {
+
     return (
       <CardWrapper>
-        {cardData.map(card => (
-          <CardItemStacked>
-            <CardLink to={card.to}>
+        {foldersArray.map(card => (
+          <CardItemStacked key={card.icon}>
+            <CardLink to={card.url}>
               <TopicCard>
                 <Content>
-                  <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
-                  <body1 color="inherit">
-                    {card.text}
-                  </body1>
+                  {console.log(card.icon)}
+                  <Icon type={card.icon} />
+                  <Text color="inherit">
+                    {card.title}
+                  </Text>
                 </Content>
               </TopicCard>
             </CardLink>
@@ -187,9 +151,9 @@ function Cards(props) {
             <TopicCard>
               <Content>
                 <Icon style={{height: '32px', marginBottom: '10px'}}>{card.icon}</Icon>
-                <body1 color="inherit">
+                <Text color="inherit">
                   {card.text}
-                </body1>
+                </Text>
               </Content>
             </TopicCard>
           </CardLink>

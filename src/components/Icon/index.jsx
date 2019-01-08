@@ -1,8 +1,10 @@
+import React from 'react';
 import iconsObject from './iconsObject';
 
 
 const Icon = ({ type }) => {
-  return iconsObject[type];
+  const Result = iconsObject[type];
+  return <Result />;
 }
 
 

@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Cards from '../components/Cards';
 
-const ListOfFolders = () => (
+const ListOfFolders = (props) => (
   <React.Fragment>
     <Helmet>
       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
@@ -14,7 +14,7 @@ const ListOfFolders = () => (
 
     <Header start />
 
-    <Cards stacked />
+    <Cards { ...props } stacked />
 
     <Footer />
 
