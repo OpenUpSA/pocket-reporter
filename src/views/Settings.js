@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
@@ -48,6 +49,7 @@ const Settings = () => (
         </RadioGroup>
       </FormControl>
     </SettingsWrapper>
+    <Footer />
   </React.Fragment>
 );
 
