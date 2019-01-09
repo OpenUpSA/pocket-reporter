@@ -1,6 +1,7 @@
 ---
-tagline: >-
-  Pocket Reporter is a news editor in your pocket that helps you be a better
+type: static
+page: about
+tagline: Pocket Reporter is a news editor in your pocket that helps you be a better
   reporter.
 partners:
   - link: 'http://openup.org.za/'
@@ -9,7 +10,6 @@ partners:
   - link: 'http://www.aip.org.za/'
     logo: /assets/aip-logo.png
     name: Association of Independent Publishers
-  - {}
 contributors:
   - link: 'https://twitter.com/@rayjoe'
     name: Raymond Joseph
