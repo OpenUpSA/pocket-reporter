@@ -559,7 +559,7 @@ collections:
         widget: hidden
         default: english      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -642,7 +642,7 @@ collections:
         widget: hidden
         default: afrikaans      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -725,7 +725,7 @@ collections:
         widget: hidden
         default: spanish      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -808,7 +808,7 @@ collections:
         widget: hidden
         default: xhosa      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -891,7 +891,7 @@ collections:
         widget: hidden
         default: northern-sotho      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -974,7 +974,7 @@ collections:
         widget: hidden
         default: portuguese      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -1057,7 +1057,7 @@ collections:
         widget: hidden
         default: southern-sotho      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -1140,7 +1140,7 @@ collections:
         widget: hidden
         default: tswana      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -1223,7 +1223,7 @@ collections:
         widget: hidden
         default: zulu      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -1291,8 +1291,18 @@ collections:
       - 
         name: about
         label: About Page
-        file: src/data/pages/static/about.md
+        file: src/data/static/about.md
         fields:
+          -
+            name: type
+            label: Type
+            widget: hidden
+            default: static
+          -
+            name: page
+            label: Page
+            widget: hidden
+            default: about
           -
             name: tagline
             label: Tagline
