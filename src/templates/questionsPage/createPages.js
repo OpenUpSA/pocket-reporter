@@ -21,8 +21,6 @@ const buildPages = ({ reject, createPage }) => ({ data: rawData, errors }) => {
     const { title, language, questions } = data;
     const getLanguageSpecificUrl = getUrl(title);
 
-    console.log(language, 11111111111111111111111111111);
-
     if (language === 'english') {
        languages
         .filter(language => language !== 'english')
