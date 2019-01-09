@@ -80,6 +80,18 @@ const TopicCard = styled(Card)`
   }
 `;
 
+const TopicCardGrey = styled(Card)`
+  && {
+    color: white;
+    background-color: #979797;
+    height: 100px;
+  }
+  
+  :hover {
+      background-color: #ababab;
+  }
+`;
+
 const Text = styled.p`
   margin: 0;
 `;
@@ -101,8 +113,8 @@ const Content = styled(CardContent)`
 function Cards(props) {
 
   const foldersArray = props.foldersArray;
-  const questions = props.questionPages;
-  const resources = props.resourcePages;
+  const questions = props.questionsPages;
+  const resources = props.resourcesPages;
 
   if (props.stacked) {
     return (
@@ -128,22 +140,38 @@ function Cards(props) {
   return (
     <CardWrapper>
       {questions.map(card => (
+          <CardItem key={card.title}>
+            <CardLink to={card.url}>
+              <TopicCard>
+                <Content>
+                  {/*<Icon type={card.icon} />*/}
+                  <Text color="inherit">
+                    {card.title}
+                  </Text>
+                </Content>
+              </TopicCard>
+            </CardLink>
+          </CardItem>
+        ))}
+
+      {resources.map(card => (
         <CardItem key={card.title}>
           <CardLink to={card.url}>
-            <TopicCard>
+            <TopicCardGrey>
               <Content>
                 {/*<Icon type={card.icon} />*/}
                 <Text color="inherit">
                   {card.title}
                 </Text>
               </Content>
-            </TopicCard>
+            </TopicCardGrey>
           </CardLink>
         </CardItem>
       ))}
-    </CardWrapper>
-  )
 
+    </CardWrapper>
+
+  )
 }
 
 Cards.propTypes = {
