@@ -2,7 +2,7 @@
 title: Voorbeeld 2
 type: questions
 language: afrikaans
-Questions:
+questions:
   - description: Vraag 1
     formatOfAnswer: True or False
     options:

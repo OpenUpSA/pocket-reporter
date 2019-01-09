@@ -114,7 +114,7 @@ const createQuestions = language => `
         widget: hidden
         default: ${param(language)}      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -189,7 +189,7 @@ ${config}
 collections:
   - 
     name: pages-folders
-    label: 🗃 Folders Pages
+    label: 🗃 Folders
     folder: src/data/pages/folders/
     create: true
     fields:
@@ -288,8 +288,18 @@ ${content}
       - 
         name: about
         label: About Page
-        file: src/data/pages/static/about.md
+        file: src/data/static/about.md
         fields:
+          -
+            name: type
+            label: Type
+            widget: hidden
+            default: static
+          -
+            name: page
+            label: Page
+            widget: hidden
+            default: about
           -
             name: tagline
             label: Tagline
