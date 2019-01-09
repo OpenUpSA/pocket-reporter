@@ -10,6 +10,9 @@ partners:
     logo: /assets/aip-logo.png
     name: Association of Independent Publishers
   - {}
+contributors:
+  - link: 'https://twitter.com/@rayjoe'
+    name: Raymond Joseph
 ---
 Pocket Reporter is built by [OpenUp ](http://openup.org.za/)and is inspired by the [Virtual Reporter tool ](http://nqabile.co.za/virtual)by [Kanthan Pillay](http://kanthanpillay.com/content/about).
 
