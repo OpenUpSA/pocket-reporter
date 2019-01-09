@@ -2,6 +2,7 @@ const { resolve } = require('path');
 const parseData = require('./parseData');
 const { param } = require('change-case');
 
+const languages = require('../../config/languages.json');
 const query = require('./query');
 
 
@@ -17,16 +18,34 @@ const buildPages = ({ reject, createPage }) => ({ data: rawData, errors }) => {
 
   edges.forEach(({ node }) => {
     const data = parseData({ node });
-    const { title, language } = data;
+    const { title, language, html } = data;
     const getLanguageSpecificUrl = getUrl(title);
+
+    if (language === 'english') {
+       languages
+        .filter(language => language !== 'english')
+        .forEach(language => {
+          createPage({
+            path: getLanguageSpecificUrl(language),
+            component: resolve('./src/templates/resourcePage/index.jsx'),
+            context: {
+              language,
+              title,
+              html,
+              fallback: true,
+            }
+          });
+        })
+    }
 
     createPage({
       path: getLanguageSpecificUrl(language),
       component: resolve('./src/templates/resourcePage/index.jsx'),
       context: {
         language,
-        foldersArray: data,
-        getLanguageSpecificUrl,
+        title,
+        html,
+        fallback: false,
       }
     });
   });
