@@ -11,7 +11,7 @@ editor:
 collections:
   - 
     name: pages-folders
-    label: Folders Pages
+    label: 🗃 Folders Pages
     folder: src/data/pages/folders/
     create: true
     fields:
@@ -124,7 +124,7 @@ collections:
           valueField: title
   -
     name: pages-questions
-    label: Questions Pages
+    label: 📁 Questions Pages
     folder: src/data/pages/questions/
     identifier_field: english
     create: true
@@ -139,7 +139,6 @@ collections:
         label: Page
         widget: hidden
         default: questions 
-      -
 
       -
         name: title
@@ -332,7 +331,7 @@ collections:
 
   -
     name: pages-resources
-    label: Resources Pages
+    label: 📂 Resources Pages
     folder: src/data/pages/resources/
     identifier_field: english
     create: true
@@ -541,7 +540,7 @@ collections:
 
   -
     name: english_questions
-    label: English Questions
+    label: 1️⃣ English Questions
     folder: src/data/questions/english/
     create: true
     fields:
@@ -560,7 +559,7 @@ collections:
         widget: hidden
         default: english      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -597,7 +596,7 @@ collections:
 
   -
     name: english_resources
-    label: English Resources
+    label: 1️⃣ English Resources
     folder: src/data/resources/english/
     create: true
     fields:
@@ -624,7 +623,7 @@ collections:
 
   -
     name: afrikaans_questions
-    label: Afrikaans Questions
+    label: 2️⃣ Afrikaans Questions
     folder: src/data/questions/afrikaans/
     create: true
     fields:
@@ -643,7 +642,7 @@ collections:
         widget: hidden
         default: afrikaans      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -680,7 +679,7 @@ collections:
 
   -
     name: afrikaans_resources
-    label: Afrikaans Resources
+    label: 2️⃣ Afrikaans Resources
     folder: src/data/resources/afrikaans/
     create: true
     fields:
@@ -707,7 +706,7 @@ collections:
 
   -
     name: spanish_questions
-    label: Spanish Questions
+    label: 3️⃣ Spanish Questions
     folder: src/data/questions/spanish/
     create: true
     fields:
@@ -726,7 +725,7 @@ collections:
         widget: hidden
         default: spanish      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -763,7 +762,7 @@ collections:
 
   -
     name: spanish_resources
-    label: Spanish Resources
+    label: 3️⃣ Spanish Resources
     folder: src/data/resources/spanish/
     create: true
     fields:
@@ -790,7 +789,7 @@ collections:
 
   -
     name: xhosa_questions
-    label: Xhosa Questions
+    label: 4️⃣ Xhosa Questions
     folder: src/data/questions/xhosa/
     create: true
     fields:
@@ -809,7 +808,7 @@ collections:
         widget: hidden
         default: xhosa      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -846,7 +845,7 @@ collections:
 
   -
     name: xhosa_resources
-    label: Xhosa Resources
+    label: 4️⃣ Xhosa Resources
     folder: src/data/resources/xhosa/
     create: true
     fields:
@@ -873,7 +872,7 @@ collections:
 
   -
     name: northern_sotho_questions
-    label: Northern Sotho Questions
+    label: 5️⃣ Northern Sotho Questions
     folder: src/data/questions/northern-sotho/
     create: true
     fields:
@@ -892,7 +891,7 @@ collections:
         widget: hidden
         default: northern-sotho      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -929,7 +928,7 @@ collections:
 
   -
     name: northern_sotho_resources
-    label: Northern Sotho Resources
+    label: 5️⃣ Northern Sotho Resources
     folder: src/data/resources/northern-sotho/
     create: true
     fields:
@@ -956,7 +955,7 @@ collections:
 
   -
     name: portuguese_questions
-    label: Portuguese Questions
+    label: 6️⃣ Portuguese Questions
     folder: src/data/questions/portuguese/
     create: true
     fields:
@@ -975,7 +974,7 @@ collections:
         widget: hidden
         default: portuguese      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -1012,7 +1011,7 @@ collections:
 
   -
     name: portuguese_resources
-    label: Portuguese Resources
+    label: 6️⃣ Portuguese Resources
     folder: src/data/resources/portuguese/
     create: true
     fields:
@@ -1039,7 +1038,7 @@ collections:
 
   -
     name: southern_sotho_questions
-    label: Southern Sotho Questions
+    label: 7️⃣ Southern Sotho Questions
     folder: src/data/questions/southern-sotho/
     create: true
     fields:
@@ -1058,7 +1057,7 @@ collections:
         widget: hidden
         default: southern-sotho      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -1095,7 +1094,7 @@ collections:
 
   -
     name: southern_sotho_resources
-    label: Southern Sotho Resources
+    label: 7️⃣ Southern Sotho Resources
     folder: src/data/resources/southern-sotho/
     create: true
     fields:
@@ -1122,7 +1121,7 @@ collections:
 
   -
     name: tswana_questions
-    label: Tswana Questions
+    label: 8️⃣ Tswana Questions
     folder: src/data/questions/tswana/
     create: true
     fields:
@@ -1141,7 +1140,7 @@ collections:
         widget: hidden
         default: tswana      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -1178,7 +1177,7 @@ collections:
 
   -
     name: tswana_resources
-    label: Tswana Resources
+    label: 8️⃣ Tswana Resources
     folder: src/data/resources/tswana/
     create: true
     fields:
@@ -1205,7 +1204,7 @@ collections:
 
   -
     name: zulu_questions
-    label: Zulu Questions
+    label: 9️⃣ Zulu Questions
     folder: src/data/questions/zulu/
     create: true
     fields:
@@ -1224,7 +1223,7 @@ collections:
         widget: hidden
         default: zulu      
       - 
-        name: Questions
+        name: questions
         label: Questions
         widget: list
         fields:
@@ -1261,7 +1260,7 @@ collections:
 
   -
     name: zulu_resources
-    label: Zulu Resources
+    label: 9️⃣ Zulu Resources
     folder: src/data/resources/zulu/
     create: true
     fields:
@@ -1285,3 +1284,62 @@ collections:
           widget: markdown
 
 
+  -
+    name: pages-static
+    label: 📌 Static Page Content
+    files:
+      - 
+        name: about
+        label: About Page
+        file: src/data/static/about.md
+        fields:
+          -
+            name: type
+            label: Type
+            widget: hidden
+            default: static
+          -
+            name: page
+            label: Page
+            widget: hidden
+            default: about
+          -
+            name: tagline
+            label: Tagline
+            widget: string
+          -
+            name: body
+            label: Description
+            widget: markdown
+          -
+            name: partners
+            label: Partners Organisations
+            widget: list
+            required: false
+            fields:
+              -
+                name: name
+                label: Name
+                widget: string
+              -
+                name: link
+                label: URL Link
+                widget: string
+              -
+                name: logo
+                label: Logo
+                widget: image
+          -
+            name: contributors
+            label: Individual Contributors
+            widget: list
+            required: false
+            fields:
+              -
+                name: name
+                label: Name
+                widget: string
+              -
+                name: link
+                label: URL Link
+                widget: string

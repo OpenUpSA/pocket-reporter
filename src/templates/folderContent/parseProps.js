@@ -32,7 +32,7 @@ const parseProps = ({ pageContext, data }) => {
 
     return {
       title,
-      url: `${param(!!rawTitle ? language : 'English')}/resources/${param(title)}/index.html`,
+      url: `${param(language)}/resources/${param(title)}/index.html`,
       fallback: !rawTitle,
     }
   });

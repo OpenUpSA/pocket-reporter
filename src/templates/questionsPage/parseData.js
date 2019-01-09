@@ -1,15 +1,12 @@
-const { param } = require('change-case');
-
-
 const parseData = ({ node }) => {
   const language = node.frontmatter.language;
   const title = node.frontmatter.title;
-  const html = node.html;
+  const questions = node.frontmatter.questions;
 
   return {
     language,
     title,
-    html,
+    questions
   }
 }
 

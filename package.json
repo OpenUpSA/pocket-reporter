@@ -4,7 +4,7 @@
     "build:cms": "node src/cms/buildCmsConfig",
     "build:docs": "docz build",
     "serve": "gatsby serve",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop -o",
     "start": "npm run develop",
     "start:docs": "docz dev",
     "test": "jest"

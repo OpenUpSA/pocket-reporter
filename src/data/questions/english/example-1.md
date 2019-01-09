@@ -1,8 +1,8 @@
 ---
 title: Example 1
-type: Questions
-language: English
-Questions:
+type: questions
+language: english
+questions:
   - description: Question 1
     formatOfAnswer: True or False
     options:

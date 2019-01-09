@@ -13,12 +13,12 @@ const buildPages = ({ reject, createPage }) => ({ data: rawData, errors }) => {
 
   const { edges } = rawData.allMarkdownRemark;
   const getUrl = title => (language) => {
-    return `${param(language)}/resources/${param(title)}/index.html`;
+    return `${param(language)}/questions/${param(title)}/index.html`;
   }
 
   edges.forEach(({ node }) => {
     const data = parseData({ node });
-    const { title, language, html } = data;
+    const { title, language, questions } = data;
     const getLanguageSpecificUrl = getUrl(title);
 
     if (language === 'english') {
@@ -27,11 +27,11 @@ const buildPages = ({ reject, createPage }) => ({ data: rawData, errors }) => {
         .forEach(language => {
           createPage({
             path: getLanguageSpecificUrl(language),
-            component: resolve('./src/templates/resourcePage/index.jsx'),
+            component: resolve('./src/templates/questionsPage/index.jsx'),
             context: {
               language,
               title,
-              html,
+              questions,
               fallback: true,
             }
           });
@@ -40,11 +40,11 @@ const buildPages = ({ reject, createPage }) => ({ data: rawData, errors }) => {
 
     createPage({
       path: getLanguageSpecificUrl(language),
-      component: resolve('./src/templates/resourcePage/index.jsx'),
+      component: resolve('./src/templates/questionsPage/index.jsx'),
       context: {
         language,
         title,
-        html,
+        questions,
         fallback: false,
       }
     });
