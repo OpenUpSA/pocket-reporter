@@ -1,11 +1,15 @@
-const calcTitle = require('./calcTitle');
-const { param } = require('change-case');
+const { uniq } = require('lodash');
 
 
-const addUrlToResource = ({ language, type }) => title => ({
-  title,
-  url: `/${param(language)}/${param(type)}/${param(title)}/index.html`,
-})
+const calcTitle = ({ language, title, translatedTitles }) => {
+  const translation = translatedTitles[language];
+
+  if (translation) {
+    return translation;
+  }
+
+  return title;
+}
 
 
 const parseFolders = ({ node, language }) => {
@@ -17,14 +21,11 @@ const parseFolders = ({ node, language }) => {
 
   return {
     title,
-    language,
     icon: node.frontmatter.icon,
-    questionPages: node.frontmatter.storyPages.map(
-      addUrlToResource({ language, type: 'questions' })
-    ),
-    resourcePages: node.frontmatter.resourcesPages.map(
-      addUrlToResource({ language, type: 'resources' })
-    ),
+    titles: uniq([
+      ...node.frontmatter.storyPages,
+      ...node.frontmatter.resourcesPages,
+    ]),
   }
 }
 

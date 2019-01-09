@@ -1,4 +1,4 @@
-const { camel, param } = require('change-case');
+const { camel, param, snake } = require('change-case');
 const { writeFile } = require('fs');
 const languages = require('../config/languages.json');
 
@@ -15,29 +15,28 @@ editor:
 
 
 const createRelation = (type, language) => `
-          -
-            name: ${param(`${language} ${type}`)}
-            label: Linked ${camel(type)} Entry Title
-            required: false
-            widget: relation
-            collection: ${param(type)}
-            searchFields: 
-              - title
-            valueField: title
+      -
+        name: ${snake(`${language}_${type}`)}
+        label: Linked ${(type)} Entry Title
+        required: false
+        widget: relation
+        collection: ${snake(type)}
+        searchFields: 
+          - title
+        valueField: title
 `;
 
 
 const createRefs = type => language => `
-      - 
-        name: ${language}
-        label: ${language}
-        widget: object
-        fields:
-          -
-            name: title
-            label: Title
-            widget: string
-            required: false
+      -
+        name: title
+        label: Linked English Entry Title
+        required: true
+        widget: relation
+        collection: english
+        searchFields: 
+          - title
+        valueField: title
 ${createRelation(type, language)}
 `;
 
@@ -48,7 +47,7 @@ const createResourcesRefs = createRefs('Resource');
 
 const createResource = language => `
   -
-    name: ${param(language)}-resources
+    name: ${snake(language)}_resources
     label: ${language} Resources
     folder: src/data/resources/${param(language)}/
     create: true
@@ -76,7 +75,7 @@ const createResource = language => `
 
 const createQuestions = language => `
   -
-    name: ${param(language)}-questions
+    name: ${snake(language)}_questions
     label: ${language} Questions
     folder: src/data/questions/${param(language)}/
     create: true
@@ -133,13 +132,11 @@ const createQuestions = language => `
 
 
 const questionsRef = languages
-  .filter(language => language !== 'English')
   .map(createQuestionsRefs)
   .join('');
 
 
 const resourcesRef = languages
-  .filter(language => language !== 'English')
   .map(createResourcesRefs)
   .join('');
 
@@ -232,6 +229,7 @@ ${translatedTitles}
     name: pages-questions
     label: Questions Pages
     folder: src/data/pages/questions/
+    identifier_field: english
     create: true
     fields:
       -
@@ -245,18 +243,12 @@ ${translatedTitles}
         widget: hidden
         default: questions 
       -
-        name: title
-        label: Title
-        widget: string
-      -
-        name: questions
-        label: Linked Questions Entry Title
-        widget: string
 ${questionsRef}
   -
     name: pages-resources
     label: Resources Pages
     folder: src/data/pages/resources/
+    identifier_field: english
     create: true
     fields:
       -
@@ -269,14 +261,6 @@ ${questionsRef}
         label: Page
         widget: hidden
         default: resources 
-      -
-        name: title
-        label: Title
-        widget: string
-      -
-        name: questions
-        label: Linked Resources Entry Title
-        widget: string
 ${resourcesRef}
 ${content}
 `;

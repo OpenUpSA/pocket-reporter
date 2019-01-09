@@ -1,44 +1,12 @@
 const { resolve } = require('path');
 const parseData = require('./parseData');
-const { param, snakeCase } = require('change-case');
-const indent = require('indent-string');
+const { param } = require('change-case');
 
+const createQuery = require('./createQuery');
 const languages = require('../../config/languages.json');
 
 
-const languagesQuery = languages
-  .filter(language => language !== 'English')
-  .map(language => snakeCase(language))
-  .join(indent('\n', 6));
-
-
-const query = `{
-  allMarkdownRemark (
-    filter: {
-      frontmatter: {
-        type: {
-          eq: "pages"
-        }
-        page: {
-          eq: "folders"
-        }
-      }
-    }
-  ) {
-    edges {
-      node {
-        html
-        frontmatter {
-          title
-          icon
-          translated_title {
-            ${languagesQuery}
-          }
-        }
-      }
-    }
-  }
-}`;
+const query = createQuery(languages);
 
 
 const buildPages = ({ reject, createPage }) => ({ data: rawData, errors }) => {
