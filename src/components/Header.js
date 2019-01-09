@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 
@@ -111,12 +111,17 @@ class Header extends Component {
             {title}
           </HeaderText>
           {/*TODO: Only show on StoryTemplate view*/}
-          {/*<HeaderButton color="inherit">*/}
-          {/*<EmailIcon />*/}
-          {/*</HeaderButton>*/}
-          {/*<HeaderButton color="inherit">*/}
-          {/*<DeleteIcon />*/}
-          {/*</HeaderButton>*/}
+          { titleStory &&
+            <Fragment>
+              <HeaderButton color="inherit">
+                <EmailIcon />
+              </HeaderButton>
+              <HeaderButton color="inherit">
+                <DeleteIcon />
+              </HeaderButton>
+            </Fragment>
+          }
+
           {/*TODO: Only show when stories have been saved on landing page*/}
           {/*<HeaderButton color="inherit">*/}
             {/*<SettingsIcon/>*/}
