@@ -101,7 +101,8 @@ const Content = styled(CardContent)`
 function Cards(props) {
 
   const foldersArray = props.foldersArray;
-  const folderContent = props;
+  const questions = props.questionPages;
+  const resources = props.resourcePages;
 
   if (props.stacked) {
     return (
@@ -111,7 +112,6 @@ function Cards(props) {
             <CardLink to={card.url}>
               <TopicCard>
                 <Content>
-                  {console.log(card.icon)}
                   <Icon type={card.icon} />
                   <Text color="inherit">
                     {card.title}
@@ -127,15 +127,14 @@ function Cards(props) {
 
   return (
     <CardWrapper>
-      {console.log(folderContent)}
-      {folderContent.map(card => (
-        <CardItem key={folderContent.icon}>
-          <CardLink to={folderContent.questionPages.url}>
+      {questions.map(card => (
+        <CardItem key={card.title}>
+          <CardLink to={card.url}>
             <TopicCard>
               <Content>
-                <Icon type={folderContent.icon} />
+                {/*<Icon type={card.icon} />*/}
                 <Text color="inherit">
-                  {folderContent.title}
+                  {card.title}
                 </Text>
               </Content>
             </TopicCard>
@@ -147,7 +146,7 @@ function Cards(props) {
 
 }
 
-Cards.PropTypes = {
+Cards.propTypes = {
   folderContent: PropTypes.array
 }
 
