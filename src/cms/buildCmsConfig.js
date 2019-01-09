@@ -41,6 +41,25 @@ ${createRelation(type, language)}
 `;
 
 
+const calcNumber = (language) => {
+  const index = languages.indexOf(language).toString();
+
+  switch (index) {
+    case '0': return '1️⃣';
+    case '1': return '2️⃣';
+    case '2': return '3️⃣';
+    case '3': return '4️⃣';
+    case '4': return '5️⃣';
+    case '5': return '6️⃣';
+    case '6': return '7️⃣';
+    case '7': return '8️⃣';
+    case '8': return '9️⃣';
+    case '9': return '🔟';
+    default: return '*️⃣'
+  }
+}
+
+
 const createQuestionsRefs = createRefs('Questions');
 const createResourcesRefs = createRefs('Resource');
 
@@ -48,7 +67,7 @@ const createResourcesRefs = createRefs('Resource');
 const createResource = language => `
   -
     name: ${snake(language)}_resources
-    label: ${language} Resources
+    label: ${calcNumber(language)} ${language} Resources
     folder: src/data/resources/${param(language)}/
     create: true
     fields:
@@ -76,7 +95,7 @@ const createResource = language => `
 const createQuestions = language => `
   -
     name: ${snake(language)}_questions
-    label: ${language} Questions
+    label: ${calcNumber(language)} ${language} Questions
     folder: src/data/questions/${param(language)}/
     create: true
     fields:
@@ -170,7 +189,7 @@ ${config}
 collections:
   - 
     name: pages-folders
-    label: Folders Pages
+    label: 🗃 Folders Pages
     folder: src/data/pages/folders/
     create: true
     fields:
@@ -227,7 +246,7 @@ ${translatedTitles}
           valueField: title
   -
     name: pages-questions
-    label: Questions Pages
+    label: 📁 Questions Pages
     folder: src/data/pages/questions/
     identifier_field: english
     create: true
@@ -242,11 +261,10 @@ ${translatedTitles}
         label: Page
         widget: hidden
         default: questions 
-      -
 ${questionsRef}
   -
     name: pages-resources
-    label: Resources Pages
+    label: 📂 Resources Pages
     folder: src/data/pages/resources/
     identifier_field: english
     create: true
@@ -263,6 +281,55 @@ ${questionsRef}
         default: resources 
 ${resourcesRef}
 ${content}
+  -
+    name: pages-static
+    label: 📌 Static Page Content
+    files:
+      - 
+        name: about
+        label: About Page
+        file: src/data/pages/static/about.md
+        fields:
+          -
+            name: tagline
+            label: Tagline
+            widget: string
+          -
+            name: body
+            label: Description
+            widget: markdown
+          -
+            name: partners
+            label: Partners Organisations
+            widget: list
+            required: false
+            fields:
+              -
+                name: name
+                label: Name
+                widget: string
+              -
+                name: link
+                label: URL Link
+                widget: string
+              -
+                name: logo
+                label: Logo
+                widget: image
+          -
+            name: contributors
+            label: Individual Contributors
+            widget: list
+            required: false
+            fields:
+              -
+                name: name
+                label: Name
+                widget: string
+              -
+                name: link
+                label: URL Link
+                widget: string
 `;
 
 

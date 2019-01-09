@@ -3,374 +3,544 @@
 backend:
   name: github
   repo: OpenUpSA/pocket-reporter
-publish_mode: editorial_workflow
 media_folder: static/assets
 public_folder: assets
 editor:
    preview: false
 
 collections:
+  - 
+    name: pages-folders
+    label: 🗃 Folders Pages
+    folder: src/data/pages/folders/
+    create: true
+    fields:
+      -
+        name: title
+        label: Title
+        widget: string
+      -
+        name: type
+        label: Type
+        widget: hidden
+        default: pages
+      -
+        name: page
+        label: Page
+        widget: hidden
+        default: folders
+      -
+        name: translated-title
+        label: Title Translations
+        widget: object
+        fields:
+
+          -
+            name: afrikaans
+            label: Afrikaans
+            widget: string
+            required: false
+            default: ""           
+
+          -
+            name: spanish
+            label: Spanish
+            widget: string
+            required: false
+            default: ""           
+
+          -
+            name: xhosa
+            label: Xhosa
+            widget: string
+            required: false
+            default: ""           
+
+          -
+            name: northern-sotho
+            label: Northern Sotho
+            widget: string
+            required: false
+            default: ""           
+
+          -
+            name: portuguese
+            label: Portuguese
+            widget: string
+            required: false
+            default: ""           
+
+          -
+            name: southern-sotho
+            label: Southern Sotho
+            widget: string
+            required: false
+            default: ""           
+
+          -
+            name: tswana
+            label: Tswana
+            widget: string
+            required: false
+            default: ""           
+
+          -
+            name: zulu
+            label: Zulu
+            widget: string
+            required: false
+            default: ""           
+
+      -
+        name: icon
+        label: Icon
+        widget: icon-selector 
+      -
+        name: storyPages
+        label: Question Pages
+        widget: list
+        required: false
+        field:
+          name: storyPage
+          label: Linked Questions Page Entry Title
+          widget: relation
+          collection: pages-questions
+          searchFields: 
+            - title
+          valueField: title
+
+      -
+        name: resourcesPages
+        label: Resource Pages
+        widget: list
+        required: false
+        field:
+          name: resourcesPage
+          label: Linked Resources Page Entry Title
+          widget: relation
+          collection: pages-resources
+          searchFields: 
+            - title
+          valueField: title
   -
-    name: questionsPages
-    label: Questions Pages
+    name: pages-questions
+    label: 📁 Questions Pages
     folder: src/data/pages/questions/
+    identifier_field: english
     create: true
     fields:
-
+      -
+        name: type
+        label: Type
+        widget: hidden
+        default: pages
+      -
+        name: page
+        label: Page
+        widget: hidden
+        default: questions 
 
       -
-        name: englishTitle
-        label: English Title
-        widget: string
-        require: true
-
-
-      -
-        name: englishQuestions
-        label: English Questions
+        name: title
+        label: Linked English Entry Title
+        required: true
         widget: relation
-        require: true
-        collection: englishQuestions
+        collection: english
         searchFields: 
-          - name
-        valueField: name
-
-
+          - title
+        valueField: title
 
       -
-        name: afrikaansTitle
-        label: Afrikaans Title
-        widget: string
-        require: false
-
-
-      -
-        name: afrikaansQuestions
-        label: Afrikaans Questions
+        name: english_questions
+        label: Linked Questions Entry Title
+        required: false
         widget: relation
-        require: false
-        collection: afrikaansQuestions
+        collection: questions
         searchFields: 
-          - name
-        valueField: name
-
-
-
-      -
-        name: spanishTitle
-        label: Spanish Title
-        widget: string
-        require: false
+          - title
+        valueField: title
 
 
       -
-        name: spanishQuestions
-        label: Spanish Questions
+        name: title
+        label: Linked English Entry Title
+        required: true
         widget: relation
-        require: false
-        collection: spanishQuestions
+        collection: english
         searchFields: 
-          - name
-        valueField: name
-
-
+          - title
+        valueField: title
 
       -
-        name: xhosaTitle
-        label: Xhosa Title
-        widget: string
-        require: false
-
-
-      -
-        name: xhosaQuestions
-        label: Xhosa Questions
+        name: afrikaans_questions
+        label: Linked Questions Entry Title
+        required: false
         widget: relation
-        require: false
-        collection: xhosaQuestions
+        collection: questions
         searchFields: 
-          - name
-        valueField: name
-
-
-
-      -
-        name: northernSothoTitle
-        label: Northern Sotho Title
-        widget: string
-        require: false
+          - title
+        valueField: title
 
 
       -
-        name: northernSothoQuestions
-        label: Northern Sotho Questions
+        name: title
+        label: Linked English Entry Title
+        required: true
         widget: relation
-        require: false
-        collection: northernSothoQuestions
+        collection: english
         searchFields: 
-          - name
-        valueField: name
-
-
+          - title
+        valueField: title
 
       -
-        name: portugueseTitle
-        label: Portuguese Title
-        widget: string
-        require: false
-
-
-      -
-        name: portugueseQuestions
-        label: Portuguese Questions
+        name: spanish_questions
+        label: Linked Questions Entry Title
+        required: false
         widget: relation
-        require: false
-        collection: portugueseQuestions
+        collection: questions
         searchFields: 
-          - name
-        valueField: name
-
-
-
-      -
-        name: southernSothoTitle
-        label: Southern Sotho Title
-        widget: string
-        require: false
+          - title
+        valueField: title
 
 
       -
-        name: southernSothoQuestions
-        label: Southern Sotho Questions
+        name: title
+        label: Linked English Entry Title
+        required: true
         widget: relation
-        require: false
-        collection: southernSothoQuestions
+        collection: english
         searchFields: 
-          - name
-        valueField: name
-
-
+          - title
+        valueField: title
 
       -
-        name: tswanaTitle
-        label: Tswana Title
-        widget: string
-        require: false
-
-
-      -
-        name: tswanaQuestions
-        label: Tswana Questions
+        name: xhosa_questions
+        label: Linked Questions Entry Title
+        required: false
         widget: relation
-        require: false
-        collection: tswanaQuestions
+        collection: questions
         searchFields: 
-          - name
-        valueField: name
-
-
-
-      -
-        name: zuluTitle
-        label: Zulu Title
-        widget: string
-        require: false
+          - title
+        valueField: title
 
 
       -
-        name: zuluQuestions
-        label: Zulu Questions
+        name: title
+        label: Linked English Entry Title
+        required: true
         widget: relation
-        require: false
-        collection: zuluQuestions
+        collection: english
         searchFields: 
-          - name
-        valueField: name
+          - title
+        valueField: title
+
+      -
+        name: northern_sotho_questions
+        label: Linked Questions Entry Title
+        required: false
+        widget: relation
+        collection: questions
+        searchFields: 
+          - title
+        valueField: title
+
+
+      -
+        name: title
+        label: Linked English Entry Title
+        required: true
+        widget: relation
+        collection: english
+        searchFields: 
+          - title
+        valueField: title
+
+      -
+        name: portuguese_questions
+        label: Linked Questions Entry Title
+        required: false
+        widget: relation
+        collection: questions
+        searchFields: 
+          - title
+        valueField: title
+
+
+      -
+        name: title
+        label: Linked English Entry Title
+        required: true
+        widget: relation
+        collection: english
+        searchFields: 
+          - title
+        valueField: title
+
+      -
+        name: southern_sotho_questions
+        label: Linked Questions Entry Title
+        required: false
+        widget: relation
+        collection: questions
+        searchFields: 
+          - title
+        valueField: title
+
+
+      -
+        name: title
+        label: Linked English Entry Title
+        required: true
+        widget: relation
+        collection: english
+        searchFields: 
+          - title
+        valueField: title
+
+      -
+        name: tswana_questions
+        label: Linked Questions Entry Title
+        required: false
+        widget: relation
+        collection: questions
+        searchFields: 
+          - title
+        valueField: title
+
+
+      -
+        name: title
+        label: Linked English Entry Title
+        required: true
+        widget: relation
+        collection: english
+        searchFields: 
+          - title
+        valueField: title
+
+      -
+        name: zulu_questions
+        label: Linked Questions Entry Title
+        required: false
+        widget: relation
+        collection: questions
+        searchFields: 
+          - title
+        valueField: title
 
 
   -
-    name: resourcesPages
-    label: Resources Pages
+    name: pages-resources
+    label: 📂 Resources Pages
     folder: src/data/pages/resources/
+    identifier_field: english
     create: true
     fields:
-      
+      -
+        name: type
+        label: Type
+        widget: hidden
+        default: pages
+      -
+        name: page
+        label: Page
+        widget: hidden
+        default: resources 
 
       -
-        name: englishTitle
-        label: English Title
-        widget: string
-        require: true
-
-
-      -
-        name: englishResource
-        label: English Resource
+        name: title
+        label: Linked English Entry Title
+        required: true
         widget: relation
-        require: true
-        collection: englishResource
+        collection: english
         searchFields: 
-          - name
-        valueField: name
-
-
+          - title
+        valueField: title
 
       -
-        name: afrikaansTitle
-        label: Afrikaans Title
-        widget: string
-        require: false
-
-
-      -
-        name: afrikaansResource
-        label: Afrikaans Resource
+        name: english_resource
+        label: Linked Resource Entry Title
+        required: false
         widget: relation
-        require: false
-        collection: afrikaansResource
+        collection: resource
         searchFields: 
-          - name
-        valueField: name
-
-
-
-      -
-        name: spanishTitle
-        label: Spanish Title
-        widget: string
-        require: false
+          - title
+        valueField: title
 
 
       -
-        name: spanishResource
-        label: Spanish Resource
+        name: title
+        label: Linked English Entry Title
+        required: true
         widget: relation
-        require: false
-        collection: spanishResource
+        collection: english
         searchFields: 
-          - name
-        valueField: name
-
-
+          - title
+        valueField: title
 
       -
-        name: xhosaTitle
-        label: Xhosa Title
-        widget: string
-        require: false
-
-
-      -
-        name: xhosaResource
-        label: Xhosa Resource
+        name: afrikaans_resource
+        label: Linked Resource Entry Title
+        required: false
         widget: relation
-        require: false
-        collection: xhosaResource
+        collection: resource
         searchFields: 
-          - name
-        valueField: name
-
-
-
-      -
-        name: northernSothoTitle
-        label: Northern Sotho Title
-        widget: string
-        require: false
+          - title
+        valueField: title
 
 
       -
-        name: northernSothoResource
-        label: Northern Sotho Resource
+        name: title
+        label: Linked English Entry Title
+        required: true
         widget: relation
-        require: false
-        collection: northernSothoResource
+        collection: english
         searchFields: 
-          - name
-        valueField: name
-
-
+          - title
+        valueField: title
 
       -
-        name: portugueseTitle
-        label: Portuguese Title
-        widget: string
-        require: false
-
-
-      -
-        name: portugueseResource
-        label: Portuguese Resource
+        name: spanish_resource
+        label: Linked Resource Entry Title
+        required: false
         widget: relation
-        require: false
-        collection: portugueseResource
+        collection: resource
         searchFields: 
-          - name
-        valueField: name
-
-
-
-      -
-        name: southernSothoTitle
-        label: Southern Sotho Title
-        widget: string
-        require: false
+          - title
+        valueField: title
 
 
       -
-        name: southernSothoResource
-        label: Southern Sotho Resource
+        name: title
+        label: Linked English Entry Title
+        required: true
         widget: relation
-        require: false
-        collection: southernSothoResource
+        collection: english
         searchFields: 
-          - name
-        valueField: name
-
-
+          - title
+        valueField: title
 
       -
-        name: tswanaTitle
-        label: Tswana Title
-        widget: string
-        require: false
-
-
-      -
-        name: tswanaResource
-        label: Tswana Resource
+        name: xhosa_resource
+        label: Linked Resource Entry Title
+        required: false
         widget: relation
-        require: false
-        collection: tswanaResource
+        collection: resource
         searchFields: 
-          - name
-        valueField: name
-
-
-
-      -
-        name: zuluTitle
-        label: Zulu Title
-        widget: string
-        require: false
+          - title
+        valueField: title
 
 
       -
-        name: zuluResource
-        label: Zulu Resource
+        name: title
+        label: Linked English Entry Title
+        required: true
         widget: relation
-        require: false
-        collection: zuluResource
+        collection: english
         searchFields: 
-          - name
-        valueField: name
+          - title
+        valueField: title
+
+      -
+        name: northern_sotho_resource
+        label: Linked Resource Entry Title
+        required: false
+        widget: relation
+        collection: resource
+        searchFields: 
+          - title
+        valueField: title
+
+
+      -
+        name: title
+        label: Linked English Entry Title
+        required: true
+        widget: relation
+        collection: english
+        searchFields: 
+          - title
+        valueField: title
+
+      -
+        name: portuguese_resource
+        label: Linked Resource Entry Title
+        required: false
+        widget: relation
+        collection: resource
+        searchFields: 
+          - title
+        valueField: title
+
+
+      -
+        name: title
+        label: Linked English Entry Title
+        required: true
+        widget: relation
+        collection: english
+        searchFields: 
+          - title
+        valueField: title
+
+      -
+        name: southern_sotho_resource
+        label: Linked Resource Entry Title
+        required: false
+        widget: relation
+        collection: resource
+        searchFields: 
+          - title
+        valueField: title
+
+
+      -
+        name: title
+        label: Linked English Entry Title
+        required: true
+        widget: relation
+        collection: english
+        searchFields: 
+          - title
+        valueField: title
+
+      -
+        name: tswana_resource
+        label: Linked Resource Entry Title
+        required: false
+        widget: relation
+        collection: resource
+        searchFields: 
+          - title
+        valueField: title
+
+
+      -
+        name: title
+        label: Linked English Entry Title
+        required: true
+        widget: relation
+        collection: english
+        searchFields: 
+          - title
+        valueField: title
+
+      -
+        name: zulu_resource
+        label: Linked Resource Entry Title
+        required: false
+        widget: relation
+        collection: resource
+        searchFields: 
+          - title
+        valueField: title
 
 
 
 
   -
-    name: englishQuestions
-    label: English Questions
+    name: english_questions
+    label: 1️⃣ English Questions
     folder: src/data/questions/english/
     create: true
     fields:
@@ -378,6 +548,16 @@ collections:
         name: title
         label: Title
         widget: string
+      -
+        name: type
+        label: Type
+        widget: hidden
+        default: questions
+      -
+        name: language
+        label: language
+        widget: hidden
+        default: english      
       - 
         name: Questions
         label: Questions
@@ -415,8 +595,8 @@ collections:
 
 
   -
-    name: englishResources
-    label: English Resources
+    name: english_resources
+    label: 1️⃣ English Resources
     folder: src/data/resources/english/
     create: true
     fields:
@@ -424,16 +604,26 @@ collections:
           name: title
           label: Title
           widget: string
+        -
+          name: type
+          label: Type
+          widget: hidden
+          default: resources
+        -
+          name: language
+          label: language
+          widget: hidden
+          default: english        
         - 
-          name: Content
-          label: Questions
+          name: body
+          label: Content
           widget: markdown
 
 
 
   -
-    name: afrikaansQuestions
-    label: Afrikaans Questions
+    name: afrikaans_questions
+    label: 2️⃣ Afrikaans Questions
     folder: src/data/questions/afrikaans/
     create: true
     fields:
@@ -441,6 +631,16 @@ collections:
         name: title
         label: Title
         widget: string
+      -
+        name: type
+        label: Type
+        widget: hidden
+        default: questions
+      -
+        name: language
+        label: language
+        widget: hidden
+        default: afrikaans      
       - 
         name: Questions
         label: Questions
@@ -478,8 +678,8 @@ collections:
 
 
   -
-    name: afrikaansResources
-    label: Afrikaans Resources
+    name: afrikaans_resources
+    label: 2️⃣ Afrikaans Resources
     folder: src/data/resources/afrikaans/
     create: true
     fields:
@@ -487,16 +687,26 @@ collections:
           name: title
           label: Title
           widget: string
+        -
+          name: type
+          label: Type
+          widget: hidden
+          default: resources
+        -
+          name: language
+          label: language
+          widget: hidden
+          default: afrikaans        
         - 
-          name: Content
-          label: Questions
+          name: body
+          label: Content
           widget: markdown
 
 
 
   -
-    name: spanishQuestions
-    label: Spanish Questions
+    name: spanish_questions
+    label: 3️⃣ Spanish Questions
     folder: src/data/questions/spanish/
     create: true
     fields:
@@ -504,6 +714,16 @@ collections:
         name: title
         label: Title
         widget: string
+      -
+        name: type
+        label: Type
+        widget: hidden
+        default: questions
+      -
+        name: language
+        label: language
+        widget: hidden
+        default: spanish      
       - 
         name: Questions
         label: Questions
@@ -541,8 +761,8 @@ collections:
 
 
   -
-    name: spanishResources
-    label: Spanish Resources
+    name: spanish_resources
+    label: 3️⃣ Spanish Resources
     folder: src/data/resources/spanish/
     create: true
     fields:
@@ -550,16 +770,26 @@ collections:
           name: title
           label: Title
           widget: string
+        -
+          name: type
+          label: Type
+          widget: hidden
+          default: resources
+        -
+          name: language
+          label: language
+          widget: hidden
+          default: spanish        
         - 
-          name: Content
-          label: Questions
+          name: body
+          label: Content
           widget: markdown
 
 
 
   -
-    name: xhosaQuestions
-    label: Xhosa Questions
+    name: xhosa_questions
+    label: 4️⃣ Xhosa Questions
     folder: src/data/questions/xhosa/
     create: true
     fields:
@@ -567,6 +797,16 @@ collections:
         name: title
         label: Title
         widget: string
+      -
+        name: type
+        label: Type
+        widget: hidden
+        default: questions
+      -
+        name: language
+        label: language
+        widget: hidden
+        default: xhosa      
       - 
         name: Questions
         label: Questions
@@ -604,8 +844,8 @@ collections:
 
 
   -
-    name: xhosaResources
-    label: Xhosa Resources
+    name: xhosa_resources
+    label: 4️⃣ Xhosa Resources
     folder: src/data/resources/xhosa/
     create: true
     fields:
@@ -613,16 +853,26 @@ collections:
           name: title
           label: Title
           widget: string
+        -
+          name: type
+          label: Type
+          widget: hidden
+          default: resources
+        -
+          name: language
+          label: language
+          widget: hidden
+          default: xhosa        
         - 
-          name: Content
-          label: Questions
+          name: body
+          label: Content
           widget: markdown
 
 
 
   -
-    name: northernSothoQuestions
-    label: Northern Sotho Questions
+    name: northern_sotho_questions
+    label: 5️⃣ Northern Sotho Questions
     folder: src/data/questions/northern-sotho/
     create: true
     fields:
@@ -630,6 +880,16 @@ collections:
         name: title
         label: Title
         widget: string
+      -
+        name: type
+        label: Type
+        widget: hidden
+        default: questions
+      -
+        name: language
+        label: language
+        widget: hidden
+        default: northern-sotho      
       - 
         name: Questions
         label: Questions
@@ -667,8 +927,8 @@ collections:
 
 
   -
-    name: northernSothoResources
-    label: Northern Sotho Resources
+    name: northern_sotho_resources
+    label: 5️⃣ Northern Sotho Resources
     folder: src/data/resources/northern-sotho/
     create: true
     fields:
@@ -676,16 +936,26 @@ collections:
           name: title
           label: Title
           widget: string
+        -
+          name: type
+          label: Type
+          widget: hidden
+          default: resources
+        -
+          name: language
+          label: language
+          widget: hidden
+          default: northern-sotho        
         - 
-          name: Content
-          label: Questions
+          name: body
+          label: Content
           widget: markdown
 
 
 
   -
-    name: portugueseQuestions
-    label: Portuguese Questions
+    name: portuguese_questions
+    label: 6️⃣ Portuguese Questions
     folder: src/data/questions/portuguese/
     create: true
     fields:
@@ -693,6 +963,16 @@ collections:
         name: title
         label: Title
         widget: string
+      -
+        name: type
+        label: Type
+        widget: hidden
+        default: questions
+      -
+        name: language
+        label: language
+        widget: hidden
+        default: portuguese      
       - 
         name: Questions
         label: Questions
@@ -730,8 +1010,8 @@ collections:
 
 
   -
-    name: portugueseResources
-    label: Portuguese Resources
+    name: portuguese_resources
+    label: 6️⃣ Portuguese Resources
     folder: src/data/resources/portuguese/
     create: true
     fields:
@@ -739,16 +1019,26 @@ collections:
           name: title
           label: Title
           widget: string
+        -
+          name: type
+          label: Type
+          widget: hidden
+          default: resources
+        -
+          name: language
+          label: language
+          widget: hidden
+          default: portuguese        
         - 
-          name: Content
-          label: Questions
+          name: body
+          label: Content
           widget: markdown
 
 
 
   -
-    name: southernSothoQuestions
-    label: Southern Sotho Questions
+    name: southern_sotho_questions
+    label: 7️⃣ Southern Sotho Questions
     folder: src/data/questions/southern-sotho/
     create: true
     fields:
@@ -756,6 +1046,16 @@ collections:
         name: title
         label: Title
         widget: string
+      -
+        name: type
+        label: Type
+        widget: hidden
+        default: questions
+      -
+        name: language
+        label: language
+        widget: hidden
+        default: southern-sotho      
       - 
         name: Questions
         label: Questions
@@ -793,8 +1093,8 @@ collections:
 
 
   -
-    name: southernSothoResources
-    label: Southern Sotho Resources
+    name: southern_sotho_resources
+    label: 7️⃣ Southern Sotho Resources
     folder: src/data/resources/southern-sotho/
     create: true
     fields:
@@ -802,16 +1102,26 @@ collections:
           name: title
           label: Title
           widget: string
+        -
+          name: type
+          label: Type
+          widget: hidden
+          default: resources
+        -
+          name: language
+          label: language
+          widget: hidden
+          default: southern-sotho        
         - 
-          name: Content
-          label: Questions
+          name: body
+          label: Content
           widget: markdown
 
 
 
   -
-    name: tswanaQuestions
-    label: Tswana Questions
+    name: tswana_questions
+    label: 8️⃣ Tswana Questions
     folder: src/data/questions/tswana/
     create: true
     fields:
@@ -819,6 +1129,16 @@ collections:
         name: title
         label: Title
         widget: string
+      -
+        name: type
+        label: Type
+        widget: hidden
+        default: questions
+      -
+        name: language
+        label: language
+        widget: hidden
+        default: tswana      
       - 
         name: Questions
         label: Questions
@@ -856,8 +1176,8 @@ collections:
 
 
   -
-    name: tswanaResources
-    label: Tswana Resources
+    name: tswana_resources
+    label: 8️⃣ Tswana Resources
     folder: src/data/resources/tswana/
     create: true
     fields:
@@ -865,16 +1185,26 @@ collections:
           name: title
           label: Title
           widget: string
+        -
+          name: type
+          label: Type
+          widget: hidden
+          default: resources
+        -
+          name: language
+          label: language
+          widget: hidden
+          default: tswana        
         - 
-          name: Content
-          label: Questions
+          name: body
+          label: Content
           widget: markdown
 
 
 
   -
-    name: zuluQuestions
-    label: Zulu Questions
+    name: zulu_questions
+    label: 9️⃣ Zulu Questions
     folder: src/data/questions/zulu/
     create: true
     fields:
@@ -882,6 +1212,16 @@ collections:
         name: title
         label: Title
         widget: string
+      -
+        name: type
+        label: Type
+        widget: hidden
+        default: questions
+      -
+        name: language
+        label: language
+        widget: hidden
+        default: zulu      
       - 
         name: Questions
         label: Questions
@@ -919,8 +1259,8 @@ collections:
 
 
   -
-    name: zuluResources
-    label: Zulu Resources
+    name: zulu_resources
+    label: 9️⃣ Zulu Resources
     folder: src/data/resources/zulu/
     create: true
     fields:
@@ -928,9 +1268,68 @@ collections:
           name: title
           label: Title
           widget: string
+        -
+          name: type
+          label: Type
+          widget: hidden
+          default: resources
+        -
+          name: language
+          label: language
+          widget: hidden
+          default: zulu        
         - 
-          name: Content
-          label: Questions
+          name: body
+          label: Content
           widget: markdown
 
 
+  -
+    name: pages-static
+    label: 📌 Static Page Content
+    files:
+      - 
+        name: about
+        label: About Page
+        file: src/data/pages/static/about.md
+        fields:
+          -
+            name: tagline
+            label: Tagline
+            widget: string
+          -
+            name: body
+            label: Description
+            widget: markdown
+          -
+            name: partners
+            label: Partners Organisations
+            widget: list
+            required: false
+            fields:
+              -
+                name: name
+                label: Name
+                widget: string
+              -
+                name: link
+                label: URL Link
+                widget: string
+              -
+                name: logo
+                label: Logo
+                widget: image
+          -
+            name: contributors
+            label: Individual Contributors
+            widget: list
+            required: false
+            fields:
+              -
+                name: name
+                label: Name
+                widget: string
+              -
+                name: link
+                label: URL Link
+                widget: string
