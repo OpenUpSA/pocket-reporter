@@ -6,7 +6,7 @@ questions:
   - description: Vraag 1
     formatOfAnswer: True or False
     options:
-      - {}
+      - ''
     question: Vraag 1
 ---
 

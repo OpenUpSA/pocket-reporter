@@ -13,7 +13,7 @@ translated-title:
   xhosa: ''
   zulu: ''
 storyPages:
-  - null
+  - ''
 resourcesPages:
   - Example 1
   - Example 2
