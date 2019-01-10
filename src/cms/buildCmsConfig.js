@@ -108,18 +108,15 @@ const createQuestions = language => `
             name: question
             label: Question
             widget: string
-            default: ""
           -
             name: description
             label: Description
             widget: markdown
             required: false
-            default: ""
           -
             name: formatOfAnswer
             label: Format of answer
             widget: select
-            default: ""
             options:
               - Single line of text
               - Multiple lines of text
@@ -131,12 +128,10 @@ const createQuestions = language => `
             label: Options
             widget: list
             required: false
-            default: false
             field:
                 name: option
                 label: option
                 widget: string
-                default: ""
 `;
 
 
@@ -329,17 +324,14 @@ ${content}
                 name: name
                 label: Name
                 widget: string
-                default: ""
               -
                 name: link
                 label: URL Link
                 widget: string
-                default: ""
               -
                 name: logo
                 label: Logo
                 widget: image
-                defeault: ""
           -
             name: contributors
             label: Individual Contributors
@@ -350,12 +342,10 @@ ${content}
                 name: name
                 label: Name
                 widget: string
-                default: ""
               -
                 name: link
                 label: URL Link
                 widget: string
-                default: ""
 `;
 
 
