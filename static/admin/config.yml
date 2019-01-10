@@ -127,7 +127,7 @@ collections:
           default: ""
   -
     name: pages-questions
-    label: 📁 Questions Page Objects
+    label: 📁 Question Page Objects
     folder: src/data/pages/questions/
     identifier_field: english
     create: true
@@ -235,7 +235,7 @@ collections:
 
   -
     name: pages-resources
-    label: 📂 Resources Page Objects
+    label: 📂 Resource Page Objects
     folder: src/data/pages/resources/
     identifier_field: english
     create: true
