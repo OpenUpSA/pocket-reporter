@@ -99,7 +99,6 @@ collections:
         name: storyPages
         label: Question Pages
         widget: list
-        default: null
         required: false
         field:
           name: storyPage
@@ -107,9 +106,9 @@ collections:
           widget: relation
           collection: pages-questions
           searchFields: 
-            - title
-          valueField: title
-          default: null
+            - english
+          valueField: english
+          default: ""
 
       -
         name: resourcesPages
@@ -123,12 +122,12 @@ collections:
           widget: relation
           collection: pages-resources
           searchFields: 
-            - title
-          valueField: title
-          default: null
+            - english
+          valueField: english
+          default: ""
   -
     name: pages-questions
-    label: 📁 Questions Pages
+    label: 📁 Question Page Objects
     folder: src/data/pages/questions/
     identifier_field: english
     create: true
@@ -145,17 +144,7 @@ collections:
         default: questions 
 
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: english_questions
+        name: english
         label: Linked Questions Entry Title
         required: false
         widget: relation
@@ -164,19 +153,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: afrikaans_questions
+        name: afrikaans
         label: Linked Questions Entry Title
         required: false
         widget: relation
@@ -185,19 +163,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: spanish_questions
+        name: spanish
         label: Linked Questions Entry Title
         required: false
         widget: relation
@@ -206,19 +173,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: xhosa_questions
+        name: xhosa
         label: Linked Questions Entry Title
         required: false
         widget: relation
@@ -227,19 +183,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: northern_sotho_questions
+        name: northern_sotho
         label: Linked Questions Entry Title
         required: false
         widget: relation
@@ -248,19 +193,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: portuguese_questions
+        name: portuguese
         label: Linked Questions Entry Title
         required: false
         widget: relation
@@ -269,19 +203,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: southern_sotho_questions
+        name: southern_sotho
         label: Linked Questions Entry Title
         required: false
         widget: relation
@@ -290,19 +213,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: tswana_questions
+        name: tswana
         label: Linked Questions Entry Title
         required: false
         widget: relation
@@ -311,19 +223,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: zulu_questions
+        name: zulu
         label: Linked Questions Entry Title
         required: false
         widget: relation
@@ -331,11 +232,10 @@ collections:
         searchFields: 
           - title
         valueField: title
-
 
   -
     name: pages-resources
-    label: 📂 Resources Pages
+    label: 📂 Resource Page Objects
     folder: src/data/pages/resources/
     identifier_field: english
     create: true
@@ -352,17 +252,7 @@ collections:
         default: resources 
 
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: english_resource
+        name: english
         label: Linked Resource Entry Title
         required: false
         widget: relation
@@ -371,19 +261,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: afrikaans_resource
+        name: afrikaans
         label: Linked Resource Entry Title
         required: false
         widget: relation
@@ -392,19 +271,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: spanish_resource
+        name: spanish
         label: Linked Resource Entry Title
         required: false
         widget: relation
@@ -413,19 +281,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: xhosa_resource
+        name: xhosa
         label: Linked Resource Entry Title
         required: false
         widget: relation
@@ -434,19 +291,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: northern_sotho_resource
+        name: northern_sotho
         label: Linked Resource Entry Title
         required: false
         widget: relation
@@ -455,19 +301,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: portuguese_resource
+        name: portuguese
         label: Linked Resource Entry Title
         required: false
         widget: relation
@@ -476,19 +311,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: southern_sotho_resource
+        name: southern_sotho
         label: Linked Resource Entry Title
         required: false
         widget: relation
@@ -497,19 +321,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: tswana_resource
+        name: tswana
         label: Linked Resource Entry Title
         required: false
         widget: relation
@@ -518,19 +331,8 @@ collections:
           - title
         valueField: title
 
-
       -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-
-      -
-        name: zulu_resource
+        name: zulu
         label: Linked Resource Entry Title
         required: false
         widget: relation
@@ -538,7 +340,6 @@ collections:
         searchFields: 
           - title
         valueField: title
-
 
 
 
@@ -571,18 +372,18 @@ collections:
             name: question
             label: Question
             widget: string
-            default: null
+            default: ""
           -
             name: description
             label: Description
             widget: markdown
             required: false
-            default: null
+            default: ""
           -
             name: formatOfAnswer
             label: Format of answer
             widget: select
-            defualt: null
+            default: ""
             options:
               - Single line of text
               - Multiple lines of text
@@ -599,7 +400,7 @@ collections:
                 name: option
                 label: option
                 widget: string
-                default: null
+                default: ""
 
 
   -
@@ -658,18 +459,18 @@ collections:
             name: question
             label: Question
             widget: string
-            default: null
+            default: ""
           -
             name: description
             label: Description
             widget: markdown
             required: false
-            default: null
+            default: ""
           -
             name: formatOfAnswer
             label: Format of answer
             widget: select
-            defualt: null
+            default: ""
             options:
               - Single line of text
               - Multiple lines of text
@@ -686,7 +487,7 @@ collections:
                 name: option
                 label: option
                 widget: string
-                default: null
+                default: ""
 
 
   -
@@ -745,18 +546,18 @@ collections:
             name: question
             label: Question
             widget: string
-            default: null
+            default: ""
           -
             name: description
             label: Description
             widget: markdown
             required: false
-            default: null
+            default: ""
           -
             name: formatOfAnswer
             label: Format of answer
             widget: select
-            defualt: null
+            default: ""
             options:
               - Single line of text
               - Multiple lines of text
@@ -773,7 +574,7 @@ collections:
                 name: option
                 label: option
                 widget: string
-                default: null
+                default: ""
 
 
   -
@@ -832,18 +633,18 @@ collections:
             name: question
             label: Question
             widget: string
-            default: null
+            default: ""
           -
             name: description
             label: Description
             widget: markdown
             required: false
-            default: null
+            default: ""
           -
             name: formatOfAnswer
             label: Format of answer
             widget: select
-            defualt: null
+            default: ""
             options:
               - Single line of text
               - Multiple lines of text
@@ -860,7 +661,7 @@ collections:
                 name: option
                 label: option
                 widget: string
-                default: null
+                default: ""
 
 
   -
@@ -919,18 +720,18 @@ collections:
             name: question
             label: Question
             widget: string
-            default: null
+            default: ""
           -
             name: description
             label: Description
             widget: markdown
             required: false
-            default: null
+            default: ""
           -
             name: formatOfAnswer
             label: Format of answer
             widget: select
-            defualt: null
+            default: ""
             options:
               - Single line of text
               - Multiple lines of text
@@ -947,7 +748,7 @@ collections:
                 name: option
                 label: option
                 widget: string
-                default: null
+                default: ""
 
 
   -
@@ -1006,18 +807,18 @@ collections:
             name: question
             label: Question
             widget: string
-            default: null
+            default: ""
           -
             name: description
             label: Description
             widget: markdown
             required: false
-            default: null
+            default: ""
           -
             name: formatOfAnswer
             label: Format of answer
             widget: select
-            defualt: null
+            default: ""
             options:
               - Single line of text
               - Multiple lines of text
@@ -1034,7 +835,7 @@ collections:
                 name: option
                 label: option
                 widget: string
-                default: null
+                default: ""
 
 
   -
@@ -1093,18 +894,18 @@ collections:
             name: question
             label: Question
             widget: string
-            default: null
+            default: ""
           -
             name: description
             label: Description
             widget: markdown
             required: false
-            default: null
+            default: ""
           -
             name: formatOfAnswer
             label: Format of answer
             widget: select
-            defualt: null
+            default: ""
             options:
               - Single line of text
               - Multiple lines of text
@@ -1121,7 +922,7 @@ collections:
                 name: option
                 label: option
                 widget: string
-                default: null
+                default: ""
 
 
   -
@@ -1180,18 +981,18 @@ collections:
             name: question
             label: Question
             widget: string
-            default: null
+            default: ""
           -
             name: description
             label: Description
             widget: markdown
             required: false
-            default: null
+            default: ""
           -
             name: formatOfAnswer
             label: Format of answer
             widget: select
-            defualt: null
+            default: ""
             options:
               - Single line of text
               - Multiple lines of text
@@ -1208,7 +1009,7 @@ collections:
                 name: option
                 label: option
                 widget: string
-                default: null
+                default: ""
 
 
   -
@@ -1267,18 +1068,18 @@ collections:
             name: question
             label: Question
             widget: string
-            default: null
+            default: ""
           -
             name: description
             label: Description
             widget: markdown
             required: false
-            default: null
+            default: ""
           -
             name: formatOfAnswer
             label: Format of answer
             widget: select
-            defualt: null
+            default: ""
             options:
               - Single line of text
               - Multiple lines of text
@@ -1295,7 +1096,7 @@ collections:
                 name: option
                 label: option
                 widget: string
-                default: null
+                default: ""
 
 
   -
@@ -1361,17 +1162,17 @@ collections:
                 name: name
                 label: Name
                 widget: string
-                default: null
+                default: ""
               -
                 name: link
                 label: URL Link
                 widget: string
-                default: null
+                default: ""
               -
                 name: logo
                 label: Logo
                 widget: image
-                defeault: null
+                defeault: ""
           -
             name: contributors
             label: Individual Contributors
@@ -1382,9 +1183,9 @@ collections:
                 name: name
                 label: Name
                 widget: string
-                default: null
+                default: ""
               -
                 name: link
                 label: URL Link
                 widget: string
-                default: null
+                default: ""

@@ -14,9 +14,10 @@ editor:
 `
 
 
-const createRelation = (type, language) => `
+
+const createRefs = type => language => `
       -
-        name: ${snake(`${language}_${type}`)}
+        name: ${snake(`${language}`)}
         label: Linked ${(type)} Entry Title
         required: false
         widget: relation
@@ -24,20 +25,6 @@ const createRelation = (type, language) => `
         searchFields: 
           - title
         valueField: title
-`;
-
-
-const createRefs = type => language => `
-      -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-${createRelation(type, language)}
 `;
 
 
@@ -122,18 +109,18 @@ const createQuestions = language => `
             name: question
             label: Question
             widget: string
-            default: null
+            default: ""
           -
             name: description
             label: Description
             widget: markdown
             required: false
-            default: null
+            default: ""
           -
             name: formatOfAnswer
             label: Format of answer
             widget: select
-            defualt: null
+            default: ""
             options:
               - Single line of text
               - Multiple lines of text
@@ -150,7 +137,7 @@ const createQuestions = language => `
                 name: option
                 label: option
                 widget: string
-                default: null
+                default: ""
 `;
 
 
@@ -225,7 +212,6 @@ ${translatedTitles}
         name: storyPages
         label: Question Pages
         widget: list
-        default: null
         required: false
         field:
           name: storyPage
@@ -233,9 +219,9 @@ ${translatedTitles}
           widget: relation
           collection: pages-questions
           searchFields: 
-            - title
-          valueField: title
-          default: null
+            - english
+          valueField: english
+          default: ""
 
       -
         name: resourcesPages
@@ -249,12 +235,12 @@ ${translatedTitles}
           widget: relation
           collection: pages-resources
           searchFields: 
-            - title
-          valueField: title
-          default: null
+            - english
+          valueField: english
+          default: ""
   -
     name: pages-questions
-    label: 📁 Questions Pages
+    label: 📁 Question Page Objects
     folder: src/data/pages/questions/
     identifier_field: english
     create: true
@@ -272,7 +258,7 @@ ${translatedTitles}
 ${questionsRef}
   -
     name: pages-resources
-    label: 📂 Resources Pages
+    label: 📂 Resource Page Objects
     folder: src/data/pages/resources/
     identifier_field: english
     create: true
@@ -326,17 +312,17 @@ ${content}
                 name: name
                 label: Name
                 widget: string
-                default: null
+                default: ""
               -
                 name: link
                 label: URL Link
                 widget: string
-                default: null
+                default: ""
               -
                 name: logo
                 label: Logo
                 widget: image
-                defeault: null
+                defeault: ""
           -
             name: contributors
             label: Individual Contributors
@@ -347,12 +333,12 @@ ${content}
                 name: name
                 label: Name
                 widget: string
-                default: null
+                default: ""
               -
                 name: link
                 label: URL Link
                 widget: string
-                default: null
+                default: ""
 `;
 
 
