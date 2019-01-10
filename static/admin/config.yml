@@ -102,12 +102,12 @@ collections:
         required: false
         field:
           name: storyPage
-          label: Linked Questions Page Entry Title
+          label: Title of Linked Question Page Object (📁)
           widget: relation
           collection: pages-questions
           searchFields: 
-            - english
-          valueField: english
+            - title
+          valueField: title
           default: ""
 
       -
@@ -118,18 +118,17 @@ collections:
         required: false
         field:
           name: resourcesPage
-          label: Linked Resources Page Entry Title
+          label: Title of Linked Resource Page Object (📂)
           widget: relation
           collection: pages-resources
           searchFields: 
-            - english
-          valueField: english
+            - title
+          valueField: title
           default: ""
   -
     name: pages-questions
     label: 📁 Question Page Objects
     folder: src/data/pages/questions/
-    identifier_field: english
     create: true
     fields:
       -
@@ -142,102 +141,100 @@ collections:
         label: Page
         widget: hidden
         default: questions 
-
+      - 
+        name: title
+        label: Linked English Questions (1️⃣)
+        widget: string
       -
-        name: english
-        label: Linked Questions Entry Title
-        required: false
-        widget: relation
-        collection: questions
-        searchFields: 
-          - title
-        valueField: title
+        name: translations
+        label: Titles of Linked Questions
+        widget: object
+        fields:
 
-      -
-        name: afrikaans
-        label: Linked Questions Entry Title
-        required: false
-        widget: relation
-        collection: questions
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: afrikaans
+            label: Afrikaans (2️⃣)
+            required: false
+            widget: relation
+            collection: questions
+            searchFields: 
+              - title
+            valueField: title
 
-      -
-        name: spanish
-        label: Linked Questions Entry Title
-        required: false
-        widget: relation
-        collection: questions
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: spanish
+            label: Spanish (3️⃣)
+            required: false
+            widget: relation
+            collection: questions
+            searchFields: 
+              - title
+            valueField: title
 
-      -
-        name: xhosa
-        label: Linked Questions Entry Title
-        required: false
-        widget: relation
-        collection: questions
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: xhosa
+            label: Xhosa (4️⃣)
+            required: false
+            widget: relation
+            collection: questions
+            searchFields: 
+              - title
+            valueField: title
 
-      -
-        name: northern_sotho
-        label: Linked Questions Entry Title
-        required: false
-        widget: relation
-        collection: questions
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: northern_sotho
+            label: Northern Sotho (5️⃣)
+            required: false
+            widget: relation
+            collection: questions
+            searchFields: 
+              - title
+            valueField: title
 
-      -
-        name: portuguese
-        label: Linked Questions Entry Title
-        required: false
-        widget: relation
-        collection: questions
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: portuguese
+            label: Portuguese (6️⃣)
+            required: false
+            widget: relation
+            collection: questions
+            searchFields: 
+              - title
+            valueField: title
 
-      -
-        name: southern_sotho
-        label: Linked Questions Entry Title
-        required: false
-        widget: relation
-        collection: questions
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: southern_sotho
+            label: Southern Sotho (7️⃣)
+            required: false
+            widget: relation
+            collection: questions
+            searchFields: 
+              - title
+            valueField: title
 
-      -
-        name: tswana
-        label: Linked Questions Entry Title
-        required: false
-        widget: relation
-        collection: questions
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: tswana
+            label: Tswana (8️⃣)
+            required: false
+            widget: relation
+            collection: questions
+            searchFields: 
+              - title
+            valueField: title
 
-      -
-        name: zulu
-        label: Linked Questions Entry Title
-        required: false
-        widget: relation
-        collection: questions
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: zulu
+            label: Zulu (9️⃣)
+            required: false
+            widget: relation
+            collection: questions
+            searchFields: 
+              - title
+            valueField: title
 
   -
     name: pages-resources
     label: 📂 Resource Page Objects
     folder: src/data/pages/resources/
-    identifier_field: english
     create: true
     fields:
       -
@@ -250,96 +247,95 @@ collections:
         label: Page
         widget: hidden
         default: resources 
-
+      - 
+        name: title
+        label: Linked English Resources (1️⃣)
+        widget: string
       -
-        name: english
-        label: Linked Resource Entry Title
-        required: false
-        widget: relation
-        collection: resource
-        searchFields: 
-          - title
-        valueField: title
+        name: translations
+        label: Titles of Linked Questions
+        widget: object
+        fields:
 
-      -
-        name: afrikaans
-        label: Linked Resource Entry Title
-        required: false
-        widget: relation
-        collection: resource
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: afrikaans
+            label: Afrikaans (2️⃣)
+            required: false
+            widget: relation
+            collection: resource
+            searchFields: 
+              - title
+            valueField: title
 
-      -
-        name: spanish
-        label: Linked Resource Entry Title
-        required: false
-        widget: relation
-        collection: resource
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: spanish
+            label: Spanish (3️⃣)
+            required: false
+            widget: relation
+            collection: resource
+            searchFields: 
+              - title
+            valueField: title
 
-      -
-        name: xhosa
-        label: Linked Resource Entry Title
-        required: false
-        widget: relation
-        collection: resource
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: xhosa
+            label: Xhosa (4️⃣)
+            required: false
+            widget: relation
+            collection: resource
+            searchFields: 
+              - title
+            valueField: title
 
-      -
-        name: northern_sotho
-        label: Linked Resource Entry Title
-        required: false
-        widget: relation
-        collection: resource
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: northern_sotho
+            label: Northern Sotho (5️⃣)
+            required: false
+            widget: relation
+            collection: resource
+            searchFields: 
+              - title
+            valueField: title
 
-      -
-        name: portuguese
-        label: Linked Resource Entry Title
-        required: false
-        widget: relation
-        collection: resource
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: portuguese
+            label: Portuguese (6️⃣)
+            required: false
+            widget: relation
+            collection: resource
+            searchFields: 
+              - title
+            valueField: title
 
-      -
-        name: southern_sotho
-        label: Linked Resource Entry Title
-        required: false
-        widget: relation
-        collection: resource
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: southern_sotho
+            label: Southern Sotho (7️⃣)
+            required: false
+            widget: relation
+            collection: resource
+            searchFields: 
+              - title
+            valueField: title
 
-      -
-        name: tswana
-        label: Linked Resource Entry Title
-        required: false
-        widget: relation
-        collection: resource
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: tswana
+            label: Tswana (8️⃣)
+            required: false
+            widget: relation
+            collection: resource
+            searchFields: 
+              - title
+            valueField: title
 
-      -
-        name: zulu
-        label: Linked Resource Entry Title
-        required: false
-        widget: relation
-        collection: resource
-        searchFields: 
-          - title
-        valueField: title
+          -
+            name: zulu
+            label: Zulu (9️⃣)
+            required: false
+            widget: relation
+            collection: resource
+            searchFields: 
+              - title
+            valueField: title
 
 
 

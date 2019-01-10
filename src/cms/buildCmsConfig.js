@@ -14,20 +14,6 @@ editor:
 `
 
 
-
-const createRefs = type => language => `
-      -
-        name: ${snake(`${language}`)}
-        label: Linked ${(type)} Entry Title
-        required: false
-        widget: relation
-        collection: ${snake(type)}
-        searchFields: 
-          - title
-        valueField: title
-`;
-
-
 const calcNumber = (language) => {
   const index = languages.indexOf(language).toString();
 
@@ -45,6 +31,19 @@ const calcNumber = (language) => {
     default: return '*️⃣'
   }
 }
+
+
+const createRefs = type => (language) => `
+          -
+            name: ${snake(`${language}`)}
+            label: ${language} (${calcNumber(language)})
+            required: false
+            widget: relation
+            collection: ${snake(type)}
+            searchFields: 
+              - title
+            valueField: title
+`;
 
 
 const createQuestionsRefs = createRefs('Questions');
@@ -142,11 +141,13 @@ const createQuestions = language => `
 
 
 const questionsRef = languages
+  .filter(language => language !== 'English')
   .map(createQuestionsRefs)
   .join('');
 
 
 const resourcesRef = languages
+  .filter(language => language !== 'English')
   .map(createResourcesRefs)
   .join('');
 
@@ -215,12 +216,12 @@ ${translatedTitles}
         required: false
         field:
           name: storyPage
-          label: Linked Questions Page Entry Title
+          label: Title of Linked Question Page Object (📁)
           widget: relation
           collection: pages-questions
           searchFields: 
-            - english
-          valueField: english
+            - title
+          valueField: title
           default: ""
 
       -
@@ -231,18 +232,17 @@ ${translatedTitles}
         required: false
         field:
           name: resourcesPage
-          label: Linked Resources Page Entry Title
+          label: Title of Linked Resource Page Object (📂)
           widget: relation
           collection: pages-resources
           searchFields: 
-            - english
-          valueField: english
+            - title
+          valueField: title
           default: ""
   -
     name: pages-questions
     label: 📁 Question Page Objects
     folder: src/data/pages/questions/
-    identifier_field: english
     create: true
     fields:
       -
@@ -255,12 +255,20 @@ ${translatedTitles}
         label: Page
         widget: hidden
         default: questions 
+      - 
+        name: title
+        label: Linked English Questions (${calcNumber('English')})
+        widget: string
+      -
+        name: translations
+        label: Titles of Linked Questions
+        widget: object
+        fields:
 ${questionsRef}
   -
     name: pages-resources
     label: 📂 Resource Page Objects
     folder: src/data/pages/resources/
-    identifier_field: english
     create: true
     fields:
       -
@@ -273,6 +281,15 @@ ${questionsRef}
         label: Page
         widget: hidden
         default: resources 
+      - 
+        name: title
+        label: Linked English Resources (${calcNumber('English')})
+        widget: string
+      -
+        name: translations
+        label: Titles of Linked Questions
+        widget: object
+        fields:
 ${resourcesRef}
 ${content}
   -
