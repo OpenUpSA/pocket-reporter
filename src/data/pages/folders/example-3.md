@@ -15,6 +15,6 @@ translated-title:
 storyPages:
   - Example 2
 resourcesPages:
-  - {}
+  - null
 ---
 

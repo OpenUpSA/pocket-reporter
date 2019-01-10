@@ -122,15 +122,18 @@ const createQuestions = language => `
             name: question
             label: Question
             widget: string
+            default: null
           -
             name: description
             label: Description
             widget: markdown
             required: false
+            default: null
           -
             name: formatOfAnswer
             label: Format of answer
             widget: select
+            defualt: null
             options:
               - Single line of text
               - Multiple lines of text
@@ -142,11 +145,12 @@ const createQuestions = language => `
             label: Options
             widget: list
             required: false
-            fields:
-              -
+            default: false
+            field:
                 name: option
                 label: option
                 widget: string
+                default: null
 `;
 
 
@@ -221,6 +225,7 @@ ${translatedTitles}
         name: storyPages
         label: Question Pages
         widget: list
+        default: null
         required: false
         field:
           name: storyPage
@@ -230,11 +235,13 @@ ${translatedTitles}
           searchFields: 
             - title
           valueField: title
+          default: null
 
       -
         name: resourcesPages
         label: Resource Pages
         widget: list
+        default: null
         required: false
         field:
           name: resourcesPage
@@ -244,6 +251,7 @@ ${translatedTitles}
           searchFields: 
             - title
           valueField: title
+          default: null
   -
     name: pages-questions
     label: 📁 Questions Pages
@@ -318,14 +326,17 @@ ${content}
                 name: name
                 label: Name
                 widget: string
+                default: null
               -
                 name: link
                 label: URL Link
                 widget: string
+                default: null
               -
                 name: logo
                 label: Logo
                 widget: image
+                defeault: null
           -
             name: contributors
             label: Individual Contributors
@@ -336,10 +347,12 @@ ${content}
                 name: name
                 label: Name
                 widget: string
+                default: null
               -
                 name: link
                 label: URL Link
                 widget: string
+                default: null
 `;
 
 
