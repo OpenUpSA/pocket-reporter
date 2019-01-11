@@ -30,7 +30,7 @@ const HeaderBar = styled.div`
   width: 100%;
   position: initial;
   background-color: #4a4a4a;
-  height: 50px;
+  height: 50px; 
   display: flex;
   align-items: center;
 `;
@@ -61,10 +61,26 @@ const HeaderProgress = styled(LinearProgress)`
     height: 10px;
     background-color: rgba(115, 198, 25, 0.4);
   }
-  colorPrimary: {
+  linearBarColorPrimary: {
     background-color: red;
   }
 `;
+
+// const HeaderProgress = styled(({ color, ...other }) => (
+//   <LinearProgress classes={{ label: 'label' }} {...other} />
+// ))`
+//   background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+//   border: 0;
+//   color: white;
+//   height: 48px;
+//   padding: 0 30px;
+//   box-shadow: 0 3px 5px 2px rgba(255, 105, 135, 0.3);
+//
+//   & .label {
+//     color: ${props => props.color};
+//     barColorPrimary: ${props => props.color};
+//   }
+// `;
 
 class Header extends Component {
 
@@ -151,4 +167,4 @@ class Header extends Component {
   }
 };
 
-export default Header
+export default Header;
