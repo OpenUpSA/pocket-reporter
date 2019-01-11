@@ -10,8 +10,8 @@ const parseProps = ({ pageContext, data }) => {
 
   const { edges } = data.urls;
   const resources = edges.map(({ node }) => {
-    const rawTitle = node.frontmatter[snake(language)];
-    const title = !!rawTitle  ? rawTitle : node.frontmatter.english;
+    const rawTitle = node.frontmatter.translations[snake(language)];
+    const title = !!rawTitle  ? rawTitle : node.frontmatter.title;
     if (node.frontmatter.page !== 'resources') {
       return null;
     }
@@ -23,8 +23,8 @@ const parseProps = ({ pageContext, data }) => {
   });
 
   const questions = edges.map(({ node }) => {
-    const rawTitle = node.frontmatter[snake(language)];
-    const title = !!rawTitle  ? rawTitle : node.frontmatter.english;
+    const rawTitle = node.frontmatter.translations[snake(language)];
+    const title = !!rawTitle  ? rawTitle : node.frontmatter.title;
     
     if (node.frontmatter.page !== 'questions') {
       return null;

@@ -19,13 +19,15 @@ const parseFolders = ({ node, language }) => {
     translatedTitles: node.frontmatter.translated_title,
   });
 
+  const titlesList = [
+    ...node.frontmatter.storyPages,
+    ...node.frontmatter.resourcesPages,
+  ]
+
   return {
     title,
     icon: node.frontmatter.icon,
-    titles: uniq([
-      ...node.frontmatter.storyPages,
-      ...node.frontmatter.resourcesPages,
-    ]),
+    titles: uniq(titlesList.filter(title => title !== '[object Object]')),
   }
 }
 

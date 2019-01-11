@@ -1,9 +1,3 @@
 {
-  "user": {
-    "age": null
-  },
-  "image": {
-    "loading": true,
-    "url": null
-  }
+  "stories": {}
 }

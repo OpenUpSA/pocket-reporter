@@ -9,6 +9,7 @@ backend:
   repo: OpenUpSA/pocket-reporter
 media_folder: static/assets
 public_folder: assets
+publish_mode: editorial_workflow
 editor:
    preview: false
 `
@@ -108,18 +109,15 @@ const createQuestions = language => `
             name: question
             label: Question
             widget: string
-            default: ""
           -
             name: description
             label: Description
             widget: markdown
             required: false
-            default: ""
           -
             name: formatOfAnswer
             label: Format of answer
             widget: select
-            default: ""
             options:
               - Single line of text
               - Multiple lines of text
@@ -131,12 +129,10 @@ const createQuestions = language => `
             label: Options
             widget: list
             required: false
-            default: false
             field:
                 name: option
                 label: option
                 widget: string
-                default: ""
 `;
 
 
@@ -216,7 +212,7 @@ ${translatedTitles}
         required: false
         field:
           name: storyPage
-          label: Title of Linked Question Page Object (📁)
+          label: English Questions Title (📁)
           widget: relation
           collection: pages-questions
           searchFields: 
@@ -232,7 +228,7 @@ ${translatedTitles}
         required: false
         field:
           name: resourcesPage
-          label: Title of Linked Resource Page Object (📂)
+          label: English Resource Title (📂)
           widget: relation
           collection: pages-resources
           searchFields: 
@@ -241,7 +237,7 @@ ${translatedTitles}
           default: ""
   -
     name: pages-questions
-    label: 📁 Question Page Objects
+    label: 📁 Questions Translations
     folder: src/data/pages/questions/
     create: true
     fields:
@@ -267,7 +263,7 @@ ${translatedTitles}
 ${questionsRef}
   -
     name: pages-resources
-    label: 📂 Resource Page Objects
+    label: 📂 Resources Translations
     folder: src/data/pages/resources/
     create: true
     fields:
@@ -329,17 +325,14 @@ ${content}
                 name: name
                 label: Name
                 widget: string
-                default: ""
               -
                 name: link
                 label: URL Link
                 widget: string
-                default: ""
               -
                 name: logo
                 label: Logo
                 widget: image
-                defeault: ""
           -
             name: contributors
             label: Individual Contributors
@@ -350,12 +343,10 @@ ${content}
                 name: name
                 label: Name
                 widget: string
-                default: ""
               -
                 name: link
                 label: URL Link
                 widget: string
-                default: ""
 `;
 
 
