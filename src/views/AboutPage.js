@@ -15,12 +15,14 @@ const AboutWrapper = styled.div`
   position: relative;
   top: 50px;
   font-size: 21px;
+  padding: 0px 15px;
   overflow: scroll;
   height: calc(100vh - 100px);
   @media (min-width: 760px) 
   {
     width: 50%;
     margin: auto;
+    padding: 0;
   }
 `;
 
@@ -69,7 +71,7 @@ const AboutLink = styled.a`
 
 const AboutPage = (props) => (
   <Fragment>
-    {console.log(props)}
+
     <Header about />
 
     <AboutWrapper>
