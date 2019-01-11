@@ -100,10 +100,12 @@ const QuestionWrapper = styled.div`
   height: 90vh;
   position: relative;
   top: 60px;
+  padding: 0px 15px;
   @media (min-width: 760px) 
   {
     width: 50%;
     margin: auto;
+    padding: 0px;
   }
 `;
 
