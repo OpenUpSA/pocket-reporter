@@ -1,98 +1,7 @@
-import React, { Fragment } from 'react'
+import React, { Component, Fragment } from 'react'
 import styled from 'styled-components';
-import { Helmet } from 'react-helmet';
 
 import Button from '@material-ui/core/Button';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-
-const questionData = [
-  {
-    question: 'Name/Title of the story.',
-    hint: 'Write your answer here.',
-    id: 0,
-  },
-  {
-    question: 'Who is the person or organisation filing the action? Names, ages, addresses, other personal information.',
-    hint: 'Write your answer here.',
-    id: 1,
-  },
-  {
-    question: 'Could this suit lead to a landmark action? Is it a precedent?',
-    hint: 'Write your answer here.',
-    id: 2,
-  },
-  {
-    question: 'Is there a possibility of an out-of-court settlement?',
-    hint: 'Write your answer here.',
-    id: 3,
-  },
-  {
-    question: 'What is the significance of the action and the effect on others?',
-    hint: 'Write your answer here.',
-    id: 4,
-  },
-  {
-    question: 'What are the names of the lawyers for both sides? (Check spelling!)',
-    hint: 'Write your answer here.',
-    id: 5,
-  },
-  {
-    question: 'What is the date and who is the presiding judge for the trial or hearing?',
-    hint: 'Write your answer here.',
-    id: 6,
-  },
-  {
-    question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.',
-    id: 7,
-  },
-  {
-    question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.',
-    id: 8,
-  },
-  {
-    question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.',
-    id: 9,
-  },
-  {
-    question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.',
-    id: 10,
-  },
-  {
-    question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.',
-    id: 11,
-  },
-  {
-    question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.',
-    id: 12,
-  },
-  {
-    question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.',
-    id: 13,
-  },
-  {
-    question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.',
-    id: 14,
-  },
-  {
-    question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.',
-    id: 15,
-  },
-  {
-    question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.',
-    id: 16,
-  },
-];
 
 const QuestionWrapper = styled.div`
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -139,43 +48,42 @@ const QuestionActions = styled.div`
   margin-bottom: 40px;
 `;
 
-const StoryTemplate = () => (
-  <Fragment>
-    <Helmet>
-      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    </Helmet>
+class StoryTemplate extends Component {
 
-    <Header story />
+  render() {
+    const questions = this.props.questions;
 
-    <QuestionWrapper>
-      <QuestionList>
-        {questionData.map(questionItem => (
-          <ListItem key={questionItem.id}>
-            {questionItem.question}
-            <Answer placeholder={questionItem.hint} />
-          </ListItem>
-        ))}
-      </QuestionList>
-      <QuestionNotice>
-        <p style={{margin: 0}}>If email submission does not work please change to the latest version of Chrome</p>
-      </QuestionNotice>
-      <QuestionActions>
-        <Button>
-          Email Story
-        </Button>
-        {/*TODO: Correct colour for button*/}
-        <Button variant="contained" color="primary">
-          Send Story and media via whatsapp
-        </Button>
-        <Button color="secondary">
-          Delete story
-        </Button>
-      </QuestionActions>
-    </QuestionWrapper>
+    return (
+      <Fragment>
+        <QuestionWrapper>
+          <QuestionList>
+            {questions.map((questionItem, index) => (
+              <ListItem key={index}>
+                {questionItem.question}
+                <Answer placeholder={questionItem.description}/>
+              </ListItem>
+            ))}
+          </QuestionList>
+          <QuestionNotice>
+            <p style={{margin: 0}}>If email submission does not work please change to the latest version of Chrome</p>
+          </QuestionNotice>
+          <QuestionActions>
+            <Button>
+              Email Story
+            </Button>
+            {/*TODO: Correct colour for button*/}
+            <Button variant="contained" color="primary">
+              Send Story and media via whatsapp
+            </Button>
+            <Button color="secondary">
+              Delete story
+            </Button>
+          </QuestionActions>
+        </QuestionWrapper>
 
-    <Footer />
-  </Fragment>
-);
+      </Fragment>
+    )
+  }
+};
 
 export default StoryTemplate;
