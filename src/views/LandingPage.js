@@ -92,7 +92,7 @@ class LandingPage extends Component {
         <StyledWrapper>
           <Go>
             <Link
-              to="/list"
+              to="/english/folders/index.html"
             >
               <StyledImage src={logo} />
             </Link>

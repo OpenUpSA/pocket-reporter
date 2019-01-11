@@ -140,19 +140,19 @@ function Cards(props) {
   return (
     <CardWrapper>
       {questions.map(card => (
-          <CardItem key={card.title}>
-            <CardLink to={card.url}>
-              <TopicCard>
-                <Content>
-                  {/*<Icon type={card.icon} />*/}
-                  <Text color="inherit">
-                    {card.title}
-                  </Text>
-                </Content>
-              </TopicCard>
-            </CardLink>
-          </CardItem>
-        ))}
+        <CardItem key={card.title}>
+          <CardLink to={card.url}>
+            <TopicCard>
+              <Content>
+                {/*<Icon type={card.icon} />*/}
+                <Text color="inherit">
+                  {card.title}
+                </Text>
+              </Content>
+            </TopicCard>
+          </CardLink>
+        </CardItem>
+      ))}
 
       {resources.map(card => (
         <CardItem key={card.title}>
@@ -170,7 +170,6 @@ function Cards(props) {
       ))}
 
     </CardWrapper>
-
   )
 }
 
