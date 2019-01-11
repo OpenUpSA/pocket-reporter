@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import Preview from '../components/Preview';
 import { Helmet } from 'react-helmet';
 import StoryTemplate from '../views/StoryTemplate';
 import Header from '../components/Header';
