@@ -104,11 +104,19 @@ class Header extends Component {
 
     let mainTitle;
 
-    if ( titleStart || titleStory)   {
+    if ( titleStart)   {
       mainTitle = (
         <HeaderTitle>
           What type of story are you writing?
         </HeaderTitle>
+      )
+    }
+
+    let progressBar;
+
+    if (titleStory) {
+      progressBar = (
+        <HeaderProgress variant="determinate" value="38" />
       )
     }
 
@@ -120,7 +128,6 @@ class Header extends Component {
           {/*TODO: Change language*/}
             {title}
           </HeaderText>
-          {/*TODO: Only show on StoryTemplate view*/}
           { titleStory &&
             <Fragment>
               <HeaderButton color="inherit">
@@ -136,10 +143,9 @@ class Header extends Component {
           </HeaderButton>
 
         </HeaderBar>
-        {/*TODO: Change wording to progress bar after second selection*/}
         {mainTitle}
         {/*TODO: Change colour, dynamic value*/}
-        {/*<HeaderProgress variant="determinate" value="38" />*/}
+        {progressBar}
       </HeaderWrapper>
     )
   }
