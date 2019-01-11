@@ -15,7 +15,7 @@ const CardWrapper = styled.ul`
     margin: auto;
   }
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-flow: row wrap;
   padding: 0;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -27,6 +27,10 @@ const CardItem = styled.li`
    list-style-type: none;
    width: 30%;
    margin-bottom: 10px;
+   margin-right: 15px;
+   :nth-child(3n) {
+      margin-right: 0;
+   }
 `;
 
 const CardItemStacked = styled.li`
@@ -35,6 +39,10 @@ const CardItemStacked = styled.li`
    margin-bottom: 10px;  
    position: relative;
    z-index: 3;
+   margin-right: 15px;
+   :nth-child(3n) {
+      margin-right: 0;
+   }
   
    :before {
       content: '';
