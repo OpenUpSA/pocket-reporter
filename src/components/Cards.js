@@ -119,8 +119,8 @@ function Cards(props) {
   if (props.stacked) {
     return (
       <CardWrapper>
-        {foldersArray.map(card => (
-          <CardItemStacked key={card.icon}>
+        {foldersArray.map((card, index) => (
+          <CardItemStacked key={index}>
             <CardLink to={card.url}>
               <TopicCard>
                 <Content>
@@ -139,8 +139,8 @@ function Cards(props) {
 
   return (
     <CardWrapper>
-      {questions.map(card => (
-        <CardItem key={card.title}>
+      {questions.map((card, index) => (
+        <CardItem key={index}>
           <CardLink to={card.url}>
             <TopicCard>
               <Content>
@@ -154,8 +154,8 @@ function Cards(props) {
         </CardItem>
       ))}
 
-      {resources.map(card => (
-        <CardItem key={card.title}>
+      {resources.map((card, index) => (
+        <CardItem key={index}>
           <CardLink to={card.url}>
             <TopicCardGrey>
               <Content>
