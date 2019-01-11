@@ -8,7 +8,9 @@ const parseProps = ({ pageContext, data }) => {
     language,
   } = pageContext;
 
-  const { edges } = data.urls;
+  const { edges: rawEdges } = data.urls || {};
+  const edges = rawEdges || [];
+  
   const resources = edges.map(({ node }) => {
     const rawTitle = node.frontmatter.translations[snake(language)];
     const title = !!rawTitle  ? rawTitle : node.frontmatter.title;

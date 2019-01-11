@@ -24,10 +24,12 @@ const parseFolders = ({ node, language }) => {
     ...node.frontmatter.resourcesPages,
   ]
 
+  const calcIfValid = title => title !== '[object Object]' && title !== null;
+
   return {
     title,
     icon: node.frontmatter.icon,
-    titles: uniq(titlesList.filter(title => title !== '[object Object]')),
+    titles: uniq(titlesList.filter(calcIfValid)),
   }
 }
 
