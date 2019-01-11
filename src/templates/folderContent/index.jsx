@@ -20,7 +20,7 @@ export const query = graphql`query GetUrls($titles: [String!]) {
         page: {
           in: ["resources", "questions"]
         }
-        english: {
+        title: {
           in: $titles
         }
       }
@@ -30,15 +30,17 @@ export const query = graphql`query GetUrls($titles: [String!]) {
       node {
         frontmatter {
           page
-          english
-          afrikaans
-          spanish
-          xhosa
-          northern_sotho
-          portuguese
-          southern_sotho
-          tswana
-          zulu
+          title
+          translations {
+            afrikaans
+            spanish
+            xhosa
+            northern_sotho
+            portuguese
+            southern_sotho
+            tswana
+            zulu
+          }
         }
       }
     }

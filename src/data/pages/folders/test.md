@@ -1,10 +1,9 @@
 ---
-title: Example 4
+title: Test
 type: pages
 page: folders
-icon: FlashOn
 translated-title:
-  afrikaans: Voorbeeld 4
+  afrikaans: Toets
   northern-sotho: ''
   portuguese: ''
   southern-sotho: ''
@@ -12,10 +11,10 @@ translated-title:
   tswana: ''
   xhosa: ''
   zulu: ''
+icon: Person
 storyPages:
-  - ''
-resourcesPages:
   - Example 1
-  - Example 2
+resourcesPages:
+  - {}
 ---
 

@@ -14,33 +14,6 @@ editor:
 `
 
 
-const createRelation = (type, language) => `
-      -
-        name: ${snake(`${language}_${type}`)}
-        label: Linked ${(type)} Entry Title
-        required: false
-        widget: relation
-        collection: ${snake(type)}
-        searchFields: 
-          - title
-        valueField: title
-`;
-
-
-const createRefs = type => language => `
-      -
-        name: title
-        label: Linked English Entry Title
-        required: true
-        widget: relation
-        collection: english
-        searchFields: 
-          - title
-        valueField: title
-${createRelation(type, language)}
-`;
-
-
 const calcNumber = (language) => {
   const index = languages.indexOf(language).toString();
 
@@ -58,6 +31,19 @@ const calcNumber = (language) => {
     default: return '*️⃣'
   }
 }
+
+
+const createRefs = type => (language) => `
+          -
+            name: ${snake(`${language}`)}
+            label: ${language} (${calcNumber(language)})
+            required: false
+            widget: relation
+            collection: ${snake(type)}
+            searchFields: 
+              - title
+            valueField: title
+`;
 
 
 const createQuestionsRefs = createRefs('Questions');
@@ -122,15 +108,18 @@ const createQuestions = language => `
             name: question
             label: Question
             widget: string
+            default: ""
           -
             name: description
             label: Description
             widget: markdown
             required: false
+            default: ""
           -
             name: formatOfAnswer
             label: Format of answer
             widget: select
+            default: ""
             options:
               - Single line of text
               - Multiple lines of text
@@ -142,20 +131,23 @@ const createQuestions = language => `
             label: Options
             widget: list
             required: false
-            fields:
-              -
+            default: false
+            field:
                 name: option
                 label: option
                 widget: string
+                default: ""
 `;
 
 
 const questionsRef = languages
+  .filter(language => language !== 'English')
   .map(createQuestionsRefs)
   .join('');
 
 
 const resourcesRef = languages
+  .filter(language => language !== 'English')
   .map(createResourcesRefs)
   .join('');
 
@@ -224,31 +216,33 @@ ${translatedTitles}
         required: false
         field:
           name: storyPage
-          label: Linked Questions Page Entry Title
+          label: Title of Linked Question Page Object (📁)
           widget: relation
           collection: pages-questions
           searchFields: 
             - title
           valueField: title
+          default: ""
 
       -
         name: resourcesPages
         label: Resource Pages
         widget: list
+        default: null
         required: false
         field:
           name: resourcesPage
-          label: Linked Resources Page Entry Title
+          label: Title of Linked Resource Page Object (📂)
           widget: relation
           collection: pages-resources
           searchFields: 
             - title
           valueField: title
+          default: ""
   -
     name: pages-questions
-    label: 📁 Questions Pages
+    label: 📁 Question Page Objects
     folder: src/data/pages/questions/
-    identifier_field: english
     create: true
     fields:
       -
@@ -261,12 +255,20 @@ ${translatedTitles}
         label: Page
         widget: hidden
         default: questions 
+      - 
+        name: title
+        label: Linked English Questions (${calcNumber('English')})
+        widget: string
+      -
+        name: translations
+        label: Titles of Linked Questions
+        widget: object
+        fields:
 ${questionsRef}
   -
     name: pages-resources
-    label: 📂 Resources Pages
+    label: 📂 Resource Page Objects
     folder: src/data/pages/resources/
-    identifier_field: english
     create: true
     fields:
       -
@@ -279,6 +281,15 @@ ${questionsRef}
         label: Page
         widget: hidden
         default: resources 
+      - 
+        name: title
+        label: Linked English Resources (${calcNumber('English')})
+        widget: string
+      -
+        name: translations
+        label: Titles of Linked Questions
+        widget: object
+        fields:
 ${resourcesRef}
 ${content}
   -
@@ -318,14 +329,17 @@ ${content}
                 name: name
                 label: Name
                 widget: string
+                default: ""
               -
                 name: link
                 label: URL Link
                 widget: string
+                default: ""
               -
                 name: logo
                 label: Logo
                 widget: image
+                defeault: ""
           -
             name: contributors
             label: Individual Contributors
@@ -336,10 +350,12 @@ ${content}
                 name: name
                 label: Name
                 widget: string
+                default: ""
               -
                 name: link
                 label: URL Link
                 widget: string
+                default: ""
 `;
 
 
