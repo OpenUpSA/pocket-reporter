@@ -74,7 +74,7 @@ const Language = styled.h4`
   white-space: nowrap;
 `;
 
-const LandingLink = styled.a`
+const LandingLink = styled(Link)`
   color: white;
   text-decoration: none;
 `;
@@ -92,7 +92,7 @@ class LandingPage extends Component {
         <StyledWrapper>
           <Go>
             <Link
-              to="/list"
+              to="/english/folders/index.html"
             >
               <StyledImage src={logo} />
             </Link>
@@ -109,7 +109,7 @@ class LandingPage extends Component {
           </SubHeading>
           {/*TODO: Text to change to different language*/}
           <Language>
-            <LandingLink href="">Change language</LandingLink>
+            <LandingLink to="/settings">Change language</LandingLink>
           </Language>
         </StyledWrapper>
 

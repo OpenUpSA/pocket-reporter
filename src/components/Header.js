@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 
@@ -95,11 +95,29 @@ class Header extends Component {
     if (back) {
       backButton = (
         <HeaderButton color="inherit">
-          <HeaderLink to="/list">
+          <HeaderLink to="/english/folders/index.html">
             <BackIcon />
           </HeaderLink>
         </HeaderButton>
         )
+    }
+
+    let mainTitle;
+
+    if ( titleStart)   {
+      mainTitle = (
+        <HeaderTitle>
+          What type of story are you writing?
+        </HeaderTitle>
+      )
+    }
+
+    let progressBar;
+
+    if (titleStory) {
+      progressBar = (
+        <HeaderProgress variant="determinate" value="38" />
+      )
     }
 
     return (
@@ -110,24 +128,24 @@ class Header extends Component {
           {/*TODO: Change language*/}
             {title}
           </HeaderText>
-          {/*TODO: Only show on StoryTemplate view*/}
-          {/*<HeaderButton color="inherit">*/}
-          {/*<EmailIcon />*/}
-          {/*</HeaderButton>*/}
-          {/*<HeaderButton color="inherit">*/}
-          {/*<DeleteIcon />*/}
-          {/*</HeaderButton>*/}
-          {/*TODO: Only show when stories have been saved on landing page*/}
-          {/*<HeaderButton color="inherit">*/}
-            {/*<SettingsIcon/>*/}
-          {/*</HeaderButton>*/}
+          { titleStory &&
+            <Fragment>
+              <HeaderButton color="inherit">
+                <EmailIcon />
+              </HeaderButton>
+              <HeaderButton color="inherit">
+                <DeleteIcon />
+              </HeaderButton>
+            </Fragment>
+          }
+          <HeaderButton color="inherit">
+            <SettingsIcon/>
+          </HeaderButton>
+
         </HeaderBar>
-        {/*TODO: Change wording to progress bar after second selection*/}
-        {/*<HeaderTitle>*/}
-        {/*What type of story are you writing?*/}
-        {/*</HeaderTitle>*/}
+        {mainTitle}
         {/*TODO: Change colour, dynamic value*/}
-        {/*<HeaderProgress variant="determinate" value="38" />*/}
+        {progressBar}
       </HeaderWrapper>
     )
   }

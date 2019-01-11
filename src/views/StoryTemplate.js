@@ -1,79 +1,96 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import styled from 'styled-components';
+import { Helmet } from 'react-helmet';
 
 import Button from '@material-ui/core/Button';
 import Header from '../components/Header';
-import {Helmet} from "react-helmet";
-import Footer from "./AboutPage";
+import Footer from '../components/Footer';
 
 const questionData = [
   {
     question: 'Name/Title of the story.',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 0,
   },
   {
     question: 'Who is the person or organisation filing the action? Names, ages, addresses, other personal information.',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 1,
   },
   {
     question: 'Could this suit lead to a landmark action? Is it a precedent?',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 2,
   },
   {
     question: 'Is there a possibility of an out-of-court settlement?',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 3,
   },
   {
     question: 'What is the significance of the action and the effect on others?',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 4,
   },
   {
     question: 'What are the names of the lawyers for both sides? (Check spelling!)',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 5,
   },
   {
     question: 'What is the date and who is the presiding judge for the trial or hearing?',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 6,
   },
   {
     question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 7,
   },
   {
     question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 8,
   },
   {
     question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 9,
   },
   {
     question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 10,
   },
   {
     question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 11,
   },
   {
     question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 12,
   },
   {
     question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 13,
   },
   {
     question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 14,
   },
   {
     question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 15,
   },
   {
     question: 'What is the background of the plaintiff or petitioner: the person filing the action?',
-    hint: 'Write your answer here.'
+    hint: 'Write your answer here.',
+    id: 16,
   },
 ];
 
@@ -123,18 +140,18 @@ const QuestionActions = styled.div`
 `;
 
 const StoryTemplate = () => (
-  <React.Fragment>
+  <Fragment>
     <Helmet>
       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     </Helmet>
 
-    <Header story/>
+    <Header story />
 
     <QuestionWrapper>
       <QuestionList>
         {questionData.map(questionItem => (
-          <ListItem>
+          <ListItem key={questionItem.id}>
             {questionItem.question}
             <Answer placeholder={questionItem.hint} />
           </ListItem>
@@ -158,7 +175,7 @@ const StoryTemplate = () => (
     </QuestionWrapper>
 
     <Footer />
-  </React.Fragment>
+  </Fragment>
 );
 
 export default StoryTemplate;

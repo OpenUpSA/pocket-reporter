@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import styled from 'styled-components';
 
 import Header from '../components/Header';
@@ -62,7 +62,7 @@ const AboutLink = styled.a`
 `;
 
 const AboutPage = () => (
-  <React.Fragment>
+  <Fragment>
     <Header about />
 
     <AboutWrapper>
@@ -114,7 +114,7 @@ const AboutPage = () => (
     </AboutWrapper>
 
     <Footer />
-  </React.Fragment>
+  </Fragment>
 );
 
 export default AboutPage;
