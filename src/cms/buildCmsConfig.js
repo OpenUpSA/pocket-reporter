@@ -9,6 +9,7 @@ backend:
   repo: OpenUpSA/pocket-reporter
 media_folder: static/assets
 public_folder: assets
+publish_mode: editorial_workflow
 editor:
    preview: false
 `
@@ -211,7 +212,7 @@ ${translatedTitles}
         required: false
         field:
           name: storyPage
-          label: Title of Linked Question Page Object (📁)
+          label: English Questions Title (📁)
           widget: relation
           collection: pages-questions
           searchFields: 
@@ -227,7 +228,7 @@ ${translatedTitles}
         required: false
         field:
           name: resourcesPage
-          label: Title of Linked Resource Page Object (📂)
+          label: English Resource Title (📂)
           widget: relation
           collection: pages-resources
           searchFields: 
@@ -236,7 +237,7 @@ ${translatedTitles}
           default: ""
   -
     name: pages-questions
-    label: 📁 Question Page Objects
+    label: 📁 Questions Translations
     folder: src/data/pages/questions/
     create: true
     fields:
@@ -262,7 +263,7 @@ ${translatedTitles}
 ${questionsRef}
   -
     name: pages-resources
-    label: 📂 Resource Page Objects
+    label: 📂 Resources Translations
     folder: src/data/pages/resources/
     create: true
     fields:
