@@ -91,6 +91,8 @@ class Header extends Component {
     const titleStory = this.props.story;
     const titleStoryList = this.props.storyList;
 
+    const titleOfStory = this.props.title;
+
     let title;
 
     if (titleStart) {
@@ -100,7 +102,7 @@ class Header extends Component {
     } else if (titleSettings) {
       title = 'Settings'
     } else if (titleStory) {
-      title = 'Title of Story'
+      title = titleOfStory
     } else if (titleStoryList) {
       title = 'Pocket Reporter'
     }
@@ -141,7 +143,6 @@ class Header extends Component {
         <HeaderBar>
           {backButton}
           <HeaderText>
-          {/*TODO: Change language*/}
             {title}
           </HeaderText>
           { titleStory &&
@@ -157,7 +158,6 @@ class Header extends Component {
           <HeaderButton color="inherit">
             <SettingsIcon/>
           </HeaderButton>
-
         </HeaderBar>
         {mainTitle}
         {/*TODO: Change colour, dynamic value*/}
