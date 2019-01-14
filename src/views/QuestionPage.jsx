@@ -12,7 +12,7 @@ const Markup = (props) => (
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     </Helmet>
 
-    <Header story {...props} />
+    <Header back story {...props} />
 
     <StoryTemplate {...props} />
 
@@ -20,6 +20,5 @@ const Markup = (props) => (
 
   </Fragment>
 );
-
 
 export default Markup;
