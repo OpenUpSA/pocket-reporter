@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components';
 import { Link } from 'gatsby';
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet';
 
 import Footer from '../components/Footer';
 import logo from '../assets/meta/logo.png';
