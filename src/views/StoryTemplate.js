@@ -55,7 +55,7 @@ const GreenButton = styled(Button)`
     background: #73c619;
     color: white;
   }
-`
+`;
 
 class StoryTemplate extends Component {
 
