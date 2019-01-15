@@ -50,6 +50,13 @@ const QuestionActions = styled.div`
   margin-bottom: 40px;
 `;
 
+const GreenButton = styled(Button)`
+  && {
+    background: #73c619;
+    color: white;
+  }
+`
+
 class StoryTemplate extends Component {
 
   render() {
@@ -73,10 +80,9 @@ class StoryTemplate extends Component {
             <Button>
               Email Story
             </Button>
-            {/*TODO: Correct colour for button*/}
-            <Button variant="contained" color="primary">
+            <GreenButton variant="contained">
               Send Story and media via whatsapp
-            </Button>
+            </GreenButton>
             <Button color="secondary">
               Delete story
             </Button>
