@@ -1,6 +1,10 @@
-import React from 'react';
-import store from "./src/redux/store";
+/* eslint-disable import/prefer-default-export */
+
+import { createElement } from 'react';
 import { Provider } from 'react-redux';
+import store from './src/redux/store';
 
 
-export default ({ element }) => <Provider {...{ store }}>{element}</Provider>
+export const wrapRootElement = ({ element }) => (
+  createElement(Provider, { store }, element)
+);

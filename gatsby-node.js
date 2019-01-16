@@ -1,12 +1,19 @@
-const createFolderContentPages = require('./src/templates/folderContent/createPages');
-const createListOfFoldersPages = require('./src/templates/listOfFolders/createPages');
-const createResourcePages = require('./src/templates/resourcePage/createPages');
-const createQuestionsPages = require('./src/templates/questionsPage/createPages');
+const createArrayForTemplates = require('./src/tooling/gatsby-node/createArrayForTemplates');
+const query = require('./src/tooling/gatsby-node/query');
 
 
-exports.createPages = (params) => {
-  createFolderContentPages(params);
-  createListOfFoldersPages(params);
-  createResourcePages(params);
-  createQuestionsPages(params);
-}
+const createPagesFromArray = createPage => (array) => {
+  array.forEach(({ url, component, context }) => createPage({
+    url,
+    component,
+    context,
+  }));
+};
+
+
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions;
+  query({ graphql })
+    .then(createArrayForTemplates)
+    .then(createPagesFromArray(createPage));
+};
