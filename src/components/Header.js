@@ -56,13 +56,20 @@ const HeaderTitle = styled.h3`
   color: #4a4a4a;
 `;
 
-const HeaderProgress = styled(LinearProgress)`
+const HeaderProgress = styled(({ barColorPrimary, ...other }) => (
+  <LinearProgress classes={{ barColorPrimary: 'label' }} {...other} />
+))`
   && {
-    height: 10px;
-    background-color: rgba(115, 198, 25, 0.4);
+    background: #f5f5f5;
+    border: 0;
+    color: white;
+    height: 48px;
+    padding: 0 30px;
+    height: 20px;
   }
-  colorPrimary: {
-    background-color: red;
+  
+  & .label {
+    background: ${props => props.barColorPrimary};
   }
 `;
 
@@ -119,9 +126,10 @@ class Header extends Component {
 
     let progressBar;
 
+    {/*TODO: dynamic value*/}
     if (titleStory) {
       progressBar = (
-        <HeaderProgress variant="determinate" value={38} />
+        <HeaderProgress variant="determinate" value={38} barColorPrimary='#73c619' />
       )
     }
 
@@ -149,7 +157,7 @@ class Header extends Component {
           }
         </HeaderBar>
         {mainTitle}
-        {/*TODO: Change colour, dynamic value*/}
+
         {progressBar}
       </HeaderWrapper>
     )
