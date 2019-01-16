@@ -1,7 +1,7 @@
 ---
-title: 'Crime: Violence Against Women'
-type: questions
+type: question
 language: english
+question_title: 'Crime: Violence Against Women'
 Questions:
   - {}
   - description: >-

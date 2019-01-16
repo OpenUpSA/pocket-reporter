@@ -1,7 +1,7 @@
 ---
-title: Example 1
-type: questions
+type: question
 language: english
+question_title: Example 1
 questions:
   - description: Question 1
     formatOfAnswer: True or False

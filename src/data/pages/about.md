@@ -1,6 +1,6 @@
 ---
-type: static
-page: about
+type: page
+id: about
 tagline: Pocket Reporter is a news editor in your pocket that helps you be a better
   reporter.
 partners:

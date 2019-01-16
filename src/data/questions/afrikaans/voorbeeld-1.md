@@ -1,7 +1,7 @@
 ---
-title: Voorbeeld 1
-type: questions
+type: question
 language: afrikaans
+question_title: Voorbeeld 1
 questions:
   - description: Vraag 1
     formatOfAnswer: Single line of text
