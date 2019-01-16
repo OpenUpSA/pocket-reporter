@@ -1,4 +1,4 @@
-import { isoToLanguage } from '../../helpers/languageConversions';
+import { isoToLanguage } from '../../helpers/languageConversions/index.node';
 
 
 export default isoKey => ({
