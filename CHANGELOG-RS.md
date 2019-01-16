@@ -1,4 +1,14 @@
 # Change log For Riaan Snyders
+#16 Jan 2019 
+    - More fixes for Firbase Email sign in
+
+#15 Jan 2019 12:00 PM
+    - Added Error Boundary for error handling
+    - Fixed Email / Password Firebase Auth not registering user
+  
+# 14 Jan 2019 08:30 AM
+    - Some fixes to get email sign up working
+    - Added recompose for Firebase sign in / sign up pages
 
 # 12 Jan 2019 07:30 AM
     -   Compilation fixes

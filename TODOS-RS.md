@@ -1,3 +1,2 @@
-# TODO's Riaan Snyder
-    - pages/signin.js - route to caller page
-    - 
+# TODO's Riaan Snyders
+    - Add style to sign in / sign up pages

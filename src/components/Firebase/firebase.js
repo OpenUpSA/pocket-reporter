@@ -1,6 +1,9 @@
+
+import React from 'react'
 import firebase from 'firebase';
-import app from 'firebase/app';
+//import app from 'firebase/app';
 import 'firebase/auth';
+import { renderComponent } from 'recompose';
 
 const config = {
   apiKey: process.env.GATSBY_API_KEY,
@@ -11,18 +14,36 @@ const config = {
   messagingSenderId: process.env.GATSBY_MESSAGING_SENDER_ID
 };
 
-class Firebase {
-  construct() {
-    app.initializeApp(config);
+export class Firebase extends React.Component {
+  constructor() {
+    super();
+  
+    if (!firebase.apps.length) {
+      firebase.initializeApp(config);
 
-    this.auth = app.auth();
+      this.auth = firebase.auth();
+      this.doCreateUserWithEmailAndPassword = this.doCreateUserWithEmailAndPassword.bind(this);
+    }
+   }
+
+   doCreateUserWithEmailAndPassword(email,password) {
+       this.auth.createUserWithEmailAndPassword(email,password).then(function(){
+        window.location.href='signin';
+      }).catch(function(error) {
+        var errorMessage = error.message;
+        
+        var errorElement = document.getElementById('error');
+        errorElement.setAttribute('style','color:red;');
+        errorElement.innerText = errorMessage;
+      });
+    }
+
+  render() { 
+      return null; 
   }
 
   //Auth methods
-  doCreateUserWithEmailAndPassword = (email,password) =>
-    this.auth.createUserWithEmailAndPassword(email,password);
-
-  doSignInWithEmailAndPassword = (email,password) =>
+ /* doSignInWithEmailAndPassword = (email,password) =>
     this.auth.signInUserWithEmailAndPassword(email,password);
 
   doSignOut = () => this.auth.signOut();
@@ -32,6 +53,5 @@ class Firebase {
 
   doPasswordUpdate = password => 
     this.auth.currentUser.updatePassword(password);
+*/
 }
-
-export default Firebase;

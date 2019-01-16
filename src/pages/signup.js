@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import ReactDOM from 'react-dom';
 
-import { FirebaseContext } from '../components/Firebase';
+import  {FirebaseContext } from '../components/Firebase';
+import {Firebase} from '../components/Firebase/firebase';
+import { compose } from 'recompose';
+
+import { withFirebase } from '../components/Firebase';
 
 const SignUpPage = () => (
   <div>
     <h1>SignUp</h1>
-    <FirebaseContext.Consumer>
-      {firebase => <SignUpForm firebase={firebase} />}
-    </FirebaseContext.Consumer>
+    <SignUpForm />
   </div>
 );
 
@@ -20,12 +22,22 @@ const INITIAL_STATE = {
     error: null,
 };
 
-class SignUpForm extends Component {
+class SignUpFormBase extends Component {
   constructor(props) {
     super(props);
 
     this.state = { ...INITIAL_STATE };
 
+    this.sleep = this.sleep.bind(this);
+  }
+
+  sleep(milliseconds){
+    var start = new Date().getTime();
+    for (var i = 0; i < 1e7; i++) {
+      if ((new Date().getTime() - start) > milliseconds){
+        break;
+      }
+    }
   }
 
   onChange = event => {
@@ -33,18 +45,22 @@ class SignUpForm extends Component {
   };
 
   onSubmit = event => {
+    var errorElement = document.getElementById('error');
+    errorElement.innerText = '';
+
     const { username, email, passwordOne } = this.state;
 
-    this.props.firebase
-      .doCreateUserWithEmailAndPassword(email, passwordOne)
-      .then(authUser => {
-        this.setState({ ...INITIAL_STATE });
-      })
-      .catch(error => {
-        this.setState({ error });
-      });
+    this.child.doCreateUserWithEmailAndPassword(email, passwordOne)
 
-      this.props.history.push('signin');
+    /*var firebaseState = sessionStorage.getItem('firebaseState');
+
+    if(firebaseState == '200'){
+      window.location.href='signin';
+    }
+    else {
+      errorElement.setAttribute('style','color:red;');
+      errorElement.innerText = firebaseState;
+    }*/
 
     event.preventDefault();
   }
@@ -66,6 +82,8 @@ class SignUpForm extends Component {
 
     return (
       <form onSubmit={this.onSubmit}>
+      <Firebase ref={el => this.child = el}/>
+      <span id="error"></span><br/><br/>
       <input
           name="username"
           value={username}
@@ -73,6 +91,7 @@ class SignUpForm extends Component {
           type="text"
           placeholder="Full Name"
         />
+        <br/>
         <input
           name="email"
           value={email}
@@ -80,6 +99,7 @@ class SignUpForm extends Component {
           type="text"
           placeholder="Email Address"
         />
+        <br/>
         <input
           name="passwordOne"
           value={passwordOne}
@@ -87,6 +107,7 @@ class SignUpForm extends Component {
           type="password"
           placeholder="Password"
         />
+        <br/>
         <input
           name="passwordTwo"
           value={passwordTwo}
@@ -94,7 +115,8 @@ class SignUpForm extends Component {
           type="password"
           placeholder="Confirm Password"
         />
-        <button disabled={isInvalid} type="submit">
+        <br/>
+        <button disabled={isInvalid} type="button" onClick={this.onSubmit}>
           Sign Up
         </button>
 
@@ -106,9 +128,14 @@ class SignUpForm extends Component {
 
 const SignUpLink = () => (
   <p>
-    Don't have an account? <Link to='signup'>Sign Up</Link>
+    Don't have an account? <a href='signup'>Sign Up</a>
   </p>
 );
+
+const SignUpForm = compose(
+  withFirebase,
+)(SignUpFormBase);
+
 
 export default SignUpPage;
 
