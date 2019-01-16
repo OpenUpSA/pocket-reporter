@@ -72,7 +72,12 @@ class StoryTemplate extends Component {
 
   sendWhatsapp(e) {
     e.preventDefault();
-      alert('Clicked send whatsapp!');
+
+    const message = 'This is a test message';
+    const whatsapp = 'https://api.whatsapp.com/send';
+    const sendTo = `${whatsapp}?text=${encodeURIComponent(message)}`;
+
+    window.open(sendTo, '_blank');
   }
 
   deleteStory(e) {
