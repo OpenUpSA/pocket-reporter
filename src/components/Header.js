@@ -56,13 +56,20 @@ const HeaderTitle = styled.h3`
   color: #4a4a4a;
 `;
 
-const HeaderProgress = styled(LinearProgress)`
+const HeaderProgress = styled(({ barColorPrimary, ...other }) => (
+  <LinearProgress classes={{ barColorPrimary: 'label' }} {...other} />
+))`
   && {
-    height: 10px;
-    background-color: rgba(115, 198, 25, 0.4);
+    background: #f5f5f5;
+    border: 0;
+    color: white;
+    height: 48px;
+    padding: 0 30px;
+    height: 20px;
   }
-  colorPrimary: {
-    background-color: red;
+  
+  & .label {
+    background: ${props => props.barColorPrimary};
   }
 `;
 
@@ -73,6 +80,9 @@ class Header extends Component {
     const titleSettings = this.props.settings;
     const titleStory = this.props.story;
     const titleStoryList = this.props.storyList;
+    const titleResource = this.props.resource;
+
+    const titleOfStory = this.props.title;
 
     let title;
 
@@ -83,9 +93,17 @@ class Header extends Component {
     } else if (titleSettings) {
       title = 'Settings';
     } else if (titleStory) {
+<<<<<<< HEAD
       title = 'Title of Story';
     } else if (titleStoryList) {
       title = 'Pocket Reporter';
+=======
+      title = titleOfStory
+    } else if (titleStoryList) {
+      title = 'Pocket Reporter'
+    } else if (titleResource) {
+      title = titleOfStory
+>>>>>>> e6af7c4dbfb7f3a46179ee9353dabfe3bc3e0be5
     }
 
     const back = this.props.back;
@@ -98,7 +116,11 @@ class Header extends Component {
             <BackIcon />
           </HeaderLink>
         </HeaderButton>
+<<<<<<< HEAD
       );
+=======
+      )
+>>>>>>> e6af7c4dbfb7f3a46179ee9353dabfe3bc3e0be5
     }
 
     let mainTitle;
@@ -113,10 +135,16 @@ class Header extends Component {
 
     let progressBar;
 
+    {/*TODO: dynamic value*/}
     if (titleStory) {
       progressBar = (
+<<<<<<< HEAD
         <HeaderProgress variant="determinate" value="38" />
       );
+=======
+        <HeaderProgress variant="determinate" value={38} barColorPrimary='#73c619' />
+      )
+>>>>>>> e6af7c4dbfb7f3a46179ee9353dabfe3bc3e0be5
     }
 
     return (
@@ -124,6 +152,7 @@ class Header extends Component {
         <HeaderBar>
           {backButton}
           <HeaderText>
+<<<<<<< HEAD
             {/* TODO: Change language */}
             {title}
           </HeaderText>
@@ -138,14 +167,32 @@ class Header extends Component {
               </HeaderButton>
             </Fragment>
             )
+=======
+            {title}
+          </HeaderText>
+          { titleStory &&
+          <Fragment>
+            <HeaderButton color="inherit">
+              <EmailIcon />
+            </HeaderButton>
+            <HeaderButton color="inherit">
+              <DeleteIcon />
+            </HeaderButton>
+          </Fragment>
+>>>>>>> e6af7c4dbfb7f3a46179ee9353dabfe3bc3e0be5
           }
+          {titleStoryList &&
           <HeaderButton color="inherit">
             <SettingsIcon />
           </HeaderButton>
-
+          }
         </HeaderBar>
         {mainTitle}
+<<<<<<< HEAD
         {/* TODO: Change colour, dynamic value */}
+=======
+
+>>>>>>> e6af7c4dbfb7f3a46179ee9353dabfe3bc3e0be5
         {progressBar}
       </HeaderWrapper>
     );

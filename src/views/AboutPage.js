@@ -15,12 +15,14 @@ const AboutWrapper = styled.div`
   position: relative;
   top: 50px;
   font-size: 21px;
+  padding: 0px 15px;
   overflow: scroll;
   height: calc(100vh - 100px);
   @media (min-width: 760px) 
   {
     width: 50%;
     margin: auto;
+    padding: 0;
   }
 `;
 
@@ -29,6 +31,12 @@ const AboutButton = styled(Button)`
   && {
     margin-bottom: 5px;
     text-transform: none;
+    background-color: #73c619;
+    color: white;
+    
+    :hover {
+      background-color: #8fd247;
+    }
   }
 `;
 
@@ -61,18 +69,19 @@ const AboutLink = styled.a`
   font-size: 14px;
 `;
 
-const AboutPage = () => (
+const AboutPage = (props) => (
   <Fragment>
+
     <Header about />
 
     <AboutWrapper>
-      <p>Pocket Reporter is a news editor in your pocket that helps you be a better reporter.</p>
+      <p>{props.tagline}</p>
       <p>Simply answer the questions as Pocket Reporter guides you through the news gathering process.</p>
 
-      <AboutButton variant="contained" color="primary">
+      <AboutButton variant="contained" >
           Change language
       </AboutButton>
-      <AboutButton variant="contained" color="primary">
+      <AboutButton variant="contained" >
           Send us feedback
       </AboutButton>
 
@@ -86,7 +95,7 @@ const AboutPage = () => (
         <AboutLink href="http://kanthanpillay.com/content/about"> Kanthan Pillay. </AboutLink>
       </AboutText>
 
-      <AboutButton variant="contained" color="primary" href="https://pocketreporter.co.za" target="_blank">
+      <AboutButton variant="contained" href="https://pocketreporter.co.za" target="_blank">
         PocketReporter.co.za
       </AboutButton>
 
