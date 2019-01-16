@@ -1,13 +1,13 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
 import styled from 'styled-components';
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 const SettingsWrapper = styled.div`
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -34,7 +34,7 @@ const Settings = () => (
         <RadioGroup
           aria-label="Language"
           name="language"
-          value='English'
+          value="English"
         >
           <FormControlLabel value="Afrikaans" control={<Radio />} label="Afrikaans" />
           <FormControlLabel value="English" control={<Radio />} label="English" />
@@ -53,4 +53,4 @@ const Settings = () => (
   </Fragment>
 );
 
-export default Settings
+export default Settings;
