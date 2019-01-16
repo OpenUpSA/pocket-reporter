@@ -8,8 +8,5 @@
   ],
   "env": {
     "jest/globals": true
-  },
-  "rules": {
-    "import/no-extraneous-dependencies": 0
   }
 }
