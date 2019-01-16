@@ -10,6 +10,7 @@ import { withFirebase } from '../components/Firebase';
 const SignUpPage = () => (
   <div>
     <h1>SignUp</h1>
+    <span id="error"></span><br/>
     <SignUpForm />
   </div>
 );
@@ -27,17 +28,6 @@ class SignUpFormBase extends Component {
     super(props);
 
     this.state = { ...INITIAL_STATE };
-
-    this.sleep = this.sleep.bind(this);
-  }
-
-  sleep(milliseconds){
-    var start = new Date().getTime();
-    for (var i = 0; i < 1e7; i++) {
-      if ((new Date().getTime() - start) > milliseconds){
-        break;
-      }
-    }
   }
 
   onChange = event => {
@@ -45,22 +35,9 @@ class SignUpFormBase extends Component {
   };
 
   onSubmit = event => {
-    var errorElement = document.getElementById('error');
-    errorElement.innerText = '';
-
     const { username, email, passwordOne } = this.state;
 
     this.child.doCreateUserWithEmailAndPassword(email, passwordOne)
-
-    /*var firebaseState = sessionStorage.getItem('firebaseState');
-
-    if(firebaseState == '200'){
-      window.location.href='signin';
-    }
-    else {
-      errorElement.setAttribute('style','color:red;');
-      errorElement.innerText = firebaseState;
-    }*/
 
     event.preventDefault();
   }
@@ -83,7 +60,6 @@ class SignUpFormBase extends Component {
     return (
       <form onSubmit={this.onSubmit}>
       <Firebase ref={el => this.child = el}/>
-      <span id="error"></span><br/><br/>
       <input
           name="username"
           value={username}
@@ -119,8 +95,6 @@ class SignUpFormBase extends Component {
         <button disabled={isInvalid} type="button" onClick={this.onSubmit}>
           Sign Up
         </button>
-
-        {error && <p>{error.message}</p>}
       </form>
     );
   }

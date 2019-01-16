@@ -1,6 +1,11 @@
 # Change log For Riaan Snyders
 #16 Jan 2019 
-    - More fixes for Firbase Email sign in
+    - More fixes for Firbase Email sign up
+    - Fixes for Firebase Email sign in
+    - Added Facebook login
+    - Added Twitter login
+    - Added Google login
+    - Added general provider function
 
 #15 Jan 2019 12:00 PM
     - Added Error Boundary for error handling

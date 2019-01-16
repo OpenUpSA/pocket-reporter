@@ -3,12 +3,13 @@ import { compose } from 'recompose';
 
 import { SignUpLink } from './signup';
 import { withFirebase } from '../components/Firebase';
+import {Firebase} from '../components/Firebase/firebase';
 
 const SignInPage = () => (
   <div>
     <h1>SignIn</h1>
-    
-    <SignUpLink />
+    <span id="error"></span><br/>
+    <SignInForm/>
   </div>
 );
 
@@ -28,16 +29,25 @@ class SignInFormBase extends Component {
   onSubmit = event => {
     const { email, password } = this.state;
 
-    this.props.firebase
-      .doSignInWithEmailAndPassword(email, password)
-      .then(() => {
-        this.setState({ ...INITIAL_STATE });
-        //TODO: Route to caller page
-        this.props.history.push('/');
-      })
-      .catch(error => {
-        this.setState({ error });
-      });
+    this.child.doSignInWithEmailAndPassword(email, password);
+    
+    event.preventDefault();
+  };
+
+  onFacebookSubmit = event => {
+    this.child.doFacebookAuthentication();
+
+    event.preventDefault();
+  };
+
+  onGoogleSubmit = event => {
+    this.child.doGoogleAuthentication();
+
+    event.preventDefault();
+  };
+
+  onTwitterSubmit = event => {
+    this.child.doTwitterAuthentication();
 
     event.preventDefault();
   };
@@ -53,34 +63,38 @@ class SignInFormBase extends Component {
 
     return (
       <form onSubmit={this.onSubmit}>
+       <Firebase ref={el => this.child = el}/>
         <input
           name="email"
           value={email}
           onChange={this.onChange}
           type="text"
           placeholder="Email Address"
-        />
+        /><br/>
         <input
           name="password"
           value={password}
           onChange={this.onChange}
           type="password"
           placeholder="Password"
-        />
-        <button disabled={isInvalid} type="submit">
+        /><br/>
+        <button disabled={isInvalid} type="button" onClick={this.onSubmit}>
           Sign In
-        </button>
-
-        {error && <p>{error.message}</p>}
+        </button> 
+        <SignUpLink />
+        Or login with:<br/>
+       <button type="button" onClick={this.onFacebookSubmit}>Facebook</button>&nbsp;
+       <button type="button" onClick={this.onGoogleSubmit}>Google</button>&nbsp;
+       <button type="button" onClick={this.onTwitterSubmit}>Twitter</button>
       </form>
     );
   }
 }
 
-/*const SignInForm = compose(
+const SignInForm = compose(
   withFirebase,
-)(SignInFormBase);*/
+)(SignInFormBase);
 
 export default SignInPage;
 
-//export { SignInForm };
+export { SignInForm };

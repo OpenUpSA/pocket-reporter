@@ -1,7 +1,6 @@
 
 import React from 'react'
-import firebase from 'firebase';
-//import app from 'firebase/app';
+import firebase from 'firebase'; 
 import 'firebase/auth';
 import { renderComponent } from 'recompose';
 
@@ -22,17 +21,82 @@ export class Firebase extends React.Component {
       firebase.initializeApp(config);
 
       this.auth = firebase.auth();
+
       this.doCreateUserWithEmailAndPassword = this.doCreateUserWithEmailAndPassword.bind(this);
+      this.doSignInWithEmailAndPassword = this.doSignInWithEmailAndPassword.bind(this);
+      this.doFacebookAuthentication = this.doFacebookAuthentication.bind(this);
+      this.doGoogleAuthentication = this.doGoogleAuthentication.bind(this);
+      this.doTwitterAuthentication = this.doTwitterAuthentication.bind(this);
+      this.doProviderLogin = this.doProviderLogin.bind(this);
     }
    }
 
    doCreateUserWithEmailAndPassword(email,password) {
-       this.auth.createUserWithEmailAndPassword(email,password).then(function(){
-        window.location.href='signin';
+      var errorElement = document.getElementById('error');
+      errorElement.innerText = '';
+
+        this.auth.createUserWithEmailAndPassword(email,password).then(function(){
+        
+        window.location.href = 'signin';
       }).catch(function(error) {
         var errorMessage = error.message;
+
+        errorElement.setAttribute('style','color:red;');
+        errorElement.innerText = errorMessage;
+      });
+    }
+
+    doSignInWithEmailAndPassword(email,password){
+      var errorElement = document.getElementById('error');
+      errorElement.innerText = '';
+
+        this.auth.signInWithEmailAndPassword(email,password).then(function(){
         
-        var errorElement = document.getElementById('error');
+        window.location.href = '/';
+      }).catch(function(error) {
+        var errorMessage = error.message;
+
+        errorElement.setAttribute('style','color:red;');
+        errorElement.innerText = errorMessage;
+      });
+    }
+
+    doFacebookAuthentication() {
+      var provider = new firebase.auth.FacebookAuthProvider();
+      this.auth.useDeviceLanguage();
+
+      this.doProviderLogin(provider);
+    }
+
+    doGoogleAuthentication() {
+      var provider = new firebase.auth.GoogleAuthProvider();
+      this.auth.useDeviceLanguage();
+
+      this.doProviderLogin(provider);
+    }
+
+    doTwitterAuthentication() {
+      var provider = new firebase.auth.TwitterAuthProvider();
+      this.auth.useDeviceLanguage();
+
+      this.doProviderLogin(provider);
+    }
+
+    doProviderLogin(provider){
+      var errorElement = document.getElementById('error');
+      errorElement.innerText = '';
+
+      this.auth.signInWithPopup(provider).then(function(result) {
+        var token = result.credential.accessToken;
+        var user = result.user;
+
+         console.log(user.displayName);
+
+         //window.location.href="/";
+         
+      }).catch(function(error) {
+        var errorMessage = error.message;
+
         errorElement.setAttribute('style','color:red;');
         errorElement.innerText = errorMessage;
       });
@@ -42,16 +106,4 @@ export class Firebase extends React.Component {
       return null; 
   }
 
-  //Auth methods
- /* doSignInWithEmailAndPassword = (email,password) =>
-    this.auth.signInUserWithEmailAndPassword(email,password);
-
-  doSignOut = () => this.auth.signOut();
-
-  doPasswordReset = email => 
-    this.auth.sendPasswordResetEmail(email);
-
-  doPasswordUpdate = password => 
-    this.auth.currentUser.updatePassword(password);
-*/
 }
