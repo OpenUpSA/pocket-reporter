@@ -99,7 +99,7 @@ const iconsObject = {
   Work,
   Grade,
   Info,
-}
+};
 
 
 export default iconsObject;

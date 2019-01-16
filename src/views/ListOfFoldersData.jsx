@@ -14,9 +14,7 @@ const Markup = (props) => (
     </Helmet>
 
     <Header start />
-
     <Cards { ...props } stacked />
-
     <Footer />
 
   </Fragment>

@@ -1,9 +1,13 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
+/* eslint-disable import/no-extraneous-dependencies */
 const { config } = require('dotenv');
+
 const starterpack = require('./starterpack.json');
-
-
-const isHexColor = value => /^#[0-9a-fA-F]{6}/.test(value);
+const createFilesystemConfig = require('./src/tooling/gatsby-config/createFilesystemConfig');
+const netlifyCmsConfig = require('./src/tooling/gatsby-config/netlifyCmsConfig');
+const buildManifestConfig = require('./src/tooling/gatsby-config/buildManifestConfig');
+const createHotjarConfig = require('./src/tooling/gatsby-config/createHotjarConfig');
+const createAnalyticsConfig = require('./src/tooling/gatsby-config/createAnalyticsConfig');
+const createSentryConfig = require('./src/tooling/gatsby-config/createSentryConfig');
 
 
 const {
@@ -21,130 +25,37 @@ const {
 } = config();
 
 
-const siteMetadata = {
-  siteUrl: `https://www.pocket-reporter.netlify.com`,
-}
-
-
-const buildManifestConfig = ({ name, theme, background }) => {
-  if (!name || !background || !theme) {
-    return [];
-  }
-
-  if (!isHexColor(theme)) {
-    throw new Error('"theme" is not a hex color in "starterpack.json"');
-  }
-
-  if (!isHexColor(background)) {
-    throw new Error('"background" is not a hex color in "starterpack.json"');
-  }
-
-  return [
-    {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        name,
-        icon: 'src/assets/meta/logo.png',
-        short_name: name,
-        start_url: '/',
-        background_color: background,
-        theme_color: theme,
-        display: 'minimal-ui',
-      },
-    },
-  ];
-};
-
-
-const materialUiConfig = {
-  resolve: '@wapps/gatsby-plugin-material-ui',
-};
-
-
-const createHotjarConfig = ({ id, sv }) => {
-  if (!id || !sv) {
-    return [];
-  }
-
-  return [
-    {
-      resolve: 'gatsby-plugin-hotjar',
-      options: {
-        id,
-        sv,
-      },
-    },
-  ];
-};
-
-
-const createAnalyticsConfig = (trackingId) => {
-  if (!trackingId) {
-    return [];
-  }
-
-  return [
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId,
-      },
-    },
-  ];
-};
-
-
-const createSentryConfig = ({ dsn }) => {
-  if (!dsn) {
-    return [];
-  }
-
-  return [
-    {
-      resolve: 'gatsby-plugin-sentry',
-      options: {
-        dsn,
-      },
-    },
-  ];
-};
-
-
-const filesystemConfig = {
-  resolve: `gatsby-source-filesystem`,
-  options: {
-    name: `data`,
-    path: `${__dirname}/src/data/`,
-  },
-}
-
-
-const netlifyCmsConfig = {
-  resolve: 'gatsby-plugin-netlify-cms',
-  options: {
-    modulePath: `${__dirname}/src/cms/index.js`,
-  },
-}
-
-
 module.exports = {
   siteMetadata: {
     title: nameValue,
     siteUrl: 'https://pocketreporter.netlify.com',
   },
   plugins: [
-    materialUiConfig,
-    filesystemConfig,
     netlifyCmsConfig,
-    ...(buildManifestConfig({ name: nameValue, theme: themeValue, background: backgroundValue })),
+    createFilesystemConfig(__dirname),
+    ...(buildManifestConfig({ 
+      name: nameValue,
+      theme: themeValue,
+      background: backgroundValue,
+    })),
     ...(createHotjarConfig({ id: HOTJAR_ID, sv: HOTJAR_SNIPPET_VERSION })),
     ...(createAnalyticsConfig({ trackingId: GOOGLE_ANALYTICS_ID })),
     ...(createSentryConfig({ dsn: SENTRY_DNS })),
+    '@wapps/gatsby-plugin-material-ui',
     'gatsby-transformer-remark',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-offline',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-netlify',
+    'gatsby-plugin-flow',
   ],
+  mapping: {
+    'MarkdownRemark.frontmatter.translated_resource_link': 'MarkdownRemark.frontmatter.translated_resource_title',
+    'MarkdownRemark.frontmatter.translated_question_link': 'MarkdownRemark.frontmatter.translated_question_title',
+    'MarkdownRemark.frontmatter.resource_link': 'MarkdownRemark.frontmatter.resource_title',
+    'MarkdownRemark.frontmatter.question_link': 'MarkdownRemark.frontmatter.question_title',
+    'MarkdownRemark.frontmatter.resource_translations_link': 'MarkdownRemark.frontmatter.resource_title',
+    'MarkdownRemark.frontmatter.question_translations_link': 'MarkdownRemark.frontmatter.question_title',
+  },
 };

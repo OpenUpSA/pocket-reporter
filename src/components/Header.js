@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component, Fragment } from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 
@@ -43,7 +43,7 @@ const HeaderLink = styled(Link)`
   color: white;
 `;
 
-//TODO: Add negative margin-left when back button is visible
+// TODO: Add negative margin-left when back button is visible
 const HeaderText = styled.p`
   width: 100%;
   margin: 0;
@@ -74,7 +74,6 @@ const HeaderProgress = styled(({ barColorPrimary, ...other }) => (
 `;
 
 class Header extends Component {
-
   render() {
     const titleStart = this.props.start;
     const titleAbout = this.props.about;
@@ -88,17 +87,23 @@ class Header extends Component {
     let title;
 
     if (titleStart) {
-      title = 'Start a New Story'
+      title = 'Start a New Story';
     } else if (titleAbout) {
-      title = 'About Pocket Reporter'
+      title = 'About Pocket Reporter';
     } else if (titleSettings) {
-      title = 'Settings'
+      title = 'Settings';
     } else if (titleStory) {
+<<<<<<< HEAD
+      title = 'Title of Story';
+    } else if (titleStoryList) {
+      title = 'Pocket Reporter';
+=======
       title = titleOfStory
     } else if (titleStoryList) {
       title = 'Pocket Reporter'
     } else if (titleResource) {
       title = titleOfStory
+>>>>>>> e6af7c4dbfb7f3a46179ee9353dabfe3bc3e0be5
     }
 
     const back = this.props.back;
@@ -111,17 +116,21 @@ class Header extends Component {
             <BackIcon />
           </HeaderLink>
         </HeaderButton>
+<<<<<<< HEAD
+      );
+=======
       )
+>>>>>>> e6af7c4dbfb7f3a46179ee9353dabfe3bc3e0be5
     }
 
     let mainTitle;
 
-    if ( titleStart)   {
+    if (titleStart) {
       mainTitle = (
         <HeaderTitle>
           What type of story are you writing?
         </HeaderTitle>
-      )
+      );
     }
 
     let progressBar;
@@ -129,8 +138,13 @@ class Header extends Component {
     {/*TODO: dynamic value*/}
     if (titleStory) {
       progressBar = (
+<<<<<<< HEAD
+        <HeaderProgress variant="determinate" value="38" />
+      );
+=======
         <HeaderProgress variant="determinate" value={38} barColorPrimary='#73c619' />
       )
+>>>>>>> e6af7c4dbfb7f3a46179ee9353dabfe3bc3e0be5
     }
 
     return (
@@ -138,6 +152,22 @@ class Header extends Component {
         <HeaderBar>
           {backButton}
           <HeaderText>
+<<<<<<< HEAD
+            {/* TODO: Change language */}
+            {title}
+          </HeaderText>
+          { titleStory
+            && (
+            <Fragment>
+              <HeaderButton color="inherit">
+                <EmailIcon />
+              </HeaderButton>
+              <HeaderButton color="inherit">
+                <DeleteIcon />
+              </HeaderButton>
+            </Fragment>
+            )
+=======
             {title}
           </HeaderText>
           { titleStory &&
@@ -149,19 +179,24 @@ class Header extends Component {
               <DeleteIcon />
             </HeaderButton>
           </Fragment>
+>>>>>>> e6af7c4dbfb7f3a46179ee9353dabfe3bc3e0be5
           }
           {titleStoryList &&
           <HeaderButton color="inherit">
-            <SettingsIcon/>
+            <SettingsIcon />
           </HeaderButton>
           }
         </HeaderBar>
         {mainTitle}
+<<<<<<< HEAD
+        {/* TODO: Change colour, dynamic value */}
+=======
 
+>>>>>>> e6af7c4dbfb7f3a46179ee9353dabfe3bc3e0be5
         {progressBar}
       </HeaderWrapper>
-    )
+    );
   }
-};
+}
 
-export default Header
+export default Header;
