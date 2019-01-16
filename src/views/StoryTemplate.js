@@ -59,6 +59,32 @@ const GreenButton = styled(Button)`
 
 class StoryTemplate extends Component {
 
+  sendEmail(e) {
+    e.preventDefault();
+
+    const email = 'test@test.com';
+    const emailBody = 'This is a test message';
+    const subject = 'This is a test subject';
+    const mailto = `mailto:${email}?subject=${subject}&body=${emailBody}`;
+
+    window.open(mailto, '_blank');
+  }
+
+  sendWhatsapp(e) {
+    e.preventDefault();
+
+    const message = 'This is a test message';
+    const whatsapp = 'https://api.whatsapp.com/send';
+    const sendTo = `${whatsapp}?text=${encodeURIComponent(message)}`;
+
+    window.open(sendTo, '_blank');
+  }
+
+  deleteStory(e) {
+      e.preventDefault();
+      alert('Clicked delete!')
+  };
+
   render() {
     const questions = this.props.questions;
 
@@ -77,13 +103,13 @@ class StoryTemplate extends Component {
             <p style={{margin: 0}}>If email submission does not work please change to the latest version of Chrome</p>
           </QuestionNotice>
           <QuestionActions>
-            <Button>
+            <Button onClick={this.sendEmail}>
               Email Story
             </Button>
-            <GreenButton variant="contained">
+            <GreenButton variant="contained" onClick={this.sendWhatsapp}>
               Send Story and media via whatsapp
             </GreenButton>
-            <Button color="secondary">
+            <Button color="secondary" onClick={this.deleteStory}>
               Delete story
             </Button>
           </QuestionActions>
