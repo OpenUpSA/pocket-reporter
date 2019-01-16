@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component, Fragment } from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 
@@ -43,7 +43,7 @@ const HeaderLink = styled(Link)`
   color: white;
 `;
 
-//TODO: Add negative margin-left when back button is visible
+// TODO: Add negative margin-left when back button is visible
 const HeaderText = styled.p`
   width: 100%;
   margin: 0;
@@ -67,7 +67,6 @@ const HeaderProgress = styled(LinearProgress)`
 `;
 
 class Header extends Component {
-
   render() {
     const titleStart = this.props.start;
     const titleAbout = this.props.about;
@@ -78,15 +77,15 @@ class Header extends Component {
     let title;
 
     if (titleStart) {
-      title = 'Start a New Story'
+      title = 'Start a New Story';
     } else if (titleAbout) {
-      title = 'About Pocket Reporter'
+      title = 'About Pocket Reporter';
     } else if (titleSettings) {
-      title = 'Settings'
+      title = 'Settings';
     } else if (titleStory) {
-      title = 'Title of Story'
+      title = 'Title of Story';
     } else if (titleStoryList) {
-      title = 'Pocket Reporter'
+      title = 'Pocket Reporter';
     }
 
     const back = this.props.back;
@@ -99,17 +98,17 @@ class Header extends Component {
             <BackIcon />
           </HeaderLink>
         </HeaderButton>
-        )
+      );
     }
 
     let mainTitle;
 
-    if ( titleStart)   {
+    if (titleStart) {
       mainTitle = (
         <HeaderTitle>
           What type of story are you writing?
         </HeaderTitle>
-      )
+      );
     }
 
     let progressBar;
@@ -117,7 +116,7 @@ class Header extends Component {
     if (titleStory) {
       progressBar = (
         <HeaderProgress variant="determinate" value="38" />
-      )
+      );
     }
 
     return (
@@ -125,10 +124,11 @@ class Header extends Component {
         <HeaderBar>
           {backButton}
           <HeaderText>
-          {/*TODO: Change language*/}
+            {/* TODO: Change language */}
             {title}
           </HeaderText>
-          { titleStory &&
+          { titleStory
+            && (
             <Fragment>
               <HeaderButton color="inherit">
                 <EmailIcon />
@@ -137,18 +137,19 @@ class Header extends Component {
                 <DeleteIcon />
               </HeaderButton>
             </Fragment>
+            )
           }
           <HeaderButton color="inherit">
-            <SettingsIcon/>
+            <SettingsIcon />
           </HeaderButton>
 
         </HeaderBar>
         {mainTitle}
-        {/*TODO: Change colour, dynamic value*/}
+        {/* TODO: Change colour, dynamic value */}
         {progressBar}
       </HeaderWrapper>
-    )
+    );
   }
-};
+}
 
-export default Header
+export default Header;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 
-import Icon from '../components/Icon';
+import Icon from './Icon';
 
 const CardWrapper = styled.ul`
   @media (min-width: 760px) 
@@ -119,10 +119,9 @@ const Content = styled(CardContent)`
 `;
 
 function Cards(props) {
-
-  const foldersArray = props.foldersArray;
-  const questions = props.questionsPages;
-  const resources = props.resourcesPages;
+  const foldersArray = props.foldersArray || [];
+  const questions = props.questionsPages || [];
+  const resources = props.resourcesPages || [];
 
   if (props.stacked) {
     return (
@@ -142,7 +141,7 @@ function Cards(props) {
           </CardItemStacked>
         ))}
       </CardWrapper>
-    )
+    );
   }
 
   return (
@@ -152,7 +151,7 @@ function Cards(props) {
           <CardLink to={card.url}>
             <TopicCard>
               <Content>
-                {/*<Icon type={card.icon} />*/}
+                {/* <Icon type={card.icon} /> */}
                 <Text color="inherit">
                   {card.title}
                 </Text>
@@ -167,7 +166,7 @@ function Cards(props) {
           <CardLink to={card.url}>
             <TopicCardGrey>
               <Content>
-                {/*<Icon type={card.icon} />*/}
+                {/* <Icon type={card.icon} /> */}
                 <Text color="inherit">
                   {card.title}
                 </Text>
@@ -178,13 +177,12 @@ function Cards(props) {
       ))}
 
     </CardWrapper>
-  )
+  );
 }
 
 Cards.propTypes = {
-  folderContent: PropTypes.array
-}
-
+  folderContent: PropTypes.array,
+};
 
 
 export default Cards;

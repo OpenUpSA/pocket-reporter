@@ -1,10 +1,10 @@
 import React from 'react';
-import AboutPage from '../views/AboutPage';
 import { graphql } from 'gatsby';
+import AboutPage from '../views/AboutPage';
 
 
 const parseProps = (data) => {
-  const { 
+  const {
     html,
     frontmatter,
   } = data.allMarkdownRemark.edges[0].node;
@@ -21,13 +21,13 @@ const parseProps = (data) => {
     partners,
     contributors,
   };
-}
+};
 
 
 export default ({ data }) => {
   const props = parseProps(data);
-  return <AboutPage {...props} />
-}
+  return <AboutPage {...props} />;
+};
 
 
 export const query = graphql`{
@@ -61,4 +61,4 @@ export const query = graphql`{
       }
     }
   }
-}`
+}`;
