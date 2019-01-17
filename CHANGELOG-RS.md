@@ -1,4 +1,10 @@
 # Change log For Riaan Snyders
+# 17 jan 2019
+    - Layout fixes for sign in / sign up pages
+    - Added titles for sign in / sign up in Header component
+    - Added fontawesome for social media icons (login)
+    - Completed layout for sign in / sign up pages
+  
 #16 Jan 2019 
     - More fixes for Firbase Email sign up
     - Fixes for Firebase Email sign in

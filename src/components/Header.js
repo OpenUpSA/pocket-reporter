@@ -74,6 +74,8 @@ class Header extends Component {
     const titleSettings = this.props.settings;
     const titleStory = this.props.story;
     const titleStoryList = this.props.storyList;
+    const titleSignin = this.props.signin;
+    const titleSignup = this.props.signup;
 
     let title;
 
@@ -87,6 +89,10 @@ class Header extends Component {
       title = 'Title of Story'
     } else if (titleStoryList) {
       title = 'Pocket Reporter'
+    } else if (titleSignin) {
+      title = 'Sign in'
+    } else if(titleSignup) {
+      title = 'Sign up'
     }
 
     const back = this.props.back;
