@@ -100,6 +100,8 @@ class SignInFormBase extends Component {
 
   onFacebookSubmit = event => {
     this.child.doFacebookAuthentication();
+
+    event.preventDefault();
   };
 
   onGoogleSubmit = event => {

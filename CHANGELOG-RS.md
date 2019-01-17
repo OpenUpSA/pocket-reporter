@@ -4,6 +4,8 @@
     - Added titles for sign in / sign up in Header component
     - Added fontawesome for social media icons (login)
     - Completed layout for sign in / sign up pages
+    - POST and GET for Firebase
+    - Added Firebase data sync interface methods in FirebaseHelper
   
 #16 Jan 2019 
     - More fixes for Firbase Email sign up

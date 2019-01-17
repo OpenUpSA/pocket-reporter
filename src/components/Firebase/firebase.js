@@ -2,6 +2,7 @@
 import React from 'react'
 import firebase from 'firebase'; 
 import 'firebase/auth';
+import 'firebase/database';
 import { renderComponent } from 'recompose';
 
 const config = {
@@ -28,6 +29,9 @@ export class Firebase extends React.Component {
       this.doGoogleAuthentication = this.doGoogleAuthentication.bind(this);
       this.doTwitterAuthentication = this.doTwitterAuthentication.bind(this);
       this.doProviderLogin = this.doProviderLogin.bind(this);
+
+      this.doPUT = this.doPUT.bind(this);
+      this.doGET = this.doGET.bind(this);
     }
    }
 
@@ -82,6 +86,45 @@ export class Firebase extends React.Component {
       this.doProviderLogin(provider);
     }
 
+    doPUT(data,story) { 
+      var uuid = sessionStorage.getItem('uuid');
+      var user = sessionStorage.getItem('uname');
+      var email = sessionStorage.getItem('uemail');
+
+      var path = uuid + '/' + story;
+      
+      var jsonData = { 
+         'uuid': uuid,
+         'displayname': user,
+         'email': email,
+         'data': encodeURIComponent(data)
+      };
+
+      firebase.database().ref(path).set({
+        data: jsonData
+      }).catch(function(error) {
+        var errorMessage = error.message;
+
+        throw new Error(errorMessage);
+      });
+    }
+
+    doGET(story) {
+      var uuid = sessionStorage.getItem('uuid');
+      var user = sessionStorage.getItem('uname');
+      var email = sessionStorage.getItem('uemail');
+
+      var path = uuid  + '/' + story;
+
+      var json = '';
+
+      firebase.database().ref(path).on('value', function(snapshot) {
+        sessionStorage.setItem('querySnapshot',JSON.stringify(snapshot.val()));
+      });
+
+      return sessionStorage.getItem('querySnapshot');
+    }
+
     doProviderLogin(provider){
       var errorElement = document.getElementById('error');
       errorElement.innerText = '';
@@ -90,7 +133,9 @@ export class Firebase extends React.Component {
         var token = result.credential.accessToken;
         var user = result.user;
 
-         console.log(user.displayName);
+         sessionStorage.setItem('uuid',user.uid);
+         sessionStorage.setItem('uname',user.displayName);
+         sessionStorage.setItem('uemail',user.email);
 
          //window.location.href="/";
          
@@ -105,5 +150,4 @@ export class Firebase extends React.Component {
   render() { 
       return null; 
   }
-
 }
