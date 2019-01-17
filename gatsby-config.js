@@ -48,7 +48,6 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-netlify',
-    'gatsby-plugin-flow',
   ],
   mapping: {
     'MarkdownRemark.frontmatter.translated_resource_link': 'MarkdownRemark.frontmatter.translated_resource_title',
