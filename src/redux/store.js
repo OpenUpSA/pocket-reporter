@@ -12,12 +12,21 @@ const rawReducers = {
 };
 
 
+const initLocalStorage = () => persistState(['stories'], { key: 'state' });
+const isNode = typeof window === 'undefined';
+
+
 const reducers = combineReducers(rawReducers);
 const middleware = applyMiddleware(thunk);
-const enhancers = composeWithDevTools(
-  middleware,
-  persistState(['stories'], { key: 'state' }),
-);
 
 
-export default createStore(reducers, initialState, enhancers);
+const createEnhancers = () => {
+  if (isNode) {
+    return composeWithDevTools(middleware);
+  }
+
+  return composeWithDevTools(middleware, initLocalStorage());
+};
+
+
+export default createStore(reducers, initialState, createEnhancers());
