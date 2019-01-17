@@ -3,7 +3,7 @@
     "build": "npm run build:gatsby",
     "build:gatsby": "gatsby build",
     "build:docs": "docz build",
-    "start": "npm run build start:gatsby:open",
+    "start": "npm run start:gatsby:open",
     "start:docs": "docz dev",
     "start:gatsby": "gatsby develop",
     "start:gatsby:open": "gatsby develop -o",
