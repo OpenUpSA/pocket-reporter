@@ -5,10 +5,6 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 import Button from '@material-ui/core/Button';
-import OpenUpLogo from '../assets/logos/openup-logo.svg'
-import AIPLogo from '../assets/logos/aip-logo.png'
-import NqabileLogo from '../assets/logos/nqabile-logo.png'
-import SamipLogo from '../assets/logos/samip-logo.png'
 
 const AboutWrapper = styled.div`
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -44,7 +40,7 @@ const AboutHead = styled.h2`
   font-size: 16px;
 `;
 
-const AboutText = styled.p`
+const AboutText = styled.div`
   font-size: 14px;
 `;
 
@@ -69,61 +65,51 @@ const AboutLink = styled.a`
   font-size: 14px;
 `;
 
-const AboutPage = (props) => (
-  <Fragment>
+function AboutPage(props) {
+  const partners = props.partners;
+  const contributors = props.contributors;
 
-    <Header about />
+  return (
+    <Fragment>
 
-    <AboutWrapper>
-      <p>{props.tagline}</p>
-      <p>Simply answer the questions as Pocket Reporter guides you through the news gathering process.</p>
+      <Header about/>
 
-      <AboutButton variant="contained" >
+      <AboutWrapper>
+        <p>{props.tagline}</p>
+
+        <AboutButton variant="contained">
           Change language
-      </AboutButton>
-      <AboutButton variant="contained" >
+        </AboutButton>
+
+        <AboutButton variant="contained">
           Send us feedback
-      </AboutButton>
+        </AboutButton>
+        <AboutText dangerouslySetInnerHTML={{__html: props.html}} />
 
-      <AboutHead>Background</AboutHead>
-      <AboutText>
-        Pocket Reporter is built by
-        <AboutLink href="https://openup.org.za/"> OpenUp </AboutLink>
-        and is inspired by the
-        <AboutLink href="http://nqabile.co.za/virtual"> Virtual Reporter Tool </AboutLink>
-        by
-        <AboutLink href="http://kanthanpillay.com/content/about"> Kanthan Pillay. </AboutLink>
-      </AboutText>
+        <AboutLogos>
+          {partners.map((partner, index) => (
+            <LogoImage key={index} src={partner.logo} alt={partner.name}/>
+          ))}
+        </AboutLogos>
 
-      <AboutButton variant="contained" href="https://pocketreporter.co.za" target="_blank">
-        PocketReporter.co.za
-      </AboutButton>
+        <AboutButton variant="contained" href="https://pocketreporter.co.za" target="_blank">
+          PocketReporter.co.za
+        </AboutButton>
 
-      <AboutLogos>
-        <LogoImage src={OpenUpLogo} />
-        <LogoImage src={AIPLogo} />
-        <LogoImage src={NqabileLogo} />
-        <LogoImage src={SamipLogo} />
-      </AboutLogos>
+        <AboutHead>Contributors</AboutHead>
+        <AboutList>
+          {contributors.map((contributor, index) => (
+            <li key={index}>
+              <AboutLink href={contributor.link}>{contributor.name}</AboutLink>
+            </li>
+            ))}
+        </AboutList>
 
-      <AboutHead>OpenUp</AboutHead>
-      <AboutText>OpenUp is a non-profit organisation that promotes informed decision-making that drives social change. Find out more at <AboutLink href="https://openup.org.za/">openup.org.za.</AboutLink></AboutText>
+      </AboutWrapper>
 
-      <AboutHead>Contributors</AboutHead>
-      <AboutList>
-        <li>Raymond Joseph - <AboutLink href="https://twitter.com/@rayjoe">@rayjoe</AboutLink></li>
-        <li>Raoul de Villiers</li>
-        <li>Juan Barrios - <AboutLink href="https://twitter.com/@knucklesnack">@knucklesnack</AboutLink></li>
-        <li>Thane Thomson</li>
-        <li>Mihlali Somi</li>
-        <li>Wara Fana</li>
-        <li>Javier Vilaboa</li>
-      </AboutList>
-
-    </AboutWrapper>
-
-    <Footer />
-  </Fragment>
-);
+      <Footer/>
+    </Fragment>
+  )
+};
 
 export default AboutPage;
