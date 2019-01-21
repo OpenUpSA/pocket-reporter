@@ -1,4 +1,6 @@
 # Change log For Riaan Snyders
+# 21 Jan 2019
+    -  Added reading method from server to secure the Firebase API keys
 # 17 jan 2019
     - Layout fixes for sign in / sign up pages
     - Added titles for sign in / sign up in Header component

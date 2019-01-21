@@ -3,24 +3,31 @@ import React from 'react'
 import firebase from 'firebase'; 
 import 'firebase/auth';
 import 'firebase/database';
-import { renderComponent } from 'recompose';
+import { renderComponent, setStatic } from 'recompose';
 
-const config = {
-  apiKey: process.env.GATSBY_API_KEY,
-  authDomain: process.env.GATSBY_AUTH_DOMAIN,
-  databaseURL: process.env.GATSBY_DATABASE_URL,
-  projectId: process.env.GATSBY_PROJECT_ID,
-  storageBucket: process.env.GATSBY_STORAGE_BUCKET,
-  messagingSenderId: process.env.GATSBY_MESSAGING_SENDER_ID
+var settingArray = sessionStorage.getItem('firebaseConfig');
+
+settingArray = settingArray.split(',');
+
+const config =  {
+  apiKey: settingArray[0].toString(),
+  authDomain: settingArray[1],
+  databaseURL: settingArray[2],
+  projectId: settingArray[3],
+  storageBucket: settingArray[4],
+  messagingSenderId: settingArray[5]
 };
+
+console.log(config);
 
 export class Firebase extends React.Component {
   constructor() {
     super();
-  
-    if (!firebase.apps.length) {
-      firebase.initializeApp(config);
 
+    if (!firebase.apps.length) {
+
+      firebase.initializeApp(config);
+  
       this.auth = firebase.auth();
 
       this.doCreateUserWithEmailAndPassword = this.doCreateUserWithEmailAndPassword.bind(this);
@@ -32,7 +39,7 @@ export class Firebase extends React.Component {
 
       this.doPUT = this.doPUT.bind(this);
       this.doGET = this.doGET.bind(this);
-    }
+     }
    }
 
    doCreateUserWithEmailAndPassword(email,password) {
@@ -137,7 +144,7 @@ export class Firebase extends React.Component {
          sessionStorage.setItem('uname',user.displayName);
          sessionStorage.setItem('uemail',user.email);
 
-         //window.location.href="/";
+         window.location.href="/";
          
       }).catch(function(error) {
         var errorMessage = error.message;

@@ -1,0 +1,1 @@
+"AIzaSyA5qYqSGp-UBaIaWUl9Jbz1KwVLBqbtUdM","pocket-reporter.firebaseapp.com","https://pocket-reporter.firebaseio.com","pocket-reporter","pocket-reporter.appspot.com","363994200759"
