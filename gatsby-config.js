@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
-const { config } = require('dotenv');
 
+
+const { config } = require('dotenv');
 const starterpack = require('./starterpack.json');
 const createFilesystemConfig = require('./src/tooling/gatsby-config/createFilesystemConfig');
 const netlifyCmsConfig = require('./src/tooling/gatsby-config/netlifyCmsConfig');
@@ -33,7 +34,7 @@ module.exports = {
   plugins: [
     netlifyCmsConfig,
     createFilesystemConfig(__dirname),
-    ...(buildManifestConfig({ 
+    ...(buildManifestConfig({
       name: nameValue,
       theme: themeValue,
       background: backgroundValue,
@@ -49,12 +50,4 @@ module.exports = {
     'gatsby-plugin-sitemap',
     'gatsby-plugin-netlify',
   ],
-  mapping: {
-    'MarkdownRemark.frontmatter.translated_resource_link': 'MarkdownRemark.frontmatter.translated_resource_title',
-    'MarkdownRemark.frontmatter.translated_question_link': 'MarkdownRemark.frontmatter.translated_question_title',
-    'MarkdownRemark.frontmatter.resource_link': 'MarkdownRemark.frontmatter.resource_title',
-    'MarkdownRemark.frontmatter.question_link': 'MarkdownRemark.frontmatter.question_title',
-    'MarkdownRemark.frontmatter.resource_translations_link': 'MarkdownRemark.frontmatter.resource_title',
-    'MarkdownRemark.frontmatter.question_translations_link': 'MarkdownRemark.frontmatter.question_title',
-  },
 };
