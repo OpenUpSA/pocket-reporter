@@ -1,6 +1,57 @@
-export default languages => ({
+
+
+import { isoToLanguage } from '../../helpers/languageConversions';
+
+const langaugeInstance = [
+  {
+    name: 'folders_title',
+    label: 'Folder Title',
+    widget: 'string',
+  },
+  {
+    name: 'questions_link',
+    label: '✏️ Questions Title',
+    widget: 'list',
+    field: {
+      name: 'title',
+      label: 'Title',
+      collection: 'questions',
+      valueField: 'questions_title',
+      searchFields: ['questions_title'],
+      widget: 'relation',
+    },
+  },
+  {
+    name: 'resources_link',
+    label: '📚 Resource Title',
+    widget: 'list',
+    field: {
+      name: 'title',
+      label: 'Title',
+      collection: 'resources',
+      valueField: 'resources_title',
+      searchFields: ['resources_title'],
+      widget: 'relation',
+    },
+  },
+];
+
+const buildTranslation = isoKey => ({
+  label: isoToLanguage(isoKey),
+  name: isoKey,
+  widget: 'object',
+  fields: langaugeInstance,
+});
+
+const removeEnglish = key => key !== 'eng';
+
+const translations = isoKeys => isoKeys
+  .filter(removeEnglish)
+  .map(buildTranslation);
+
+const createFolders = isoKeys => ({
   name: 'folders',
-  label: '📚 Folders',
+  label: '📁 Folders',
   folder: 'src/data/folders/',
   create: true,
   fields: [
@@ -8,55 +59,16 @@ export default languages => ({
       name: 'type',
       label: 'Type',
       widget: 'hidden',
-      default: 'folder',
+      default: 'resourcefolders',
     },
     {
       name: 'icon',
       label: 'Icon',
       widget: 'icon-selector',
     },
-    {
-      name: 'title',
-      label: 'Folder Title',
-      widget: 'string',
-    },
-    {
-      name: 'translated-title',
-      label: 'Folder Title Translations',
-      widget: 'list',
-      fields: [
-        {
-          name: 'language',
-          label: 'language',
-          widget: 'select',
-          options: languages,
-        },
-        {
-          name: 'title',
-          label: 'Title',
-          widget: 'string',
-        },
-      ],
-    },
-    {
-      name: 'translated_question_link',
-      label: '📘 Questions Translations',
-      widget: 'list',
-      field: {
-        name: 'title',
-        label: 'Title',
-        widget: 'string',
-      },
-    },
-    {
-      name: 'translated_resource_link',
-      label: '📙 Questions Translations',
-      widget: 'list',
-      field: {
-        name: 'title',
-        label: 'Title',
-        widget: 'string',
-      },
-    },
+    ...langaugeInstance,
+    ...translations(isoKeys),
   ],
 });
+
+export default createFolders;

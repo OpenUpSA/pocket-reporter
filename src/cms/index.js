@@ -1,13 +1,14 @@
-import CMS, { init } from 'netlify-cms';
+/* eslint-disable import/no-extraneous-dependencies */
 
+
+import CMS, { init } from 'netlify-cms';
 import IconSelector from './widgets/IconSelector';
 import IconSelectorMarkup from './widgets/IconSelector/Markup';
 import createFolders from './collections/createFolders';
-import languages from '../config/languages';
-import createResource from './collections/createResource';
-import createQuestion from './collections/createQuestion';
-import createTranslation from './collections/createTranslation';
+import createQuestions from './collections/createQuestions';
+import createResources from './collections/createResources';
 import aboutPage from './collections/aboutPage';
+import languages from '../config/languages';
 
 
 const isoKeys = Object.keys(languages);
@@ -27,14 +28,12 @@ const config = {
     preview: false,
   },
   collections: [
-    createFolders(languageValues),
-    createTranslation({ type: 'question', languages: languageValues }),
-    ...isoKeys.map(createQuestion),
-    createTranslation({ type: 'resource', languages: languageValues }),
-    ...isoKeys.map(createResource),
+    createFolders(isoKeys),
+    createQuestions(isoKeys),
+    createResources(isoKeys),
     {
       name: 'static',
-      label: 'Static Web Pages',
+      label: '📌 Static Web Pages',
       folder: 'src/data/static/',
       files: [
         aboutPage,
