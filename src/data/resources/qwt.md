@@ -1,9 +1,9 @@
 ---
 type: resources
-resources_title: qwt
+resources_title: Example Title
 afr:
-  resources_title: qwrtw
-  body: qrtert
+  resources_title: Example Translated Title
+  body: Example Translated Content
 spa: {}
 xho: {}
 nso: {}
@@ -12,4 +12,4 @@ sot: {}
 tsn: {}
 zul: {}
 ---
-qwtewr
+Example Content
