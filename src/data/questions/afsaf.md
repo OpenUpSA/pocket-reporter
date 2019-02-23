@@ -1,18 +1,18 @@
 ---
 type: questions
-questions_title: afsaf
+questions_title: Example Questions Set
 questions:
-  - description: AfsaSDF
-    question: dsfSDF
-  - description: asdgxSDF
-    question: SDGSDG
+  - description: Example Single Question Description 1
+    question: Example Single Question 1
+  - description: Example Single Question Description 2
+    question: Example Single Question 2
 afr:
-  questions_title: AfsdaDSF
+  questions_title: Example Questions Set Translated
   questions:
-    - description: sdfsdf
-      question: asfsDF
-    - description: asfaDSD
-      question: ASF
+    - description: Example Single Question Description Translated 1
+      question: Example Single Question Translated 1
+    - description: Example Single Question Description Translated 2
+      question: Example Single Question Translated 2
 spa:
   questions:
     - {}
