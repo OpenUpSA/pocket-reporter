@@ -1,15 +1,17 @@
 import { isoToLanguage } from '../../helpers/languageConversions';
 
-const langaugeInstance = [
+const langaugeInstance = (required = true) => [
   {
     name: 'resources_title',
     label: 'Title',
     widget: 'string',
+    required,
   },
   {
     name: 'body',
     label: 'Content',
     widget: 'markdown',
+    required,
   },
 ];
 
@@ -17,7 +19,7 @@ const buildTranslation = isoKey => ({
   label: isoToLanguage(isoKey),
   name: isoKey,
   widget: 'object',
-  fields: langaugeInstance,
+  fields: langaugeInstance(false),
 });
 
 const removeEnglish = key => key !== 'eng';
@@ -39,7 +41,7 @@ const createResource = isoKeys => ({
       widget: 'hidden',
       default: 'resources',
     },
-    ...langaugeInstance,
+    ...langaugeInstance(true),
     ...translations(isoKeys),
   ],
 });

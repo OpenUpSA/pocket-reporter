@@ -2,11 +2,12 @@
 
 import { isoToLanguage } from '../../helpers/languageConversions';
 
-const langaugeInstance = [
+const langaugeInstance = (required = true) => [
   {
     name: 'folders_title',
     label: 'Folder Title',
     widget: 'string',
+    required,
   },
   {
     name: 'questions_link',
@@ -19,6 +20,7 @@ const langaugeInstance = [
       valueField: 'questions_title',
       searchFields: ['questions_title'],
       widget: 'relation',
+      required: false,
     },
   },
   {
@@ -32,6 +34,7 @@ const langaugeInstance = [
       valueField: 'resources_title',
       searchFields: ['resources_title'],
       widget: 'relation',
+      required: false,
     },
   },
 ];
@@ -40,7 +43,7 @@ const buildTranslation = isoKey => ({
   label: isoToLanguage(isoKey),
   name: isoKey,
   widget: 'object',
-  fields: langaugeInstance,
+  fields: langaugeInstance(false),
 });
 
 const removeEnglish = key => key !== 'eng';
@@ -66,7 +69,7 @@ const createFolders = isoKeys => ({
       label: 'Icon',
       widget: 'icon-selector',
     },
-    ...langaugeInstance,
+    ...langaugeInstance(true),
     ...translations(isoKeys),
   ],
 });

@@ -1,10 +1,11 @@
 import { isoToLanguage } from '../../helpers/languageConversions';
 
-const langaugeInstance = [
+const langaugeInstance = (required = true) => [
   {
     name: 'questions_title',
     label: 'Title',
     widget: 'string',
+    required,
   },
   {
     name: 'questions',
@@ -15,6 +16,7 @@ const langaugeInstance = [
         name: 'question',
         label: 'Question',
         widget: 'string',
+        required,
       },
       {
         name: 'description',
@@ -30,7 +32,7 @@ const buildTranslation = isoKey => ({
   label: isoToLanguage(isoKey),
   name: isoKey,
   widget: 'object',
-  fields: langaugeInstance,
+  fields: langaugeInstance(false),
 });
 
 const removeEnglish = key => key !== 'eng';
@@ -52,7 +54,7 @@ const createQuestions = isoKeys => ({
       widget: 'hidden',
       default: 'questions',
     },
-    ...langaugeInstance,
+    ...langaugeInstance(true),
     ...translations(isoKeys),
   ],
 });
