@@ -56,6 +56,7 @@ const createFolders = isoKeys => ({
   name: 'folders',
   label: '📁 Folders',
   folder: 'src/data/folders/',
+  identifier_field: 'folders_title',
   create: true,
   fields: [
     {
