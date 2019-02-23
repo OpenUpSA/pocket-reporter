@@ -43,7 +43,7 @@ const translations = isoKeys => isoKeys
 
 const createQuestions = isoKeys => ({
   name: 'questions',
-  identifier_field: 'question_title',
+  identifier_field: 'questions_title',
   label: '✏️ Questions',
   folder: 'src/data/questions/',
   create: true,
