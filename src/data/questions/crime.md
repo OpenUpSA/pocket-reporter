@@ -19,13 +19,22 @@ questions:
 afr:
   questions_title: Misdaad
   questions:
-    - question: >-
-        Wat is die name en besonderhede van die slagoffers? Name, ouderdomme,
-        adresse, ander persoonlike inligting.
+    - description: 'Name, ouderdomme, adresse, ander persoonlike inligting.'
+      question: 'Wat is die name en besonderhede van die slagoffers? '
     - question: Wat was die misdaad en hoe is dit gepleeg?
+    - description: Bevestig met amptelike bronne.
+      question: 'Op wattter datum, tyd en plek het die misdaad plaasgevind? '
+    - description: ' (Volgens paramedici, polisie of ander amptelike bronne.)'
+      question: 'In die geval van ''n sterfte, wat was die amptelike oorsaak?'
+    - question: Wat was die aard van die beserings en watter soort wapen is gebruik?
     - question: >-
-        Op wattter datum, tyd en plek het die misdaad plaasgevind? Bevestig met
-        amptelike bronne.
+        Wat het aanleiding gegee tot die misdaad en wat is die agtergrond van
+        die slagoffer? (indien van toepassing?)
+    - question: Was daar enige arrestasies en is daar enige verdagtes of leidrade?
+    - question: Is daar enige vreemde omstandighede wat die misdaad betref?
+    - question: >-
+        Kry kommentaar van die slagoffer, getuies, polisie en ander amptelike
+        bronne.
 spa:
   questions:
     - {}
