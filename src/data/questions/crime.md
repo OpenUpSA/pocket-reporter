@@ -139,10 +139,47 @@ sot:
         Get comment from the victim, witnesses, police and other official
         sources.
 tsn:
+  questions_title: Bosenyi
   questions:
-    - {}
+    - description: 'Names, ages, addresses, other personal information.'
+      question: What is the name and details of the victims?
+    - question: What was the crime and how was it committed?
+    - description: Confirm with official sources.
+      question: 'What is the date, time and location of the crime?'
+    - description: '(According to paramedics, police or other official sources.)'
+      question: 'In the case of death, what was the official cause?'
+    - question: What injuries did the victims suffer and what weapon was used?
+    - question: >-
+        What was the motivation for the crime and what is the background of
+        victim? (if relevant?)
+    - question: Have there been any arrests and are there any suspects or clues?
+    - question: Are there any strange circumstances surrounding the crime?
+    - question: >-
+        Get comment from the victim, witnesses, police and other official
+        sources.
 zul:
+  questions_title: ubugebengu
   questions:
-    - {}
+    - description: 'amagama, iminyaka, amakheli, kanye neminye imininingwane mayelana nabo'
+      question: obani amagama kanye nemininingwane ezisulu?
+    - description: ''
+      question: Ibuphi ubugebengu obenzekile nokuthi kwenzeke kanjani?
+    - description: Thola isiqiniseko esisemthethweni.
+      question: 'Ingabe yenzeke kuphi, nini ngasikhathisini?'
+    - description: ''
+      question: >-
+        Ngokombiko wabezimo eziphuthumayo, amaphoyisa kanye neziphathimandla
+        ingabe yini imbangela yokufa ?
+    - question: >-
+        Ingabe abathintekayo balimele kanjani nokuthi hlobo luni lwesikhali
+        olusetshenzisiwe?
+    - question: >-
+        Ingabe yini imbangela yobugebengu kanye nemvelaphi yezisulu? (Uma
+        kubalulekile)
+    - question: Ingabe bakhona ababoshiwe noma abasolwayo okanye olunye ulwazi?
+    - question: Ingabe sikhona isimo esingaqondakali mayelana nobugebengu?
+    - question: >-
+        Thola uvo lwezisulu, ofakazi, amaphoyisa, kanye nakuziphathimandla
+        ezinolwazi.
 ---
 
