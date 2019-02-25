@@ -120,8 +120,24 @@ por:
         Obtenha declarações das vítimas, testemunhas, polícia e outras fontes
         oficiais.
 sot:
+  questions_title: Bosenyi
   questions:
-    - {}
+    - description: 'Names, ages, addresses, other personal information.'
+      question: What is the name and details of the victims?
+    - question: What was the crime and how was it committed?
+    - description: Confirm with official sources.
+      question: 'What is the date, time and location of the crime?'
+    - description: '(According to paramedics, police or other official sources.)'
+      question: 'In the case of death, what was the official cause?'
+    - question: What injuries did the victims suffer and what weapon was used?
+    - question: >-
+        What was the motivation for the crime and what is the background of
+        victim? (if relevant?)
+    - question: Have there been any arrests and are there any suspects or clues?
+    - question: Are there any strange circumstances surrounding the crime?
+    - question: >-
+        Get comment from the victim, witnesses, police and other official
+        sources.
 tsn:
   questions:
     - {}
