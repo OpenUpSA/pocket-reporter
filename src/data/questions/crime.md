@@ -82,8 +82,24 @@ xho:
         Fumana izimvo zeengxwelerha, amangqina, amapolisa kwakunye nezinye
         iingxelo ezisemthethweni.
 nso:
+  questions_title: Bosenyi
   questions:
-    - {}
+    - description: 'Maina, mengwaga, diaterese le tshedimošo e nngwe ka bona?'
+      question: Naa go tsebilwe batšwasehlabelo?
+    - question: What was the crime and how was it committed?
+    - description: Confirm with official sources.
+      question: 'What is the date, time and location of the crime?'
+    - description: '(According to paramedics, police or other official sources.)'
+      question: 'In the case of death, what was the official cause?'
+    - question: What injuries did the victims suffer and what weapon was used?
+    - question: >-
+        What was the motivation for the crime and what is the background of
+        victim? (if relevant?)
+    - question: Have there been any arrests and are there any suspects or clues?
+    - question: Are there any strange circumstances surrounding the crime?
+    - question: >-
+        Get comment from the victim, witnesses, police and other official
+        sources.
 por:
   questions:
     - {}
