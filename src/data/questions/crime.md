@@ -36,8 +36,24 @@ afr:
         Kry kommentaar van die slagoffer, getuies, polisie en ander amptelike
         bronne.
 spa:
+  questions_title: Crimen
   questions:
-    - {}
+    - description: 'Nombres, edades, direcciones, otra información personal.'
+      question: ¿Cuál es el nombre y los detalles de las víctimas?
+    - question: ¿Cuál fue el crimen y cómo se cometió?
+    - description: Confirme con fuentes oficiales.
+      question: '¿Cuál es la fecha, hora y lugar del crimen?'
+    - description: '(Según paramédicos, policías u otras fuentes oficiales.)'
+      question: 'En el caso de la muerte, ¿cuál fue la causa oficial?'
+    - question: ¿Qué lesiones sufrieron las víctimas y qué arma se utilizó?
+    - question: >-
+        ¿Cuál fue la motivación del crimen y cuál es el origen de la víctima?
+        (¿si es relevante?)
+    - question: '¿Ha habido alguna detención, hay sospechosos o pistas?'
+    - question: ¿Hay alguna circunstancia extraña que rodee el crimen?
+    - question: >-
+        Obtenga comentarios de la víctima, testigos, policías y otras fuentes
+        oficiales.
 xho:
   questions:
     - {}
