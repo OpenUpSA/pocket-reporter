@@ -101,8 +101,24 @@ nso:
         Get comment from the victim, witnesses, police and other official
         sources.
 por:
+  questions_title: Crime
   questions:
-    - {}
+    - description: 'Nomes, idades, endereços, outra informação pessoal.'
+      question: Qual é o nome e identidade das vítimas?
+    - question: Qual foi o crime e como foi cometido?
+    - description: Confirme com as fontes oficiais.
+      question: 'Qual é a data, hora e local do crime?'
+    - description: '(De acordo com o pessoal da saúde, polícia, outras fontes oficiais.)'
+      question: 'Em caso de morte, qual foi a causa oficial?'
+    - question: Que danos foram causados às vítimas e que arma foi usada?
+    - question: >-
+        Qual foi o motivo do crime e qual é o historial da vítima? (se for
+        relevante.)
+    - question: Tem havido alguma detenção e há alguns suspeitos ou pistas?
+    - question: Existem algumas circunstâncias estranhas em volta do crime?
+    - question: >-
+        Obtenha declarações das vítimas, testemunhas, polícia e outras fontes
+        oficiais.
 sot:
   questions:
     - {}
