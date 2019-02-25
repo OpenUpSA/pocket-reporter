@@ -55,8 +55,32 @@ spa:
         Obtenga comentarios de la víctima, testigos, policías y otras fuentes
         oficiales.
 xho:
+  questions_title: Ulwaphulo-mthetho
   questions:
-    - {}
+    - description: 'Amagama, iminyaka yobudala, iidilesi nezinye iinkcukacha.'
+      question: Ngobani na amagama neenkcukacha zoqhagamshelwano zeengxwelerha?
+    - question: Ibiyi ntoni ulwaphulo-mthetho kwaye ludalwe njani na?
+    - description: Qondisisa kuma gosa asemthethweni.
+      question: 'Uthini umhla, ixesha kwakunye nendawo yolwaphulo-mthetho?'
+    - description: >-
+        (Ngokwa magosa ezonyango olukhawulezileyo, amapolisa okanye naliphi na
+        igosa/icandelo elisemthethweni.)
+      question: 'Kumba wokufa, yintoni imbangi esemthethweni?'
+    - question: >-
+        Iingxwelerha zifumene monzakalo mni kwaye yintoni isikhali
+        esisetyenzisiweyo?
+    - question: >-
+        Yintoni na ekhuthaze esisenzo solwaphulo-mthetho kwaye ithini intsukaphi
+        yengxwelerha? (Ukuba ikhona indawo yayo)
+    - question: >-
+        Bakhona abantu abathe babanjwa ngamapolisa kwaye bakhona abarhanelwa
+        okanye imikhondo kusini na?
+    - question: >-
+        Ingaba zikhona izehlo ezingaqondakaliyo nezingqonge indawo
+        yolwaphulo-mthetho?
+    - question: >-
+        Fumana izimvo zeengxwelerha, amangqina, amapolisa kwakunye nezinye
+        iingxelo ezisemthethweni.
 nso:
   questions:
     - {}
