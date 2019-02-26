@@ -50,8 +50,8 @@ const createFolders = isoKeys => ({
       fields: [{
         label: 'Title',
         collection: 'questions',
-        valueField: 'questions_title',
-        searchFields: ['questions_title'],
+        valueField: 'title',
+        searchFields: ['title'],
         widget: 'relation',
         required: false,
       }],
@@ -63,8 +63,8 @@ const createFolders = isoKeys => ({
       fields: [{
         label: 'Title',
         collection: 'resources',
-        valueField: 'resources_title',
-        searchFields: ['resources_title'],
+        valueField: 'title',
+        searchFields: ['title'],
         widget: 'relation',
         required: false,
       }],

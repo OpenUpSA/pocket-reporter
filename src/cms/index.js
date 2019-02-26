@@ -32,9 +32,9 @@ const config = {
     createQuestions(isoKeys),
     createResources(isoKeys),
     {
-      name: 'static',
+      name: 'static-content',
       label: '📌 Static Web Pages',
-      folder: 'src/data/static-content/',
+      folder: 'src/data/static-content/about/',
       files: [
         aboutPage,
       ],
