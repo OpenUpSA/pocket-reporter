@@ -1,12 +1,15 @@
 ---
 type: folders
-folders_title: Gender Violence
+title: asdasdasd
+translations:
+  afr: asdasd
+  nso: asdasd
+  por: asdasd
+  sot: asdasd
+  spa: asdasd
+  tsn: asdasd
+  xho: asdasd
+  zul: asdasd
 icon: Person
-questions_link:
-  - Example Questions Set
-  - ''
-  - ''
-resources_link:
-  - Example Title
 ---
 
