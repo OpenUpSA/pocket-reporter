@@ -10,6 +10,8 @@ questions:
   - question: What was the key testimony and attorney/advocate's main points?
   - question: For how long did the court deliberate before judgement?
   - question: Are there any appeals or motions?
+  - question: Additional Info/Notes
+  - question: Contact details of people you've interviewed
 afr:
   questions_title: Howe - Uitspraak
   questions:
@@ -27,6 +29,8 @@ afr:
         hoofpunte?
     - question: Hoe lank het die hof beraadslaag voor uitspraak gelewer is?
     - question: Gaan appèl aangeteken of mosies ingedien word?
+    - question: Additional Info/Notes
+    - question: Contact details of people you've interviewed
 spa:
   questions_title: Tribunales - Veredicto
   questions:
@@ -42,6 +46,8 @@ spa:
         abogado?
     - question: ¿Por cuánto tiempo deliberó el tribunal antes de la sentencia?
     - question: ¿Hay alguna apelación o moción?
+    - question: Additional Info/Notes
+    - question: Contact details of people you've interviewed
 xho:
   questions_title: linkundla zamatyala - Isigqibo
   questions:
@@ -57,6 +63,8 @@ xho:
         Ithathe ithuba elingakanani na inkundla yamatyala phambi kokuba ithathe
         isigqibo?
     - question: Ingaba zikhona na izibheno?
+    - question: Additional Info/Notes
+    - question: Contact details of people you've interviewed
 nso:
   questions_title: Kahlolo ya Dikgorotsheko
   questions:
@@ -68,6 +76,8 @@ nso:
     - question: What was the key testimony and attorney/advocate's main points?
     - question: For how long did the court deliberate before judgement?
     - question: Are there any appeals or motions?
+    - question: Additional Info/Notes
+    - question: Contact details of people you've interviewed
 por:
   questions_title: Tribunais - Sentencas
   questions:
@@ -83,6 +93,8 @@ por:
         da defessa?
     - question: Durante quanto tempo deliverou o tribunal antes da sentença?
     - question: Há alguma apelação ou moção?
+    - question: Additional Info/Notes
+    - question: Contact details of people you've interviewed
 sot:
   questions_title: Kahlolo ya Dikgorotsheko
   questions:
@@ -94,6 +106,8 @@ sot:
     - question: What was the key testimony and attorney/advocate's main points?
     - question: For how long did the court deliberate before judgement?
     - question: Are there any appeals or motions?
+    - question: Additional Info/Notes
+    - question: Contact details of people you've interviewed
 tsn:
   questions_title: Kahlolo ya kgotlatshekelo
   questions:
@@ -105,6 +119,8 @@ tsn:
     - question: What was the key testimony and attorney/advocate's main points?
     - question: For how long did the court deliberate before judgement?
     - question: Are there any appeals or motions?
+    - question: Additional Info/Notes
+    - question: Contact details of people you've interviewed
 zul:
   questions_title: Inkantolo - Isinqumo
   questions:
@@ -122,5 +138,7 @@ zul:
         ingabe inkantolo ithathe isikhathi esingakanani ngaphambi kokuthi
         kuphume isinqumo?
     - question: ingabe zikhona izicelo zokubuyekezwa kwesinqumo noma iziphakamiso
+    - question: Additional Info/Notes
+    - question: Contact details of people you've interviewed
 ---
 
