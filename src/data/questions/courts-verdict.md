@@ -58,19 +58,69 @@ xho:
         isigqibo?
     - question: Ingaba zikhona na izibheno?
 nso:
+  questions_title: Kahlolo ya Dikgorotsheko
   questions:
-    - {}
+    - description: '(Same, less, greater than the damages sought?)'
+      question: 'What is the verdict and damages, if awarded?'
+    - question: Who are the parties involved?
+    - question: Did the judge make a statement? Did it deviate from assessor's findings?
+    - question: Give a summary of the allegations by plaintiff?
+    - question: What was the key testimony and attorney/advocate's main points?
+    - question: For how long did the court deliberate before judgement?
+    - question: Are there any appeals or motions?
 por:
+  questions_title: Tribunais - Sentencas
   questions:
-    - {}
+    - description: '(De igual, menor ou maior dimensão em relação aos danos estimados)'
+      question: 'Qual é a sentença e os prejuíços, se é que foram considerados?'
+    - question: Quem são as partes envolvidas?
+    - question: >-
+        O juiz anunciou a sentença? Houve alguma alteração com o apresentado
+        pelo assessor?
+    - question: Faça um resumo das alegações do Procurador/demandante?
+    - question: >-
+        Qual foi o testemunho chave e quais os principais argumentos do advogado
+        da defessa?
+    - question: Durante quanto tempo deliverou o tribunal antes da sentença?
+    - question: Há alguma apelação ou moção?
 sot:
+  questions_title: Kahlolo ya Dikgorotsheko
   questions:
-    - {}
+    - description: '(Same, less, greater than the damages sought?)'
+      question: 'What is the verdict and damages, if awarded?'
+    - question: Who are the parties involved?
+    - question: Did the judge make a statement? Did it deviate from assessor's findings?
+    - question: Give a summary of the allegations by plaintiff?
+    - question: What was the key testimony and attorney/advocate's main points?
+    - question: For how long did the court deliberate before judgement?
+    - question: Are there any appeals or motions?
 tsn:
+  questions_title: Kahlolo ya kgotlatshekelo
   questions:
-    - {}
+    - description: '(Same, less, greater than the damages sought?)'
+      question: 'What is the verdict and damages, if awarded?'
+    - question: Who are the parties involved?
+    - question: Did the judge make a statement? Did it deviate from assessor's findings?
+    - question: Give a summary of the allegations by plaintiff?
+    - question: What was the key testimony and attorney/advocate's main points?
+    - question: For how long did the court deliberate before judgement?
+    - question: Are there any appeals or motions?
 zul:
+  questions_title: Inkantolo - Isinqumo
   questions:
-    - {}
+    - description: '(Siyafana, sincane, sikhulu kakhulu kunomonakalo odalekile? )'
+      question: 'Sithini isinqumo ngomonakalo, uma siphumile?'
+    - question: ingabe iziphi izinhlaka ezithintekayo?
+    - question: >-
+        kungabe ijaji lisenzile isitatimende? ingabe sehlukile kunokutholwe
+        abacwaningi?
+    - question: nikeza imininingwane kafishane mayelana nezinsolo ezenziwe ummangali
+    - question: >-
+        Ingabe ibuphi ubufakazi obuqanda ikhanda kanye namaphuzu amqoka kammeli
+        noma umshushisi?
+    - question: >-
+        ingabe inkantolo ithathe isikhathi esingakanani ngaphambi kokuthi
+        kuphume isinqumo?
+    - question: ingabe zikhona izicelo zokubuyekezwa kwesinqumo noma iziphakamiso
 ---
 
