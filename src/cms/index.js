@@ -34,7 +34,7 @@ const config = {
     {
       name: 'static',
       label: '📌 Static Web Pages',
-      folder: 'src/data/static/',
+      folder: 'src/data/static-content/',
       files: [
         aboutPage,
       ],
