@@ -1,22 +1,16 @@
 {
-  "type": "resources",
-  "title": "Example Title",
+  "body": "asdasd",
+  "spa": {},
+  "nso": {},
   "afr": {
     "title": "Example Translated Title",
     "body": "Example Translated Content"
   },
-  "spa": {
-  },
-  "xho": {
-  },
-  "nso": {
-  },
-  "por": {
-  },
-  "sot": {
-  },
-  "tsn": {
-  },
-  "zul": {
-  }
+  "tsn": {},
+  "zul": {},
+  "por": {},
+  "sot": {},
+  "title": "Example Title",
+  "type": "resources",
+  "xho": {}
 }
