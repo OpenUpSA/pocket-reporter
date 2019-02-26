@@ -2,7 +2,7 @@ import { isoToLanguage } from '../../helpers/languageConversions';
 
 const langaugeInstance = (required = true) => [
   {
-    name: 'resources_title',
+    name: 'title',
     label: 'Title',
     widget: 'string',
     required,
@@ -30,9 +30,9 @@ const translations = isoKeys => isoKeys
 
 const createResource = isoKeys => ({
   name: 'resources',
-  identifier_field: 'resources_title',
   label: '📚 Resources',
   folder: 'src/data/resources/',
+  extension: 'json',
   create: true,
   fields: [
     {

@@ -1,0 +1,70 @@
+{
+  "type": "questions",
+  "title": "Example Questions Set",
+  "questions": [
+    {
+      "description": "Example Single Question Description 1",
+      "question": "Example Single Question 1"
+    },
+    {
+      "description": "Example Single Question Description 2",
+      "question": "Example Single Question 2"
+    }
+  ],
+  "afr": {
+    "title": "Example Questions Set Translated",
+    "questions": [
+      {
+        "description": "Voorbeeld Enkele Vraag 1",
+        "question": "Voorbeeld Enkele Vraag Beskrywig 1"
+      },
+      {
+        "description": "Voorbeeld Enkele Vraag 2",
+        "question": "Voorbeeld Enkele Vraag Beskrywig 2"
+      }
+    ]
+  },
+  "spa": {
+    "questions": [
+      {
+      }
+    ]
+  },
+  "xho": {
+    "questions": [
+      {
+      }
+    ]
+  },
+  "nso": {
+    "questions": [
+      {
+      }
+    ]
+  },
+  "por": {
+    "questions": [
+      {
+      }
+    ]
+  },
+  "sot": {
+    "questions": [
+      {
+      }
+    ]
+  },
+  "tsn": {
+    "questions": [
+      {
+      }
+    ]
+  },
+  "zul": {
+    "questions": [
+      {
+      }
+    ]
+  }
+}
+

@@ -2,7 +2,7 @@ const createFolders = () => ({
   name: 'folders',
   label: '📁 Folders',
   folder: 'src/data/folders/',
-  identifier_field: 'folders_title',
+  extension: 'json',
   create: true,
   fields: [
     {
@@ -12,7 +12,7 @@ const createFolders = () => ({
       default: 'folders',
     },
     {
-      name: 'folders_title',
+      name: 'title',
       label: 'Folder Title',
       widget: 'string',
     },
@@ -22,32 +22,30 @@ const createFolders = () => ({
       widget: 'icon-selector',
     },
     {
-      name: 'questions_link',
+      name: 'questions',
       label: '✏️ Questions Title',
       widget: 'list',
-      field: {
-        name: 'title',
+      fields: [{
         label: 'Title',
         collection: 'questions',
         valueField: 'questions_title',
         searchFields: ['questions_title'],
         widget: 'relation',
         required: false,
-      },
+      }],
     },
     {
-      name: 'resources_link',
+      name: 'resources',
       label: '📚 Resource Title',
       widget: 'list',
-      field: {
-        name: 'title',
+      fields: [{
         label: 'Title',
         collection: 'resources',
         valueField: 'resources_title',
         searchFields: ['resources_title'],
         widget: 'relation',
         required: false,
-      },
+      }],
     },
   ],
 });

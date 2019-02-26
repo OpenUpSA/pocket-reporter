@@ -2,7 +2,7 @@ import { isoToLanguage } from '../../helpers/languageConversions';
 
 const langaugeInstance = (required = true) => [
   {
-    name: 'questions_title',
+    name: 'title',
     label: 'Title',
     widget: 'string',
     required,
@@ -43,9 +43,9 @@ const translations = isoKeys => isoKeys
 
 const createQuestions = isoKeys => ({
   name: 'questions',
-  identifier_field: 'questions_title',
   label: '✏️ Questions',
   folder: 'src/data/questions/',
+  extension: 'json',
   create: true,
   fields: [
     {

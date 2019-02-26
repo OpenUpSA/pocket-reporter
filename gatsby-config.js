@@ -3,7 +3,7 @@
 
 const { config } = require('dotenv');
 const starterpack = require('./starterpack.json');
-const createFilesystemConfig = require('./src/tooling/gatsby-config/createFilesystemConfig');
+const filesystemConfig = require('./src/tooling/gatsby-config/filesystemConfig');
 const netlifyCmsConfig = require('./src/tooling/gatsby-config/netlifyCmsConfig');
 const buildManifestConfig = require('./src/tooling/gatsby-config/buildManifestConfig');
 const createHotjarConfig = require('./src/tooling/gatsby-config/createHotjarConfig');
@@ -26,14 +26,20 @@ const {
 } = config();
 
 
+const mapping = {
+  'FoldersJson.questions': 'QuestionsJson.title',
+  'FoldersJson.resources': 'ResourcesJson.title',
+};
+
+
 module.exports = {
   siteMetadata: {
     title: nameValue,
     siteUrl: 'https://pocketreporter.netlify.com',
   },
   plugins: [
+    filesystemConfig,
     netlifyCmsConfig,
-    createFilesystemConfig(__dirname),
     ...(buildManifestConfig({
       name: nameValue,
       theme: themeValue,
@@ -42,12 +48,13 @@ module.exports = {
     ...(createHotjarConfig({ id: HOTJAR_ID, sv: HOTJAR_SNIPPET_VERSION })),
     ...(createAnalyticsConfig({ trackingId: GOOGLE_ANALYTICS_ID })),
     ...(createSentryConfig({ dsn: SENTRY_DNS })),
+    'gatsby-transformer-json',
     '@wapps/gatsby-plugin-material-ui',
-    'gatsby-transformer-remark',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-offline',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-netlify',
   ],
+  mapping,
 };

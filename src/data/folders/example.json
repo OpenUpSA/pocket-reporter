@@ -1,0 +1,11 @@
+{
+  "type": "folders",
+  "title": "Example",
+  "icon": "Person",
+  "questions": [
+    "Example Questions Set"
+  ],
+  "resources": [
+    "Example Title"
+  ]
+}
