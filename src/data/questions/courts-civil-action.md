@@ -26,8 +26,31 @@ questions:
   - question: Additional Info/Notes
   - question: Contact details of people you've interviewed
 afr:
+  questions_title: Howe - Siviele Geding
   questions:
-    - {}
+    - description: 'Name, ouderdomme, adresse, ander persoonlike inligting.'
+      question: Wie is die persoon of organisasie wat die aksie in gedien het?
+    - question: >-
+        Is dit moontlik dat hierdie geding tot landmerkaksie sal lei? Skep dit
+        'n presedent?
+    - question: Is dit moontlik dat die saak buite die hof geskik sal word?
+    - question: Wat is die betekenis van die aksie en die gevolge daarvan op ander?
+    - question: >-
+        Wat is die name van die prokureurs aan beide kante? (Kontroleer
+        spelling!)
+    - question: Wanneer is die verhoor en wie is die voorsittende regter?
+    - question: >-
+        Wat is die agtergrond van die eiser of aansoeker: die persoon wat die
+        aksie in gedien het?
+    - question: Wat is die agtergrond van die verweeder of respondent?
+    - question: Watter tipe skade word beweer?
+    - question: Wat is die verlangde uitkoms?
+    - question: Op watter datum is die aansoek ingedien en watter hof het jurisdiksie?
+    - question: Is daar 'n spesifieke motivering agter die aksie (indien enige)?
+    - question: Wat is die agtergrond tot die konflik/meningsverskil?
+    - question: Is of was daar enige soortgelyke beslissings deur howe (presedente)?
+    - question: Additional Info/Notes
+    - question: Contact details of people you've interviewed
 spa:
   questions:
     - {}
