@@ -1,3 +1,19 @@
+import { isoToLanguage } from '../../helpers/languageConversions';
+
+const buildTranslation = isoKey => ({
+  label: `${isoToLanguage(isoKey)} Title`,
+  name: `${isoKey}-title`,
+  widget: 'string',
+  required: false,
+});
+
+const removeEnglish = key => key !== 'eng';
+
+const translations = isoKeys => isoKeys
+  .filter(removeEnglish)
+  .map(buildTranslation);
+
+
 const createFolders = () => ({
   name: 'folders',
   label: '📁 Folders',
@@ -16,6 +32,7 @@ const createFolders = () => ({
       label: 'Folder Title',
       widget: 'string',
     },
+    ...translations(isoKeys)
     {
       name: 'icon',
       label: 'Icon',
