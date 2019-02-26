@@ -14,7 +14,7 @@ const translations = isoKeys => isoKeys
   .map(buildTranslation);
 
 
-const createFolders = () => ({
+const createFolders = isoKeys => ({
   name: 'folders',
   label: '📁 Folders',
   folder: 'src/data/folders/',
@@ -32,7 +32,7 @@ const createFolders = () => ({
       label: 'Folder Title',
       widget: 'string',
     },
-    ...translations(isoKeys)
+    ...translations(isoKeys),
     {
       name: 'icon',
       label: 'Icon',
