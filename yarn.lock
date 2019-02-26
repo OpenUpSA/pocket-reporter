@@ -4812,6 +4812,25 @@ chokidar@^2.0.0, chokidar@^2.0.2, chokidar@^2.0.4:
   optionalDependencies:
     fsevents "^1.2.7"
 
+chokidar@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.2.tgz#9c23ea40b01638439e0513864d362aeacc5ad058"
+  integrity sha512-IwXUx0FXc5ibYmPC2XeEj5mpXoV66sR+t3jqu2NS2GYwCktt3KF1/Qqjws/NkegajBA4RbZ5+DDwlOiJsxDHEg==
+  dependencies:
+    anymatch "^2.0.0"
+    async-each "^1.0.1"
+    braces "^2.3.2"
+    glob-parent "^3.1.0"
+    inherits "^2.0.3"
+    is-binary-path "^1.0.0"
+    is-glob "^4.0.0"
+    normalize-path "^3.0.0"
+    path-is-absolute "^1.0.0"
+    readdirp "^2.2.1"
+    upath "^1.1.0"
+  optionalDependencies:
+    fsevents "^1.2.7"
+
 chownr@^1.0.1, chownr@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.1.tgz#54726b8b8fff4df053c42187e801fb4412df1494"
@@ -7919,15 +7938,15 @@ gatsby-react-router-scroll@^2.0.4:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby-source-filesystem@^2.0.12:
-  version "2.0.20"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.0.20.tgz#0bb3dcf905c6856d87e7a44d73bd8ff056cd5b95"
-  integrity sha512-nS2hBsqKEQIJ5Yd+g9p++FcsfmvbQmZlBUzx04VPBYZBu2LuLA/ZxQkmdiTNnbDQ18KJw0Zu2PnmUerPnEMqyg==
+gatsby-source-filesystem@^2.0.23:
+  version "2.0.23"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.0.23.tgz#244b1e5e492f474bd4cc75bfe3a9863d55c92d24"
+  integrity sha512-gzcvKTysWgCIFEp9WyKqFGJsF6Cb+MNDX7dRzB3vmS3c/mJi+/UbOuxcqLuNSGhONskTVh3N57kbvcqMq/f8Jg==
   dependencies:
     "@babel/runtime" "^7.0.0"
     better-queue "^3.8.7"
     bluebird "^3.5.0"
-    chokidar "^1.7.0"
+    chokidar "^2.1.2"
     file-type "^10.2.0"
     fs-extra "^5.0.0"
     got "^7.1.0"
@@ -7940,10 +7959,18 @@ gatsby-source-filesystem@^2.0.12:
     valid-url "^1.0.9"
     xstate "^3.1.0"
 
-gatsby-transformer-remark@^2.1.19:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.2.5.tgz#18fe15c08c20a93a823b4b3e5c435b383beeee4f"
-  integrity sha512-RdOu6Sk0ynwNmJwSsRd9JenN4/90wKgl203dokwoydB9wgL5pdZIbHCtB0kA+XBiRd316ihB039N58XHG3CT3Q==
+gatsby-transformer-json@^2.1.8:
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-json/-/gatsby-transformer-json-2.1.8.tgz#bc424941f0bd72b05f80b1449f6e14e5de0e02c8"
+  integrity sha512-iFb+dXL4Q6dlnpxEJxWPZUxRZqh5ETg9V3WaclGGpFpv/QbabPIe+qEvcYPsbRPqcFgoLgKorNkDVPgmbrT7rg==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    bluebird "^3.5.0"
+
+gatsby-transformer-remark@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.2.6.tgz#6f310ebc72e7182d6181904a7a6d7ae59995cad7"
+  integrity sha512-Cb90xsOVhH8T6phxgtUFWzmaKjaKbLJe17bSg1EXQz95ro5PevTO9Z7My05nZ3rHTrS2bnJkPEJb19d7d0tOVA==
   dependencies:
     "@babel/runtime" "^7.0.0"
     bluebird "^3.5.0"
@@ -7952,6 +7979,7 @@ gatsby-transformer-remark@^2.1.19:
     hast-util-to-html "^4.0.0"
     lodash "^4.17.10"
     mdast-util-to-hast "^3.0.0"
+    mdast-util-to-string "^1.0.5"
     mdast-util-toc "^2.0.1"
     remark "^9.0.0"
     remark-parse "^5.0.0"
@@ -11419,7 +11447,7 @@ mdast-util-to-nlcst@^3.2.0:
     unist-util-position "^3.0.0"
     vfile-location "^2.0.0"
 
-mdast-util-to-string@^1.0.0, mdast-util-to-string@^1.0.2, mdast-util-to-string@^1.0.4:
+mdast-util-to-string@^1.0.0, mdast-util-to-string@^1.0.2, mdast-util-to-string@^1.0.4, mdast-util-to-string@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/mdast-util-to-string/-/mdast-util-to-string-1.0.5.tgz#3552b05428af22ceda34f156afe62ec8e6d731ca"
   integrity sha512-2qLt/DEOo5F6nc2VFScQiHPzQ0XXcabquRJxKMhKte8nt42o08HUxNDPk7tt0YPxnWjAT11I1SYi0X0iPnfI5A==
