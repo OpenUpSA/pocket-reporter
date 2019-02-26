@@ -1,9 +1,11 @@
 {
 	"type": "folders",
-	"title": "Gender Violence",
+	"title": "Legal",
 	"icon": "Person",
 	"questions": [
-		"Example Questions Set"
+		"Courts - Civil Action",
+		"Courts - Verdict",
+		"Crime"
 	],
 	"resources": [
 		"Example Title"
