@@ -1,0 +1,24 @@
+{
+  "type": "folders",
+  "title": "Test Example",
+  "translations": {
+    "afr": "Toets Voorbeeld"
+  },
+  "icon": "LocalShipping",
+  "questions": [
+    {
+      "undefined": "Courts - Verdict"
+    },
+    {
+      "undefined": "Courts - Civil Action"
+    },
+    {
+      "undefined": "Crime"
+    }
+  ],
+  "resources": [
+    {
+      "undefined": "Example Title"
+    }
+  ]
+}
