@@ -21,14 +21,14 @@ const Card = (props) => {
   const {
     title,
     type,
-    date: dateString,
+    created,
     progress: value,
     click,
     link,
     id
   } = props;
 
-  const date = moment(dateString).fromNow();
+  const date = moment(created).fromNow();
 
   return (
     <StyledCard>
