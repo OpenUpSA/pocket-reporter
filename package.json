@@ -25,6 +25,7 @@
     "gatsby-transformer-json": "^2.1.8",
     "indent-string": "^3.2.0",
     "lodash": "^4.17.11",
+    "moment": "^2.24.0",
     "polished": "^3.0.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
