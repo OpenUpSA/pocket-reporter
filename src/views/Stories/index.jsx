@@ -1,6 +1,5 @@
 import React from 'react';
 import t from 'prop-types';
-import EmailIcon from '@material-ui/icons/Email';
 import moment from 'moment';
 import addProps from '../../helpers/addProps';
 import Layout from '../../components/Layout';
@@ -12,8 +11,9 @@ import {
   Click,
   Title,
   StoryProgress,
+  Icon,
+  StyledIconAction,
 } from './styled';
-
 
 const Card = (props) => {
   const {
@@ -38,14 +38,14 @@ const Card = (props) => {
               <div>{type}</div>
               <div>{date}</div>
             </div>
-            <StoryProgress variant="determinate" {...{ value }} thickness="5" />
+            <StoryProgress variant="determinate" {...{ value }} thickness={7} />
           </StyledCardContent>
         </StyledAction>
       </Click>
       <Click button click="#" {...{ link }}>
-        <StyledAction>
-          <EmailIcon />
-        </StyledAction>
+        <StyledIconAction>
+          <Icon />
+        </StyledIconAction>
       </Click>
     </StyledCard>
   );

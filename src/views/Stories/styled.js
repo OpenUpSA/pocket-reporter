@@ -4,7 +4,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import ClickWrapper from '../../components/ClickWrapper';
 import CircularProgress from '@material-ui/core/CircularProgress';
-
+import EmailIcon from '@material-ui/icons/Email';
 
 const List = styled.div`
   padding: 20px;
@@ -58,6 +58,20 @@ const StoryProgress = styled(CircularProgress)`
   }
 `;
 
+const StyledIconAction = styled(StyledAction)`
+  && {
+    text-align: center;
+  }
+`;
+
+const Icon = styled(EmailIcon)`
+  && {
+    height: 40px;
+    width: 40px;
+    color: #4a4a4a;
+  }
+`;
+
 export {
   Click,
   StyledCard,
@@ -66,6 +80,8 @@ export {
   List,
   Title,
   StoryProgress,
+  Icon,
+  StyledIconAction,
 };
 
 
@@ -77,4 +93,6 @@ export default {
   List,
   Title,
   StoryProgress,
+  Icon,
+  StyledIconAction,
 };
