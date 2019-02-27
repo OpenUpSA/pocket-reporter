@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import LinearProgress from '@material-ui/core/LinearProgress';
+import IconButton from '@material-ui/core/IconButton';
+import Button from '@material-ui/core/Button';
 
 
 const HeaderWrapper = styled.div`
@@ -17,11 +19,6 @@ const HeaderBar = styled.div`
   height: 50px;
   display: flex;
   align-items: center;
-`;
-
-
-const HeaderLink = styled.a`
-  color: white;
 `;
 
 
@@ -55,21 +52,50 @@ const HeaderProgress = styled(LinearProgress)`
 `;
 
 
+const BackButton = styled(IconButton)`
+  && {
+    color: white;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    margin-left: 16px;
+  }
+`;
+
+const IsoKeyWrapper = styled(Button)`
+&& {
+  height: 40px;
+  color: white;
+  margin-right: 16px;
+}
+`;
+
+
+const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+
 export {
+  Wrapper,
   HeaderWrapper,
   HeaderBar,
-  HeaderLink,
+  BackButton,
   HeaderText,
   HeaderTitle,
   HeaderProgress,
+  IsoKeyWrapper,
 };
 
 
 export default {
+  Wrapper,
   HeaderWrapper,
   HeaderBar,
-  HeaderLink,
+  BackButton,
   HeaderText,
   HeaderTitle,
   HeaderProgress,
+  IsoKeyWrapper,
 };

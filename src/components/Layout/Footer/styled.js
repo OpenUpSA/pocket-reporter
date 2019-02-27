@@ -3,6 +3,22 @@ import Fab from '@material-ui/core/Fab';
 import AddIcon from '@material-ui/icons/Add';
 
 
+const Gradient = styled.div`
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: 
+    linear-gradient(
+      to top, 
+      rgba(255,255,255,1) 0%,
+      rgba(255,255,255,0) 100%
+    );
+  z-index: 99;
+`;
+
+
 const FooterWrapper = styled.div`
 position: fixed;
 bottom: 0px;
@@ -99,6 +115,7 @@ export {
   FooterButton,
   AddButton,
   StyledAddIcon,
+  Gradient,
 };
 
 
@@ -111,4 +128,5 @@ export default {
   FooterButton,
   AddButton,
   StyledAddIcon,
+  Gradient,
 };
