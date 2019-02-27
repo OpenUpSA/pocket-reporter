@@ -11,6 +11,16 @@ const List = styled.div`
   margin: 0 auto;
 `;
 
+const StyledCard = styled(Card)`
+  display: flex;
+  align-items: stretch;
+  margin: 10px;
+`;
+
+const Click = styled(ClickWrapper)`
+  width: ${({ button }) => (button ? '100px' : '100%')};
+  border-left: ${({ button }) => (button ? '1px solid #d7d7d7' : 'none')};
+`;
 
 const StyledAction = styled(CardActionArea)`
   && {
@@ -24,20 +34,18 @@ const StyledCardContent = styled(CardContent)`
     justify-content: space-between;
     display: flex;
     margin: 0;
+    padding: 10px;
   }
 `;
 
-
-const StyledCard = styled(Card)`
-  display: flex;
-  align-items: stretch;
-  margin: 10px;
-`;
-
-
-const Click = styled(ClickWrapper)`
-  width: ${({ button }) => (button ? '100px' : '100%')};
-  border-left: ${({ button }) => (button ? '1px solid #d7d7d7' : 'none')};
+const Title = styled.h3`
+  font-weight: bold;
+  margin-bottom: 2px;
+  font-size: 18px;
+  font-family: Roboto;
+  margin-top: 0;
+  color: #4a4a4a;
+  line-height: 1.1;
 `;
 
 export {
@@ -46,6 +54,7 @@ export {
   StyledCardContent,
   StyledAction,
   List,
+  Title,
 };
 
 
@@ -55,4 +64,5 @@ export default {
   StyledCardContent,
   StyledAction,
   List,
+  Title,
 };

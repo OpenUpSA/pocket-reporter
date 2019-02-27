@@ -14,6 +14,7 @@ import {
   StyledCardContent,
   StyledAction,
   Click,
+  Title,
 } from './styled';
 
 
@@ -36,9 +37,9 @@ const Card = (props) => {
         <StyledAction>
           <StyledCardContent>
             <div>
-              <Typography>{title}</Typography>
-              <Typography>{type}</Typography>
-              <Typography>{date}</Typography>
+              <Title>{title}</Title>
+              <div>{type}</div>
+              <div>{date}</div>
             </div>
             <CircularProgress variant="determinate" {...{ value }} />
           </StyledCardContent>
