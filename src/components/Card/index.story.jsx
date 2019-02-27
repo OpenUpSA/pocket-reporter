@@ -20,10 +20,12 @@ const createProps = (seed) => {
 };
 
 
-const basic = () => <Card {...createProps()} icon="Public" />;
-const stacked = () => <Card {...createProps()} icon="Public" stacked />;
+const basic = () => <Card {...createProps()} icon="Public" click="#" />;
+const resource = () => <Card {...createProps()} icon="Public" click="#" resource />;
+const stacked = () => <Card {...createProps()} icon="Public" click="#" stacked />;
 
 
 storiesOf('components.Card', module)
   .add('Basic', basic)
+  .add('Resource', resource)
   .add('Stacked', stacked);
