@@ -1,60 +1,89 @@
 import React from 'react';
-import styled from 'styled-components';
 import t from 'prop-types';
 
 
+import { Wrapper, CardWrapper } from './styled';
+import Heading from '../../components/Heading';
+import addProps from '../../helpers/addProps';
 import Layout from '../../components/Layout';
 import Card from '../../components/Card';
 
 
-const Wrap = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1000px;
-  margin: 0 auto;
-`;
+const CardIteration = (props) => {
+  const {
+    resource,
+    link,
+    title,
+    icon,
+    click,
+  } = props;
 
-const CardWrapper = styled.div`
-  width: 100%;
-  padding: 10px;
+  const passedProps = {
+    resource,
+    link,
+    title,
+    icon,
+    click,
+  };
 
-  @media screen and (min-width: 500px) {
-    width: 50%;
-  }
-
-  @media screen and (min-width: 700px) {
-    width: ${100 / 3}%;
-  }
-`;
-
-const CardIteration = ({ title, icon }) => (
-  <CardWrapper>
-    <Card {...{ title, icon }} stacked />
-  </CardWrapper>
-);
+  return (
+    <CardWrapper>
+      <Card {...passedProps} />
+    </CardWrapper>
+  );
+};
 
 
-const FolderContent = ({ folders = [] }) => (
-  <Layout title="Start a new story">
-    <Wrap>
-      {folders.map(CardIteration)}
-    </Wrap>
-  </Layout>
-);
+const ListOfFolders = (props) => {
+  const {
+    questions,
+    resources,
+    link,
+    isoKey,
+  } = props;
+
+  const createQuestionCard = addProps(CardIteration, { link }, 'title');
+  const createResourceCard = addProps(CardIteration, { link, resource: true }, 'title');
+
+  return (
+    <Layout title="Start a new story" {...{ isoKey }}>
+      <Heading component="h3">Story Templates</Heading>
+      <Wrapper>
+        {questions.map(createQuestionCard)}
+      </Wrapper>
+      <Heading component="h3">Additional Resources</Heading>
+      <Wrapper>
+        {resources.map(createResourceCard)}
+      </Wrapper>
+    </Layout>
+  );
+};
 
 
-export default FolderContent;
+export default ListOfFolders;
 
 
-CardWrapper.propTypes = {
+CardIteration.propTypes = {
   title: t.string.isRequired,
   icon: t.string.isRequired,
 };
 
 
-FolderContent.propTypes = {
-  folders: t.arrayOf(t.shape({
+ListOfFolders.propTypes = {
+  link: t.node,
+  questions: t.arrayOf(t.shape({
     title: t.string,
     icon: t.string,
+    click: t.oneOfType([t.string, t.func]),
   })).isRequired,
+  resources: t.arrayOf(t.shape({
+    title: t.string,
+    icon: t.string,
+    click: t.oneOfType([t.string, t.func]),
+  })).isRequired,
+};
+
+
+ListOfFolders.defaultProps = {
+  link: null,
 };

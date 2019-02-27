@@ -6,7 +6,12 @@
   "plugins": [
     "jest"
   ],
+  "rules": {
+    "linebreak-style": 0
+  },
   "env": {
+    "browser": true,
+    "node": true,
     "jest/globals": true
   }
 }

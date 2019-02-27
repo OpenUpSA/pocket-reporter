@@ -2,10 +2,23 @@ import Button from '@material-ui/core/Button';
 import styled from 'styled-components';
 
 
+import ClickWrapper from '../../components/ClickWrapper';
+
+
+const StyledClickWrapper = styled(ClickWrapper)`
+  padding: 20px;
+`;
+
+
 const AboutWrapper = styled.div`
 font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 21px;
 padding: 0px 15px;
+`;
+
+
+const Wrapper = styled.div`
+  padding: 20px ;
 `;
 
 
@@ -69,6 +82,8 @@ export {
   AboutLogos,
   LogoImage,
   AboutLink,
+  Wrapper,
+  StyledClickWrapper,
 };
 
 
@@ -81,4 +96,6 @@ export default {
   AboutLogos,
   LogoImage,
   AboutLink,
+  Wrapper,
+  StyledClickWrapper,
 };

@@ -16,6 +16,7 @@ const arrayOfNumbers = (min, max, length) => {
 
 
 export {
+  randomNumber,
   blankArray,
   randomLengthBlankArray,
   arrayOfNumbers,
@@ -23,6 +24,7 @@ export {
 
 
 export default {
+  randomNumber,
   blankArray,
   randomLengthBlankArray,
   arrayOfNumbers,

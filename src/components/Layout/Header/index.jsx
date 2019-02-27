@@ -1,73 +1,81 @@
-import React, { Component, Fragment } from 'react';
+import React from 'react';
+import t from 'prop-types';
 import BackIcon from '@material-ui/icons/ArrowBack';
-import EmailIcon from '@material-ui/icons/Email';
-import DeleteIcon from '@material-ui/icons/Delete';
-import SettingsIcon from '@material-ui/icons/Settings';
-import IconButton from '@material-ui/core/IconButton';
+import WarningIcon from '@material-ui/icons/Warning';
+import Tooltip from '@material-ui/core/Tooltip';
+
+
+import ClickWrapper from '../../ClickWrapper';
 
 
 import {
   HeaderWrapper,
   HeaderBar,
-  HeaderLink,
   HeaderText,
+  BackButton,
+  IsoKeyWrapper,
+  Wrapper,
 } from './styled';
 
 
-const backButton = (
-  <IconButton color="inherit">
-    <HeaderLink to="/english/folders/index.html">
+const createBackButton = (back, link) => (
+  <BackButton>
+    <ClickWrapper click={back} {...{ link }}>
       <BackIcon />
-    </HeaderLink>
-  </IconButton>
+    </ClickWrapper>
+  </BackButton>
 );
 
 
-// const titleStoryMarkup = (
-//   <Fragment>
-//     <HeaderButton color="inherit">
-//       <EmailIcon />
-//     </HeaderButton>
-//     <HeaderButton color="inherit">
-//       <DeleteIcon />
-//     </HeaderButton>
-//   </Fragment>
-// );
-
-
-// const titleStoryListMarkup = (
-//   <HeaderButton color="inherit">
-//     <SettingsIcon />
-//   </HeaderButton>
-// );
+const buildIsoButton = (isoKey, link) => (
+  <Wrapper>
+    <Tooltip title="Translation not supported on this page" placement="bottom">
+      <WarningIcon />
+    </Tooltip>
+    <ClickWrapper click="/profile" {...{ link }}>
+      <IsoKeyWrapper>
+        {isoKey}
+      </IsoKeyWrapper>
+    </ClickWrapper>
+  </Wrapper>
+);
 
 
 const Header = (props) => {
   const {
-    start,
-    about,
-    settings,
-    story,
-    storyList,
-    resources,
     title,
     back,
+    link,
+    isoKey,
   } = props;
 
   return (
     <HeaderWrapper>
       <HeaderBar>
-        {!!back && backButton}
+        {!!back && createBackButton(back, link)}
         <HeaderText>
           {title}
         </HeaderText>
+        {buildIsoButton(isoKey, link)}
       </HeaderBar>
-      {/* {!!titleStory && titleStoryMarkup}
-      {!!titleStoryList && titleStoryListMarkup} */}
-      {/* {progressBar} */}
     </HeaderWrapper>
   );
 };
 
 
 export default Header;
+
+
+Header.propTypes = {
+  title: t.string,
+  back: t.oneOfType([t.string, t.func]),
+  link: t.node,
+  isoKey: t.string.isRequired,
+};
+
+
+Header.defaultProps = {
+  title: null,
+  back: null,
+  link: null,
+};

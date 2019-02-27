@@ -2,10 +2,11 @@ import React, { Fragment } from 'react';
 import t from 'prop-types';
 
 
+import Layout from '../../components/Layout';
+import Heading from '../../components/Heading';
 import {
   AboutWrapper,
   AboutButton,
-  AboutHead,
   AboutText,
   AboutList,
   AboutLogos,
@@ -14,10 +15,13 @@ import {
 } from './styled';
 
 
-const createLogo = partner => <LogoImage key={partner} src={partner.logo} alt={partner.name} />;
+const createLogo = (partner) => {
+  const result = <LogoImage key={partner.name} src={partner.logo} alt={partner.name} />;
+  return result;
+};
 
 const createContributor = contributor => (
-  <li key={contributor}>
+  <li key={contributor.name}>
     <AboutLink href={contributor.link}>{contributor.name}</AboutLink>
   </li>
 );
@@ -25,7 +29,7 @@ const createContributor = contributor => (
 
 const createContributors = contributors => (
   <Fragment>
-    <AboutHead>Contributors</AboutHead>
+    <Heading>Contributors</Heading>
     <AboutList>{contributors.map(createContributor)}</AboutList>
   </Fragment>
 );
@@ -36,29 +40,21 @@ const About = (props) => {
     partners,
     contributors,
     tagline,
+    isoKey,
     html: __html,
   } = props;
 
   return (
-    <Fragment>
+    <Layout title="About Pocket Reporter" back="#" {...{ isoKey }}>
       <AboutWrapper>
         <p>{tagline}</p>
-        <AboutButton variant="contained">Change language</AboutButton>
         <AboutButton variant="contained">Send us feedback</AboutButton>
         <AboutText dangerouslySetInnerHTML={{ __html }} />
         <AboutLogos>{partners.map(createLogo)}</AboutLogos>
 
-        <AboutButton
-          variant="contained"
-          href="https://pocketreporter.co.za"
-          target="_blank"
-        >
-          PocketReporter.co.za
-        </AboutButton>
-
         {contributors.length > 0 && createContributors(contributors)}
       </AboutWrapper>
-    </Fragment>
+    </Layout>
   );
 };
 
@@ -78,6 +74,7 @@ About.propTypes = {
   })),
   tagline: t.string,
   html: t.string,
+  isoKey: t.string.isRequired,
 };
 
 

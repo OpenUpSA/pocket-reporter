@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import { darken } from 'polished';
+
+
+import removeProps from '../../helpers/removeProps';
 
 
 const CardItemStacked = styled.div`
@@ -15,6 +17,7 @@ const CardItemStacked = styled.div`
       top: 6px;
       left: 6px;
       width: 100%;
+      height: 100%;
       background-color: #69a626;
       border: 1px solid #73c619;
       box-sizing: border-box;
@@ -36,7 +39,8 @@ const CardItemStacked = styled.div`
 `;
 
 
-const TopicCard = styled(Card)`
+const SanitisedCard = removeProps(Card, 'resource');
+const TopicCard = styled(SanitisedCard)`
   && {
     color: white;
     background-color: ${({ resource }) => (resource ? '#979797' : '#73c619')};
@@ -60,7 +64,7 @@ const Content = styled(CardContent)`
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 80px;
+  min-height: 100px;
 `;
 
 

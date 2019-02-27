@@ -6,7 +6,7 @@ import { storiesOf } from '@storybook/react';
 import faker from 'faker';
 
 
-import { randomLengthBlankArray, arrayOfNumbers } from '../../helpers/arrayHelpers';
+import { randomLengthBlankArray, arrayOfNumbers } from '../../helpers/randomizer';
 import About from './index';
 
 
@@ -31,7 +31,7 @@ const createProps = (seed) => {
 };
 
 
-const basic = () => <About {...createProps()} />;
+const basic = () => <About {...createProps()} isoKey="eng" />;
 const noValues = () => <About />;
 
 

@@ -6,8 +6,12 @@ import { storiesOf } from '@storybook/react';
 import faker from 'faker';
 
 
-import { randomLengthBlankArray } from '../../helpers/arrayHelpers';
-import Folder from './index';
+import FolderContent from './index';
+import { names as iconNames } from '../../config/icons.json';
+import { randomLengthBlankArray, randomNumber } from '../../helpers/randomizer';
+
+
+const maxIndex = iconNames.length;
 
 
 const createProps = (seed) => {
@@ -15,17 +19,25 @@ const createProps = (seed) => {
     faker.seed(seed);
   }
 
+  const icon = iconNames[randomNumber(0, maxIndex)];
+
   return {
-    folders: randomLengthBlankArray(1, 20).map(() => ({
-      title: faker.commerce.department(),
-      icon: 'Public',
+    questions: randomLengthBlankArray(1, 10).map((value, index) => ({
+      title: `${faker.commerce.department()} ${index}`,
+      icon,
+      click: () => console.log('Question fired!'),
+    })),
+    resources: randomLengthBlankArray(1, 5).map((value, index) => ({
+      title: `${faker.commerce.department()} ${index}`,
+      icon,
+      click: () => console.log('Resource Fired'),
     })),
   };
 };
 
 
-const basic = () => <Folder {...createProps()} />;
+const basic = () => <FolderContent {...createProps()} isoKey="eng" />;
 
 
-storiesOf('view.Folder', module)
+storiesOf('view.FolderContent', module)
   .add('Basic', basic);

@@ -4,6 +4,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 
 
 import Icon from '../Icon';
+import ClickWrapper from '../ClickWrapper';
 import {
   CardItemStacked,
   TopicCard,
@@ -18,24 +19,29 @@ const createWrapper = isStacked => (isStacked ? CardItemStacked : 'div');
 const Card = (props) => {
   const {
     stacked,
+    resource,
     title,
     icon,
+    click,
+    link,
   } = props;
 
   const Wrapper = createWrapper(!!stacked);
 
   return (
     <Wrapper key={title}>
-      <TopicCard>
-        <CardActionArea>
-          <Content>
-            {!!stacked && <Icon type={icon} />}
-            <Text color="inherit">
-              {title}
-            </Text>
-          </Content>
-        </CardActionArea>
-      </TopicCard>
+      <ClickWrapper {...{ click, link }} full>
+        <TopicCard {...{ resource }}>
+          <CardActionArea>
+            <Content>
+              {!!icon && <Icon type={icon} />}
+              <Text color="inherit">
+                {title}
+              </Text>
+            </Content>
+          </CardActionArea>
+        </TopicCard>
+      </ClickWrapper>
     </Wrapper>
   );
 };
@@ -46,11 +52,16 @@ export default Card;
 
 Card.propTypes = {
   stacked: t.bool,
+  resource: t.bool,
   title: t.string.isRequired,
   icon: t.string.isRequired,
+  click: t.oneOfType([t.string, t.func]).isRequired,
+  link: t.node,
 };
 
 
 Card.defaultProps = {
   stacked: false,
+  resource: false,
+  link: null,
 };
