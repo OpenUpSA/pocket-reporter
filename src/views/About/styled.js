@@ -16,6 +16,7 @@ width: 100%;
   text-transform: none;
   background-color: #73c619;
   color: white;
+  margin-bottom: 20px;
   
   :hover {
     background-color: #8fd247;
