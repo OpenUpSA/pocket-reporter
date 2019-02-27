@@ -1,11 +1,7 @@
 import React from 'react';
 import t from 'prop-types';
-import { Typography } from '@material-ui/core';
-import CircularProgress from '@material-ui/core/CircularProgress';
 import EmailIcon from '@material-ui/icons/Email';
 import moment from 'moment';
-
-
 import addProps from '../../helpers/addProps';
 import Layout from '../../components/Layout';
 import {
@@ -15,6 +11,7 @@ import {
   StyledAction,
   Click,
   Title,
+  StoryProgress,
 } from './styled';
 
 
@@ -41,7 +38,7 @@ const Card = (props) => {
               <div>{type}</div>
               <div>{date}</div>
             </div>
-            <CircularProgress variant="determinate" {...{ value }} />
+            <StoryProgress variant="determinate" {...{ value }} thickness="5" />
           </StyledCardContent>
         </StyledAction>
       </Click>

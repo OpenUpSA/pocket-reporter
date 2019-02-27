@@ -3,6 +3,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import ClickWrapper from '../../components/ClickWrapper';
+import CircularProgress from '@material-ui/core/CircularProgress';
 
 
 const List = styled.div`
@@ -48,6 +49,15 @@ const Title = styled.h3`
   line-height: 1.1;
 `;
 
+const StoryProgress = styled(CircularProgress)`
+  && {
+    border: 0;
+    color: #73c619;
+    height: 55px;
+    width: 55px;
+  }
+`;
+
 export {
   Click,
   StyledCard,
@@ -55,6 +65,7 @@ export {
   StyledAction,
   List,
   Title,
+  StoryProgress,
 };
 
 
@@ -65,4 +76,5 @@ export default {
   StyledAction,
   List,
   Title,
+  StoryProgress,
 };
