@@ -1,7 +1,55 @@
 {
   "spa": {
+    "title": "Servicios de salud",
     "questions": [
-      {}
+      {
+        "question": "¿Cuál es el nombre del hospital o clínica y dónde está situado?"
+      },
+      {
+        "question": "¿Cuál es la respuesta de los responsables de brindar el servicio?"
+      },
+      {
+        "question": "¿Los pacientes han visitado anteriormente las instalaciones? En caso afirmativo, ¿estaba disponible su expediente cuando fueron tratados?"
+      },
+      {
+        "question": "¿Qué distancia han viajado para llegar allí los pacientes que usted entrevistó?"
+      },
+      {
+        "question": "¿Como llegaron ahi? (autobús, taxi, tren, paseo)"
+      },
+      {
+        "question": "¿Cuál fue el costo de su pasaje de regreso?"
+      },
+      {
+        "question": "¿Cuáles son los servicios que no están funcionando correctamente? (áreas sin prestación de servicios)"
+      },
+      {
+        "question": "¿Por qué estos servicios ya no se ofrecen?"
+      },
+      {
+        "question": "¿A quiénes afecta esto? Un grupo particular de personas / área y cuáles son sus antecedentes socioeconómicos?"
+      },
+      {
+        "question": "¿Cuántas personas están afectadas, en riesgo o en peligro debido a la retirada de estos servicios?"
+      },
+      {
+        "question": "¿Cuáles son los nombres y edades de los afectados y cuáles son sus experiencias?"
+      },
+      {
+        "question": "¿Cuánto tiempo esperan los pacientes para ser vistos por los médicos / trabajadores de salud?"
+      },
+      {
+        "question": "¿Hay suficientes - y correcto - medicamento disponible?"
+      },
+      {
+        "question": "¿Quién es responsable de la prestación de los servicios?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "nso": {
