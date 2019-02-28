@@ -133,8 +133,9 @@ ClickWrapper.propTypes = {
   full: t.bool,
   /** React content nested inside this component. */
   children: t.node.isRequired,
-  /** URL that should be added to the click action.
-   * This should be the URL to where the user will be directed when clicking on the link. */
+  /** This should be the URL to where the user will be directed
+   * when clicking on the link. Alternatively, if a function is
+   * passed that function will be executed when the user clicks on the link. */
   click: t.oneOfType([t.string, t.func]).isRequired,
   /** Whether a custom Link component should be used to resolve links,
    * for example the Link component from React Router or Gatsby.

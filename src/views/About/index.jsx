@@ -68,7 +68,9 @@ About.propTypes = {
      * for example the Link component from React Router or Gatsby.
      * If not supplied, card link will just fall back to a regular <a> tag. */
     link: t.string,
+    /** The name given to the logo of the partner, for example OpenUp's logo will be openUpLogo. */
     logo: t.string,
+    /** The name of the partner that will be displayed on the page. */
     name: t.string,
   })),
   contributors: t.arrayOf(t.shape({
@@ -76,9 +78,12 @@ About.propTypes = {
      * for example the Link component from React Router or Gatsby.
      * If not supplied, card link will just fall back to a regular <a> tag. */
     link: t.string,
+    /** The name of the contributor that will be displayed on the page. */
     name: t.string,
   })),
+  /** The tag line or short description of the contributor that should be displayed. */
   tagline: t.string,
+  /** Markdown/HTML paragraph that will be returned to display correctly. */
   html: t.string,
   /** Displays the language that has been selected by the user (as isoKey)
    * in the header-bar. Is also used to determine what language should be
