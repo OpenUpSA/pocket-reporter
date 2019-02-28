@@ -53,12 +53,19 @@ export default Layout;
 
 
 Layout.propTypes = {
+  /** Nested structure that needs this wrapper **/
   children: t.node.isRequired,
+  /** The title that will be displayed in the header. **/
   title: t.string,
+  /** Determines whether or not the back button should be displayed in the header. **/
   back: t.oneOfType([t.string, t.func]),
+  /** Determines whether or not the header should be displayed on a page. **/
   header: t.bool,
+  /** Determines whether or not the footer should be displayed on a page. **/
   footer: t.bool,
+  /** Displays the language that has been selected by the user. **/
   isoKey: t.string,
+  /** Determines whether padding should be added to the page. **/
   noPadding: t.bool,
 };
 
