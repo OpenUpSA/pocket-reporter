@@ -1,0 +1,505 @@
+{
+  "spa": {
+    "title": "Political Rally",
+    "questions": [
+      {
+        "question": "Have you got copies or recordings of the main speakers’ speeches?"
+      },
+      {
+        "question": "Did you take down their contact details?"
+      },
+      {
+        "question": "Did you contact the interviewees for responses to the main speaker’s speech afterwards?"
+      },
+      {
+        "question": "Did the interviewees believe the promises made by the speakers (and why)?"
+      },
+      {
+        "question": "What sort of reception did the main speaker, and others, receive from the crowd?"
+      },
+      {
+        "question": "What was the crowd’s general mood and ambience?"
+      },
+      {
+        "question": "Did you ensure that your business card was circulated to as many people as possible, especially those interviewed?"
+      },
+      {
+        "question": "Have you confirmed the approximate crowd numbers with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Were there incidents of violence and/or injuries that can be confirmed with an independent source (police and emergency services)?"
+      },
+      {
+        "question": "Have you conducted a minimum of 10 interviews with rally attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Did you establish where they live and what the socio-economic and political issues that affect them in these towns/areas/wards/streets were?"
+      },
+      {
+        "question": "Did you get the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Why did the interviewees attend the rally and what did they hope would come out of attending?"
+      },
+      {
+        "question": "Where any attendees given a free lunch and a T-shirt in exchange for their presence?"
+      },
+      {
+        "question": "Did you interview a wide spectrum of people living in different geographical areas and with different socio-economic backgrounds?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Political Rally",
+    "questions": [
+      {
+        "question": "Have you got copies or recordings of the main speakers’ speeches?"
+      },
+      {
+        "question": "Did you take down their contact details?"
+      },
+      {
+        "question": "Did you contact the interviewees for responses to the main speaker’s speech afterwards?"
+      },
+      {
+        "question": "Did the interviewees believe the promises made by the speakers (and why)?"
+      },
+      {
+        "question": "What sort of reception did the main speaker, and others, receive from the crowd?"
+      },
+      {
+        "question": "What was the crowd’s general mood and ambience?"
+      },
+      {
+        "question": "Did you ensure that your business card was circulated to as many people as possible, especially those interviewed?"
+      },
+      {
+        "question": "Have you confirmed the approximate crowd numbers with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Were there incidents of violence and/or injuries that can be confirmed with an independent source (police and emergency services)?"
+      },
+      {
+        "question": "Have you conducted a minimum of 10 interviews with rally attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Did you establish where they live and what the socio-economic and political issues that affect them in these towns/areas/wards/streets were?"
+      },
+      {
+        "question": "Dintlha ka semelo le boitshwaro bja bona? (Botšiša meloko le bagwera)"
+      },
+      {
+        "question": "Why did the interviewees attend the rally and what did they hope would come out of attending?"
+      },
+      {
+        "question": "Where any attendees given a free lunch and a T-shirt in exchange for their presence?"
+      },
+      {
+        "question": "Did you interview a wide spectrum of people living in different geographical areas and with different socio-economic backgrounds?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Political Rally",
+    "questions": [
+      {
+        "question": "Have you got copies or recordings of the main speakers’ speeches?"
+      },
+      {
+        "question": "Did you take down their contact details?"
+      },
+      {
+        "question": "Did you contact the interviewees for responses to the main speaker’s speech afterwards?"
+      },
+      {
+        "question": "Did the interviewees believe the promises made by the speakers (and why)?"
+      },
+      {
+        "question": "What sort of reception did the main speaker, and others, receive from the crowd?What was the crowd’s general mood and ambience?"
+      },
+      {
+        "question": "What was the crowd’s general mood and ambience?"
+      },
+      {
+        "question": "Did you ensure that your business card was circulated to as many people as possible, especially those interviewed?"
+      },
+      {
+        "question": "Have you confirmed the approximate crowd numbers with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Were there incidents of violence and/or injuries that can be confirmed with an independent source (police and emergency services)?"
+      },
+      {
+        "question": "Have you conducted a minimum of 10 interviews with rally attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Did you establish where they live and what the socio-economic and political issues that affect them in these towns/areas/wards/streets were?"
+      },
+      {
+        "question": "Did you get the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Why did the interviewees attend the rally and what did they hope would come out of attending?"
+      },
+      {
+        "question": "Where any attendees given a free lunch and a T-shirt in exchange for their presence?"
+      },
+      {
+        "question": "Did you interview a wide spectrum of people living in different geographical areas and with different socio-economic backgrounds?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Have you got copies or recordings of the main speakers’ speeches?"
+    },
+    {
+      "question": "Did you take down their contact details?"
+    },
+    {
+      "question": "Did you contact the interviewees for responses to the main speaker’s speech afterwards?"
+    },
+    {
+      "question": "Did the interviewees believe the promises made by the speakers (and why)?"
+    },
+    {
+      "question": "What sort of reception did the main speaker, and others, receive from the crowd?"
+    },
+    {
+      "question": "What was the crowd’s general mood and ambience?"
+    },
+    {
+      "question": "Did you ensure that your business card was circulated to as many people as possible, especially those interviewed?"
+    },
+    {
+      "question": "Have you confirmed the approximate crowd numbers with an independent source (police or venue management)?"
+    },
+    {
+      "question": "Were there incidents of violence and/or injuries that can be confirmed with an independent source (police and emergency services)?"
+    },
+    {
+      "question": "Have you conducted a minimum of 10 interviews with rally attendees from separate parts of the venue?"
+    },
+    {
+      "question": "Did you establish where they live and what the socio-economic and political issues that affect them in these towns/areas/wards/streets were?"
+    },
+    {
+      "question": "Did you get the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+    },
+    {
+      "question": "Why did the interviewees attend the rally and what did they hope would come out of attending?"
+    },
+    {
+      "question": "Where any attendees given a free lunch and a T-shirt in exchange for their presence?"
+    },
+    {
+      "question": "Did you interview a wide spectrum of people living in different geographical areas and with different socio-economic backgrounds?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Political Rally",
+    "questions": [
+      {
+        "question": "Have you got copies or recordings of the main speakers’ speeches?"
+      },
+      {
+        "question": "Did you take down their contact details?"
+      },
+      {
+        "question": "Did you contact the interviewees for responses to the main speaker’s speech afterwards?"
+      },
+      {
+        "question": " Did the interviewees believe the promises made by the speakers (and why)?"
+      },
+      {
+        "question": "What sort of reception did the main speaker, and others, receive from the crowd?"
+      },
+      {
+        "question": "What was the crowd’s general mood and ambience?"
+      },
+      {
+        "question": "Did you ensure that your business card was circulated to as many people as possible, especially those interviewed?"
+      },
+      {
+        "question": "Have you confirmed the approximate crowd numbers with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Were there incidents of violence and/or injuries that can be confirmed with an independent source (police and emergency services)?"
+      },
+      {
+        "question": "Have you conducted a minimum of 10 interviews with rally attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Did you establish where they live and what the socio-economic and political issues that affect them in these towns/areas/wards/streets were?"
+      },
+      {
+        "question": "Did you get the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Why did the interviewees attend the rally and what did they hope would come out of attending?"
+      },
+      {
+        "question": "Where any attendees given a free lunch and a T-shirt in exchange for their presence?"
+      },
+      {
+        "question": "Did you interview a wide spectrum of people living in different geographical areas and with different socio-economic backgrounds?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": " Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Political Rally",
+    "questions": [
+      {
+        "question": "Have you got copies or recordings of the main speakers’ speeches?"
+      },
+      {
+        "question": "Did you take down their contact details?"
+      },
+      {
+        "question": "Did you contact the interviewees for responses to the main speaker’s speech afterwards?"
+      },
+      {
+        "question": "Did the interviewees believe the promises made by the speakers (and why)?"
+      },
+      {
+        "question": "What sort of reception did the main speaker, and others, receive from the crowd?"
+      },
+      {
+        "question": "What was the crowd’s general mood and ambience?"
+      },
+      {
+        "question": "Did you ensure that your business card was circulated to as many people as possible, especially those interviewed?"
+      },
+      {
+        "question": "Have you confirmed the approximate crowd numbers with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Were there incidents of violence and/or injuries that can be confirmed with an independent source (police and emergency services)?"
+      },
+      {
+        "question": "Have you conducted a minimum of 10 interviews with rally attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Did you establish where they live and what the socio-economic and political issues that affect them in these towns/areas/wards/streets were?"
+      },
+      {
+        "question": "Did you get the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Why did the interviewees attend the rally and what did they hope would come out of attending?"
+      },
+      {
+        "question": "Where any attendees given a free lunch and a T-shirt in exchange for their presence?"
+      },
+      {
+        "question": "Did you interview a wide spectrum of people living in different geographical areas and with different socio-economic backgrounds?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Political Rally",
+    "questions": [
+      {
+        "question": "Have you got copies or recordings of the main speakers’ speeches?"
+      },
+      {
+        "question": "Did you take down their contact details?"
+      },
+      {
+        "question": "Did you contact the interviewees for responses to the main speaker’s speech afterwards?"
+      },
+      {
+        "question": "Did the interviewees believe the promises made by the speakers (and why)?"
+      },
+      {
+        "question": "What sort of reception did the main speaker, and others, receive from the crowd?"
+      },
+      {
+        "question": "What was the crowd’s general mood and ambience?"
+      },
+      {
+        "question": "Did you ensure that your business card was circulated to as many people as possible, especially those interviewed?"
+      },
+      {
+        "question": "Have you confirmed the approximate crowd numbers with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Were there incidents of violence and/or injuries that can be confirmed with an independent source (police and emergency services)?"
+      },
+      {
+        "question": "Have you conducted a minimum of 10 interviews with rally attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Did you establish where they live and what the socio-economic and political issues that affect them in these towns/areas/wards/streets were?"
+      },
+      {
+        "question": "Did you get the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Why did the interviewees attend the rally and what did they hope would come out of attending?"
+      },
+      {
+        "question": "Where any attendees given a free lunch and a T-shirt in exchange for their presence?"
+      },
+      {
+        "question": "Did you interview a wide spectrum of people living in different geographical areas and with different socio-economic backgrounds?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Political Rally",
+    "questions": [
+      {
+        "question": "Have you got copies or recordings of the main speakers’ speeches?"
+      },
+      {
+        "question": "Did you take down their contact details?"
+      },
+      {
+        "question": "Did you contact the interviewees for responses to the main speaker’s speech afterwards?"
+      },
+      {
+        "question": "Did the interviewees believe the promises made by the speakers (and why)?"
+      },
+      {
+        "question": "What sort of reception did the main speaker, and others, receive from the crowd?"
+      },
+      {
+        "question": "What was the crowd’s general mood and ambience?"
+      },
+      {
+        "question": "Did you ensure that your business card was circulated to as many people as possible, especially those interviewed?"
+      },
+      {
+        "question": "Have you confirmed the approximate crowd numbers with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Were there incidents of violence and/or injuries that can be confirmed with an independent source (police and emergency services)?"
+      },
+      {
+        "question": "Have you conducted a minimum of 10 interviews with rally attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Did you establish where they live and what the socio-economic and political issues that affect them in these towns/areas/wards/streets were?"
+      },
+      {
+        "question": "Did you get the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Why did the interviewees attend the rally and what did they hope would come out of attending?"
+      },
+      {
+        "question": "Where any attendees given a free lunch and a T-shirt in exchange for their presence?"
+      },
+      {
+        "question": "Did you interview a wide spectrum of people living in different geographical areas and with different socio-economic backgrounds?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Political Rally",
+  "type": "questions",
+  "xho": {
+    "title": "Political Rally",
+    "questions": [
+      {
+        "question": "Have you got copies or recordings of the main speakers’ speeches?"
+      },
+      {
+        "question": "Did you take down their contact details?"
+      },
+      {
+        "question": "Did you contact the interviewees for responses to the main speaker’s speech afterwards?"
+      },
+      {
+        "question": "Did the interviewees believe the promises made by the speakers (and why)?"
+      },
+      {
+        "question": "What sort of reception did the main speaker, and others, receive from the crowd?"
+      },
+      {
+        "question": "What was the crowd’s general mood and ambience?"
+      },
+      {
+        "question": "Did you ensure that your business card was circulated to as many people as possible, especially those interviewed?"
+      },
+      {
+        "question": "Have you confirmed the approximate crowd numbers with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Were there incidents of violence and/or injuries that can be confirmed with an independent source (police and emergency services)?"
+      },
+      {
+        "question": "Have you conducted a minimum of 10 interviews with rally attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Did you establish where they live and what the socio-economic and political issues that affect them in these towns/areas/wards/streets were?"
+      },
+      {
+        "question": "Did you get the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Why did the interviewees attend the rally and what did they hope would come out of attending?"
+      },
+      {
+        "question": "Where any attendees given a free lunch and a T-shirt in exchange for their presence?"
+      },
+      {
+        "question": "Did you interview a wide spectrum of people living in different geographical areas and with different socio-economic backgrounds?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
