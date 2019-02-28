@@ -14,6 +14,8 @@ import {
   ListItem,
   QuestionList,
   ButtonClick,
+  Heading,
+  Description,
 } from './styled';
 
 
@@ -28,8 +30,8 @@ const Question = (props) => {
 
   return (
     <ListItem>
-      <Typography>{title}</Typography>
-      <Typography>{description}</Typography>
+      <Heading>{title}</Heading>
+      <Description>{description}</Description>
       <TextField
         fullWidth
         multiline

@@ -13,10 +13,13 @@ const Resource = (props) => {
     body: __html,
     backClick,
     isoKey,
+    parentUrl,
   } = props;
 
+  console.log(props);
+
   return (
-    <Layout {...{ title, isoKey }} back={backClick}>
+    <Layout {...{ title, isoKey }} back={parentUrl}>
       <ResourceWrapper>
         <ResourceWrapper dangerouslySetInnerHTML={{ __html }} />
       </ResourceWrapper>

@@ -1,9 +1,8 @@
 const calcIfExternalLink = (url) => {
   const linkInMemory = window.document.createElement('a');
   linkInMemory.href = url;
-  const condition = new RegExp(window.location.host, 'i');
 
-  return !linkInMemory.hostname.match(condition);
+  return linkInMemory.hostname !== window.location.hostname;
 };
 
 

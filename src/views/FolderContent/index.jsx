@@ -1,89 +1,90 @@
-import React from 'react';
+import React, { Component, createRef } from 'react';
 import t from 'prop-types';
 
 
-import { Wrapper, CardWrapper } from './styled';
-import Heading from '../../components/Heading';
-import addProps from '../../helpers/addProps';
-import Layout from '../../components/Layout';
-import Card from '../../components/Card';
+import Markup from './Markup';
 
 
-const CardIteration = (props) => {
-  const {
-    resource,
-    link,
-    title,
-    icon,
-    click,
-  } = props;
+class FolderContent extends Component {
+  constructor(props) {
+    super(props);
 
-  const passedProps = {
-    resource,
-    link,
-    title,
-    icon,
-    click,
-  };
+    this.state = {
+      modalId: null,
+    };
 
-  return (
-    <CardWrapper>
-      <Card {...passedProps} />
-    </CardWrapper>
-  );
-};
+    this.values = {
+      newTitle: createRef(),
+    };
+  }
+
+  createStory = (id) => {
+    const { newTitle } = this.values;
+    console.log(newTitle.current.value);
+    console.log(id);
+    return this.setState({ modalId: null });
+  }
+
+  setModalId = (modalId) => {
+    if (modalId === null) {
+      return this.setState({
+        modalId,
+      });
+    }
+
+    return this.setState({ modalId });
+  }
+
+  render() {
+    const {
+      props,
+      state,
+      values,
+      ...events
+    } = this;
+
+    const questions = props.questions.map(object => ({
+      ...object,
+      click: () => events.setModalId(object.title),
+    }));
+
+    const passedProps = {
+      modalId: state.modalId,
+      setModalId: events.setModalId,
+      link: props.link,
+      questions,
+      resources: props.resources,
+      isoKey: props.isoKey,
+      createStory: events.createStory,
+      newTitle: values.newTitle,
+      icon: props.icon,
+    };
+
+    return <Markup {...passedProps} />;
+  }
+}
 
 
-const ListOfFolders = (props) => {
-  const {
-    questions,
-    resources,
-    link,
-    isoKey,
-  } = props;
-
-  const createQuestionCard = addProps(CardIteration, { link }, 'title');
-  const createResourceCard = addProps(CardIteration, { link, resource: true }, 'title');
-
-  return (
-    <Layout title="Start a new story" {...{ isoKey }}>
-      <Heading component="h3">Story Templates</Heading>
-      <Wrapper>
-        {questions.map(createQuestionCard)}
-      </Wrapper>
-      <Heading component="h3">Additional Resources</Heading>
-      <Wrapper>
-        {resources.map(createResourceCard)}
-      </Wrapper>
-    </Layout>
-  );
-};
+export default FolderContent;
 
 
-export default ListOfFolders;
-
-
-CardIteration.propTypes = {
-  title: t.string.isRequired,
-  icon: t.string.isRequired,
-};
-
-
-ListOfFolders.propTypes = {
+FolderContent.propTypes = {
+  isoKey: t.string.isRequired,
   link: t.node,
   questions: t.arrayOf(t.shape({
+    id: t.string,
     title: t.string,
     icon: t.string,
-    click: t.oneOfType([t.string, t.func]),
   })).isRequired,
   resources: t.arrayOf(t.shape({
+    id: t.string,
     title: t.string,
     icon: t.string,
-    click: t.oneOfType([t.string, t.func]),
+    click: t.string,
   })).isRequired,
 };
 
 
-ListOfFolders.defaultProps = {
+FolderContent.defaultProps = {
   link: null,
 };

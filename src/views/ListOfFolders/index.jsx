@@ -9,7 +9,7 @@ import addProps from '../../helpers/addProps';
 
 
 const CardIteration = (props) => {
-  const { 
+  const {
     title,
     icon,
     link,
@@ -31,13 +31,21 @@ const CardIteration = (props) => {
 };
 
 
-const ListOfFolders = ({ folders = [], link, isoKey }) => (
-  <Layout title="Start a new story" {...{ isoKey }} back="#">
-    <Wrap>
-      {folders.map(addProps(CardIteration, { link }, 'title'))}
-    </Wrap>
-  </Layout>
-);
+const ListOfFolders = (props) => {
+  const {
+    folders = [],
+    link,
+    isoKey,
+  } = props;
+
+  return (
+    <Layout title="Start a new story" {...{ isoKey }} back="/">
+      <Wrap>
+        {folders.map(addProps(CardIteration, { link }, 'title'))}
+      </Wrap>
+    </Layout>
+  );
+};
 
 
 export default ListOfFolders;

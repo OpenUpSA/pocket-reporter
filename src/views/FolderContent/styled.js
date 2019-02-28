@@ -1,4 +1,8 @@
 import styled from 'styled-components';
+import Button from '@material-ui/core/Button';
+
+
+import HeadingComponent from '../../components/Heading';
 
 
 const Wrapper = styled.div`
@@ -21,14 +25,31 @@ padding: 10px;
 }
 `;
 
+const Heading = styled(HeadingComponent)`
+  && {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+`;
+
+const GreenButton = styled(Button)`
+  && {
+    background: #73c619;
+    color: white;
+  }
+`;
 
 export {
+  Heading,
   Wrapper,
   CardWrapper,
+  GreenButton,
 };
 
 
 export default {
+  Heading,
   Wrapper,
   CardWrapper,
+  GreenButton,
 };
