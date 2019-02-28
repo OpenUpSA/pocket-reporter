@@ -80,6 +80,9 @@ About.propTypes = {
   })),
   tagline: t.string,
   html: t.string,
+  /** Displays the language that has been selected by the user (as isoKey)
+   * in the header-bar. Is also used to determine what language should be
+   * used for the hardcode UI-specific/instructional text on the page. */
   isoKey: t.string.isRequired,
 };
 
