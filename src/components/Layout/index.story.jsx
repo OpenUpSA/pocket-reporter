@@ -21,7 +21,10 @@ const createProps = (seed) => {
 
 
 const basic = () => <Layout {...createProps()} isoKey="eng">{faker.lorem.paragraphs()}</Layout>;
+
 const withBack = () => <Layout {...createProps()} back="#" isoKey="eng">{faker.lorem.paragraphs()}</Layout>;
+
+const withFallback = () => <Layout {...createProps()} fallback isoKey="eng">{faker.lorem.paragraphs()}</Layout>;
 
 
 const noHeading = () => {
@@ -37,5 +40,6 @@ const noFooter = () => {
 storiesOf('components.Layout', module)
   .add('Basic', basic)
   .add('With Back', withBack)
+  .add('With Fallback Language', withFallback)
   .add('No Heading', noHeading)
   .add('No Footer', noFooter);

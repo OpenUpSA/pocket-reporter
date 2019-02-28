@@ -27,11 +27,16 @@ const createBackButton = (back, link) => (
 );
 
 
-const buildIsoButton = (isoKey, link) => (
+const tooltipMarkup = (
+  <Tooltip title="Translation not supported on this page" placement="bottom">
+    <WarningIcon />
+  </Tooltip>
+);
+
+
+const buildIsoButton = (isoKey, link, fallback) => (
   <Wrapper>
-    <Tooltip title="Translation not supported on this page" placement="bottom">
-      <WarningIcon />
-    </Tooltip>
+    {!!fallback && tooltipMarkup}
     <ClickWrapper click="/profile" {...{ link }}>
       <IsoKeyWrapper>
         {isoKey}
@@ -47,6 +52,7 @@ const Header = (props) => {
     back,
     link,
     isoKey,
+    fallback,
   } = props;
 
   return (
@@ -56,7 +62,7 @@ const Header = (props) => {
         <HeaderText>
           {title}
         </HeaderText>
-        {buildIsoButton(isoKey, link)}
+        {buildIsoButton(isoKey, link, fallback)}
       </HeaderBar>
     </HeaderWrapper>
   );

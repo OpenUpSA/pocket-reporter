@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import Fab from '@material-ui/core/Fab';
 import AddIcon from '@material-ui/icons/Add';
+import ClickWrapper from '../../ClickWrapper';
 
 
 const Gradient = styled.div`
@@ -62,7 +63,7 @@ font-size: 12px;
 }
 `;
 
-const FooterButton = styled.a`
+const FooterButton = styled.span`
   color: white;
   text-decoration: none;
   display: flex;
@@ -77,16 +78,13 @@ const FooterButton = styled.a`
 
 const AddButton = styled(Fab)`
 &&{
+  height: 75px;
+  width: 75px;
   background-color: grey;
   background-image: radial-gradient(circle at 50% 50%, #969696, #333);
   border: 5px solid #73c619;
   box-shadow: none;
-  width: 30%;
   color: white;
-  height: 75px;
-  width: 75px;
-  top: -30px;
-  position: absolute;
 }
 
 :hover, :active {
@@ -106,7 +104,15 @@ const StyledAddIcon = styled(AddIcon)`
 `;
 
 
+const Click = styled(ClickWrapper)`
+  width: 30%;
+  top: -30px;
+  position: absolute;
+`;
+
+
 export {
+  Click,
   FooterWrapper,
   FooterBar,
   FooterToolbar,
@@ -120,6 +126,7 @@ export {
 
 
 export default {
+  Click,
   FooterWrapper,
   FooterBar,
   FooterToolbar,

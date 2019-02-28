@@ -27,6 +27,7 @@ const HeaderText = styled.p`
   margin: 0;
   color: white;
   text-align: center;
+  padding: 0 20px;
 `;
 
 
@@ -67,6 +68,7 @@ const IsoKeyWrapper = styled(Button)`
   height: 40px;
   color: white;
   margin-right: 16px;
+  font-weight: 400;
 }
 `;
 
