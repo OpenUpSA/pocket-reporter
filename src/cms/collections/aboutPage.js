@@ -1,25 +1,9 @@
 export default {
   name: 'about',
   label: 'About Page',
-  file: 'src/data/static/about',
+  extension: 'json',
+  file: 'src/data/static-content/about/index.json',
   fields: [
-    {
-      name: 'type',
-      label: 'Type',
-      widget: 'hidden',
-      default: 'static',
-    },
-    {
-      name: 'page',
-      label: 'Page',
-      widget: 'hidden',
-      default: 'about',
-    },
-    {
-      name: 'tagline',
-      label: 'Tagline',
-      widget: 'string',
-    },
     {
       name: 'tagline',
       label: 'Tagline',
@@ -67,7 +51,7 @@ export default {
       ],
     },
     {
-      name: 'body',
+      name: 'content',
       label: 'Content',
       widget: 'markdown',
     },
