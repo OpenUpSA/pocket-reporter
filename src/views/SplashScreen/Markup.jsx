@@ -38,6 +38,7 @@ export default Markup;
 
 
 Markup.propTypes = {
+  /** React content nested inside this component. */
   children: t.node,
 };
 

@@ -75,6 +75,7 @@ export default Stories;
 
 
 Stories.propTypes = {
+  /** React content nested inside this component. */
   children: t.node,
 };
 

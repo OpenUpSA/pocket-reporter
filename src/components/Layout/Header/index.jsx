@@ -67,15 +67,15 @@ export default Header;
 
 
 Header.propTypes = {
-  /** The title that will be displayed in the header. **/
+  /** The title that will be displayed in the header. */
   title: t.string,
-  /** Determines whether or not the back button should be displayed in the header. **/
+  /** Determines whether or not the back button should be displayed in the header. */
   back: t.oneOfType([t.string, t.func]),
   /** Whether a custom Link component should be used to resolve links,
    * for example the Link component from React Router or Gatsby.
    * If not supplied, card link will just fall back to a regular <a> tag. */
   link: t.node,
-  /** Displays the language that has been selected by the user. **/
+  /** Displays the language that has been selected by the user. */
   isoKey: t.string.isRequired,
 };
 
