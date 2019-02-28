@@ -76,12 +76,16 @@ ListOfFolders.propTypes = {
     /** The title that will be displayed on the question card. */
     title: t.string,
     icon: t.string,
+    /** Passed to the ClickWrapper component wrapping the card.
+     * See ClickWrapper documentation for more information. */
     click: t.oneOfType([t.string, t.func]),
   })).isRequired,
   resources: t.arrayOf(t.shape({
     /** The title that will be displayed on the resource card. */
     title: t.string,
     icon: t.string,
+    /** Passed to the ClickWrapper component wrapping the card.
+     * See ClickWrapper documentation for more information. */
     click: t.oneOfType([t.string, t.func]),
   })).isRequired,
 };

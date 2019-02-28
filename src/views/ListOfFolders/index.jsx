@@ -47,6 +47,7 @@ ListOfFolders.propTypes = {
   folders: t.arrayOf(t.shape({
     /** The title that will be displayed on the card. */
     title: t.string,
+    /** The icon that will be displayed on the card. Only accepts pre-determined strings. */
     icon: t.string,
   })).isRequired,
   link: t.node,
