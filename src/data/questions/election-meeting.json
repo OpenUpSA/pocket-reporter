@@ -1,0 +1,532 @@
+{
+  "spa": {
+    "title": "Election Meeting",
+    "questions": [
+      {
+        "question": "Have you established whether it is a political party branch meeting, a town hall meeting, ward councillor feedback session, a debate between political parties, a meeting of disaffected community members et cetera?"
+      },
+      {
+        "question": "Have you confirmed the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Did the interviewees express any changes in their everyday condition since the previous election?"
+      },
+      {
+        "question": "Have you asked them how effective and accessible the current councillors are?"
+      },
+      {
+        "question": "Have you asked them how voting works?"
+      },
+      {
+        "question": "What were the reasons for people to attend the meeting?"
+      },
+      {
+        "question": "Do they believe the promises made by the speakers?"
+      },
+      {
+        "question": "The contact numbers of all interviewees noted?"
+      },
+      {
+        "question": "What is the main topic or theme?"
+      },
+      {
+        "question": "Did you get the organisers’ contact details?"
+      },
+      {
+        "question": "Have you double-checked the correct spelling and address of the venue?"
+      },
+      {
+        "question": "Have you confirmed official attendance at the event with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Have you confirmed any incidents of violence and/or injuries with an independent source (police, emergency services or venue management)?"
+      },
+      {
+        "question": "Have you conducted a minimum of ten interviews with attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Where do those interviewed live?"
+      },
+      {
+        "question": "What are the socio-economic and political issues that affect them in these towns/areas/wards/streets?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Election Meeting",
+    "questions": [
+      {
+        "question": "Have you established whether it is a political party branch meeting, a town hall meeting, ward councillor feedback session, a debate between political parties, a meeting of disaffected community members et cetera?"
+      },
+      {
+        "question": "Have you confirmed the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Did the interviewees express any changes in their everyday condition since the previous election?"
+      },
+      {
+        "question": "Have you asked them how effective and accessible the current councillors are?"
+      },
+      {
+        "question": "Have you asked them how voting works?"
+      },
+      {
+        "question": "What were the reasons for people to attend the meeting?"
+      },
+      {
+        "question": "Do they believe the promises made by the speakers?"
+      },
+      {
+        "question": "The contact numbers of all interviewees noted?"
+      },
+      {
+        "question": "What is the main topic or theme?"
+      },
+      {
+        "question": "Did you get the organisers’ contact details?"
+      },
+      {
+        "question": "Have you double-checked the correct spelling and address of the venue?"
+      },
+      {
+        "question": "Have you confirmed official attendance at the event with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Have you confirmed any incidents of violence and/or injuries with an independent source (police, emergency services or venue management)?"
+      },
+      {
+        "question": "Have you conducted a minimum of ten interviews with attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Where do those interviewed live?"
+      },
+      {
+        "question": "What are the socio-economic and political issues that affect them in these towns/areas/wards/streets?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Election Meeting",
+    "questions": [
+      {
+        "question": "Have you established whether it is a political party branch meeting, a town hall meeting, ward councillor feedback session, a debate between political parties, a meeting of disaffected community members et cetera?"
+      },
+      {
+        "question": "Have you confirmed the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Did the interviewees express any changes in their everyday condition since the previous election?"
+      },
+      {
+        "question": "Have you asked them how effective and accessible the current councillors are?"
+      },
+      {
+        "question": "Have you asked them how voting works?"
+      },
+      {
+        "question": " What were the reasons for people to attend the meeting?"
+      },
+      {
+        "question": "Do they believe the promises made by the speakers?"
+      },
+      {
+        "question": "he contact numbers of all interviewees noted?"
+      },
+      {
+        "question": "What is the main topic or theme?"
+      },
+      {
+        "question": "Did you get the organisers’ contact details?"
+      },
+      {
+        "question": "Have you double-checked the correct spelling and address of the venue?"
+      },
+      {
+        "question": "Have you confirmed official attendance at the event with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Have you confirmed any incidents of violence and/or injuries with an independent source (police, emergency services or venue management)?"
+      },
+      {
+        "question": "Have you conducted a minimum of ten interviews with attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Where do those interviewed live?"
+      },
+      {
+        "question": "What are the socio-economic and political issues that affect them in these towns/areas/wards/streets?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Have you established whether it is a political party branch meeting, a town hall meeting, ward councillor feedback session, a debate between political parties, a meeting of disaffected community members et cetera?"
+    },
+    {
+      "question": "Have you confirmed the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+    },
+    {
+      "question": "Did the interviewees express any changes in their everyday condition since the previous election?"
+    },
+    {
+      "question": "Have you asked them how effective and accessible the current councillors are?"
+    },
+    {
+      "question": "Have you asked them how voting works?"
+    },
+    {
+      "question": "What were the reasons for people to attend the meeting?"
+    },
+    {
+      "question": "Do they believe the promises made by the speakers?"
+    },
+    {
+      "question": "The contact numbers of all interviewees noted?"
+    },
+    {
+      "question": "What is the main topic or theme?"
+    },
+    {
+      "question": "Did you get the organisers’ contact details?"
+    },
+    {
+      "question": "Have you double-checked the correct spelling and address of the venue?"
+    },
+    {
+      "question": "Have you confirmed official attendance at the event with an independent source (police or venue management)?"
+    },
+    {
+      "question": "Have you confirmed any incidents of violence and/or injuries with an independent source (police, emergency services or venue management)?"
+    },
+    {
+      "question": "Have you conducted a minimum of ten interviews with attendees from separate parts of the venue?"
+    },
+    {
+      "question": "Where do those interviewed live?"
+    },
+    {
+      "question": "What are the socio-economic and political issues that affect them in these towns/areas/wards/streets?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Election Meeting",
+    "questions": [
+      {
+        "question": "Have you established whether it is a political party branch meeting, a town hall meeting, ward councillor feedback session, a debate between political parties, a meeting of disaffected community members et cetera?"
+      },
+      {
+        "question": "Have you confirmed the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Did the interviewees express any changes in their everyday condition since the previous election?"
+      },
+      {
+        "question": "Have you asked them how effective and accessible the current councillors are?"
+      },
+      {
+        "question": "Have you asked them how voting works?"
+      },
+      {
+        "question": "What were the reasons for people to attend the meeting?"
+      },
+      {
+        "question": "Do they believe the promises made by the speakers?"
+      },
+      {
+        "question": "The contact numbers of all interviewees noted?"
+      },
+      {
+        "question": "What is the main topic or theme?"
+      },
+      {
+        "question": "Did you get the organisers’ contact details?"
+      },
+      {
+        "question": "Have you double-checked the correct spelling and address of the venue?"
+      },
+      {
+        "question": "Have you confirmed official attendance at the event with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Have you confirmed any incidents of violence and/or injuries with an independent source (police, emergency services or venue management)?"
+      },
+      {
+        "question": "Have you conducted a minimum of ten interviews with attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Where do those interviewed live?"
+      },
+      {
+        "question": "What are the socio-economic and political issues that affect them in these towns/areas/wards/streets?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Election Meeting",
+    "questions": [
+      {
+        "question": "Have you established whether it is a political party branch meeting, a town hall meeting, ward councillor feedback session, a debate between political parties, a meeting of disaffected community members et cetera?"
+      },
+      {
+        "question": "Have you confirmed the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Did the interviewees express any changes in their everyday condition since the previous election?"
+      },
+      {
+        "question": "Have you asked them how effective and accessible the current councillors are?"
+      },
+      {
+        "question": "Have you asked them how voting works?"
+      },
+      {
+        "question": "What were the reasons for people to attend the meeting?"
+      },
+      {
+        "question": "Do they believe the promises made by the speakers?"
+      },
+      {
+        "question": "The contact numbers of all interviewees noted?"
+      },
+      {
+        "question": "What is the main topic or theme?"
+      },
+      {
+        "question": "Did you get the organisers’ contact details?"
+      },
+      {
+        "question": "Have you double-checked the correct spelling and address of the venue?"
+      },
+      {
+        "question": "Have you confirmed official attendance at the event with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Have you confirmed any incidents of violence and/or injuries with an independent source (police, emergency services or venue management)?"
+      },
+      {
+        "question": "Have you conducted a minimum of ten interviews with attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Where do those interviewed live?"
+      },
+      {
+        "question": "What are the socio-economic and political issues that affect them in these towns/areas/wards/streets?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Election Meeting",
+    "questions": [
+      {
+        "question": "Have you established whether it is a political party branch meeting, a town hall meeting, ward councillor feedback session, a debate between political parties, a meeting of disaffected community members et cetera?"
+      },
+      {
+        "question": "Have you confirmed the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Did the interviewees express any changes in their everyday condition since the previous election?"
+      },
+      {
+        "question": "Have you asked them how effective and accessible the current councillors are?"
+      },
+      {
+        "question": "Have you asked them how voting works?"
+      },
+      {
+        "question": "What were the reasons for people to attend the meeting?"
+      },
+      {
+        "question": "Do they believe the promises made by the speakers?"
+      },
+      {
+        "question": "The contact numbers of all interviewees noted?"
+      },
+      {
+        "question": "What is the main topic or theme?"
+      },
+      {
+        "question": "Did you get the organisers’ contact details?"
+      },
+      {
+        "question": "Have you double-checked the correct spelling and address of the venue?"
+      },
+      {
+        "question": "Have you confirmed official attendance at the event with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Have you confirmed any incidents of violence and/or injuries with an independent source (police, emergency services or venue management)?"
+      },
+      {
+        "question": "Have you conducted a minimum of ten interviews with attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Where do those interviewed live?"
+      },
+      {
+        "question": "Where do those interviewed live?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Election Meeting",
+    "questions": [
+      {
+        "question": "Have you established whether it is a political party branch meeting, a town hall meeting, ward councillor feedback session, a debate between political parties, a meeting of disaffected community members et cetera?"
+      },
+      {
+        "question": "Have you confirmed the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Did the interviewees express any changes in their everyday condition since the previous election?"
+      },
+      {
+        "question": "Have you asked them how effective and accessible the current councillors are?"
+      },
+      {
+        "question": "Have you asked them how voting works?"
+      },
+      {
+        "question": "What were the reasons for people to attend the meeting?"
+      },
+      {
+        "question": "Do they believe the promises made by the speakers?"
+      },
+      {
+        "question": "The contact numbers of all interviewees noted?"
+      },
+      {
+        "question": "What is the main topic or theme?"
+      },
+      {
+        "question": "Did you get the organisers’ contact details?"
+      },
+      {
+        "question": "Have you double-checked the correct spelling and address of the venue?"
+      },
+      {
+        "question": "Have you confirmed official attendance at the event with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Have you confirmed any incidents of violence and/or injuries with an independent source (police, emergency services or venue management)?"
+      },
+      {
+        "question": "Have you conducted a minimum of ten interviews with attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Where do those interviewed live?"
+      },
+      {
+        "question": "What are the socio-economic and political issues that affect them in these towns/areas/wards/streets?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Election Meeting",
+  "type": "questions",
+  "xho": {
+    "title": "Election Meeting",
+    "questions": [
+      {
+        "question": "Have you established whether it is a political party branch meeting, a town hall meeting, ward councillor feedback session, a debate between political parties, a meeting of disaffected community members et cetera?"
+      },
+      {
+        "question": "Have you confirmed the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?"
+      },
+      {
+        "question": "Did the interviewees express any changes in their everyday condition since the previous election?"
+      },
+      {
+        "question": "Have you asked them how effective and accessible the current councillors are?"
+      },
+      {
+        "question": "Have you asked them how voting works?"
+      },
+      {
+        "question": "What were the reasons for people to attend the meeting?"
+      },
+      {
+        "question": "Do they believe the promises made by the speakers?"
+      },
+      {
+        "question": "The contact numbers of all interviewees noted?"
+      },
+      {
+        "question": "What is the main topic or theme?"
+      },
+      {
+        "question": "Did you get the organisers’ contact details?"
+      },
+      {
+        "question": "Have you double-checked the correct spelling and address of the venue?"
+      },
+      {
+        "question": "Have you confirmed official attendance at the event with an independent source (police or venue management)?"
+      },
+      {
+        "question": "Have you confirmed any incidents of violence and/or injuries with an independent source (police, emergency services or venue management)?"
+      },
+      {
+        "question": "Have you conducted a minimum of ten interviews with attendees from separate parts of the venue?"
+      },
+      {
+        "question": "Where do those interviewed live?"
+      },
+      {
+        "question": "What are the socio-economic and political issues that affect them in these towns/areas/wards/streets?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
