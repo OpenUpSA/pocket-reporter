@@ -64,9 +64,20 @@ export default ListOfFolders;
 
 
 CardIteration.propTypes = {
+  /** Determines whether card should be grey.
+   * By default cards are green; resource cards are grey. */
+  resource: t.bool,
+  /** Whether a custom Link component should be used to resolve links,
+   * for example the Link component from React Router or Gatsby.
+   * If not supplied, card link will just fall back to a regular <a> tag. */
+  link: t.node,
   /** The title that will be displayed on the card. */
   title: t.string.isRequired,
+  /** The icon that will be displayed on the card. Only accepts pre-determined strings. */
   icon: t.string.isRequired,
+  /** Passed to the ClickWrapper component wrapping the card.
+   * See ClickWrapper documentation for more information. */
+  click: t.oneOfType([t.string, t.func]),
 };
 
 
@@ -78,6 +89,7 @@ ListOfFolders.propTypes = {
   questions: t.arrayOf(t.shape({
     /** The title that will be displayed on the question card. */
     title: t.string,
+    /** The icon that will be displayed on the card. Only accepts pre-determined strings. */
     icon: t.string,
     /** Passed to the ClickWrapper component wrapping the card.
      * See ClickWrapper documentation for more information. */
@@ -86,11 +98,16 @@ ListOfFolders.propTypes = {
   resources: t.arrayOf(t.shape({
     /** The title that will be displayed on the resource card. */
     title: t.string,
+    /** The icon that will be displayed on the card. Only accepts pre-determined strings. */
     icon: t.string,
     /** Passed to the ClickWrapper component wrapping the card.
      * See ClickWrapper documentation for more information. */
     click: t.oneOfType([t.string, t.func]),
   })).isRequired,
+  /** Displays the language that has been selected by the user (as isoKey)
+   * in the header-bar. Is also used to determine what language should be
+   * used for the hardcode UI-specific/instructional text on the page. */
+  isoKey: t.string.isRequired,
 };
 
 
