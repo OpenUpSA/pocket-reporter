@@ -4,7 +4,7 @@ import t from 'prop-types';
 
 import calcClickType from '../../helpers/calcClickType';
 import addProps from '../../helpers/addProps';
-import { Wrapper, LinkWrapper } from './styled';
+import { Wrapper, createLinkWrapper } from './styled';
 
 
 const InternalWrapper = (props) => {
@@ -12,9 +12,11 @@ const InternalWrapper = (props) => {
     children,
     click,
     full,
-    link: Link,
+    link,
     ...passedProps
   } = props;
+
+  const Link = createLinkWrapper(link);
 
   return <Link to={click} full={full} {...passedProps}>{children}</Link>;
 };
@@ -38,21 +40,24 @@ const ExternalWrapper = (props) => {
     children,
     click,
     full,
+    external,
     ...passedProps
   } = props;
 
+  const Link = createLinkWrapper();
+
   return (
-    <LinkWrapper
+    <Link
+      {...{ full }}
       href={click}
-      target="_blank"
+      target={!!external && '_blank'}
       rel="noopener noreferrer"
-      full={full}
       {...passedProps}
     >
       {children}
-    </LinkWrapper>
-  )
-}
+    </Link>
+  );
+};
 
 
 const createComponent = (props) => {
@@ -63,7 +68,9 @@ const createComponent = (props) => {
     ...passedProps
   } = props;
 
+
   const clickType = calcClickType(click);
+
 
   if (!!link && clickType === 'internal') {
     return addProps(
@@ -88,18 +95,15 @@ const createComponent = (props) => {
     );
   }
 
-  if (clickType === 'external') {
-    return addProps(
-      ExternalWrapper,
-      {
-        click,
-        full,
-        ...passedProps,
-      },
-    );
-  }
-
-  return null;
+  return addProps(
+    ExternalWrapper,
+    {
+      click,
+      full,
+      external: clickType === 'external',
+      ...passedProps,
+    },
+  );
 };
 
 
@@ -112,6 +116,9 @@ const ClickWrapper = (props) => {
     ...otherProps
   } = props;
 
+  if (!click) {
+    return <div>{children}</div>;
+  }
 
   const ReturnedComponent = createComponent({
     children,
@@ -120,7 +127,6 @@ const ClickWrapper = (props) => {
     full,
     ...otherProps,
   });
-
 
   return <ReturnedComponent>{children}</ReturnedComponent>;
 };

@@ -7,7 +7,7 @@ const Wrapper = styled.div`
   color: inherit;
 `;
 
-const LinkWrapper = styled.a`
+const createLinkWrapper = (tag = 'a') => styled(tag)`
   display: ${({ full }) => (full ? 'block' : 'inline-block')};
   text-decoration: none;
   color: inherit;
@@ -16,11 +16,11 @@ const LinkWrapper = styled.a`
 
 export {
   Wrapper,
-  LinkWrapper,
+  createLinkWrapper,
 };
 
 
 export default {
   Wrapper,
-  LinkWrapper,
+  createLinkWrapper,
 };
