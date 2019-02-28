@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Typography } from '@material-ui/core';
 import Select from '@material-ui/core/Select';
+import CircularProgress from '@material-ui/core/CircularProgress';
 
 
 const StyledSelect = styled(Select)`
@@ -16,6 +17,12 @@ const StyledSelect = styled(Select)`
     & .select {
       padding: 16px;
     }
+  }
+`;
+
+const Loader = styled(CircularProgress)`
+  && {
+    color: rgb(74,74,74);
   }
 `;
 
@@ -70,6 +77,7 @@ export {
   StyledImage,
   DisplayText,
   HeadingWrap,
+  Loader,
 };
 
 
@@ -80,4 +88,5 @@ export default {
   StyledImage,
   DisplayText,
   HeadingWrap,
+  Loader,
 };

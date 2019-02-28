@@ -14,6 +14,21 @@ class SplashScreen extends Component {
     };
   }
 
+
+  componentDidMount() {
+    const { navigate, language, storiesAmount } = this.props;
+
+    if (!navigator || !language) {
+      return null;
+    }
+
+    if (storiesAmount > 0) {
+      navigate(`/${language}/stories/index.html`);
+    }
+
+    return navigate(`/${language}/folders/index.html`);
+  }
+
   setIsoKey = (isoKey) => {
     const { changeCallback } = this.props;
 
@@ -35,6 +50,7 @@ class SplashScreen extends Component {
     const passedProps = {
       isoKey: state.isoKey,
       setIsoKey: events.setIsoKey,
+      loading: props.loading,
     };
 
     return <Markup {...passedProps} />;
