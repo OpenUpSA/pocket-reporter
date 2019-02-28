@@ -1,7 +1,7 @@
-module.exports = {
+module.exports = root => ({
   resolve: 'gatsby-plugin-netlify-cms',
   options: {
-    modulePath: `${process.cwd()}/src/cms/index.js`,
+    modulePath: `${root}/src/cms/index.js`,
     manualInit: true,
   },
-};
+});

@@ -1,7 +1,7 @@
-module.exports = {
+module.exports = root => ({
   resolve: 'gatsby-source-filesystem',
   options: {
     name: 'data',
-    path: `${process.cwd()}/src/data/`,
+    path: `${root}/src/data/`,
   },
-};
+});
