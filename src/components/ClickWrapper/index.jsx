@@ -150,12 +150,8 @@ ClickWrapper.defaultProps = {
 
 
 CallbackWrapper.propTypes = {
-  /** React content nested inside this component. */
   children: t.node.isRequired,
-  /** URL that should be added to the click action.
-   * This should be the URL to where the user will be directed when clicking on the link. */
   click: t.func.isRequired,
-  /** Determines whether width should be set to 100%. */
   full: t.bool,
 };
 
@@ -166,16 +162,9 @@ CallbackWrapper.defaultProps = {
 
 
 InternalWrapper.propTypes = {
-  /** React content nested inside this component. */
   children: t.node.isRequired,
-  /** Whether a custom Link component should be used to resolve links,
-   * for example the Link component from React Router or Gatsby.
-   * If not supplied, card link will just fall back to a regular <a> tag. */
   link: t.node.isRequired,
-  /** URL that should be added to the click action.
-   * This should be the URL to where the user will be directed when clicking on the link. */
   click: t.string.isRequired,
-  /** Determines whether width should be set to 100%. */
   full: t.bool,
 };
 
@@ -185,13 +174,8 @@ InternalWrapper.defaultProps = {
 };
 
 ExternalWrapper.propTypes = {
-  /** React content nested inside this component. */
   children: t.node.isRequired,
-  /** This should be the URL to where the user will be directed
-   * when clicking on the link. Alternatively, if a function is
-   * passed that function will be executed when the user clicks on the link */
   click: t.string.isRequired,
-  /** Determines whether width should be set to 100%. */
   full: t.bool,
 };
 
