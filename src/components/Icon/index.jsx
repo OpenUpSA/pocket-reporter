@@ -13,7 +13,7 @@ export default Icon;
 
 
 Icon.propTypes = {
-  /** List of available icons **/
+  /** List of available icons */
   type: t.oneOf([
     'Public',
     'School',

@@ -69,7 +69,10 @@ export default Header;
 Header.propTypes = {
   /** The title that will be displayed in the header. */
   title: t.string,
-  /** Determines whether or not the back button should be displayed in the header. */
+  /** If a value is passed to this prop then a back button
+   * will be displayed in the header. If the value is a string
+   * then a user will go to that URL if clicked, if the value is
+   * a function then the function will be called when the back button is clicked. */
   back: t.oneOfType([t.string, t.func]),
   /** Whether a custom Link component should be used to resolve links,
    * for example the Link component from React Router or Gatsby.
