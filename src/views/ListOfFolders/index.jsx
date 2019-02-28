@@ -9,7 +9,7 @@ import addProps from '../../helpers/addProps';
 
 
 const CardIteration = (props) => {
-  const { 
+  const {
     title,
     icon,
     link,
@@ -45,6 +45,7 @@ export default ListOfFolders;
 
 ListOfFolders.propTypes = {
   folders: t.arrayOf(t.shape({
+    /** The title that will be displayed on the card. */
     title: t.string,
     icon: t.string,
   })).isRequired,
@@ -58,6 +59,7 @@ ListOfFolders.defaultProps = {
 
 
 CardIteration.propTypes = {
+  /** The title that will be displayed on the card. */
   title: t.string.isRequired,
   icon: t.string.isRequired,
   link: t.node,

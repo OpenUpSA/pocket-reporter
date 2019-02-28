@@ -29,6 +29,7 @@ export default Resource;
 
 
 Resource.propTypes = {
+  /** The resource title that will be displayed. */
   title: t.string.isRequired,
   body: t.string.isRequired,
 };

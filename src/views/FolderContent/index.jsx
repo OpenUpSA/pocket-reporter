@@ -64,6 +64,7 @@ export default ListOfFolders;
 
 
 CardIteration.propTypes = {
+  /** The title that will be displayed on the card. */
   title: t.string.isRequired,
   icon: t.string.isRequired,
 };
@@ -72,11 +73,13 @@ CardIteration.propTypes = {
 ListOfFolders.propTypes = {
   link: t.node,
   questions: t.arrayOf(t.shape({
+    /** The title that will be displayed on the question card. */
     title: t.string,
     icon: t.string,
     click: t.oneOfType([t.string, t.func]),
   })).isRequired,
   resources: t.arrayOf(t.shape({
+    /** The title that will be displayed on the resource card. */
     title: t.string,
     icon: t.string,
     click: t.oneOfType([t.string, t.func]),
