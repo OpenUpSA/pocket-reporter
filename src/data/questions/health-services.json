@@ -183,8 +183,56 @@
   "title": "Health Services",
   "type": "questions",
   "xho": {
+    "title": "linkonzo ze zeMpilo",
     "questions": [
-      {}
+      {
+        "question": "Lithini igama lesibhedlele okanye ikliniki kwaye ikweyiphi na indawo?"
+      },
+      {
+        "question": "Ithini ingxelo evela kumagosa achophele ukuziswa kwezi nkonzo?"
+      },
+      {
+        "question": "Ingaba izigulane zakhe zazityelela ezizakhiwo ngaphambili? Ukuba ewe, ingaba iimpepha zembali yazo yonyango ibikhona ngelixa lonyango?"
+      },
+      {
+        "question": "Uthini umgama ohanjwa zizigulane odlene nazo indlebe ukuze zifikelele phaya/apho?"
+      },
+      {
+        "question": "Bafikelela njani phaya/apho? (Nge-bhasi, uloliwe, bayahamba)"
+      },
+      {
+        "question": "Lithini na ixabiso lesithuthi ukuya noku buya?"
+      },
+      {
+        "question": "Zeziphi na iinkonzo ezinga nikezelwayo kodwa kumele zinikezelwe? (Apho kukho ukusilela kunikezelo lweenkonzo)"
+      },
+      {
+        "question": "Kutheni na ezinkonzo zingasa nikezekwa nje?"
+      },
+      {
+        "question": "Ngobani na aba chaphazelekayo koku? (Iqela labantu abathile/ingingqi kwaye ithini imvelaphi yezezimali nentlalo yabo?)"
+      },
+      {
+        "question": "Bangaphi na abantu aba chaphazelekayo, abase mngciphekweni okanye engozini ngenxa yoku rhoxiswa kwezinkonzo?"
+      },
+      {
+        "question": "Ngobani amagama nobudala babo bachaphazelekayo kwaye amava abo athini?"
+      },
+      {
+        "question": "Izigulane zilinda ixesha elingakanani na phambi ba babonwe ngoo gqirha/abasebenzi beze mpilo?"
+      },
+      {
+        "question": "Ingaba unyango olukhoyo lonele na kwaye lunyango lokwenene na?"
+      },
+      {
+        "question": "Ngubani na ono xanduva loku zisa ezi nkonzo?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   }
 }
