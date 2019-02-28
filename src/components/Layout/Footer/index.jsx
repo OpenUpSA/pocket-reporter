@@ -13,10 +13,11 @@ import {
   AddButton,
   StyledAddIcon,
   Gradient,
+  Click,
 } from './styled';
 
 
-const Footer = () => (
+const Footer = ({ isoKey, link }) => (
   <Fragment>
     <Gradient />
     <FooterWrapper>
@@ -30,11 +31,13 @@ const Footer = () => (
               </FooterButton>
             </FooterItem>
             <FooterItem>
-              <FooterButton href="/">
-                <AddButton aria-label="Add Story">
-                  <StyledAddIcon />
-                </AddButton>
-              </FooterButton>
+              <Click {...{ link }} click={`/${isoKey}/folders/index.html`}>
+                <FooterButton href="/">
+                  <AddButton aria-label="Add Story">
+                    <StyledAddIcon />
+                  </AddButton>
+                </FooterButton>
+              </Click>
             </FooterItem>
             <FooterItem>
               <FooterButton href="/about">

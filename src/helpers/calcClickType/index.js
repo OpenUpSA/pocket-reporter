@@ -1,9 +1,10 @@
-const calcIfExternalLink = (url) => {
-  const linkInMemory = window.document.createElement('a');
-  linkInMemory.href = url;
-  const condition = new RegExp(window.location.host, 'i');
+const calcIfExternalLink = (url, domain) => {
+  if (/^\//.test(url)) {
+    return false;
+  }
 
-  return !linkInMemory.hostname.match(condition);
+  const condition = new RegExp(domain, 'i');
+  return !condition.test(url);
 };
 
 

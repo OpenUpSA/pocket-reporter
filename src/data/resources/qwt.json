@@ -1,6 +1,7 @@
 {
   "type": "resources",
   "title": "Example Title",
+  "body": "Hello",
   "afr": {
     "title": "Example Translated Title",
     "body": "Example Translated Content"
@@ -8,6 +9,8 @@
   "spa": {
   },
   "xho": {
+    "title": "Example Translated Title",
+    "body": "Example Translated Content"
   },
   "nso": {
   },

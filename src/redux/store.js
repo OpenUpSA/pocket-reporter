@@ -5,14 +5,16 @@ import thunk from 'redux-thunk';
 
 import initialState from './initialState.json';
 import stories from './modules/stories';
+import user from './modules/user';
 
 
 const rawReducers = {
   stories,
+  user,
 };
 
 
-const initLocalStorage = () => persistState(['stories'], { key: 'state' });
+const initLocalStorage = () => persistState(['stories', 'user'], { key: 'state' });
 const isNode = typeof window === 'undefined';
 
 

@@ -1,0 +1,29 @@
+{
+  "type": "resources",
+  "title": "Test",
+  "body": "Hello",
+  "spa": {
+    "title": "Example Translated Title",
+    "body": "Example Translated Content"
+  },
+  "nso": {
+    "title": "Example Translated Title",
+    "body": "Example Translated Content"
+  },
+  "por": {
+    "title": "Example Translated Title",
+    "body": "Example Translated Content"
+  },
+  "sot": {
+    "title": "Example Translated Title",
+    "body": "Example Translated Content"
+  },
+  "tsn": {
+    "title": "Example Translated Title",
+    "body": "Example Translated Content"
+  },
+  "zul": {
+    "title": "Example Translated Title",
+    "body": "Example Translated Content"
+  }
+}

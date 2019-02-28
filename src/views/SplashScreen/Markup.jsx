@@ -11,10 +11,22 @@ import {
   StyledImage,
   DisplayText,
   HeadingWrap,
+  Loader,
 } from './styled';
 
 
-const Markup = ({ setIsoKey, isoKey }) => {
+const Markup = ({ setIsoKey, isoKey, loading }) => {
+  if (loading) {
+    return (
+      <Layout header={false} footer={false} noPadding>
+        <StyledWrapper>
+          <Loader size={160} thickness={3} />
+        </StyledWrapper>
+      </Layout>
+    );
+  }
+
+
   return (
     <Layout header={false} footer={false} noPadding>
       <StyledWrapper>

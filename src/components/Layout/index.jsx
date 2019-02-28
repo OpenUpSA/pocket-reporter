@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React, { Fragment } from 'react';
+import styled, { createGlobalStyle } from 'styled-components';
 import t from 'prop-types';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
@@ -8,9 +8,11 @@ import Header from './Header';
 import Footer from './Footer';
 
 
-const Wrapper = styled.div`
-  overflow-x: hidden;
-  overflow-y: scroll;
+const GlobalStyle = createGlobalStyle`
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
 `;
 
 
@@ -28,23 +30,28 @@ const Layout = (props) => {
     footer,
     isoKey,
     noPadding,
+    fallback,
+    link,
   } = props;
 
   const headerProps = {
     title,
     back,
     isoKey,
+    fallback,
+    link,
   };
 
   return (
-    <Wrapper>
+    <Fragment>
       <CssBaseline />
+      <GlobalStyle />
       {header !== false && <Header {...headerProps} />}
       <ChildWrapper {...{ noPadding }}>
         {children}
       </ChildWrapper>
-      {footer !== false && <Footer />}
-    </Wrapper>
+      {footer !== false && <Footer {...{ isoKey, link }} />}
+    </Fragment>
   );
 };
 
@@ -53,6 +60,7 @@ export default Layout;
 
 
 Layout.propTypes = {
+  fallback: t.bool,
   children: t.node.isRequired,
   title: t.string,
   back: t.oneOfType([t.string, t.func]),
@@ -64,6 +72,7 @@ Layout.propTypes = {
 
 
 Layout.defaultProps = {
+  fallback: false,
   isoKey: null,
   title: null,
   noPadding: false,

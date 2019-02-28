@@ -3,9 +3,24 @@
 
 import { createElement } from 'react';
 import { Provider } from 'react-redux';
+import { navigate } from 'gatsby';
+
+
 import store from './src/redux/store';
 
 
 export const wrapRootElement = ({ element }) => (
   createElement(Provider, { store }, element)
 );
+
+
+export const onInitialClientRender = () => {
+  const { user } = store.getState();
+  const { language } = user;
+
+  if (!language) {
+    return navigate('/start/index.html');
+  }
+
+  return null;
+};
