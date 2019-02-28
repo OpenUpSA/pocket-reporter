@@ -2,12 +2,24 @@
 	"type": "folders",
 	"title": "Legal",
 	"icon": "Person",
+	"translations": {
+		"eng": "LegalEnglish",
+		"afr": "LegalAfrikaans",
+		"spa": "LegalSpanish",
+		"xho": "LegalXhosa",
+		"nso": "LegalNorthern Sotho",
+		"por": "LegalPortuguese",
+		"sot": "LegalSouthern Sotho",
+		"tsn": "LegalTswana",
+		"zul": "LegalZulu"
+	},
 	"questions": [
 		"Courts - Civil Action",
 		"Courts - Verdict",
 		"Crime"
 	],
 	"resources": [
-		"Example Title"
+		"Example Title",
+		"Test"
 	]
 }
