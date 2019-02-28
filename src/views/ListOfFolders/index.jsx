@@ -54,11 +54,16 @@ ListOfFolders.propTypes = {
    * for example the Link component from React Router or Gatsby.
    * If not supplied, card link will just fall back to a regular <a> tag. */
   link: t.node,
+  /** Displays the language that has been selected by the user (as isoKey)
+   * in the header-bar. Is also used to determine what language should be
+   * used for the hardcode UI-specific/instructional text on the page. */
+  isoKey: t.string,
 };
 
 
 ListOfFolders.defaultProps = {
   link: null,
+  isoKey: null,
 };
 
 
@@ -71,6 +76,9 @@ CardIteration.propTypes = {
    * for example the Link component from React Router or Gatsby.
    * If not supplied, card link will just fall back to a regular <a> tag. */
   link: t.node,
+  /** Passed to the ClickWrapper component wrapping the card.
+   * See ClickWrapper documentation for more information. */
+  click: t.oneOfType([t.string, t.func]),
 };
 
 CardIteration.defaultProps = {
