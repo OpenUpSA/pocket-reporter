@@ -51,16 +51,17 @@ export default Card;
 
 
 Card.propTypes = {
-  /** Determines whether card should appear to be stacked. **/
+  /** Determines whether card should appear to be stacked. */
   stacked: t.bool,
-  /** Determines whether card should be grey. By default cards are green; resource cards are grey. **/
+  /** Determines whether card should be grey.
+   * By default cards are green; resource cards are grey. */
   resource: t.bool,
-  /** The title that will be displayed on the card. **/
+  /** The title that will be displayed on the card. */
   title: t.string.isRequired,
-  /** The icon that will be displayed on the card. Only accepts pre-determined strings. **/
+  /** The icon that will be displayed on the card. Only accepts pre-determined strings. */
   icon: t.string.isRequired,
   /** Passed to the ClickWrapper component wrapping the card.
-   * See ClickWrapper documentation for more information. **/
+   * See ClickWrapper documentation for more information. */
   click: t.oneOfType([t.string, t.func]).isRequired,
   /** Whether a custom Link component should be used to resolve links,
    * for example the Link component from React Router or Gatsby.
