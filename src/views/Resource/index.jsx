@@ -11,12 +11,9 @@ const Resource = (props) => {
   const {
     title,
     body: __html,
-    backClick,
     isoKey,
     parentUrl,
   } = props;
-
-  console.log(props);
 
   return (
     <Layout {...{ title, isoKey }} back={parentUrl}>
