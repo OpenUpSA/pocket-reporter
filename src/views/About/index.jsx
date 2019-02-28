@@ -64,11 +64,17 @@ export default About;
 
 About.propTypes = {
   partners: t.arrayOf(t.shape({
+    /** Whether a custom Link component should be used to resolve links,
+     * for example the Link component from React Router or Gatsby.
+     * If not supplied, card link will just fall back to a regular <a> tag. */
     link: t.string,
     logo: t.string,
     name: t.string,
   })),
   contributors: t.arrayOf(t.shape({
+    /** Whether a custom Link component should be used to resolve links,
+     * for example the Link component from React Router or Gatsby.
+     * If not supplied, card link will just fall back to a regular <a> tag. */
     link: t.string,
     name: t.string,
   })),

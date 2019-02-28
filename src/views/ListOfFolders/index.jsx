@@ -50,6 +50,9 @@ ListOfFolders.propTypes = {
     /** The icon that will be displayed on the card. Only accepts pre-determined strings. */
     icon: t.string,
   })).isRequired,
+  /** Whether a custom Link component should be used to resolve links,
+   * for example the Link component from React Router or Gatsby.
+   * If not supplied, card link will just fall back to a regular <a> tag. */
   link: t.node,
 };
 
@@ -62,7 +65,11 @@ ListOfFolders.defaultProps = {
 CardIteration.propTypes = {
   /** The title that will be displayed on the card. */
   title: t.string.isRequired,
+  /** The icon that will be displayed on the card. Only accepts pre-determined strings. */
   icon: t.string.isRequired,
+  /** Whether a custom Link component should be used to resolve links,
+   * for example the Link component from React Router or Gatsby.
+   * If not supplied, card link will just fall back to a regular <a> tag. */
   link: t.node,
 };
 

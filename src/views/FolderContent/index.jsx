@@ -71,6 +71,9 @@ CardIteration.propTypes = {
 
 
 ListOfFolders.propTypes = {
+  /** Whether a custom Link component should be used to resolve links,
+   * for example the Link component from React Router or Gatsby.
+   * If not supplied, card link will just fall back to a regular <a> tag. */
   link: t.node,
   questions: t.arrayOf(t.shape({
     /** The title that will be displayed on the question card. */
