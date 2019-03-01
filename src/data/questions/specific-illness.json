@@ -127,8 +127,38 @@
   "title": "Specific Illness",
   "type": "questions",
   "xho": {
+    "title": "Isigulo esithile",
     "questions": [
-      {}
+      {
+        "question": "Yintoni na igama lesigulo/imeko yesigulane?"
+      },
+      {
+        "question": "Zeziphi ezona mpawu zesisigulo?"
+      },
+      {
+        "question": "Isigulane sifumene nyango luni?"
+      },
+      {
+        "question": "Ingaba banyangwa phi?"
+      },
+      {
+        "question": "Ingaba esi sigulo sikhawuleza sosulele kwaye zikhe zakhona kusini na ezinye iingxelo ngesi sigulo kwindawo ohlala kuyo okanye phesheya?"
+      },
+      {
+        "question": "Ngoobani na iingxwelerha? Amagama, iminyaka yobudala, iidilesi nezinye iinkcukacha."
+      },
+      {
+        "question": "Zithini izimvo ezenzwe ngabasebenzi bezempilo ngesi sigulo, ukuba bezikhona?"
+      },
+      {
+        "question": "Uthini umgama ohanjwe zizigulane odlene nazo indlebe ukuze zifike phaya kwaye lithini ixabiso lesithuthi, ukuya nokubuya?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   }
 }
