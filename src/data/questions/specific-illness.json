@@ -1,7 +1,37 @@
 {
   "spa": {
+    "title": "Enfermedad especifica",
     "questions": [
-      {}
+      {
+        "question": "Cuál es el nombre de la enfermedad o problema que tiene el paciente?"
+      },
+      {
+        "question": "Cuáles son los principales síntomas?"
+      },
+      {
+        "question": "Que tratamiento recibieron?"
+      },
+      {
+        "question": "Dónde están siendo tratados?"
+      },
+      {
+        "question": "La enfermedad es contagiosa? Han habido otros informes sobre ella localmente o en el extranjero?"
+      },
+      {
+        "question": "Cuál es la identidad de las víctimas? Nombres, edades, direcciones, otros dados personales."
+      },
+      {
+        "question": "Qué comentários, si los hay, hicieron los funcionarios de salud sobre la enfermedad?"
+      },
+      {
+        "question": "Cuál es la distancia que los pacientes que entrevistó recorrieron para llegar hasta allí y cuál es el costo del viaje de regreso?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "nso": {
