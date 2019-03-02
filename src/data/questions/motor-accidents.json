@@ -230,8 +230,72 @@
   "title": "Motor Accidents",
   "type": "questions",
   "xho": {
+    "title": "lingozi zeemoto",
     "questions": [
-      {}
+      {
+        "question": "Ingozi yehle ngeliphi ixesha kwaye phi?"
+      },
+      {
+        "question": "Abo bafileyo nabo nzakeleyo babhekiswe ngaphi na?",
+        "description": "(Kwesiphi isibhedlele okanye indawo yezidumbhu?)"
+      },
+      {
+        "question": "Ingaba bezikhona na izenzo zobukroti okanye uhlangulo?"
+      },
+      {
+        "question": "Bebe khona na aba banjiweyo okanye abathathelwe amanyathelo asemthethweni?"
+      },
+      {
+        "question": "Yintoni na umonakalo kwizithuthi?"
+      },
+      {
+        "question": "Besisithini na isantya sezithuthi ezo?"
+      },
+      {
+        "question": "Babe vela phi/besiya phi?"
+      },
+      {
+        "question": "Ingaba bekukho imozulu engaqondakaliyo okanye imeko yezendlela engaba kanti yadala le ngozi?"
+      },
+      {
+        "question": "Ngokwa mangqina, abecuphi nabantu aba chaphazelekayo kule ngozi kwenzeke ntoni?"
+      },
+      {
+        "question": "Athini amalungiselelo enkonzo yomngcwabo yomfi?"
+      },
+      {
+        "question": "Bebekhona na abantu abonzakeleyo okanye abafileyo kwaye bangaphi?"
+      },
+      {
+        "question": "Ziintlobo ezinjani zeemoto ezi zichaphazelekileyo?"
+      },
+      {
+        "question": "Ngubani na umqhubi?",
+        "description": "Amagama, ubudala, iidilesi nezinye iinkcukhacha."
+      },
+      {
+        "question": "Yintoni na imbangi yalengozi?",
+        "description": "(Ngokwa magosa ezoncedo olukhawulezileyo, amapolisa okanye nabani na osemthethweni)"
+      },
+      {
+        "question": "Ngobani na abanye abachaphazelekayo?",
+        "description": "(Abakhweli, abahambi ngendlela.)"
+      },
+      {
+        "question": "Ngubani na owonzakeleyo nothe wafa?"
+      },
+      {
+        "question": "Ungakanani na umonzakalo odalwe yile ngozi?"
+      },
+      {
+        "question": "Injani imeko yabo bonzakeleyo?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   }
 }
