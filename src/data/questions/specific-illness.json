@@ -180,8 +180,38 @@
     ]
   },
   "sot": {
+    "title": "Bolwetsi bo Itseng",
     "questions": [
-      {}
+      {
+        "question": "What is the name of the sickness/condition that the patient has?"
+      },
+      {
+        "question": "What are the main symptoms?"
+      },
+      {
+        "question": "What treatment did they receive?"
+      },
+      {
+        "question": "Where are they are being treated?"
+      },
+      {
+        "question": "Is the illness contagious and have there been any other reports of it locally or abroad?"
+      },
+      {
+        "question": "Na ho tsebilwe batswasehlabelo? Mabitso, dilemo, le lesedi le leng ka botho ba bona?"
+      },
+      {
+        "question": "What comments, if any, did health workers make on the sickness?"
+      },
+      {
+        "question": "What distance did patients you interviewed have to travel to get there and what is the cost of their return fares?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "title": "Specific Illness",
