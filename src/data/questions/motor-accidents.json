@@ -10,8 +10,71 @@
     ]
   },
   "afr": {
+    "title": "Motorongelukke",
     "questions": [
-      {}
+      {
+        "question": "Hoe laat en waar het die ongeluk plaasgevind?"
+      },
+      {
+        "question": "Waarheen is die beseerdes en oorledenes geneem? (Watter hospitaal of lykshuis)"
+      },
+      {
+        "question": "Was daar enige helde- of reddingsdade?"
+      },
+      {
+        "question": "Was daar enige arrestasies of ander regsoptrede?"
+      },
+      {
+        "question": "Wat is die skade aan die voertuie?"
+      },
+      {
+        "question": "Hoe vinning het die betrokke voertuie gery?"
+      },
+      {
+        "question": "Waarheen is hulle vandaan of op pad?"
+      },
+      {
+        "question": "Was daar enige vreemde weers- of padtoestande wat kon gelei het tot die ongeluk?"
+      },
+      {
+        "question": "Wat het volgens ooggetuies, ondersoekbeamptes en mense wat betrokke was by die voorval, gebeur?"
+      },
+      {
+        "question": "Wat is die begrafnisreëlings?"
+      },
+      {
+        "question": "Is enige persone beseer of dood? Indien wel, hoeveel?"
+      },
+      {
+        "question": "Watter soort voertuie was betrokke?"
+      },
+      {
+        "question": "Wat is die besonderhede van die betrokke bestuurders?",
+        "description": "Name, ouderdomme, adresse, ander persoonlike inligting."
+      },
+      {
+        "question": "Wat was die oorsaak van die ongeluk?",
+        "description": "(volgens paramedici, die polisie of ander amptelike bronne)"
+      },
+      {
+        "question": "Wat is die besonderhede van enige ander betrokkenes?",
+        "description": "(Passasiers, voetgangers.)"
+      },
+      {
+        "question": "Wat is die identiteit van die beseerdes en oorledenes?"
+      },
+      {
+        "question": "Wat is die omvang van die beserings?"
+      },
+      {
+        "question": "Wat is die toestand van die beseerdes?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "questions": [
