@@ -145,8 +145,38 @@
     ]
   },
   "por": {
+    "title": "Doenca especifica",
     "questions": [
-      {}
+      {
+        "question": "Qual é o nome da doença/problema que o paciente tem?"
+      },
+      {
+        "question": "Quais são os principais sintomas?"
+      },
+      {
+        "question": "Que tratamento é que eles receberam?"
+      },
+      {
+        "question": "Onde estão sendo tratados?"
+      },
+      {
+        "question": "A doença é conagiosa? Houve outros casos reportados localmente ou no estrangeiro?"
+      },
+      {
+        "question": "Qual é a identidade das víctimas? Nomes, idades, endereços e outras informações pessoais."
+      },
+      {
+        "question": "Que comentários, se for o caso, têm feito os funcionários da saúde sobre a doença?"
+      },
+      {
+        "question": "Qual é a distância percorrida pelos pacientes que você entrevistou e quais são os custos para o seu regresso?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "sot": {
