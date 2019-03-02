@@ -1,0 +1,110 @@
+{
+  "spa": {
+    "questions": [
+      {}
+    ]
+  },
+  "nso": {
+    "questions": [
+      {}
+    ]
+  },
+  "afr": {
+    "questions": [
+      {}
+    ]
+  },
+  "questions": [
+    {
+      "question": "What time did the accident happen and where?"
+    },
+    {
+      "question": "Where were the injured and dead taken?",
+      "description": "(Which hospital or morgue?)"
+    },
+    {
+      "question": "Were there any acts of bravery or any rescues?"
+    },
+    {
+      "question": "Were there any arrests or other legal action?"
+    },
+    {
+      "question": "What is the damage to the vehicles?"
+    },
+    {
+      "question": "What was the speed of vehicles involved?"
+    },
+    {
+      "question": "Where were they coming from/going to?"
+    },
+    {
+      "question": "Were there any strange weather or road conditions that could have caused the accident?"
+    },
+    {
+      "question": "What happened according to eyewitnesses, investigating officers and people involved in incident?"
+    },
+    {
+      "question": "What are the funeral arrangements for the dead?"
+    },
+    {
+      "question": "Were any people injured or dead and how many?"
+    },
+    {
+      "question": "What type of vehicles were involved?"
+    },
+    {
+      "question": "What is the identification of the drivers involved?",
+      "description": "Names, ages, addresses, other personal information."
+    },
+    {
+      "question": "What was the cause of the accident?",
+      "description": "(according to paramedics, police or other official sources)"
+    },
+    {
+      "question": "What is the identification of any others involved?",
+      "description": "(Passengers, pedestrians.)"
+    },
+    {
+      "question": "What is the identification of the injured and dead?"
+    },
+    {
+      "question": "What is the extent of any injuries?"
+    },
+    {
+      "question": "What is the condition of the injured?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "questions": [
+      {}
+    ]
+  },
+  "zul": {
+    "questions": [
+      {}
+    ]
+  },
+  "por": {
+    "questions": [
+      {}
+    ]
+  },
+  "sot": {
+    "questions": [
+      {}
+    ]
+  },
+  "title": "Motor Accidents",
+  "type": "questions",
+  "xho": {
+    "questions": [
+      {}
+    ]
+  }
+}
