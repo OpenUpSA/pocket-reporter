@@ -54,7 +54,8 @@
         "question": "Is the illness contagious and have there been any other reports of it locally or abroad?"
       },
       {
-        "question": "Naa go tsebilwe batšwasehlabelo? Maina, mengwaga, diaterese le tshedimošo e nngwe ka bona?"
+        "question": "Naa go tsebilwe batšwasehlabelo?",
+        "description": "Maina, mengwaga, diaterese le tshedimošo e nngwe ka bona?"
       },
       {
         "question": "What comments, if any, did health workers make on the sickness?"
