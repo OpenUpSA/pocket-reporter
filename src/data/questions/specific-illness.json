@@ -170,8 +170,38 @@
     ]
   },
   "zul": {
+    "title": "uhlobo oluthile lwesifo",
     "questions": [
-      {}
+      {
+        "question": "Ingabe siphethwe yini isiguli nokuthi ingabe simi kanjani isimo saso?"
+      },
+      {
+        "question": "Yiziphi izimpawu ezigqamile ezibonakalayo"
+      },
+      {
+        "question": "Bathole hlobo luni lokwelwashwa?"
+      },
+      {
+        "question": "Ingabe belashelwa kuphi?"
+      },
+      {
+        "question": "Ingabe isifo esithathelanayo nokuthi ingabe isike yaba khona imibiko ngaso lapha endaweni kanye naphesheya kwezilwande?"
+      },
+      {
+        "question": "Ithini imininingwane yesisulu? igama, iminyaka, ikheli, kanye nolunye ulwazi olumayelana nesisulu."
+      },
+      {
+        "question": "Ingabe luthini uvo lwabasebenzi bezempilo mayelana nalesisifo?"
+      },
+      {
+        "question": "Kukude kangakanani lapho kusuka khona iziguli oxoxisene nazo nokuthi kubize malini ukuya nokubuya"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "por": {
