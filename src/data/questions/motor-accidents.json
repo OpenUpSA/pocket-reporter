@@ -340,8 +340,72 @@
     ]
   },
   "zul": {
+    "title": "Izingozi zezimoto",
     "questions": [
-      {}
+      {
+        "question": "Yenzeke ngankathini, kuphi lengozi?"
+      },
+      {
+        "question": "bathathwe bayiswaphi abalimele nabashonile?",
+        "description": "(kusiphi isibhedlela noma amakhaza)"
+      },
+      {
+        "question": "ingabe kube kukhona abasindiswe ngenxa yesibindi sabathile ?"
+      },
+      {
+        "question": "Ingabe kukhona ababoshiwe noma bathathelwa izinyathelo zomthetho?"
+      },
+      {
+        "question": "Ingabe ilemele kanjani imoto?"
+      },
+      {
+        "question": "Ingabe ibihamba ngejubane elingakanani imoto ethintekayo kulengozi?"
+      },
+      {
+        "question": "Bebesukaphi futhi beyaphi?"
+      },
+      {
+        "question": "Ingabe kube khona isimo sezulu noma somgwaqo esingesihle ebesingadala ingozi?"
+      },
+      {
+        "question": "Ngokwabazibonele ngamehlo, abaseshi, kanye nabathintekayo engozini ingabe kwenzekeni?"
+      },
+      {
+        "question": "athini amalungiselelo omngcwabo abashonile?"
+      },
+      {
+        "question": "Ingabe kukhona abalimele noma abashonile nokuthi bangaki?"
+      },
+      {
+        "question": "Hlobo luni lwezimoto ezithintekayo?"
+      },
+      {
+        "question": "Ithini imininingwane yabashayeli abathintekayo?",
+        "description": "Amagama, iminyaka, amakheli,kanye neminye imininingwane eqondene nabo?"
+      },
+      {
+        "question": "Ingabe bekuyini imbangela yengozi?",
+        "description": "(ngokwabosizo lokuqala, amaphoyisa, noma ngokweminye imithombo esemthethweni)"
+      },
+      {
+        "question": "Ingabe ithini imininingwane yabanye abathintekayo?",
+        "description": "(Abagibeli,abahamba ngezinyawo)."
+      },
+      {
+        "question": "Ithini imininingwane yabalimele nabashonile?"
+      },
+      {
+        "question": "Balimele kangakanani?"
+      },
+      {
+        "question": "Sithini isimo sabalimele?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "por": {
