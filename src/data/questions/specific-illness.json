@@ -88,7 +88,8 @@
         "question": "Is die siekte aansteeklik en is daar enige ander verslae daarvan, hetsy plaaslik of in die buiteland?"
       },
       {
-        "question": "Watter identifikasie is daar van slagoffers? Name, ouderdomme, adresse, ander persoonlike inligting."
+        "question": "Watter identifikasie is daar van slagoffers?",
+        "description": "Name, ouderdomme, adresse, ander persoonlike inligting."
       },
       {
         "question": "Watter kommentaar, indien enige, het gesondheids werkers gelewer oor die siekte?Hoe ver het die pasiënte wat jy ondervra gereis om daar te kom en wat was hul reisonkoste?"
