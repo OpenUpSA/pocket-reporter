@@ -18,7 +18,8 @@
         "question": "La enfermedad es contagiosa? Han habido otros informes sobre ella localmente o en el extranjero?"
       },
       {
-        "question": "Cuál es la identidad de las víctimas? Nombres, edades, direcciones, otros dados personales."
+        "question": "Cuál es la identidad de las víctimas?",
+        "description": "Nombres, edades, direcciones, otros dados personales."
       },
       {
         "question": "Qué comentários, si los hay, hicieron los funcionarios de salud sobre la enfermedad?"
