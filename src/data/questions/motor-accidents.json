@@ -281,8 +281,71 @@
     ]
   },
   "por": {
+    "title": "Acidentes rodoviarios",
     "questions": [
-      {}
+      {
+        "question": "Que horas e aonde teve lugar o acidente?"
+      },
+      {
+        "question": "Aonde foram levados os feridos e os mortos?",
+        "description": "(Que hospital ou casa mortuária)"
+      },
+      {
+        "question": "Houve qualquer acto de heroicidade ou algum resgate?"
+      },
+      {
+        "question": "Houve alguma detenção ou qualquer outra acção legal?"
+      },
+      {
+        "question": "Quais foram os danos causados aos veículos?"
+      },
+      {
+        "question": "Qual era a velocidade dos veículos envolvidos?"
+      },
+      {
+        "question": "De onde é que eles vinham/aonde iam?"
+      },
+      {
+        "question": "Houve algo diferente nas condições climáticas ou da estrada que poderiam ter causado o acidente?"
+      },
+      {
+        "question": "O quê aconteceu de acordo com as testemunhas, os investigadores e outras pessoas envolvidas no incidente?"
+      },
+      {
+        "question": "Quais são os detalhes do funeral para os falecidos?"
+      },
+      {
+        "question": "Houve algumas pessoas feridas ou mortas e quantas?"
+      },
+      {
+        "question": "Que tipos de veículos estavam envolvidos?"
+      },
+      {
+        "question": "Qual é a identidade dos motoristas envolvidos? Nomes, idades, endereços, outra informação pessoal."
+      },
+      {
+        "question": "Qual foi a causa do accidente?",
+        "description": "(de acordo com o pessoal de saúde, polícia ou outras fontes oficiais)"
+      },
+      {
+        "question": "Qual é a identidade doutras pessoas envolvidas?",
+        "description": "(Passageiros, peões)"
+      },
+      {
+        "question": "Qual é a identidade dos mortos e feridos?"
+      },
+      {
+        "question": "Qual é a gravidade dos ferimentos?"
+      },
+      {
+        "question": "Qual é o estado de saúde dos feridos?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "sot": {
