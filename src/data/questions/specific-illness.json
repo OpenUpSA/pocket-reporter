@@ -119,7 +119,8 @@
       "question": "Is the illness contagious and have there been any other reports of it locally or abroad?"
     },
     {
-      "question": "What is the identification of victims? Names, ages, addresses, other personal information."
+      "question": "What is the identification of victims?",
+      "description": "Names, ages, addresses, other personal information."
     },
     {
       "question": "What comments, if any, did health workers make on the sickness?"
