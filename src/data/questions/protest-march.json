@@ -10,8 +10,67 @@
     ]
   },
   "afr": {
+    "title": "Protesoptog",
     "questions": [
-      {}
+      {
+        "question": "Wenk: Maak seker jy het 'n groot serp en 'n bottel asyn (week serp in asyn indien polisie gebruik maak van traangas)"
+      },
+      {
+        "question": "Was daar enige verwante protesoptredes in die verlede (hoeveel, wanneer en waar) en is enige iets bereik?"
+      },
+      {
+        "question": "Hoe het die owerhede en die polisie reageer op die protes?"
+      },
+      {
+        "question": "Het polisie enige nie-dodelike (traangas, rubber koeëls) of dodelike wapens (lewendige ammunisie) gebruik, of albei?"
+      },
+      {
+        "question": "Is enigiemand beseer? Wie, hoeveel en hoe erg?"
+      },
+      {
+        "question": "Na watter hospitale/ klinieke is die beseerdes geneem vir behandeling?"
+      },
+      {
+        "question": "Indien daar gerugte van polisiegeweld is, het jy bewyse en het jy 'n reaksie van die polisie hieroor?"
+      },
+      {
+        "question": "Wat is die huidige stand van die protes?"
+      },
+      {
+        "question": "Watter soort protes is dit?",
+        "description": "`n Optog, 'n staking, 'n versperring?"
+      },
+      {
+        "question": "Wie is die hooforganiseerders van die protes?",
+        "description": "Kry hul amptelike titel, organisasie en kontakbesonderhede."
+      },
+      {
+        "question": "Was die protesoptrede beplan of onbeplan?"
+      },
+      {
+        "question": "Wat is die oorsaak van die protes?"
+      },
+      {
+        "question": "Is nie-regeringsorganisasies of politieke partye betrokke by die protesoptrede?",
+        "description": "Kry hul name, organisasie, kontakbesonderhede en rede vir betrokkenheid."
+      },
+      {
+        "question": "Hoe groot is die skare:",
+        "description": "moenie raai nie! Bevestig met organiseerders en polisie."
+      },
+      {
+        "question": "Haal een van die organiseerders woordeliks aan oor die optrede"
+      },
+      {
+        "question": "Voer onderhoude met ten minste 10 betogers:",
+        "description": "kry hul naam, ouderdom, waar hulle woon, waarom hulle protesteer, wat hulle wil bereik?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "questions": [
