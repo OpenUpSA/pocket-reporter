@@ -1,7 +1,65 @@
 {
   "spa": {
+    "title": "Marcha de protesta",
     "questions": [
-      {}
+      {
+        "question": "Consejo: Asegúrese de tener una bufanda grande y una botella de vinagre (empapar la bufanda en vinagre si la policía usa gas lacrimógeno) en caso de que haya gas lacrimógeno?"
+      },
+      {
+        "question": "¿Hubo alguna protesta relacionada en el pasado (cuántos, cuándo y dónde) y se logró algo?"
+      },
+      {
+        "question": "¿Cómo respondieron las autoridades y la policía a la protesta?"
+      },
+      {
+        "question": "¿Utilizó la policía alguna fuerza no letal (gases lacrimógenos, balas de goma) o fuerza letal (munición real), o ambas cosas?"
+      },
+      {
+        "question": "¿Había alguien herido? ¿Quién, cuántos y qué tan mal?"
+      },
+      {
+        "question": "¿A qué hospitales / clínicas fueron llevados los lesionados para su tratamiento?"
+      },
+      {
+        "question": "Si hay informes de uso violento de la fuerza por parte de la policía, ¿tiene evidencia y usted tiene una respuesta de la policía sobre esto?"
+      },
+      {
+        "question": "¿Cuál es el estado actual de la protesta?"
+      },
+      {
+        "question": "¿Qué tipo de protesta es? ¿Una marcha, una huelga, una barricada?"
+      },
+      {
+        "question": "¿Quiénes son los principales organizadores de la protesta? ",
+        "description": "Obtenga su título oficial, organización y datos de contacto."
+      },
+      {
+        "question": "¿Fue una protesta planificada o espontánea?"
+      },
+      {
+        "question": "¿Cuál es la razón de la protesta?"
+      },
+      {
+        "question": "¿Hubo alguna ONG o partidos políticos involucrados o relacionados con la protesta?",
+        "description": "Obtenga sus nombres, organización, datos de contacto y razón para participar."
+      },
+      {
+        "question": "¿Cuál es el tamaño de la multitud:",
+        "description": "no adivine! Consulte con los organizadores y la policía."
+      },
+      {
+        "question": "Obtenga una cita (o declaración) de los organizadores sobre la protesta"
+      },
+      {
+        "question": "Entrevista a un mínimo de 10 manifestantes:",
+        "description": "obtener su nombre, edad, dónde viven, por qué están protestando, ¿qué quieren lograr?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "nso": {
