@@ -189,8 +189,58 @@
   "title": "Fires",
   "type": "questions",
   "xho": {
+    "title": "Imililo",
     "questions": [
-      {}
+      {
+        "question": "Bangaphi abantu abafileyo nabonzakeleyo?"
+      },
+      {
+        "question": "Ingaba bekukho neziphi na izenzo zobukrothi okanye uhlangulo?"
+      },
+      {
+        "question": "Fumana izimvo zabamelwane, amangqina."
+      },
+      {
+        "question": "Zingaphi injini zomlilo kwakunye nabacimi-mlilo abathe babandakanyeka?"
+      },
+      {
+        "question": "Imvelaphi yolwazi:",
+        "description": "U-Mphathi wesebe lezemililo, abezeenkonzo zohlangulo, iindawo zokugcina izidumbhu, ii-arhente zentlalo-ntle"
+      },
+      {
+        "question": "Ngoobani na iingxwelerha?",
+        "description": "Amagama, ubudala, iidilesi ezinye iinkcukhacha."
+      },
+      {
+        "question": "Wenzeki phi na umlilo kwaye yintoni ebisitsha (isakhiwo, indlu, ibala etc)?"
+      },
+      {
+        "question": "Uqalise nini umlilo, unwenwele phi kwaye njani?"
+      },
+      {
+        "question": "Ucinywe/ulawulwe nini kwaye emva kwexesha elingakanani na umlilo?"
+      },
+      {
+        "question": "Amaxhoba abulewe kwaye onzakale njani, lingakanani na iqondo lokonzakala?"
+      },
+      {
+        "question": "Ulahleko lwempahla:",
+        "description": "kweliphi iqondo, ixabiso lomonakalo, i-insurance? Kuzomele ukuba uqhagamshelane nechule kulomcimbi."
+      },
+      {
+        "question": "Uphando:",
+        "description": "Neziphi na izehlo ezingaqhelekanga?"
+      },
+      {
+        "question": "Abonzakeleyo nabafileyo bathathwa basiwa phi?",
+        "description": "(Kwesiphi isibhedlele okanye indawo yokugcina izidumbhu?)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   }
 }
