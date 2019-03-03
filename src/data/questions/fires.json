@@ -282,8 +282,58 @@
     ]
   },
   "sot": {
+    "title": "Melelo",
     "questions": [
-      {}
+      {
+        "question": "Ho hlokohetse batho ba bakae hona ho lemetse ba bakae?"
+      },
+      {
+        "question": "Were there any acts of bravery or any rescues?"
+      },
+      {
+        "question": "Get comments from neighbours, eyewitnesses."
+      },
+      {
+        "question": "How many fire engines and firefighters involved?"
+      },
+      {
+        "question": "Sources:",
+        "description": "Fire chief, police, rescue services, hospital, mortuary, welfare agencies"
+      },
+      {
+        "question": "Na ho tsebilwe batswasehlabelo?",
+        "description": "Mabitso, dilemo, le lesedi le leng ka botho ba bona?"
+      },
+      {
+        "question": "Mollo o ne o le kae, hona ho be ho cha eng (moaho, ntlo, tshimo, le tse ding)?"
+      },
+      {
+        "question": "Mollo o qadile neng, kae le hore na o phatlaletse jwang?"
+      },
+      {
+        "question": "Ke neng le hona ka mora nako e kae ha mollo o ile wa tliswa ka tlasa taolo?"
+      },
+      {
+        "question": "How were victims killed and injured and what is the extent of the injuries?"
+      },
+      {
+        "question": "Property loss:",
+        "description": "what is the extent, cost of damage, insurance? You may need to phone an expert."
+      },
+      {
+        "question": "Investigation:",
+        "description": "any unusual circumstances?"
+      },
+      {
+        "question": "Where were the injured and dead taken?",
+        "description": "(Which hospital or morgue?)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "title": "Fires",
