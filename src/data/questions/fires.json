@@ -258,6 +258,10 @@
         "question": "Quando e após quanto tempo o incêndio esteve sob controlo?"
       },
       {
+        "question": "Qual foi a causa da morte e ferimentos das vítimas e qual é a gravidade dos ferimentos?",
+        "description": ""
+      },
+      {
         "question": "Danos materiais:",
         "description": "qual é a extensão, custo dos danos, seguro? Você pode precisar de contactar com um especialista."
       },
@@ -274,8 +278,7 @@
       },
       {
         "question": "Contact details of people you've interviewed"
-      },
-      {}
+      }
     ]
   },
   "sot": {
