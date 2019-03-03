@@ -272,8 +272,59 @@
     ]
   },
   "zul": {
+    "title": "Imililo",
     "questions": [
-      {}
+      {
+        "question": "bangaki abantu abashonile nabalimele?"
+      },
+      {
+        "question": "ingabe kube khona ukusindiswa kwabathile?"
+      },
+      {
+        "question": "Thola ukuphawula komakhelwane noma kwabazibonele ngokwabo"
+      },
+      {
+        "question": "Ngabe zingaki izicishamlilo noma abacishi mlilo abathintekayo?"
+      },
+      {
+        "question": "Imthombo:",
+        "description": "isikhulu kwezomlilo, iphoyisa, abezokutakula,abamakhaza, abezenhlala kahle"
+      },
+      {
+        "question": "Ithini imininingwane yezisulu?",
+        "description": "amagama, iminyaka, amakheli,kanye neminye imininingwane yabo"
+      },
+      {
+        "question": "ingabe ukhona umlilo obukhona nokuthi yini ebivutha ",
+        "description": "( isakhiwo, indlu,ihlanze, njalo njalo)"
+      },
+      {
+        "question": "uqale nini umlilo, kuphi nokuthi usabalale kangakanani?"
+      },
+      {
+        "question": "unqotshwe nini umlilo emuva kwesikhathi esingakanani"
+      },
+      {
+        "question": "ingabe izisulu zishone kanjani nokuthi zilimale kanjani, futhi zilimale kangakanani"
+      },
+      {
+        "question": "ukulahleka kwempahla: ",
+        "description": "ube ngakanani, izindleko zomonakalo, umshwalense? kungenzeka udinge nengcweti"
+      },
+      {
+        "question": "ucwaningo:",
+        "description": "ngabe zikhona izigameko ezingajwayelekile?"
+      },
+      {
+        "question": "bathathwe bayiswaphi abalimele nabashonile?",
+        "description": "(kusiphi isibhedlela noma amakhaza)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "por": {
