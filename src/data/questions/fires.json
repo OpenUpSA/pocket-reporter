@@ -1,7 +1,57 @@
 {
   "spa": {
+    "title": "Incendios",
     "questions": [
-      {}
+      {
+        "question": "¿Cuántas personas están muertas y heridas?"
+      },
+      {
+        "question": "¿Hubo actos de valentía o rescates?"
+      },
+      {
+        "question": "Obtener comentarios de los vecinos, los testigos."
+      },
+      {
+        "question": "¿Cuántas autobombas y personal de los bomberos participan?"
+      },
+      {
+        "question": "Fuentes:",
+        "description": "Jefe de bomberos, policía, servicios de rescate, hospital, funerario, grupos solidarios"
+      },
+      {
+        "question": "¿Cuál es la identidad de las víctimas?",
+        "description": "Nombres, edades, direcciones, otros datos personales."
+      },
+      {
+        "question": "¿Dónde estaba el fuego y lo que ardía (un edificio, casa, campo, etc.)?"
+      },
+      {
+        "question": "¿Cuándo comenzó el incendio, dónde y cómo se propagó?"
+      },
+      {
+        "question": "¿Cuándo y después de cuánto tiempo se controló?"
+      },
+      {
+        "question": "¿Cuál fue la causa de merte y heridas de las víctimas y cuál es la gravedad de las lesiones?"
+      },
+      {
+        "question": "Daños materiales:",
+        "description": "¿cuál es el alcance, el costo del daño, el seguro? Es posible que necesite llamar a un experto."
+      },
+      {
+        "question": "Investigación:",
+        "description": "¿alguna circunstancia inusual?"
+      },
+      {
+        "question": "¿Adonde llevaron a los heridos y muertos?",
+        "description": "(¿Qué hospital o morgue?)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "nso": {
