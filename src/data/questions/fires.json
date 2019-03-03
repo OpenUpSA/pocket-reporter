@@ -226,7 +226,55 @@
     ]
   },
   "por": {
+    "title": "Incendios",
     "questions": [
+      {
+        "question": "Quantas pessoas estão mortas ou feridas?"
+      },
+      {
+        "question": "Houve alguns actos de heroicidade ou resgates?"
+      },
+      {
+        "question": "Obtenha comentários de vizinhos e testemunhas."
+      },
+      {
+        "question": "Quantos carros de bombeiros e pessoal dos bombeiros estiveram envolvidos?"
+      },
+      {
+        "question": "Fontes:",
+        "description": "Chefe dos bombeiros, polícia, Serviços de resgate, hospital, casa mortuária, organizações de caridade"
+      },
+      {
+        "question": "Qual é a identidade das vítimas?",
+        "description": "Nomes, idades, endereços, outra informação pessoal."
+      },
+      {
+        "question": "Onde é que o incêndio teve lugar e o quê ardeu (prédio, casa, campo, etc)?"
+      },
+      {
+        "question": "Quando o fogo começou, onde e como espalhou-se?"
+      },
+      {
+        "question": "Quando e após quanto tempo o incêndio esteve sob controlo?"
+      },
+      {
+        "question": "Danos materiais:",
+        "description": "qual é a extensão, custo dos danos, seguro? Você pode precisar de contactar com um especialista."
+      },
+      {
+        "question": "Investigação:",
+        "description": "qualquer circunstância fora do normal?"
+      },
+      {
+        "question": "Aonde foram levados os feridos e os mortos?",
+        "description": "(A qual hospital ou casa mortuária?)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      },
       {}
     ]
   },
