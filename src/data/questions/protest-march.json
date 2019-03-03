@@ -214,8 +214,68 @@
   "title": "Protest March",
   "type": "questions",
   "xho": {
+    "title": "Umngcelele woqhankqalazo",
     "questions": [
-      {}
+      {
+        "question": "Icebo: Qinisekisa ukuba une sikhafu eside kwakunye ne bhotile ye vinika (ncinda isikhafu kwi vinika leyo xa amapolisa esebenzisa i-teargas)."
+      },
+      {
+        "question": "Kwakukhe kwabakho iintshukumo zoqhankqalazo eziyelelene nezi kumaxesha adlulileyo (Zazi ngaphi, nini, phi) kwaye ingaba ikhona na into eyaba yimpumelelo?"
+      },
+      {
+        "question": "Iziphatha-mandla kwakunye namapolisa bahlangabezene njani nolu qhankqalazo?"
+      },
+      {
+        "question": "Ingaba amapolisa asebenzisa iintshukumo ezingena bungozi kakhulu (i-teargas, i-rubber bullets) okanye ezinobungozi (imipu) okanye zombini?"
+      },
+      {
+        "question": "Ingaba bakhona abantu abonzakalayo?",
+        "description": "Ngobani, babe bangaphi kwaye bonzakala kangakanani na?"
+      },
+      {
+        "question": "Abo bathi bonzakala babhekiswa kweziphi na izibhedlele okanye iikliniki ukuze bafumane unyango?"
+      },
+      {
+        "question": "Ukuba kukho iingxelo zoku sebenziswa kodlame ngama polisa ingaba unabo na ubungqina kwakunye nempendulo yamapolisa ngesi sehlo?"
+      },
+      {
+        "question": "Ithini imeko yolu qhankqalazo sithetha nje?"
+      },
+      {
+        "question": "Ingaba luqhankqalazo olunjani na olu?",
+        "description": "Ingaba ngumngcelele, ugwayimbo, uvalo-zitalato?"
+      },
+      {
+        "question": "Ngoobani abona baququzeli baphambili kolu qhankqalazo?",
+        "description": "Fumana izikhundla zabo ezisemthethweni, amaqela abo kwakunye nee nkcukhacha zabo zonxibelelwano."
+      },
+      {
+        "question": "Ingaba oluqhankqalazo belucetyiwe okanye belunga cetywanga?"
+      },
+      {
+        "question": "Yintoni isizathu soluqhankqalazo?"
+      },
+      {
+        "question": "Ingaba ii-NGO okanye amaqela ezo politiko ziyabandakanyeka okanye ziyachaphazeleka kolu qhankqalazo?",
+        "description": "Fumana amagama abantu, amaqela, iinkcukhacha nezizathu zobandakanyo lwabo."
+      },
+      {
+        "question": "Bungakanani ubukhulu benginginya:",
+        "description": "ungaziqambeli ngokwakho! Dlana indlebe nabaququzeli kwakunye namapolisa."
+      },
+      {
+        "question": "Fumana intetho nqo yaba ququzeleli malunga noqhankqalazo"
+      },
+      {
+        "question": "Dlana indlebe nabaqhankqalazi abali-10 ubuncinane:",
+        "description": "fumana amagama abo, iindawo abahlala kuzo, izizathu zabo zokuqhankqalaza, yintoni abafuna ukuyi feza?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   }
 }
