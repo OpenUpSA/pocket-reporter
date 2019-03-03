@@ -216,8 +216,59 @@
     }
   ],
   "tsn": {
+    "title": "Melelo",
     "questions": [
-      {}
+      {
+        "question": "Ke ba ba kae ba ba gobetseng kgotsa go tlhokafala?"
+      },
+      {
+        "question": "Were there any acts of bravery or any rescues?"
+      },
+      {
+        "question": "Get comments from neighbours, eyewitnesses."
+      },
+      {
+        "question": "How many fire engines and firefighters involved?"
+      },
+      {
+        "question": "Sources:",
+        "description": "Fire chief, police, rescue services, hospital, mortuary, welfare agencies"
+      },
+      {
+        "question": "Ke bomang batswasetlhabelo?",
+        "description": "Maina, dingwaga tsa bona, diaterese, le tshedimosetso e nngwe le e nngwe ya sebele?"
+      },
+      {
+        "question": "Molelo o ne o le kae, go ne go sha eng?",
+        "description": "(kago, ntlo, tshimo, le tse dingwe)?"
+      },
+      {
+        "question": "Molelo o simolotse leng, kae, wa phatlhalala jang?"
+      },
+      {
+        "question": "Molelo o tlisitswe leng ka fa tlase ga taolo?"
+      },
+      {
+        "question": "How were victims killed and injured and what is the extent of the injuries?"
+      },
+      {
+        "question": "Property loss:",
+        "description": "what is the extent, cost of damage, insurance? You may need to phone an expert."
+      },
+      {
+        "question": "Investigation:",
+        "description": "any unusual circumstances?"
+      },
+      {
+        "question": "Where were the injured and dead taken?",
+        "description": "(Which hospital or morgue?)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "zul": {
