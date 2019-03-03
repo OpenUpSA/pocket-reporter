@@ -1,0 +1,96 @@
+{
+  "spa": {
+    "questions": [
+      {}
+    ]
+  },
+  "nso": {
+    "questions": [
+      {}
+    ]
+  },
+  "afr": {
+    "questions": [
+      {}
+    ]
+  },
+  "questions": [
+    {
+      "question": "How many people are dead and injured?"
+    },
+    {
+      "question": "Were there any acts of bravery or any rescues?"
+    },
+    {
+      "question": "Get comments from neighbours, eyewitnesses."
+    },
+    {
+      "question": "How many fire engines and firefighters involved?"
+    },
+    {
+      "question": "Sources:",
+      "description": "Fire chief, police, rescue services, hospital, mortuary, welfare agencies"
+    },
+    {
+      "question": "What is the identification of victims?",
+      "description": "Names, ages, addresses, other personal information."
+    },
+    {
+      "question": "Where was the fire and what was burning (a building, house, field, etc.)?"
+    },
+    {
+      "question": "When did the fire start, where and how did it spread?"
+    },
+    {
+      "question": "When and after how long was it brought under control?"
+    },
+    {
+      "question": "How were victims killed and injured and what is the extent of the injuries?"
+    },
+    {
+      "question": "Property loss:",
+      "description": "what is the extent, cost of damage, insurance? You may need to phone an expert."
+    },
+    {
+      "question": "Investigation:",
+      "description": "any unusual circumstances?"
+    },
+    {
+      "question": "Where were the injured and dead taken?",
+      "description": "(Which hospital or morgue?)"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "questions": [
+      {}
+    ]
+  },
+  "zul": {
+    "questions": [
+      {}
+    ]
+  },
+  "por": {
+    "questions": [
+      {}
+    ]
+  },
+  "sot": {
+    "questions": [
+      {}
+    ]
+  },
+  "title": "Fires",
+  "type": "questions",
+  "xho": {
+    "questions": [
+      {}
+    ]
+  }
+}
