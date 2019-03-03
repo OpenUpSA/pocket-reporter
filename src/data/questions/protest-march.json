@@ -319,8 +319,67 @@
     ]
   },
   "zul": {
+    "title": "Imashi yombhikisho",
     "questions": [
-      {}
+      {
+        "question": "Icebo: Qinisekisa ukuthi unesikhafu esikhulu kanye nebhodlela likaviniga( cwilisa isikhafu kuviniga uma amaphoyisa esebenzisa isisi)"
+      },
+      {
+        "question": "Ingabe sekuke kwabakhona eminye imibhikisho ngaphambili, ( Ingabe yenzeka kuphini nini) ingabe kukhona okwazuzwa?"
+      },
+      {
+        "question": "Ingabe iziphathimandla namaphoyisa enzenjani mayelana nalombhikisho?"
+      },
+      {
+        "question": "Ingabe amaphoyisa asebenzisa ukuxazulula ngendluzula ( isisi, izinhlamvu zenjoloba) (badutshulwa ngezinhlamvu) noma kokubili?"
+      },
+      {
+        "question": "Ingabe kukhona owalimala?",
+        "description": "Ingabe bangakhi nokuthi ingabe balimele kangakanani?"
+      },
+      {
+        "question": "Ingabe abalimele batuthelwe kusiphi isibhedlela noma umtholampilo?"
+      },
+      {
+        "question": "Uma ngabe kunemibiko yodlame olwenziwe amaphoyisa, ingabe unabo ubufakazi nokuthi ingabe athini amaphoyisa ngalokhu?"
+      },
+      {
+        "question": "Ingabe sinjani isimo salombhikisho oqhubeka manje?"
+      },
+      {
+        "question": "Ingabe hlobo luni lombhikisho lolu?",
+        "description": "imashi, isteleka, noma isivimbelo?"
+      },
+      {
+        "question": "Ingabe obani abagqugquzeli balombhikisho?",
+        "description": "Thola imininingwane yabo okungaba amagama abo, izinhlangano abavela kuzo izinombolo zabo zocingo kanye nezikhundla zabo."
+      },
+      {
+        "question": "Ingabe umbhikisho ohleliwe noma ungahleliwe ?"
+      },
+      {
+        "question": "Yini imbangela yombhikisho?"
+      },
+      {
+        "question": "Ingabe bezikhona izinhlangano ezingenzinzuzo noma izinhlangano zepolitiki kulombhikisho?",
+        "description": "Thola amagama abo, izinhlangano zabo kanye nezinombolo zabo kanye nesizathu sokuzibandakanya kwabo."
+      },
+      {
+        "question": "Ingabe bebengakanani abantu abebebhikisha ngokwesibalo! Buza kubagqugquzeli kanye nasemaphoyiseni."
+      },
+      {
+        "question": "Thola okushiwo abagqugquzeli mayelana nalombhikisho."
+      },
+      {
+        "question": "Xoxisana nababhikishi ababalelwa kwabangu-10:",
+        "description": "thola ukuthi bahlala kuphi, amagama abo, iminyaka yabo, imbangela yokuzibandakanya, nokuthi yini abaqonde ukukuzuza ngalombhikisho?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "por": {
