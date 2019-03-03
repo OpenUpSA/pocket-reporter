@@ -55,8 +55,57 @@
     ]
   },
   "nso": {
+    "title": "Mello",
     "questions": [
-      {}
+      {
+        "question": "How many people are dead and injured?"
+      },
+      {
+        "question": "Were there any acts of bravery or any rescues?"
+      },
+      {
+        "question": "Get comments from neighbours, eyewitnesses."
+      },
+      {
+        "question": "How many fire engines and firefighters involved?"
+      },
+      {
+        "question": "Sources:",
+        "description": "Fire chief, police, rescue services, hospital, mortuary, welfare agencies"
+      },
+      {
+        "question": "Naa go tsebilwe batšwasehlabelo?",
+        "description": "Maina, mengwaga, diaterese le tshedimošo e nngwe ka bona?"
+      },
+      {
+        "question": "Naa mollo o be o le kae, gona go be go eswa eng (moago, ntlo, tšhemo, bjbj)?"
+      },
+      {
+        "question": "Naa mollo o thomile neng, kae le gore naa o phatlaletše bjang?"
+      },
+      {
+        "question": "Ke neng le gona ka morago ga nako e kaakang fao mollo o ilego wa tlišwa ka tlase ga taolo?"
+      },
+      {
+        "question": "How were victims killed and injured and what is the extent of the injuries?"
+      },
+      {
+        "question": "Property loss:",
+        "description": "what is the extent, cost of damage, insurance? You may need to phone an expert."
+      },
+      {
+        "question": "Investigation:",
+        "description": "any unusual circumstances?"
+      },
+      {
+        "question": "Go hlokofetše batho ba bakae le ba go gobala?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "afr": {
