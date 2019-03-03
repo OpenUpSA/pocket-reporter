@@ -251,8 +251,71 @@
     }
   ],
   "tsn": {
+    "title": "Mogwanto",
     "questions": [
-      {}
+      {
+        "question": "Tip: Ensure you have a large scarf and a bottle of vinegar (soak scarf in vinegar if police use teargas) in case there is teargas?"
+      },
+      {
+        "question": "Have there been any related protests in the past (how many, when and where) and was anything achieved?"
+      },
+      {
+        "question": "How did the authorities and police respond to the protest?"
+      },
+      {
+        "question": "Did police use any non-lethal force (teargas, rubber bullets) or lethal force (live ammunition), or both?"
+      },
+      {
+        "question": "Was anyone injured?",
+        "description": "Who, how many and how badly?"
+      },
+      {
+        "question": "To which hospitals/clinics were the injured taken for treatment?"
+      },
+      {
+        "question": "If there are reports of violent force from police, do you have evidence and do you have a response from the police about this?"
+      },
+      {
+        "question": "What is the current status of the protest?"
+      },
+      {
+        "question": "What kind of protest is it?",
+        "description": "A march, a strike, a barricade?"
+      },
+      {
+        "question": "Who are the main organisers of the protest?",
+        "description": "Get their official title, organisation and contact details."
+      },
+      {
+        "question": "Was the protest planned or unplanned?",
+        "description": ""
+      },
+      {
+        "question": "What is the reason for the protest?"
+      },
+      {
+        "question": "Were any NGOs or political parties involved or related to the protest?",
+        "description": "Get their names, organisation, contact details and reason for involved."
+      },
+      {
+        "question": "What is the size of the crowd:",
+        "description": "don't guess! Check with organisers and police."
+      },
+      {
+        "question": "Get a quote from the organisers about the protest",
+        "description": ""
+      },
+      {
+        "question": "Interview a minimum of 10 protesters:",
+        "description": "get their name, age, where they live, why they are protesting, what do they want to achieve?"
+      },
+      {
+        "question": "Additional info/notes",
+        "description": ""
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "zul": {
