@@ -10,8 +10,58 @@
     ]
   },
   "afr": {
+    "title": "Brande",
     "questions": [
-      {}
+      {
+        "question": "Hoeveel mense is dood en beseer?"
+      },
+      {
+        "question": "Was daar enige helde- of reddingsdade?"
+      },
+      {
+        "question": "Kry kommentaar van bure, ooggetuies."
+      },
+      {
+        "question": "Hoeveel brandweerwaens en brandbestryders was betrokke?"
+      },
+      {
+        "question": "Bronne:",
+        "description": "Brandweerhoof, polisie, nooddienste, hospitaal, forensiese dienste, maatskaplike dienste"
+      },
+      {
+        "question": "Watter besonderhede is daar van slagoffers?",
+        "description": "Name, ouderdomme, adresse, ander persoonlike inligting."
+      },
+      {
+        "question": "Waar was die brand en wat het gebrand ('n gebou, huis, veld, ens.)?"
+      },
+      {
+        "question": "Wanneer het die brand begin, waar en hoe het dit versprei?"
+      },
+      {
+        "question": "Wanneer en na hoe lank is dit onder beheer gebring?"
+      },
+      {
+        "question": "Hoe is slagoffers gedood en beseer en wat die omvang van die beserings?"
+      },
+      {
+        "question": "Eiendoms verlies:",
+        "description": "wat is die omvang die skade, versekering? Jy sal dalk ‘n kenner moet kontak."
+      },
+      {
+        "question": "Ondersoek:",
+        "description": "enige ongewone omstandighede?"
+      },
+      {
+        "question": "Waarheen is die beseerdes en oorledenes geneem?",
+        "description": "(Watter hospitaal of lykshuis)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "questions": [
