@@ -263,7 +263,66 @@
   "por": {
     "title": "Protesto",
     "questions": [
-      {}
+      {
+        "question": "Dica: Certifique-se que você tem um cachecol e uma garrafa de vinagre (molhe o lenço no vinagre se a polícia usa gas lacrimogêneo) em caso de gâs lacrimogêneo"
+      },
+      {
+        "question": "Têm havido quaisquer protestos similares no passado (quantos, quando e aonde) e nada foi alcançado?"
+      },
+      {
+        "question": "Como reagiram as autoridades e a polícia perante a manifestação ou protesto?"
+      },
+      {
+        "question": "A polícia usou alguma força não letal (gâs lacrimogêneo, balas de borracha) ou força letal (munição) ou ambas?"
+      },
+      {
+        "question": "Alguem ficou ferido?",
+        "description": "Quem, quantos e qual foi a gravidade?"
+      },
+      {
+        "question": "A quais hospitais/clínicas foram levados os feridos para serem tratados?"
+      },
+      {
+        "question": "Se há relatos de força violenta por parte da polícia, você tem alguma prova disso e qual foi a resposta da polícia perante isso?"
+      },
+      {
+        "question": "Qual é o actual estado do protesto?"
+      },
+      {
+        "question": "Que tipo de protesto é este?",
+        "description": "Uma marcha, uma greve, uma barricada?"
+      },
+      {
+        "question": "Quem são os principais organizadores do protesto?",
+        "description": "Obtenha o lema oficial, organização e contactos."
+      },
+      {
+        "question": "O protesto foi planeado ou não?"
+      },
+      {
+        "question": "Qual é o motivo do protesto?"
+      },
+      {
+        "question": "Há alguma ONG ou partido político envolvido ou relacionado com o protesto?",
+        "description": "Obtenha nomes, organização, contactos e motivo do seu envolvimento."
+      },
+      {
+        "question": "Qual é o número de participantes no protesto:",
+        "description": "não adivinhes! Confirme com os organizadores e a polícia."
+      },
+      {
+        "question": "Consiga uma declaração dos organizadores sobre o protesto"
+      },
+      {
+        "question": "Entreviste a um mínimo de 10 participantes:",
+        "description": "aliste o nome, idade, onde vivem, porqué estão a protestar, o quê eles pretendem conseguir?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "sot": {
