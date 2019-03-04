@@ -183,8 +183,56 @@
   "title": "Sports",
   "type": "questions",
   "xho": {
+    "title": "Ezemidlalo",
     "questions": [
-      {}
+      {
+        "question": "Ubhala ngeyiphi indidi yomdlalo ngoku?"
+      },
+      {
+        "question": "Fumana izimvo zabaqeqeshi, abadlali kwakunye nabalandeli bamaqela omabini."
+      },
+      {
+        "question": "Ubukhulu bezihlwele babungakanani na kwaye ziziphethe njani na?"
+      },
+      {
+        "question": "Ebekhona na umonzakalo?"
+      },
+      {
+        "question": "Uthathe ixesha elingakanani na umdlalo kwaye udlulele kwixesha elongeziweyo na?"
+      },
+      {
+        "question": "Zithini na iinkcukacha-manani zomdlalo?"
+      },
+      {
+        "question": "Athini amagama amaqela adlalayo?"
+      },
+      {
+        "question": "Ziphele zisithini na iziphumo?"
+      },
+      {
+        "question": "Ubudlalelwa phi, nini lomdlalo?"
+      },
+      {
+        "question": "Yintoni na elona cebo liphume phambili?"
+      },
+      {
+        "question": "Ngobani abadlali aba balaseleyo?"
+      },
+      {
+        "question": "Iziphumo zalomdlalo zizichaphazela njani i-standings, i-rankings nee-rekhodi zaba dlali?"
+      },
+      {
+        "question": "Amaxesha afakwe ngawo amanqaku?"
+      },
+      {
+        "question": "Ingaba akhona na ama-rekhodi okugqwesa okanye ukubethwa kumaqela nabadlali?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   }
 }
