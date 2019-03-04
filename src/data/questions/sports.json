@@ -209,8 +209,56 @@
     }
   ],
   "tsn": {
+    "title": "Sports",
     "questions": [
-      {}
+      {
+        "question": "What type of sport are you reporting on?"
+      },
+      {
+        "question": "Get comments from coaches, players and fans of both teams."
+      },
+      {
+        "question": "What was the crowd size and how was their behaviour?"
+      },
+      {
+        "question": "Were there any injuries?"
+      },
+      {
+        "question": "How long was the game and did they run into extra time?"
+      },
+      {
+        "question": "What are the game's statistics?"
+      },
+      {
+        "question": "What is the name of the teams playing?"
+      },
+      {
+        "question": "What was the final score?"
+      },
+      {
+        "question": "Where and when did game take place?"
+      },
+      {
+        "question": "What was the key play, strategy"
+      },
+      {
+        "question": "Who were the outstanding players?"
+      },
+      {
+        "question": "What effect does the result have on standings, rankings, individual records?"
+      },
+      {
+        "question": "What was the scoring pattern of the game?"
+      },
+      {
+        "question": "Are there any winning/losing streaks, records involved by team, player?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "zul": {
