@@ -219,8 +219,57 @@
     ]
   },
   "por": {
+    "title": "Desporto",
     "questions": [
-      {}
+      {
+        "question": "Que tipo de desporto está a relatar?"
+      },
+      {
+        "question": "Obtenha comentários dos treinadores, jogadores e adeptos de ambas equipas."
+      },
+      {
+        "question": "Qual era o número de pessoas presentes e como foi o seu comportamento?"
+      },
+      {
+        "question": "Houve alguma lesão?"
+      },
+      {
+        "question": "Qual foi a duração do jogo?",
+        "description": "Houve tempo de compensação?"
+      },
+      {
+        "question": "Quais são as estatísticas do jogo?"
+      },
+      {
+        "question": "Qual é o nome das equipas que estão a jogar?"
+      },
+      {
+        "question": "Qual é o resultado final?"
+      },
+      {
+        "question": "Onde e quando teve lugar o jogo?"
+      },
+      {
+        "question": "Qual foi a peça chave, estratégia"
+      },
+      {
+        "question": "Quais foram os jogadores com melhor desempenho?"
+      },
+      {
+        "question": "Como afecta o resultado à classificação, ranking, records individuais?"
+      },
+      {
+        "question": "Qual foi o padrão de pontoação do jogo?"
+      },
+      {
+        "question": "Há alguma série de vitórias/fracassos, metas alcançadas pela equipa ou jogador?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "sot": {
