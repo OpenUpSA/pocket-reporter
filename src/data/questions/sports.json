@@ -262,8 +262,56 @@
     ]
   },
   "zul": {
+    "title": "Ezemidlalo",
     "questions": [
-      {}
+      {
+        "question": "Ingabe hlobo luni lomdlalo obika ngalo?"
+      },
+      {
+        "question": "Thola ukuphawula kumqeqeshi, abadlali, kanye nabalandeli bamaqembu omabili."
+      },
+      {
+        "question": "Bebengakanani abantu abebebuthene endaweni nokuthi baziphathe kanjani?"
+      },
+      {
+        "question": "Ingabe bakhona abalimele?"
+      },
+      {
+        "question": "Uthathe isikhathi esingakanani umdlalo nokuthi ingabe kuze kwafika esikhathini esengeziwe?"
+      },
+      {
+        "question": "Ingabe ithini imininingwane yomdlalo?"
+      },
+      {
+        "question": "Imaphi amaqembu abedlala?"
+      },
+      {
+        "question": "Ithini imiphumela yakamuva?"
+      },
+      {
+        "question": "Udlalwe nini kuphi umdlalo?"
+      },
+      {
+        "question": "Basebenzise siphi isitayela emdlaweni wabo?"
+      },
+      {
+        "question": "Obani abadlali abavelele?"
+      },
+      {
+        "question": "Ingabe imuphi umthelela, umphumela obe nawo ngokwamazinga kanye nomlando wabadlali?"
+      },
+      {
+        "question": "Basebenzise liphi isu ukushaya amagoli?"
+      },
+      {
+        "question": "Ingabe kukhona umlando thizeni mayelana nokunqoba noma ukwehlulwa kwamaqembu athintekayo?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "por": {
