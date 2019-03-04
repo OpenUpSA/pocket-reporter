@@ -10,8 +10,56 @@
     ]
   },
   "afr": {
+    "title": "Sports",
     "questions": [
-      {}
+      {
+        "question": "Oor watter sportsoort doen jy verslag?"
+      },
+      {
+        "question": "Kry kommentaar van afrigters, spelers en ondersteuners van albei spanne."
+      },
+      {
+        "question": "Hoe groot was was die skare en wat was hul gedrag?"
+      },
+      {
+        "question": "Was daar enige beserings?"
+      },
+      {
+        "question": "Hoe lank was die wedstryd en het hulle oor geloop in ekstra tyd?"
+      },
+      {
+        "question": "Wat is die wedstryd statistiek?"
+      },
+      {
+        "question": "Wat is die name van die spanne wat speel?"
+      },
+      {
+        "question": "Wat was die eindtelling?"
+      },
+      {
+        "question": "Waar en wanneer het die wedstryd plaasgevind?"
+      },
+      {
+        "question": "Wat was die sleutelspelstrategie?"
+      },
+      {
+        "question": "Watter spelers het `n uitsekende spel gelewer?"
+      },
+      {
+        "question": "Watter invloed het die resultaat op puntestand, ranglys, persoonlike rekords?"
+      },
+      {
+        "question": "Wat was die puntepatroon in die spel?"
+      },
+      {
+        "question": "Is daar enige wen/verloor tendens, rekords betrokke deur span, speler?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "questions": [
