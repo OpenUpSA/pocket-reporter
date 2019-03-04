@@ -1,7 +1,55 @@
 {
   "spa": {
+    "title": "Deportes",
     "questions": [
-      {}
+      {
+        "question": "Qué deporte estás cubriendo?"
+      },
+      {
+        "question": "Recoger declaraciones de los entrenadores, jugadores y aficionados de los dos equipos."
+      },
+      {
+        "question": "Cuánto público había y cuál era su comportamiento?"
+      },
+      {
+        "question": "Hubo algún lesionado?"
+      },
+      {
+        "question": "Cuánto duró el partido? Hubo prórroga?"
+      },
+      {
+        "question": "Cuáles son las estadísticas del partido?"
+      },
+      {
+        "question": "Cuál es el nombre de los equipos que juegan?"
+      },
+      {
+        "question": "Cuál fue el resultado final?"
+      },
+      {
+        "question": "Dónde y cuándo tuvo lugar el partido?"
+      },
+      {
+        "question": "Cuál es la clave del juego, la estrategia"
+      },
+      {
+        "question": "Quiénes fueron los jugadores destacados?"
+      },
+      {
+        "question": "Cuál es el impacto del resultado en la clasificación, ranking, o records individuales?"
+      },
+      {
+        "question": "¿Cuál fue la evolución de puntuación del juego?"
+      },
+      {
+        "question": "¿Hay racha ganadoras / perdedoras, registros involucrados por equipo, jugador?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "nso": {
