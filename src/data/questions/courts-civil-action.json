@@ -189,8 +189,59 @@
   "title": "Courts - Civil Action",
   "type": "questions",
   "xho": {
+    "title": "Inyathelo lenkundla yamatyala",
     "questions": [
-      {}
+      {
+        "question": "Ngubani lomntu okanye iqela elithatha lamanyathelo?",
+        "description": "Amagama, ubudala, iidilesi, nezinye iinkcukhacha."
+      },
+      {
+        "question": "Ingaba esisigwebo singakhokela kumanyathelo angqingqwa?",
+        "description": "Ingaba singumzekelo?"
+      },
+      {
+        "question": "Sinako ukuthatyathwa isigqibo ngaphandle kwenkundla?"
+      },
+      {
+        "question": "Yintoni na eyi ngqwalasela yeli nyathelo kwaye ibachaphazela njani abanye abantu?"
+      },
+      {
+        "question": "Ngobani na amagama amagqwetha macala omabini?",
+        "description": "(Ujongisise izibhalo zawo)"
+      },
+      {
+        "question": "Uthini umhla kwaye ngubani i-Jaji esingathe elityala?"
+      },
+      {
+        "question": "Ithini imvelaphi yalowo ufaka ityala?"
+      },
+      {
+        "question": "Ithini imvelaphi yomthyolwa?"
+      },
+      {
+        "question": "Yeyiphi indidi yomonakalo obikwayo?"
+      },
+      {
+        "question": "Yintoni na iinjongo zelityala?"
+      },
+      {
+        "question": "Unini umhla woku faka isicelo kwaye yeyiphi inkundla yamatyala emele lomcimbi?"
+      },
+      {
+        "question": "Ingaba ikhona na into ekhuthaze ezizenzo (ukuba ikhona)?"
+      },
+      {
+        "question": "Ithini intsusa yale ngxabano okanye impikiswano?"
+      },
+      {
+        "question": "Ingaba akhona okanye akhe akhona na amatyala ayeleleneyo kweli athi asingathwa ziinkundla zamatyala (ezangaphambili)?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   }
 }
