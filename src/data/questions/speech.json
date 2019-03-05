@@ -45,8 +45,48 @@
     ]
   },
   "nso": {
+    "title": "Polelo",
     "questions": [
-      {}
+      {
+        "question": "What was the speaker's main point?"
+      },
+      {
+        "question": "Do you have copies of speeches and/or background documents?"
+      },
+      {
+        "question": "What are the contact details (preferably phone numbers/business cards) of speakers in case of queries?"
+      },
+      {
+        "question": "What is the name and title of the main speaker?",
+        "description": "(Make sure name is spelt correctly!)"
+      },
+      {
+        "question": "What quotes do you have to support main point?"
+      },
+      {
+        "question": "What was the purpose, time and location of the speech?"
+      },
+      {
+        "question": "How many people attended and what was their makeup and reactions?"
+      },
+      {
+        "question": "Did the speaker make any additional points?"
+      },
+      {
+        "question": "What is the background to the major point they made?"
+      },
+      {
+        "question": "What comments did the speaker's make before and after their speech?"
+      },
+      {
+        "question": "Is there any additional info from the question and answer period"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "afr": {
