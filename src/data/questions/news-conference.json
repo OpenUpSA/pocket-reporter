@@ -10,8 +10,35 @@
     ]
   },
   "afr": {
+    "title": "Nuuskonferensie",
     "questions": [
-      {}
+      {
+        "question": "Wat was die hoofpunte gemaak met die aankondiging van die nuuskonferensie?"
+      },
+      {
+        "question": "Wat is die name en posbeskrywings of ampsposisies van sprekers?"
+      },
+      {
+        "question": "Wat is die agtergrond van die hoofpunte van die konferensie?"
+      },
+      {
+        "question": "Wat verdere inligting het uit die vraag- en antwoordsessie gekom?"
+      },
+      {
+        "question": "Watter vrae is nie beantwoord nie of is vermy?"
+      },
+      {
+        "question": "Wenk: maak seker jy kry afskrifte van enige inligtingsmateriaal van die nuuskonferensie"
+      },
+      {
+        "question": "Wat is die kontakbesonderhede van die organiseerders (verkieslik telefoonnommers) in geval van navrae?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "questions": [
