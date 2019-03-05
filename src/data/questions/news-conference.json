@@ -1,7 +1,34 @@
 {
   "spa": {
+    "title": "Conferencia de prensa",
     "questions": [
-      {}
+      {
+        "question": "¿Cuáles fueron los principales puntos abordados en la conferencia de prensa?"
+      },
+      {
+        "question": "¿Cuáles son los nombres y cargos o cargos oficiales de los oradores?"
+      },
+      {
+        "question": "¿Cuál es el trasfondo de los principales puntos de la conferencia?"
+      },
+      {
+        "question": "¿Qué información adicional se obtuvo de la sesión de preguntas y respuestas?"
+      },
+      {
+        "question": "¿Qué preguntas no fueron contestadas o evitadas?"
+      },
+      {
+        "question": "Consejo: asegúrese de obtener copias de cualquier documento de la conferencia de prensa"
+      },
+      {
+        "question": "¿Cuáles son los datos de contacto de los organizadores (preferiblemente números de teléfono) en caso de consultas?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "nso": {
