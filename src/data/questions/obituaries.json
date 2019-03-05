@@ -179,8 +179,46 @@
     ]
   },
   "por": {
+    "title": "Obituarios",
     "questions": [
-      {}
+      {
+        "question": "Qual é o nome, idade, endereço, ocupação do falecido?"
+      },
+      {
+        "question": "Anedotas, lembranças de amigos, familiares?"
+      },
+      {
+        "question": "Qual foi a hora, lugar e causa da morte?"
+      },
+      {
+        "question": "Qual é a data e lugar de nascimento da pessoa?"
+      },
+      {
+        "question": "Quem são os sobreviventes?",
+        "description": "(família directa)"
+      },
+      {
+        "question": "Quais são os detalhes sobre o funeral e o enterro?"
+      },
+      {
+        "question": "Quais foram as realizações do falecido?"
+      },
+      {
+        "question": "Qual era o seu nível académico?"
+      },
+      {
+        "question": "Eram membros dalgum clube ou associação?"
+      },
+      {
+        "question": "Eles fizeram o serviço militar?",
+        "description": "(forma ou não)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "sot": {
