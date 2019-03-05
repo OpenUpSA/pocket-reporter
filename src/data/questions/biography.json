@@ -1,7 +1,47 @@
 {
   "spa": {
+    "title": "Biografia",
     "questions": [
-      {}
+      {
+        "question": "¿Cuál es el nombre completo de la persona sobre la que está escribiendo?"
+      },
+      {
+        "question": "Detalles de premios / honores / reconocimiento formal.",
+        "description": "https://app.pocketreporter.co.za/#"
+      },
+      {
+        "question": "Resumir cualquiera de sus principales contribuciones a la sociedad y al mundo."
+      },
+      {
+        "question": "Enumere por lo menos TRES acontecimientos políticos o sociales importantes ocurridos durante la vida de esta persona. Para cada evento, explique cómo puede haber afectado su biografía."
+      },
+      {
+        "question": "¿Cuál es su edad y fecha de nacimiento?"
+      },
+      {
+        "question": "¿Cuál es el lugar de nacimiento y dónde viven?"
+      },
+      {
+        "question": "¿Cuál es su descripción física?",
+        "description": "(Esto es importante para agregar color a su pieza.)"
+      },
+      {
+        "question": "Detalles de su carácter y personalidad?",
+        "description": "(Pregúntale a la familia y amigos.)"
+      },
+      {
+        "question": "Detalles de su educación?",
+        "description": "(Incluya cualquier título obtenido.)"
+      },
+      {
+        "question": "Detalles de las relaciones personales con la familia, amigos, compañeros de trabajo."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": " Contact details of people you've interviewed"
+      }
     ]
   },
   "nso": {
