@@ -45,8 +45,48 @@
     ]
   },
   "nso": {
+    "title": "Kanegophelo",
     "questions": [
-      {}
+      {
+        "question": "Naa leina ka botlalo la motho yo o ngwalago ka yena ke mang?"
+      },
+      {
+        "question": "Details of awards / honours / formal recognition.",
+        "description": "https://app.pocketreporter.co.za/#"
+      },
+      {
+        "question": "Summarise any of their major contributions to society and the world."
+      },
+      {
+        "question": "List at least THREE major political or social events which occurred during this person's life. For each event, explain how it may have affected your biographical subject."
+      },
+      {
+        "question": "Naa o na le mengwaga e mekae le gona o belegwe neng?"
+      },
+      {
+        "question": "Naa o belegetšwe kae le gona o be a dula kae?"
+      },
+      {
+        "question": "Naa o lebelelega bjang ka mmele",
+        "description": "(Se se bohlokwa go tšhela taba ya gago letswai)"
+      },
+      {
+        "question": "Dintlha ka semelo le boitshwaro bja bona?",
+        "description": "(Botšiša meloko le bagwera)"
+      },
+      {
+        "question": "Details of their education?",
+        "description": "(Include any degrees earned.)"
+      },
+      {
+        "question": "Details of personal relationships with family, friends, work colleagues."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "afr": {
