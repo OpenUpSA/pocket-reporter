@@ -1,7 +1,47 @@
 {
   "spa": {
+    "title": "Discurso",
     "questions": [
-      {}
+      {
+        "question": "¿Cuál fue el punto principal del orador?"
+      },
+      {
+        "question": "¿Tiene copias de discursos y / o documentos de antecedentes?"
+      },
+      {
+        "question": "¿Cuáles son los datos de contacto (preferiblemente números de teléfono / tarjetas de visita) de los voceros en caso de consultas?"
+      },
+      {
+        "question": "¿Cuál es el nombre y el título del orador principal?",
+        "description": "(¡Asegúrese de que el nombre esté escrito correctamente!)"
+      },
+      {
+        "question": "¿Qué frases tiene para apoyar el punto principal?"
+      },
+      {
+        "question": "¿Cuál fue el propósito, la hora y el lugar del discurso?"
+      },
+      {
+        "question": "¿Cuántas personas asistieron y cuál fue su apariencia y reacciones?"
+      },
+      {
+        "question": "¿El orador hizo foco en algún punto adicional?"
+      },
+      {
+        "question": "¿Cuál es el trasfondo del punto principal?"
+      },
+      {
+        "question": "¿Qué comentarios hizo el orador antes y después de su discurso?"
+      },
+      {
+        "question": "Hay alguna información adicional desde el período de preguntas y respuestas"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "nso": {
