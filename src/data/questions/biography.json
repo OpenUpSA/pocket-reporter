@@ -223,8 +223,49 @@
     ]
   },
   "zul": {
+    "title": "Umlando wempilo",
     "questions": [
-      {}
+      {
+        "question": "Ubani amagama aphelele omuntu obhala ngaye?"
+      },
+      {
+        "question": "Imininigwane yemiklomelo/ ukuhlonishwa/ imiyezane kwezemfundo.",
+        "description": "https://app.pocketreporter.co.za/#"
+      },
+      {
+        "question": "balula kafishane amagalelo abe nawo emphakathini kanye nasemhlabeni jikelele"
+      },
+      {
+        "question": "Isho izigameko ezintathu zepolitiki noma zasemphakathini ezenzeke ngesikhathi esaphila.",
+        "description": "umthelela ezibe nawo ngasinye emlandweni wempilo yakhe"
+      },
+      {
+        "question": "Baneminyaka emingaki, bazalwa nini?"
+      },
+      {
+        "question": "Yini igama lendawo abazalelwe kuyo nokuthi bebehlala kuphi?"
+      },
+      {
+        "question": "Bebengabantu abanjani ngokwesimo somzimba?",
+        "description": "(kubalulekile ukubalula ibala labo)"
+      },
+      {
+        "question": "Imininingwane mayelana nokuthi babengabantu abanjani?",
+        "description": "(buza umndeni nabangani)"
+      },
+      {
+        "question": "Imininingwane yabo kwezemfundo?",
+        "description": "(kufaka phakathi neziqu abazizuzile)"
+      },
+      {
+        "question": "Imininingwane mayelana nobudlelwane bakhe nomndeni wakhe, abangani, emsebenzini,ozakwabo"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "por": {
