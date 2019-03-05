@@ -159,8 +159,48 @@
   "title": "Speech",
   "type": "questions",
   "xho": {
+    "title": "Intheta",
     "questions": [
-      {}
+      {
+        "question": "Ngowuphi owona mxholo ubalaseleyo kwisithethi?"
+      },
+      {
+        "question": "Ingaba unazo na ii-kopi zee ntetha kwakunye/okanye iimpepha zentsusaphi?"
+      },
+      {
+        "question": "Zithini iinkcukacha zonxibelelwano (ii-nombolo-mnxeba/amakhadi eshishini) zabo bathe benza intetha, mlawumbi kubekho amakhwiniba/okungaqondakaliyo?"
+      },
+      {
+        "question": "Ngubani igama nesikhundla sesithethi esiphambili?",
+        "description": "(Uqinisekise ukuba igama libhalwe kakuhle!)"
+      },
+      {
+        "question": "Ngeziphi iintetho-nqo onazo ongazisebenzisa ukuxhasa elona nqaku libalaseleyo?"
+      },
+      {
+        "question": "Ibiyintoni na injongo, ixesha kwakunye nendawo yentetha?"
+      },
+      {
+        "question": "Bangaphi abantu abathe bazimasa kwaye bathethe bathini ngoku?"
+      },
+      {
+        "question": "Ingaba isithethi songeze amanye amanqaku?"
+      },
+      {
+        "question": "Yintoni na intsusa yelona nqaku libalaseleyo alikhankanyileyo?"
+      },
+      {
+        "question": "Zeziphi izimvo ezenzwe sisithethi ngaphambi nangasemva kwe ntetha?"
+      },
+      {
+        "question": "Ingaba kukhona okongezelekileyo kwi sashoni yemibuzo neempendulo?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   }
 }
