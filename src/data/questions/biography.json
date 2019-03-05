@@ -10,8 +10,47 @@
     ]
   },
   "afr": {
+    "title": "Biografie",
     "questions": [
-      {}
+      {
+        "question": "Wat is die volle naam van die person oor wie jy skryf?"
+      },
+      {
+        "question": "Besonderhede van toekennings/ eerbewyse/ formele erkennings."
+      },
+      {
+        "question": "Noem enige van hul groot bydraes tot die gemeenskap en die wêreld."
+      },
+      {
+        "question": "Noem ten minste DRIE belangrike politieke of maatskaplike aangeleenthede wat plaasgevind het tydens hierdie person se lewe. Gee `n verduideliking van elke gebeurtenis en hoe dit jou biografiese onderwerp kon beïnvloed het."
+      },
+      {
+        "question": "Hoe oud is hulle en wanneer is hulle gebore?"
+      },
+      {
+        "question": "Waar is hulle gebore en waar het hulle gebly?"
+      },
+      {
+        "question": "Gee ‘n fisiese beskrywing.",
+        "description": "(Dit is belangrik om u skryfstuk intersant te maak)"
+      },
+      {
+        "question": "Besonderhede oor hulle karakter en persoonlikheid?",
+        "description": "(Vra familie en vriende)"
+      },
+      {
+        "question": "Besonderhede oor hul opleinding.",
+        "description": "(Sluit einge grade verwerf in)"
+      },
+      {
+        "question": "Besonderhede oor persoonlike verhoudings met familie, vriende en kollegas."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "questions": [
