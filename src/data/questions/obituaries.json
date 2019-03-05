@@ -1,7 +1,44 @@
 {
   "spa": {
+    "title": "Obituarios",
     "questions": [
-      {}
+      {
+        "question": "Cuál es el nombre, edad, dirección, ocupación del difunto?"
+      },
+      {
+        "question": "Anecdotas, recuerdos de amigos y familiares?"
+      },
+      {
+        "question": "¿Cuál fue el momento, el lugar y la causa de la muerte?"
+      },
+      {
+        "question": "Fecha y lugar de nacimiento de la persona"
+      },
+      {
+        "question": "¿Quiénes son los sobreviventes? (familia directa)"
+      },
+      {
+        "question": "¿Cuáles son los detalles sobre el funeral y el entierro?"
+      },
+      {
+        "question": "¿Cuáles son los logos del fallecido?"
+      },
+      {
+        "question": "¿Cuáles son los detalles de su educación?"
+      },
+      {
+        "question": "¿Eran miembros de clubes o sociedades, como un stokvel, Rotary o Lions?"
+      },
+      {
+        "question": "¿Hicieron servicio militar?",
+        "description": "(formal o no)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "nso": {
