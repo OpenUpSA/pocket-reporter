@@ -222,8 +222,48 @@
     ]
   },
   "zul": {
+    "title": "Inkulumo",
     "questions": [
-      {}
+      {
+        "question": "Bekuyini ingqikithi yesikhulumi?"
+      },
+      {
+        "question": "Ingabe unawo amakhophi ezinkulumo noma imininingwane mayelana nodaba?"
+      },
+      {
+        "question": "Ithini imininingwane yezikhulumi uma kwenzeka kuba nemibuzo (okungenani izinombolo zocingo, amakhadi abo ebhizinisi)?"
+      },
+      {
+        "question": "Ingabe ubani igama kanye nesikhundla sesikhulumi?",
+        "description": "( Qinisekisa ukuthi igama libhaleke kahle!)"
+      },
+      {
+        "question": "Ingabe yini onayo ukweseka ingqikithi yenkulumo?"
+      },
+      {
+        "question": "Bekuyini inhloso, isikhathi, kanye nendawo okwethulwe kuyo inkulumo?"
+      },
+      {
+        "question": "Bebebangaki abantu abebethamele inkulumo nokuthi bayamukele kanjani?"
+      },
+      {
+        "question": "Ingabe kukhona amaphuzu abalulekile abekwe isikhulumi?"
+      },
+      {
+        "question": "Ithini ingqikithi yenkulumo?"
+      },
+      {
+        "question": "Ingabe imaphi amaphuzu abekwe izikhulumi ngaphambi nangemuva kwenkulumo?"
+      },
+      {
+        "question": "Ingabe kukhona olunye ulwazi olungaphezu kwemibuzo nezimpendulo?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "por": {
