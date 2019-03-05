@@ -177,8 +177,49 @@
     }
   ],
   "tsn": {
+    "title": "Tsa bophelo",
     "questions": [
-      {}
+      {
+        "question": "Leina ka botlalo la motho yo o ratang go kwala ka ga ena ke mang?"
+      },
+      {
+        "question": "Details of awards / honours / formal recognition.",
+        "description": "https://app.pocketreporter.co.za/#"
+      },
+      {
+        "question": "Summarise any of their major contributions to society and the world."
+      },
+      {
+        "question": "List at least THREE major political or social events which occurred during this person's life.",
+        "description": "For each event, explain how it may have affected your biographical subject."
+      },
+      {
+        "question": "O nale dingwaga tse kae, letlha la botsalo?"
+      },
+      {
+        "question": "O tsholetswe kae, o ne a nna kae?"
+      },
+      {
+        "question": "O bopegile jang",
+        "description": "(Seno se botlhokwa go tswaisa kgang)"
+      },
+      {
+        "question": "Dintlha ka semelo le popego tsa bona?",
+        "description": "(Botsa ba lelapa le ditsala)"
+      },
+      {
+        "question": "Details of their education?",
+        "description": "(Include any degrees earned.)"
+      },
+      {
+        "question": "Details of personal relationships with family, friends, work colleagues."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "zul": {
