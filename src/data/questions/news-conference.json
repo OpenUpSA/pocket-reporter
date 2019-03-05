@@ -32,8 +32,35 @@
     ]
   },
   "nso": {
+    "title": "Khonferense ya Boraditaba",
     "questions": [
-      {}
+      {
+        "question": "What were the major points made in the announcement of the press conference?"
+      },
+      {
+        "question": "What are the names and job titles or official positions of speakers?"
+      },
+      {
+        "question": "What is the background of major points of the conference?"
+      },
+      {
+        "question": "What further info came out of the question and answer session?"
+      },
+      {
+        "question": "What questions were not answered or avoided?"
+      },
+      {
+        "question": "Tip: make sure you get copies of any handouts from the press conference"
+      },
+      {
+        "question": "What are the contact details of the organisers (preferably phone numbers) in case of queries?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "afr": {
