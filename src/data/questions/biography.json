@@ -187,8 +187,47 @@
     ]
   },
   "por": {
+    "title": "Biografia",
     "questions": [
-      {}
+      {
+        "question": "Qual é o nome completo da pessoa sobre a que estás a escrever?"
+      },
+      {
+        "question": "Detalhes sobre prémios, menções de honra, ou outro reconhecimento formal."
+      },
+      {
+        "question": "Resuma uma das principais contribuições deles para a sociedade e para o mundo."
+      },
+      {
+        "question": "Liste pelo menos três grandes acontecimentos sociais ou políticos que tenham ocorrido durante a vida desta pessoa. Explique evento por evento como estes acontecimentos podem ter influenciado na sua vida."
+      },
+      {
+        "question": "Qual é sua idade e data de nascimento?"
+      },
+      {
+        "question": "Qual é o lugar de nascimento deles e onde é que eles viviam?"
+      },
+      {
+        "question": "Qual é sua descrição física?",
+        "description": "(Isto é importante para colorir a sua peça)"
+      },
+      {
+        "question": "Detalhes sobre o seu carácter e personalidade?",
+        "description": "(Pergunte à família e amigos)"
+      },
+      {
+        "question": "Detalhes sobre sua educação",
+        "description": "(Incluir nível académico)"
+      },
+      {
+        "question": "Detalhes sobre os seus relacionamentos pessoais com família, amigos, colegas."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "sot": {
