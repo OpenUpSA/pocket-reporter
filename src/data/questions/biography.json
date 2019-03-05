@@ -159,8 +159,48 @@
   "title": "Biography",
   "type": "questions",
   "xho": {
+    "title": "Ibali lobom",
     "questions": [
-      {}
+      {
+        "question": "Ngubani na igama elipheleleyo lalowo ubhala ngaye?"
+      },
+      {
+        "question": "Iinkcukacha zee mbasa/amawonga neengqwalasela ezisemthethweni.",
+        "description": "https://app.pocketreporter.co.za/#"
+      },
+      {
+        "question": "Shwankathela neyiphi na inkxaxheba yakhe/yabo ekuhlaleni nakwi hlabathi."
+      },
+      {
+        "question": "Chaza izehlo zezo politiko okanye ezasekuhlaleni zibe ntathu ubuncinane nezathi zehla ngethuba umfi esaphila? Kwi sehlo ngasinye cacisa ukuba ingaba simchaphazele njani umfi?"
+      },
+      {
+        "question": "Ingakanani na iminyaka yabo yobu dala nosuku loku zalwa?"
+      },
+      {
+        "question": "Yintoni igama lendawo yabo/yakhe yokuzalwa kwaye e/bebehlala phi?"
+      },
+      {
+        "question": "Ungaba chaza njani ngokwe simo sabo?",
+        "description": "(Oku kubalulekile ukuphuhliseni umdla webali lakho.)"
+      },
+      {
+        "question": "Iinkcukacha zokuba ngumntu/ngabantu abanjani na?",
+        "description": "(Buza usapho nezihlobo)"
+      },
+      {
+        "question": "Iinkcukacha ze nqanaba lemfundo yakhe?",
+        "description": "(Ukhankanye neziphina ii-degrees azifundeleyo)"
+      },
+      {
+        "question": "Iinkcukacha ngendlela ayiyo kusapho lwakhe, kwizihlobo kwakunye nabo asebenza nabo."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   }
 }
