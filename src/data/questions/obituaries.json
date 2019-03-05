@@ -212,8 +212,46 @@
     ]
   },
   "zul": {
+    "title": "Imilando",
     "questions": [
-      {}
+      {
+        "question": "Ubani igama loshonileyo, ubenza hlobo luni lomsebenzi, kanye neminyaka yakhe nokuthi ubehlala kuphi ?"
+      },
+      {
+        "question": "Izigameko ezingomlando wezindaba ezimayelana nabangani kanye nezihlobo?"
+      },
+      {
+        "question": "Ushonele kuphi, nini ngasikhathi sini?"
+      },
+      {
+        "question": "Wazalwa nini lomuntu, ezalelwa kuphi?"
+      },
+      {
+        "question": "Ushiye bani emhlabeni?",
+        "description": "( umndeni wakhe)"
+      },
+      {
+        "question": "Athini amalungiselelo omgcwabo wakhe?"
+      },
+      {
+        "question": "Ingabe yini okuzuzwe umufi esaphila?"
+      },
+      {
+        "question": "Ithini imininingwane yemfundo yabo?"
+      },
+      {
+        "question": "Ingabe bebengamalunga lenhlangano thizeni emphakathini abebehlala kuwo?",
+        "description": "Okungaba istofela, nomasingcwabisane."
+      },
+      {
+        "question": "Ingabe bebenza umsebenzi wezokuvikela?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "por": {
