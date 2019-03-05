@@ -135,8 +135,35 @@
     ]
   },
   "por": {
+    "title": "Conferencia de imprensa",
     "questions": [
-      {}
+      {
+        "question": "Quais foram os principais temas abordados durante a Conferência de Imprensa?"
+      },
+      {
+        "question": "Quais são os nomes e cargos ou posições oficiais dos intervenientes?"
+      },
+      {
+        "question": "Qual é o histórico dos principais pontos focados durante a Conferência?"
+      },
+      {
+        "question": "Que informação adicional obteve da sessão de perguntas e respostas?"
+      },
+      {
+        "question": "Que questões não foram respondidas ou evitadas?"
+      },
+      {
+        "question": "Dica: Assegure-se que obtém exemplares das brochuras citadas durante a Conferência de Imprensa"
+      },
+      {
+        "question": "Quais são os contactos dos organizadores (preferivelmente números de telefone) em caso de consulta?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "sot": {
