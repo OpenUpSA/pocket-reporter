@@ -169,8 +169,46 @@
     }
   ],
   "tsn": {
+    "title": "Ditatodi",
     "questions": [
-      {}
+      {
+        "question": "What is the name, age, address, occupation of the deceased?"
+      },
+      {
+        "question": "Anecdotes, recollections of friends, relatives?"
+      },
+      {
+        "question": "What was the time, place and cause of death?"
+      },
+      {
+        "question": "What is the person's birthdate, birthplace?"
+      },
+      {
+        "question": "Who are they survived by?",
+        "description": "(immediate family)"
+      },
+      {
+        "question": "What are the funeral and burial arrangements?"
+      },
+      {
+        "question": "What are the deceased's accomplishments?"
+      },
+      {
+        "question": "What are the details of their education?"
+      },
+      {
+        "question": "Were they members of any clubs or societies, such as a stokvel, Rotary or Lions?"
+      },
+      {
+        "question": "Did they do military service?",
+        "description": "(formal or otherwise)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": " Contact details of people you've interviewed"
+      }
     ]
   },
   "zul": {
