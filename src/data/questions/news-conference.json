@@ -157,8 +157,35 @@
     ]
   },
   "zul": {
+    "title": "Isithangami sabezindaba",
     "questions": [
-      {}
+      {
+        "question": "Imaphi amaphuzu aqavile abalulwa ngesikhathi kumenyezelwa isithangami sabezindaba?"
+      },
+      {
+        "question": "obani amagama kanye nezikhundla zezikhulumi?"
+      },
+      {
+        "question": "Yini umsuka wamaphuzu aqavile esithangami"
+      },
+      {
+        "question": "Iluphi olunye ulwazi oluvele ngesikhathi semibuzo nezimpendulo?"
+      },
+      {
+        "question": "Imiphi imibuzo engaphendulwanga noma ezitshiwe?"
+      },
+      {
+        "question": "Icebo: Qikelela ukuthi uthola ikhophi emayelana nesithangami sodaba obekuhlangenwe ngalo."
+      },
+      {
+        "question": "ithini imininingwane yokuxhumana yabahleli( okungaba izinombolo zocingo) uma kungenzeka kube khona imibuzo?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "por": {
