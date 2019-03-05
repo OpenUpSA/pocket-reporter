@@ -56,7 +56,8 @@
         "question": "Wat is die volle naam van die person oor wie jy skryf?"
       },
       {
-        "question": "Besonderhede van toekennings/ eerbewyse/ formele erkennings."
+        "question": "Besonderhede van toekennings/ eerbewyse/ formele erkennings.",
+        "description": "https://app.pocketreporter.co.za/#"
       },
       {
         "question": "Noem enige van hul groot bydraes tot die gemeenskap en die wêreld."
