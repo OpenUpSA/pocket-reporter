@@ -187,8 +187,48 @@
     ]
   },
   "por": {
+    "title": "Palestra",
     "questions": [
-      {}
+      {
+        "question": "Qual foi o principal tópico abordado pelo palestrante/orador?"
+      },
+      {
+        "question": "Você tem cópias dos discursos e/ou da bibliografia usada?"
+      },
+      {
+        "question": "Quais são os contactos (preferivelmente números de telefone/cartões de visita) dos palestrantes em caso de consulta?"
+      },
+      {
+        "question": "Qual é o nome e o cargo do principal orador?",
+        "description": "(Assegure-se que o nome é soletrado correctamente!)"
+      },
+      {
+        "question": "Que declarações você recolheu que sustentam esse facto?"
+      },
+      {
+        "question": "Qual foi a finalidade, hora e localização do discurso?"
+      },
+      {
+        "question": "Quantas pessoas participaram e quais foram as suas reacções?"
+      },
+      {
+        "question": "O orador focou outros tópicos?"
+      },
+      {
+        "question": "Qual é o histórico do principal tópico que eles apresentaram?"
+      },
+      {
+        "question": "Que comentários fez o orador antes e depois do seu discurso?"
+      },
+      {
+        "question": "Há alguma informação adicional do espaço de perguntas e respostas"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "sot": {
