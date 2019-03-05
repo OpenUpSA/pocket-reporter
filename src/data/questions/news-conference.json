@@ -120,8 +120,35 @@
   "title": "News conference",
   "type": "questions",
   "xho": {
+    "title": "Inkomfa yoonondaba",
     "questions": [
-      {}
+      {
+        "question": "Zeziphina ezona ntetho zibalaseleyo ezithe zabhengezwa kwi nkomfa yoonondaba?"
+      },
+      {
+        "question": "Ngobani amagama kwakunye nezikhundla ezisemthethweni zabo bathe benza iintetho?"
+      },
+      {
+        "question": "Ithini intsusa yawona manqaku abalaseleyo kule nkomfa?"
+      },
+      {
+        "question": "Lwazi luni oluthe lwavela ngelixa leseshoni yemibuzo neempendulo?"
+      },
+      {
+        "question": "Yeyiphi na imibuzo engaphendulwanga?"
+      },
+      {
+        "question": "Icebo: qinisekisa ukuba uzifumanela ii-kopi (copies) zamaxwebhu/amaphepha anikezelwe kwi nkomfa"
+      },
+      {
+        "question": "Zithini iinkcukacha zonxibelelwano zabo baququzelela le nkomfa (ii-nombolo zomnxeba) mhlawumbi kubekho amakhwiniba/okudinga ingcaciso?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   }
 }
