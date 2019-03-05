@@ -10,8 +10,48 @@
     ]
   },
   "afr": {
+    "title": "Spraak",
     "questions": [
-      {}
+      {
+        "question": "Wat was die spreker se hoofgedagte?"
+      },
+      {
+        "question": "Het jy afskrifte van toesprake en/of agtergrondmateriaal?"
+      },
+      {
+        "question": "Wat is die kontakbesonderhede (verkieslik telefoonnommers / besigheidskaartjies) van sprekers in geval van navrae?"
+      },
+      {
+        "question": "Wie is die hoofspreker en wat is sy titel?",
+        "description": "(Maak seker name is reg gespel)"
+      },
+      {
+        "question": "Watter aanhalings het jy om die hoofgedagte te ondersteun?"
+      },
+      {
+        "question": "Wat was die doel, tyd en plek van die toespraak?"
+      },
+      {
+        "question": "Hoeveel mense was daar, hoe is die skare saamgestel en wat was hul reaksie?"
+      },
+      {
+        "question": "Het die spreker enige addisionele gedagtes geopper?"
+      },
+      {
+        "question": "Wat is die aanloop tot die punt wat hulle wou maak?"
+      },
+      {
+        "question": "Watter kommentaar het sprekers gemaak voor en na hulle toesprake?"
+      },
+      {
+        "question": "Is daar enige bykomende inligting na aanleiding van die vraag- en antwoordsessie?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "questions": [
@@ -25,7 +65,8 @@
       "question": "What are the contact details (preferably phone numbers/business cards) of speakers in case of queries?"
     },
     {
-      "question": "What is the name and title of the main speaker? (Make sure name is spelt correctly!)"
+      "question": "What is the name and title of the main speaker?",
+      "description": "(Make sure name is spelt correctly!)"
     },
     {
       "question": "What quotes do you have to support main point?"
