@@ -2,7 +2,58 @@
   "spa": {
     "title": "Tribunales - Accion Civil",
     "questions": [
-      {}
+      {
+        "question": "¿Quién es la persona u organización que presenta la acción?",
+        "description": "Nombres, edades, direcciones, otra información personal."
+      },
+      {
+        "question": "¿Puede este proceso establecer un marco legal?",
+        "description": "Es un precedente?"
+      },
+      {
+        "question": "¿Existe la posibilidad de un acuerdo extrajudicial?"
+      },
+      {
+        "question": "¿Cuál es el significado de la acción y el efecto sobre otros?"
+      },
+      {
+        "question": "¿Cuáles son los nombres de los abogados de ambas partes?",
+        "description": "(¡Revise la ortografía!)"
+      },
+      {
+        "question": "¿Cuál es la fecha y quién es el juez presidente para el juicio o audiencia?"
+      },
+      {
+        "question": "¿Cuál es el antecedente del demandante o peticionario:",
+        "description": "la persona que presenta la acción?"
+      },
+      {
+        "question": "¿Cuál es el trasfondo del acusado o demandado?"
+      },
+      {
+        "question": "¿Qué tipo de daño se alega?"
+      },
+      {
+        "question": "¿Cuál es el resultado que se busca?"
+      },
+      {
+        "question": "¿Cuál es la fecha de presentación de la solicitud y cuál es el tribunal competente?"
+      },
+      {
+        "question": "¿Existe una motivación especial detrás de la acción (si la hay)?"
+      },
+      {
+        "question": "¿Cuál es el trasfondo del conflicto / desacuerdo?"
+      },
+      {
+        "question": "¿Existen o han habido casos similares decididos por tribunales (precedentes)?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "nso": {
