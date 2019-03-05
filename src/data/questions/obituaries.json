@@ -152,8 +152,45 @@
   "title": "Obituaries",
   "type": "questions",
   "xho": {
+    "title": "Ezemingcwabo",
     "questions": [
-      {}
+      {
+        "question": "Lithini igama, ubudala, idilesi nomsebenzi womfi?"
+      },
+      {
+        "question": "Amabali, iinkumbulo zezihlobo nezalamane?"
+      },
+      {
+        "question": "Belisithini na ixesha, indawo kwakunye nembangi yokufa?"
+      },
+      {
+        "question": "Luthini usuku loku zalwa nendawo yoku zalwa yomfi?"
+      },
+      {
+        "question": "Ushiya bani ngasemva?",
+        "description": "(Usapho lwako wabo)"
+      },
+      {
+        "question": "Athini na amalungiselelo enkonzo yomngcwabo nokufihla?"
+      },
+      {
+        "question": "Yintoni na amawonga/impumelelo yomfi?"
+      },
+      {
+        "question": "Zithini iinkcukacha zemfundo yabo?"
+      },
+      {
+        "question": "Bebe ngamalungu amaqela okanye ii-sosayeti ezifana nee-stokvel, i-Rotary okanye i-Lions?"
+      },
+      {
+        "question": "Ingaba bakhe balwenza na uqeqesho kwi nkonzo yobu joni?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   }
 }
