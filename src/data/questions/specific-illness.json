@@ -1,0 +1,321 @@
+{
+  "spa": {
+    "title": "Enfermedad especifica",
+    "questions": [
+      {
+        "question": "Cuál es el nombre de la enfermedad o problema que tiene el paciente?"
+      },
+      {
+        "question": "Cuáles son los principales síntomas?"
+      },
+      {
+        "question": "Que tratamiento recibieron?"
+      },
+      {
+        "question": "Dónde están siendo tratados?"
+      },
+      {
+        "question": "La enfermedad es contagiosa? Han habido otros informes sobre ella localmente o en el extranjero?"
+      },
+      {
+        "question": "Cuál es la identidad de las víctimas?",
+        "description": "Nombres, edades, direcciones, otros dados personales."
+      },
+      {
+        "question": "Qué comentários, si los hay, hicieron los funcionarios de salud sobre la enfermedad?"
+      },
+      {
+        "question": "Cuál es la distancia que los pacientes que entrevistó recorrieron para llegar hasta allí y cuál es el costo del viaje de regreso?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Bolwetsi bjo Rilego",
+    "questions": [
+      {
+        "question": "Lebitso la bohloko boo ke mang hona maemo a mokudi ke afeng?"
+      },
+      {
+        "question": "What are the main symptoms?"
+      },
+      {
+        "question": "What treatment did they receive?"
+      },
+      {
+        "question": "Where are they are being treated?"
+      },
+      {
+        "question": "Is the illness contagious and have there been any other reports of it locally or abroad?"
+      },
+      {
+        "question": "Naa go tsebilwe batšwasehlabelo?",
+        "description": "Maina, mengwaga, diaterese le tshedimošo e nngwe ka bona?"
+      },
+      {
+        "question": "What comments, if any, did health workers make on the sickness?"
+      },
+      {
+        "question": "What distance did patients you interviewed have to travel to get there and what is the cost of their return fares?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Spesifieke siekte",
+    "questions": [
+      {
+        "question": "Wat is die naam van die pasiënt se siekte of toestand?"
+      },
+      {
+        "question": "Wat is die belangrikste simptome?"
+      },
+      {
+        "question": "atter behandeling het hulle ontvang?"
+      },
+      {
+        "question": "Waar word hulle behandel?"
+      },
+      {
+        "question": "Is die siekte aansteeklik en is daar enige ander verslae daarvan, hetsy plaaslik of in die buiteland?"
+      },
+      {
+        "question": "Watter identifikasie is daar van slagoffers?",
+        "description": "Name, ouderdomme, adresse, ander persoonlike inligting."
+      },
+      {
+        "question": "Watter kommentaar, indien enige, het gesondheids werkers gelewer oor die siekte?Hoe ver het die pasiënte wat jy ondervra gereis om daar te kom en wat was hul reisonkoste?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      },
+      {}
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is the name of the sickness/condition that the patient has?"
+    },
+    {
+      "question": "What are the main symptoms?"
+    },
+    {
+      "question": "What treatment did they receive?"
+    },
+    {
+      "question": "Where are they are being treated?"
+    },
+    {
+      "question": "Is the illness contagious and have there been any other reports of it locally or abroad?"
+    },
+    {
+      "question": "What is the identification of victims?",
+      "description": "Names, ages, addresses, other personal information."
+    },
+    {
+      "question": "What comments, if any, did health workers make on the sickness?"
+    },
+    {
+      "question": "What distance did patients you interviewed have to travel to get there and what is the cost of their return fares?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Bolwetsi jo bo kgethegileng",
+    "questions": [
+      {
+        "question": "What is the name of the sickness/condition that the patient has?"
+      },
+      {
+        "question": "What are the main symptoms?"
+      },
+      {
+        "question": "What treatment did they receive?"
+      },
+      {
+        "question": "Where are they are being treated?"
+      },
+      {
+        "question": "Is the illness contagious and have there been any other reports of it locally or abroad?"
+      },
+      {
+        "question": "Ke bomang batswasetlhabelo?",
+        "description": "Maina, dingwaga tsa bona, diaterese, le tshedimosetso e nngwe le e nngwe ya sebele?"
+      },
+      {
+        "question": "What comments, if any, did health workers make on the sickness?"
+      },
+      {
+        "question": "What distance did patients you interviewed have to travel to get there and what is the cost of their return fares?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "uhlobo oluthile lwesifo",
+    "questions": [
+      {
+        "question": "Ingabe siphethwe yini isiguli nokuthi ingabe simi kanjani isimo saso?"
+      },
+      {
+        "question": "Yiziphi izimpawu ezigqamile ezibonakalayo"
+      },
+      {
+        "question": "Bathole hlobo luni lokwelwashwa?"
+      },
+      {
+        "question": "Ingabe belashelwa kuphi?"
+      },
+      {
+        "question": "Ingabe isifo esithathelanayo nokuthi ingabe isike yaba khona imibiko ngaso lapha endaweni kanye naphesheya kwezilwande?"
+      },
+      {
+        "question": "Ithini imininingwane yesisulu?",
+        "description": "igama, iminyaka, ikheli, kanye nolunye ulwazi olumayelana nesisulu."
+      },
+      {
+        "question": "Ingabe luthini uvo lwabasebenzi bezempilo mayelana nalesisifo?"
+      },
+      {
+        "question": "Kukude kangakanani lapho kusuka khona iziguli oxoxisene nazo nokuthi kubize malini ukuya nokubuya"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Doenca especifica",
+    "questions": [
+      {
+        "question": "Qual é o nome da doença/problema que o paciente tem?"
+      },
+      {
+        "question": "Quais são os principais sintomas?"
+      },
+      {
+        "question": "Que tratamento é que eles receberam?"
+      },
+      {
+        "question": "Onde estão sendo tratados?"
+      },
+      {
+        "question": "A doença é conagiosa? Houve outros casos reportados localmente ou no estrangeiro?"
+      },
+      {
+        "question": "Qual é a identidade das víctimas? Nomes, idades, endereços e outras informações pessoais."
+      },
+      {
+        "question": "Que comentários, se for o caso, têm feito os funcionários da saúde sobre a doença?"
+      },
+      {
+        "question": "Qual é a distância percorrida pelos pacientes que você entrevistou e quais são os custos para o seu regresso?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Bolwetsi bo Itseng",
+    "questions": [
+      {
+        "question": "What is the name of the sickness/condition that the patient has?"
+      },
+      {
+        "question": "What are the main symptoms?"
+      },
+      {
+        "question": "What treatment did they receive?"
+      },
+      {
+        "question": "Where are they are being treated?"
+      },
+      {
+        "question": "Is the illness contagious and have there been any other reports of it locally or abroad?"
+      },
+      {
+        "question": "Na ho tsebilwe batswasehlabelo?",
+        "description": "Mabitso, dilemo, le lesedi le leng ka botho ba bona?"
+      },
+      {
+        "question": "What comments, if any, did health workers make on the sickness?"
+      },
+      {
+        "question": "What distance did patients you interviewed have to travel to get there and what is the cost of their return fares?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Specific Illness",
+  "type": "questions",
+  "xho": {
+    "title": "Isigulo esithile",
+    "questions": [
+      {
+        "question": "Yintoni na igama lesigulo/imeko yesigulane?"
+      },
+      {
+        "question": "Zeziphi ezona mpawu zesisigulo?"
+      },
+      {
+        "question": "Isigulane sifumene nyango luni?"
+      },
+      {
+        "question": "Ingaba banyangwa phi?"
+      },
+      {
+        "question": "Ingaba esi sigulo sikhawuleza sosulele kwaye zikhe zakhona kusini na ezinye iingxelo ngesi sigulo kwindawo ohlala kuyo okanye phesheya?"
+      },
+      {
+        "question": "Ngoobani na iingxwelerha? Amagama, iminyaka yobudala, iidilesi nezinye iinkcukacha."
+      },
+      {
+        "question": "Zithini izimvo ezenzwe ngabasebenzi bezempilo ngesi sigulo, ukuba bezikhona?"
+      },
+      {
+        "question": "Uthini umgama ohanjwe zizigulane odlene nazo indlebe ukuze zifike phaya kwaye lithini ixabiso lesithuthi, ukuya nokubuya?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
