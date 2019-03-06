@@ -57,8 +57,12 @@
       {
         "question": "Is of was daar enige soortgelyke beslissings deur howe (presedente)?"
       },
-      {},
-      {}
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "questions": [
