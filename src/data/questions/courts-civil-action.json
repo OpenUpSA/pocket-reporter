@@ -229,8 +229,59 @@
     ]
   },
   "por": {
+    "title": "Tribunais - Acao Civil",
     "questions": [
-      {}
+      {
+        "question": "Quem é a pessoa ou organização executando a ação judicial?",
+        "description": "Nomes, idades, endereços, outra informação pessoal."
+      },
+      {
+        "question": "Pode este processo estabelecer um marco legal?",
+        "description": "É um precedente?"
+      },
+      {
+        "question": "Existe uma possibilidade de acordo fora do tribunal?"
+      },
+      {
+        "question": "Qual é o significado por trás da ação e o efeito sobre outros?"
+      },
+      {
+        "question": "Quais são os nomes dos advogados de ambas partes?",
+        "description": "( Verifique a ortografia!)"
+      },
+      {
+        "question": "Qual é a data e quem é o juiz que vai presidir o julgamento ou audiência?"
+      },
+      {
+        "question": "Qual é o historial do demandante: a pessoa que apresenta a ação judicial?"
+      },
+      {
+        "question": "Qual é o historial do acusado?"
+      },
+      {
+        "question": "Que tipo de dano é alegado?"
+      },
+      {
+        "question": "Qual é o resultado a ser alcançado?"
+      },
+      {
+        "question": "Qual é a data de submetimento do requerimento e qual é o tribunal de juridisção?"
+      },
+      {
+        "question": "Há alguma motivação especial por trás da ação judicial (se existir)?"
+      },
+      {
+        "question": "Qual é o historial do conflito/desacordo?"
+      },
+      {
+        "question": "Há ou terão havido alguns casos similares julgados pelos tribunais (precedentes)?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "sot": {
