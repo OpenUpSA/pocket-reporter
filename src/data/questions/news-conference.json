@@ -1,0 +1,289 @@
+{
+  "spa": {
+    "title": "Conferencia de prensa",
+    "questions": [
+      {
+        "question": "¿Cuáles fueron los principales puntos abordados en la conferencia de prensa?"
+      },
+      {
+        "question": "¿Cuáles son los nombres y cargos o cargos oficiales de los oradores?"
+      },
+      {
+        "question": "¿Cuál es el trasfondo de los principales puntos de la conferencia?"
+      },
+      {
+        "question": "¿Qué información adicional se obtuvo de la sesión de preguntas y respuestas?"
+      },
+      {
+        "question": "¿Qué preguntas no fueron contestadas o evitadas?"
+      },
+      {
+        "question": "Consejo: asegúrese de obtener copias de cualquier documento de la conferencia de prensa"
+      },
+      {
+        "question": "¿Cuáles son los datos de contacto de los organizadores (preferiblemente números de teléfono) en caso de consultas?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Khonferense ya Boraditaba",
+    "questions": [
+      {
+        "question": "What were the major points made in the announcement of the press conference?"
+      },
+      {
+        "question": "What are the names and job titles or official positions of speakers?"
+      },
+      {
+        "question": "What is the background of major points of the conference?"
+      },
+      {
+        "question": "What further info came out of the question and answer session?"
+      },
+      {
+        "question": "What questions were not answered or avoided?"
+      },
+      {
+        "question": "Tip: make sure you get copies of any handouts from the press conference"
+      },
+      {
+        "question": "What are the contact details of the organisers (preferably phone numbers) in case of queries?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Nuuskonferensie",
+    "questions": [
+      {
+        "question": "Wat was die hoofpunte gemaak met die aankondiging van die nuuskonferensie?"
+      },
+      {
+        "question": "Wat is die name en posbeskrywings of ampsposisies van sprekers?"
+      },
+      {
+        "question": "Wat is die agtergrond van die hoofpunte van die konferensie?"
+      },
+      {
+        "question": "Wat verdere inligting het uit die vraag- en antwoordsessie gekom?"
+      },
+      {
+        "question": "Watter vrae is nie beantwoord nie of is vermy?"
+      },
+      {
+        "question": "Wenk: maak seker jy kry afskrifte van enige inligtingsmateriaal van die nuuskonferensie"
+      },
+      {
+        "question": "Wat is die kontakbesonderhede van die organiseerders (verkieslik telefoonnommers) in geval van navrae?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What were the major points made in the announcement of the press conference?"
+    },
+    {
+      "question": "What are the names and job titles or official positions of speakers?"
+    },
+    {
+      "question": "What is the background of major points of the conference?"
+    },
+    {
+      "question": "What further info came out of the question and answer session?"
+    },
+    {
+      "question": "What questions were not answered or avoided?"
+    },
+    {
+      "question": "Tip: make sure you get copies of any handouts from the press conference"
+    },
+    {
+      "question": "What are the contact details of the organisers (preferably phone numbers) in case of queries?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Khonferense ya Bobegadikgang",
+    "questions": [
+      {
+        "question": "What were the major points made in the announcement of the press conference?"
+      },
+      {
+        "question": "What are the names and job titles or official positions of speakers?"
+      },
+      {
+        "question": "What is the background of major points of the conference?"
+      },
+      {
+        "question": "What further info came out of the question and answer session?"
+      },
+      {
+        "question": "What questions were not answered or avoided?"
+      },
+      {
+        "question": "Tip: make sure you get copies of any handouts from the press conference"
+      },
+      {
+        "question": "What are the contact details of the organisers (preferably phone numbers) in case of queries?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Isithangami sabezindaba",
+    "questions": [
+      {
+        "question": "Imaphi amaphuzu aqavile abalulwa ngesikhathi kumenyezelwa isithangami sabezindaba?"
+      },
+      {
+        "question": "obani amagama kanye nezikhundla zezikhulumi?"
+      },
+      {
+        "question": "Yini umsuka wamaphuzu aqavile esithangami"
+      },
+      {
+        "question": "Iluphi olunye ulwazi oluvele ngesikhathi semibuzo nezimpendulo?"
+      },
+      {
+        "question": "Imiphi imibuzo engaphendulwanga noma ezitshiwe?"
+      },
+      {
+        "question": "Icebo: Qikelela ukuthi uthola ikhophi emayelana nesithangami sodaba obekuhlangenwe ngalo."
+      },
+      {
+        "question": "ithini imininingwane yokuxhumana yabahleli( okungaba izinombolo zocingo) uma kungenzeka kube khona imibuzo?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Conferencia de imprensa",
+    "questions": [
+      {
+        "question": "Quais foram os principais temas abordados durante a Conferência de Imprensa?"
+      },
+      {
+        "question": "Quais são os nomes e cargos ou posições oficiais dos intervenientes?"
+      },
+      {
+        "question": "Qual é o histórico dos principais pontos focados durante a Conferência?"
+      },
+      {
+        "question": "Que informação adicional obteve da sessão de perguntas e respostas?"
+      },
+      {
+        "question": "Que questões não foram respondidas ou evitadas?"
+      },
+      {
+        "question": "Dica: Assegure-se que obtém exemplares das brochuras citadas durante a Conferência de Imprensa"
+      },
+      {
+        "question": "Quais são os contactos dos organizadores (preferivelmente números de telefone) em caso de consulta?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Khonferense ya Boraditaba",
+    "questions": [
+      {
+        "question": "What were the major points made in the announcement of the press conference?"
+      },
+      {
+        "question": "What are the names and job titles or official positions of speakers?"
+      },
+      {
+        "question": "What is the background of major points of the conference?"
+      },
+      {
+        "question": "What further info came out of the question and answer session?"
+      },
+      {
+        "question": "What questions were not answered or avoided?"
+      },
+      {
+        "question": "Tip: make sure you get copies of any handouts from the press conference"
+      },
+      {
+        "question": "What are the contact details of the organisers (preferably phone numbers) in case of queries?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "News conference",
+  "type": "questions",
+  "xho": {
+    "title": "Inkomfa yoonondaba",
+    "questions": [
+      {
+        "question": "Zeziphina ezona ntetho zibalaseleyo ezithe zabhengezwa kwi nkomfa yoonondaba?"
+      },
+      {
+        "question": "Ngobani amagama kwakunye nezikhundla ezisemthethweni zabo bathe benza iintetho?"
+      },
+      {
+        "question": "Ithini intsusa yawona manqaku abalaseleyo kule nkomfa?"
+      },
+      {
+        "question": "Lwazi luni oluthe lwavela ngelixa leseshoni yemibuzo neempendulo?"
+      },
+      {
+        "question": "Yeyiphi na imibuzo engaphendulwanga?"
+      },
+      {
+        "question": "Icebo: qinisekisa ukuba uzifumanela ii-kopi (copies) zamaxwebhu/amaphepha anikezelwe kwi nkomfa"
+      },
+      {
+        "question": "Zithini iinkcukacha zonxibelelwano zabo baququzelela le nkomfa (ii-nombolo zomnxeba) mhlawumbi kubekho amakhwiniba/okudinga ingcaciso?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
