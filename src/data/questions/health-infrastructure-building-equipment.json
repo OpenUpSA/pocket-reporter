@@ -1,0 +1,443 @@
+{
+  "spa": {
+    "title": "Health infrastructure: Building & equipment",
+    "questions": [
+      {
+        "question": "Where is the building situated?"
+      },
+      {
+        "question": "How long will it take to fix?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What condition is it in?"
+      },
+      {
+        "question": "Which department is responsible for maintaining the infrastructure?"
+      },
+      {
+        "question": "Were responsible officials notified of the conditions?"
+      },
+      {
+        "question": "What was their response?"
+      },
+      {
+        "question": "What risks does the structure pose to people who are exposed to the conditions as they are?",
+        "description": "(e.g. damp, broken windows etc)."
+      },
+      {
+        "question": "Are health services being affected by any of these conditions?"
+      },
+      {
+        "question": "Have other plans been put in place while solutions are being sought?"
+      },
+      {
+        "question": "Who is affected?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Health infrastructure: Building & equipment",
+    "questions": [
+      {
+        "question": "Where is the building situated?"
+      },
+      {
+        "question": "How long will it take to fix?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What condition is it in?"
+      },
+      {
+        "question": "Which department is responsible for maintaining the infrastructure?"
+      },
+      {
+        "question": "Were responsible officials notified of the conditions?"
+      },
+      {
+        "question": "What was their response?"
+      },
+      {
+        "question": "What risks does the structure pose to people who are exposed to the conditions as they are?",
+        "description": "(e.g. damp, broken windows etc)."
+      },
+      {
+        "question": "Are health services being affected by any of these conditions?"
+      },
+      {
+        "question": "Have other plans been put in place while solutions are being sought?"
+      },
+      {
+        "question": "Who is affected?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Health infrastructure: Building & equipment",
+    "questions": [
+      {
+        "question": "Where is the building situated?"
+      },
+      {
+        "question": "How long will it take to fix?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What condition is it in?"
+      },
+      {
+        "question": "Which department is responsible for maintaining the infrastructure?"
+      },
+      {
+        "question": "Were responsible officials notified of the conditions?"
+      },
+      {
+        "question": "What was their response?"
+      },
+      {
+        "question": "What risks does the structure pose to people who are exposed to the conditions as they are?",
+        "description": "(e.g. damp, broken windows etc)."
+      },
+      {
+        "question": "Are health services being affected by any of these conditions?"
+      },
+      {
+        "question": "Have other plans been put in place while solutions are being sought?"
+      },
+      {
+        "question": "Who is affected?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Where is the building situated?"
+    },
+    {
+      "question": "How long will it take to fix?"
+    },
+    {
+      "question": "Any more comments?"
+    },
+    {
+      "question": "Contact details:",
+      "description": "phone number/email for your source/other useful contacts for your story?"
+    },
+    {
+      "question": "What condition is it in?"
+    },
+    {
+      "question": "Which department is responsible for maintaining the infrastructure?"
+    },
+    {
+      "question": "Were responsible officials notified of the conditions?"
+    },
+    {
+      "question": "What was their response?"
+    },
+    {
+      "question": "What risks does the structure pose to people who are exposed to the conditions as they are?",
+      "description": "(e.g. damp, broken windows etc)."
+    },
+    {
+      "question": "Are health services being affected by any of these conditions?"
+    },
+    {
+      "question": "Have other plans been put in place while solutions are being sought?"
+    },
+    {
+      "question": "Who is affected?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Health infrastructure: Building & equipment",
+    "questions": [
+      {
+        "question": "Where is the building situated?"
+      },
+      {
+        "question": "How long will it take to fix?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What condition is it in?"
+      },
+      {
+        "question": "Which department is responsible for maintaining the infrastructure?"
+      },
+      {
+        "question": "Were responsible officials notified of the conditions?"
+      },
+      {
+        "question": "What was their response?"
+      },
+      {
+        "question": "What risks does the structure pose to people who are exposed to the conditions as they are?",
+        "description": "(e.g. damp, broken windows etc)."
+      },
+      {
+        "question": "Are health services being affected by any of these conditions?"
+      },
+      {
+        "question": "Have other plans been put in place while solutions are being sought?"
+      },
+      {
+        "question": "Who is affected?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Health infrastructure: Building & equipment",
+    "questions": [
+      {
+        "question": "Where is the building situated?"
+      },
+      {
+        "question": "How long will it take to fix?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What condition is it in?"
+      },
+      {
+        "question": "Which department is responsible for maintaining the infrastructure?"
+      },
+      {
+        "question": "Were responsible officials notified of the conditions?"
+      },
+      {
+        "question": "What was their response?"
+      },
+      {
+        "question": "What risks does the structure pose to people who are exposed to the conditions as they are?",
+        "description": "(e.g. damp, broken windows etc)."
+      },
+      {
+        "question": "Are health services being affected by any of these conditions?"
+      },
+      {
+        "question": "Have other plans been put in place while solutions are being sought?"
+      },
+      {
+        "question": "Who is affected?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Health infrastructure: Building & equipment",
+    "questions": [
+      {
+        "question": "Where is the building situated?"
+      },
+      {
+        "question": "How long will it take to fix?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What condition is it in?"
+      },
+      {
+        "question": "Which department is responsible for maintaining the infrastructure?"
+      },
+      {
+        "question": "Were responsible officials notified of the conditions?"
+      },
+      {
+        "question": "What was their response?"
+      },
+      {
+        "question": "What risks does the structure pose to people who are exposed to the conditions as they are?",
+        "description": "(e.g. damp, broken windows etc)."
+      },
+      {
+        "question": "Are health services being affected by any of these conditions?"
+      },
+      {
+        "question": "Have other plans been put in place while solutions are being sought?"
+      },
+      {
+        "question": "Who is affected?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Health infrastructure: Building & equipment",
+    "questions": [
+      {
+        "question": "Where is the building situated?"
+      },
+      {
+        "question": "How long will it take to fix?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What condition is it in?"
+      },
+      {
+        "question": "Which department is responsible for maintaining the infrastructure?"
+      },
+      {
+        "question": "Were responsible officials notified of the conditions?"
+      },
+      {
+        "question": "What was their response?"
+      },
+      {
+        "question": "What risks does the structure pose to people who are exposed to the conditions as they are?",
+        "description": "(e.g. damp, broken windows etc)."
+      },
+      {
+        "question": "Are health services being affected by any of these conditions?",
+        "description": ""
+      },
+      {
+        "question": "Have other plans been put in place while solutions are being sought?"
+      },
+      {
+        "question": "Who is affected?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Health infrastructure: Building & equipment",
+  "type": "questions",
+  "xho": {
+    "title": "Health infrastructure: Building & equipment",
+    "questions": [
+      {
+        "question": "Where is the building situated?"
+      },
+      {
+        "question": "How long will it take to fix?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What condition is it in?"
+      },
+      {
+        "question": "Which department is responsible for maintaining the infrastructure?"
+      },
+      {
+        "question": "Were responsible officials notified of the conditions?"
+      },
+      {
+        "question": "What was their response?"
+      },
+      {
+        "question": "What risks does the structure pose to people who are exposed to the conditions as they are?",
+        "description": "(e.g. damp, broken windows etc)."
+      },
+      {
+        "question": "Are health services being affected by any of these conditions?"
+      },
+      {
+        "question": "Have other plans been put in place while solutions are being sought?"
+      },
+      {
+        "question": "Who is affected?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
