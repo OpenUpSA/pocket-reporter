@@ -1,0 +1,619 @@
+{
+  "spa": {
+    "title": "Accidentes automovilisticos",
+    "questions": [
+      {
+        "question": "¿A qué hora ocurrió el accidente y dónde?"
+      },
+      {
+        "question": "¿Adonde trasladaron los heridos y los muertos?",
+        "description": "(¿Qué hospital o morgue?)"
+      },
+      {
+        "question": "¿Hubo actos de valentía o rescates?"
+      },
+      {
+        "question": "¿Hubo alguna detención o cualquier otra acción legal?"
+      },
+      {
+        "question": "¿Cuál es el daño a los vehículos?"
+      },
+      {
+        "question": "¿Cuál fue la velocidad de los vehículos involucrados?"
+      },
+      {
+        "question": "¿De dónde venían? / ¿hacia dónde iban?"
+      },
+      {
+        "question": "¿Había algún clima extraño o condiciones de carretera que pudieran haber causado el accidente?"
+      },
+      {
+        "question": "¿Qué pasó de acuerdo con testigos oculares, oficiales de investigación y personas involucradas en un incidente?"
+      },
+      {
+        "question": "¿Cuáles son los arreglos funerarios para los muertos?"
+      },
+      {
+        "question": "¿Hubo personas heridas o muertas y cuántas?"
+      },
+      {
+        "question": "¿Qué tipo de vehículos estaban involucrados?"
+      },
+      {
+        "question": "¿Cuál es la identidad de los conductores implicados?",
+        "description": "Nombres, edades, direcciones, otra información personal."
+      },
+      {
+        "question": "¿Cuál fue la causa del accidente?",
+        "description": "(según paramédicos, policías u otras fuentes oficiales)"
+      },
+      {
+        "question": "¿Cuál es la identificación de los demás involucrados?",
+        "description": "(Pasajeros, peatones.)"
+      },
+      {
+        "question": "¿Cuál es la identificación de los heridos y muertos?"
+      },
+      {
+        "question": "¿Cuál es el la gravedad de las lesiones?"
+      },
+      {
+        "question": "¿Cuál es la condición de los heridos?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Dikotsi tsa Difatanaga",
+    "questions": [
+      {
+        "question": "What time did the accident happen and where?"
+      },
+      {
+        "question": "Where were the injured and dead taken? (Which hospital or morgue?)"
+      },
+      {
+        "question": "Were there any acts of bravery or any rescues?"
+      },
+      {
+        "question": "Were there any arrests or other legal action?"
+      },
+      {
+        "question": "What is the damage to the vehicles?"
+      },
+      {
+        "question": "What was the speed of vehicles involved?"
+      },
+      {
+        "question": "Where were they coming from/going to?"
+      },
+      {
+        "question": "Were there any strange weather or road conditions that could have caused the accident?"
+      },
+      {
+        "question": "What happened according to eyewitnesses, investigating officers and people involved in incident?"
+      },
+      {
+        "question": "What are the funeral arrangements for the dead?"
+      },
+      {
+        "question": "Go hlokofetše batho ba bakae le ba go gobala?"
+      },
+      {
+        "question": "What type of vehicles were involved?"
+      },
+      {
+        "question": "What is the identification of the drivers involved?",
+        "description": "Names, ages, addresses, other personal information."
+      },
+      {
+        "question": "What was the cause of the accident?",
+        "description": "(according to paramedics, police or other official sources)"
+      },
+      {
+        "question": "What is the identification of any others involved?",
+        "description": "(Passengers, pedestrians.)"
+      },
+      {
+        "question": "What is the identification of the injured and dead?"
+      },
+      {
+        "question": "What is the extent of any injuries?"
+      },
+      {
+        "question": "What is the condition of the injured?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Motorongelukke",
+    "questions": [
+      {
+        "question": "Hoe laat en waar het die ongeluk plaasgevind?"
+      },
+      {
+        "question": "Waarheen is die beseerdes en oorledenes geneem? (Watter hospitaal of lykshuis)"
+      },
+      {
+        "question": "Was daar enige helde- of reddingsdade?"
+      },
+      {
+        "question": "Was daar enige arrestasies of ander regsoptrede?"
+      },
+      {
+        "question": "Wat is die skade aan die voertuie?"
+      },
+      {
+        "question": "Hoe vinning het die betrokke voertuie gery?"
+      },
+      {
+        "question": "Waarheen is hulle vandaan of op pad?"
+      },
+      {
+        "question": "Was daar enige vreemde weers- of padtoestande wat kon gelei het tot die ongeluk?"
+      },
+      {
+        "question": "Wat het volgens ooggetuies, ondersoekbeamptes en mense wat betrokke was by die voorval, gebeur?"
+      },
+      {
+        "question": "Wat is die begrafnisreëlings?"
+      },
+      {
+        "question": "Is enige persone beseer of dood? Indien wel, hoeveel?"
+      },
+      {
+        "question": "Watter soort voertuie was betrokke?"
+      },
+      {
+        "question": "Wat is die besonderhede van die betrokke bestuurders?",
+        "description": "Name, ouderdomme, adresse, ander persoonlike inligting."
+      },
+      {
+        "question": "Wat was die oorsaak van die ongeluk?",
+        "description": "(volgens paramedici, die polisie of ander amptelike bronne)"
+      },
+      {
+        "question": "Wat is die besonderhede van enige ander betrokkenes?",
+        "description": "(Passasiers, voetgangers.)"
+      },
+      {
+        "question": "Wat is die identiteit van die beseerdes en oorledenes?"
+      },
+      {
+        "question": "Wat is die omvang van die beserings?"
+      },
+      {
+        "question": "Wat is die toestand van die beseerdes?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What time did the accident happen and where?"
+    },
+    {
+      "question": "Where were the injured and dead taken?",
+      "description": "(Which hospital or morgue?)"
+    },
+    {
+      "question": "Were there any acts of bravery or any rescues?"
+    },
+    {
+      "question": "Were there any arrests or other legal action?"
+    },
+    {
+      "question": "What is the damage to the vehicles?"
+    },
+    {
+      "question": "What was the speed of vehicles involved?"
+    },
+    {
+      "question": "Where were they coming from/going to?"
+    },
+    {
+      "question": "Were there any strange weather or road conditions that could have caused the accident?"
+    },
+    {
+      "question": "What happened according to eyewitnesses, investigating officers and people involved in incident?"
+    },
+    {
+      "question": "What are the funeral arrangements for the dead?"
+    },
+    {
+      "question": "Were any people injured or dead and how many?"
+    },
+    {
+      "question": "What type of vehicles were involved?"
+    },
+    {
+      "question": "What is the identification of the drivers involved?",
+      "description": "Names, ages, addresses, other personal information."
+    },
+    {
+      "question": "What was the cause of the accident?",
+      "description": "(according to paramedics, police or other official sources)"
+    },
+    {
+      "question": "What is the identification of any others involved?",
+      "description": "(Passengers, pedestrians.)"
+    },
+    {
+      "question": "What is the identification of the injured and dead?"
+    },
+    {
+      "question": "What is the extent of any injuries?"
+    },
+    {
+      "question": "What is the condition of the injured?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Dikotsi tsa makoloi",
+    "questions": [
+      {
+        "question": "What time did the accident happen and where?"
+      },
+      {
+        "question": "Where were the injured and dead taken?",
+        "description": "(Which hospital or morgue?)"
+      },
+      {
+        "question": "Were there any acts of bravery or any rescues?"
+      },
+      {
+        "question": "Were there any arrests or other legal action?"
+      },
+      {
+        "question": "What is the damage to the vehicles?"
+      },
+      {
+        "question": "What was the speed of vehicles involved?"
+      },
+      {
+        "question": "Where were they coming from/going to?"
+      },
+      {
+        "question": "Were there any strange weather or road conditions that could have caused the accident?"
+      },
+      {
+        "question": "What happened according to eyewitnesses, investigating officers and people involved in incident?"
+      },
+      {
+        "question": "What are the funeral arrangements for the dead?"
+      },
+      {
+        "question": "Were any people injured or dead and how many?"
+      },
+      {
+        "question": "What type of vehicles were involved?"
+      },
+      {
+        "question": "What is the identification of the drivers involved?",
+        "description": "Names, ages, addresses, other personal information."
+      },
+      {
+        "question": "What was the cause of the accident?",
+        "description": "(according to paramedics, police or other official sources)"
+      },
+      {
+        "question": "What is the identification of any others involved?",
+        "description": "(Passengers, pedestrians.)"
+      },
+      {
+        "question": "What is the identification of the injured and dead?"
+      },
+      {
+        "question": "What is the extent of any injuries?"
+      },
+      {
+        "question": "What is the condition of the injured?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Izingozi zezimoto",
+    "questions": [
+      {
+        "question": "Yenzeke ngankathini, kuphi lengozi?"
+      },
+      {
+        "question": "bathathwe bayiswaphi abalimele nabashonile?",
+        "description": "(kusiphi isibhedlela noma amakhaza)"
+      },
+      {
+        "question": "ingabe kube kukhona abasindiswe ngenxa yesibindi sabathile ?"
+      },
+      {
+        "question": "Ingabe kukhona ababoshiwe noma bathathelwa izinyathelo zomthetho?"
+      },
+      {
+        "question": "Ingabe ilemele kanjani imoto?"
+      },
+      {
+        "question": "Ingabe ibihamba ngejubane elingakanani imoto ethintekayo kulengozi?"
+      },
+      {
+        "question": "Bebesukaphi futhi beyaphi?"
+      },
+      {
+        "question": "Ingabe kube khona isimo sezulu noma somgwaqo esingesihle ebesingadala ingozi?"
+      },
+      {
+        "question": "Ngokwabazibonele ngamehlo, abaseshi, kanye nabathintekayo engozini ingabe kwenzekeni?"
+      },
+      {
+        "question": "athini amalungiselelo omngcwabo abashonile?"
+      },
+      {
+        "question": "Ingabe kukhona abalimele noma abashonile nokuthi bangaki?"
+      },
+      {
+        "question": "Hlobo luni lwezimoto ezithintekayo?"
+      },
+      {
+        "question": "Ithini imininingwane yabashayeli abathintekayo?",
+        "description": "Amagama, iminyaka, amakheli,kanye neminye imininingwane eqondene nabo?"
+      },
+      {
+        "question": "Ingabe bekuyini imbangela yengozi?",
+        "description": "(ngokwabosizo lokuqala, amaphoyisa, noma ngokweminye imithombo esemthethweni)"
+      },
+      {
+        "question": "Ingabe ithini imininingwane yabanye abathintekayo?",
+        "description": "(Abagibeli,abahamba ngezinyawo)."
+      },
+      {
+        "question": "Ithini imininingwane yabalimele nabashonile?"
+      },
+      {
+        "question": "Balimele kangakanani?"
+      },
+      {
+        "question": "Sithini isimo sabalimele?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Acidentes rodoviarios",
+    "questions": [
+      {
+        "question": "Que horas e aonde teve lugar o acidente?"
+      },
+      {
+        "question": "Aonde foram levados os feridos e os mortos?",
+        "description": "(Que hospital ou casa mortuária)"
+      },
+      {
+        "question": "Houve qualquer acto de heroicidade ou algum resgate?"
+      },
+      {
+        "question": "Houve alguma detenção ou qualquer outra acção legal?"
+      },
+      {
+        "question": "Quais foram os danos causados aos veículos?"
+      },
+      {
+        "question": "Qual era a velocidade dos veículos envolvidos?"
+      },
+      {
+        "question": "De onde é que eles vinham/aonde iam?"
+      },
+      {
+        "question": "Houve algo diferente nas condições climáticas ou da estrada que poderiam ter causado o acidente?"
+      },
+      {
+        "question": "O quê aconteceu de acordo com as testemunhas, os investigadores e outras pessoas envolvidas no incidente?"
+      },
+      {
+        "question": "Quais são os detalhes do funeral para os falecidos?"
+      },
+      {
+        "question": "Houve algumas pessoas feridas ou mortas e quantas?"
+      },
+      {
+        "question": "Que tipos de veículos estavam envolvidos?"
+      },
+      {
+        "question": "Qual é a identidade dos motoristas envolvidos? Nomes, idades, endereços, outra informação pessoal."
+      },
+      {
+        "question": "Qual foi a causa do accidente?",
+        "description": "(de acordo com o pessoal de saúde, polícia ou outras fontes oficiais)"
+      },
+      {
+        "question": "Qual é a identidade doutras pessoas envolvidas?",
+        "description": "(Passageiros, peões)"
+      },
+      {
+        "question": "Qual é a identidade dos mortos e feridos?"
+      },
+      {
+        "question": "Qual é a gravidade dos ferimentos?"
+      },
+      {
+        "question": "Qual é o estado de saúde dos feridos?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Dikotsi tsa Dikoloi",
+    "questions": [
+      {
+        "question": "What time did the accident happen and where?"
+      },
+      {
+        "question": "Where were the injured and dead taken?",
+        "description": "(Which hospital or morgue?)"
+      },
+      {
+        "question": "Were there any acts of bravery or any rescues?"
+      },
+      {
+        "question": "Were there any arrests or other legal action?"
+      },
+      {
+        "question": "What is the damage to the vehicles?"
+      },
+      {
+        "question": "What was the speed of vehicles involved?"
+      },
+      {
+        "question": "Where were they coming from/going to?"
+      },
+      {
+        "question": "Were there any strange weather or road conditions that could have caused the accident?"
+      },
+      {
+        "question": "What happened according to eyewitnesses, investigating officers and people involved in incident?"
+      },
+      {
+        "question": "What are the funeral arrangements for the dead?"
+      },
+      {
+        "question": "Were any people injured or dead and how many?"
+      },
+      {
+        "question": "What type of vehicles were involved?"
+      },
+      {
+        "question": "What is the identification of the drivers involved?",
+        "description": "Names, ages, addresses, other personal information."
+      },
+      {
+        "question": "What was the cause of the accident?",
+        "description": "(according to paramedics, police or other official sources)"
+      },
+      {
+        "question": "What is the identification of any others involved?",
+        "description": "(Passengers, pedestrians.)"
+      },
+      {
+        "question": "What is the identification of the injured and dead?"
+      },
+      {
+        "question": "What is the extent of any injuries?"
+      },
+      {
+        "question": "What is the condition of the injured?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Motor Accidents",
+  "type": "questions",
+  "xho": {
+    "title": "lingozi zeemoto",
+    "questions": [
+      {
+        "question": "Ingozi yehle ngeliphi ixesha kwaye phi?"
+      },
+      {
+        "question": "Abo bafileyo nabo nzakeleyo babhekiswe ngaphi na?",
+        "description": "(Kwesiphi isibhedlele okanye indawo yezidumbhu?)"
+      },
+      {
+        "question": "Ingaba bezikhona na izenzo zobukroti okanye uhlangulo?"
+      },
+      {
+        "question": "Bebe khona na aba banjiweyo okanye abathathelwe amanyathelo asemthethweni?"
+      },
+      {
+        "question": "Yintoni na umonakalo kwizithuthi?"
+      },
+      {
+        "question": "Besisithini na isantya sezithuthi ezo?"
+      },
+      {
+        "question": "Babe vela phi/besiya phi?"
+      },
+      {
+        "question": "Ingaba bekukho imozulu engaqondakaliyo okanye imeko yezendlela engaba kanti yadala le ngozi?"
+      },
+      {
+        "question": "Ngokwa mangqina, abecuphi nabantu aba chaphazelekayo kule ngozi kwenzeke ntoni?"
+      },
+      {
+        "question": "Athini amalungiselelo enkonzo yomngcwabo yomfi?"
+      },
+      {
+        "question": "Bebekhona na abantu abonzakeleyo okanye abafileyo kwaye bangaphi?"
+      },
+      {
+        "question": "Ziintlobo ezinjani zeemoto ezi zichaphazelekileyo?"
+      },
+      {
+        "question": "Ngubani na umqhubi?",
+        "description": "Amagama, ubudala, iidilesi nezinye iinkcukhacha."
+      },
+      {
+        "question": "Yintoni na imbangi yalengozi?",
+        "description": "(Ngokwa magosa ezoncedo olukhawulezileyo, amapolisa okanye nabani na osemthethweni)"
+      },
+      {
+        "question": "Ngobani na abanye abachaphazelekayo?",
+        "description": "(Abakhweli, abahambi ngendlela.)"
+      },
+      {
+        "question": "Ngubani na owonzakeleyo nothe wafa?"
+      },
+      {
+        "question": "Ungakanani na umonzakalo odalwe yile ngozi?"
+      },
+      {
+        "question": "Injani imeko yabo bonzakeleyo?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
