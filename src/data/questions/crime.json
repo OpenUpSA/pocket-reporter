@@ -1,0 +1,378 @@
+{
+  "spa": {
+    "title": "Crimen",
+    "questions": [
+      {
+        "question": "¿Cuál es el nombre y los detalles de las víctimas?",
+        "description": "Nombres, edades, direcciones, otra información personal."
+      },
+      {
+        "question": "¿Cuál fue el crimen y cómo se cometió?"
+      },
+      {
+        "question": "¿Cuál es la fecha, hora y lugar del crimen?",
+        "description": "Confirme con fuentes oficiales."
+      },
+      {
+        "question": "En el caso de la muerte, ¿cuál fue la causa oficial?",
+        "description": "(Según paramédicos, policías u otras fuentes oficiales.)"
+      },
+      {
+        "question": "¿Qué lesiones sufrieron las víctimas y qué arma se utilizó?"
+      },
+      {
+        "question": "¿Cuál fue la motivación del crimen y cuál es el origen de la víctima?",
+        "description": "(¿si es relevante?)"
+      },
+      {
+        "question": "¿Ha habido alguna detención, hay sospechosos o pistas?"
+      },
+      {
+        "question": "¿Hay alguna circunstancia extraña que rodee el crimen?"
+      },
+      {
+        "question": "Obtenga comentarios de la víctima, testigos, policías y otras fuentes oficiales."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Bosenyi",
+    "questions": [
+      {
+        "question": "Naa go tsebilwe batšwasehlabelo?",
+        "description": "Maina, mengwaga, diaterese le tshedimošo e nngwe ka bona?"
+      },
+      {
+        "question": "What was the crime and how was it committed?"
+      },
+      {
+        "question": "What is the date, time and location of the crime?",
+        "description": "Confirm with official sources."
+      },
+      {
+        "question": "In the case of death, what was the official cause?",
+        "description": "(According to paramedics, police or other official sources.)"
+      },
+      {
+        "question": "What injuries did the victims suffer and what weapon was used?"
+      },
+      {
+        "question": "What was the motivation for the crime and what is the background of victim?",
+        "description": "(if relevant?)"
+      },
+      {
+        "question": "Have there been any arrests and are there any suspects or clues?"
+      },
+      {
+        "question": "Are there any strange circumstances surrounding the crime?"
+      },
+      {
+        "question": "Get comment from the victim, witnesses, police and other official sources."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Misdaad",
+    "questions": [
+      {
+        "question": "Wat is die name en besonderhede van die slagoffers?",
+        "description": "Name, ouderdomme, adresse, ander persoonlike inligting."
+      },
+      {
+        "question": "Wat was die misdaad en hoe is dit gepleeg?"
+      },
+      {
+        "question": "Op wattter datum, tyd en plek het die misdaad plaasgevind?",
+        "description": "Bevestig met amptelike bronne."
+      },
+      {
+        "question": "In die geval van 'n sterfte, wat was die amptelike oorsaak?",
+        "description": "(Volgens paramedici, polisie of ander amptelike bronne.)"
+      },
+      {
+        "question": "Wat was die aard van die beserings en watter soort wapen is gebruik?"
+      },
+      {
+        "question": "Wat het aanleiding gegee tot die misdaad en wat is die agtergrond van die slagoffer?",
+        "description": "(indien van toepassing?)"
+      },
+      {
+        "question": "Was daar enige arrestasies en is daar enige verdagtes of leidrade?"
+      },
+      {
+        "question": "Is daar enige vreemde omstandighede wat die misdaad betref?"
+      },
+      {
+        "question": "Kry kommentaar van die slagoffer, getuies, polisie en ander amptelike bronne."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is the name and details of the victims?",
+      "description": "Names, ages, addresses, other personal information."
+    },
+    {
+      "question": "What was the crime and how was it committed?"
+    },
+    {
+      "question": "What is the date, time and location of the crime?",
+      "description": "Confirm with official sources."
+    },
+    {
+      "question": "In the case of death, what was the official cause?",
+      "description": "(According to paramedics, police or other official sources.)"
+    },
+    {
+      "question": "What injuries did the victims suffer and what weapon was used?"
+    },
+    {
+      "question": "What was the motivation for the crime and what is the background of victim?",
+      "description": "(if relevant?)"
+    },
+    {
+      "question": "Have there been any arrests and are there any suspects or clues?"
+    },
+    {
+      "question": "Are there any strange circumstances surrounding the crime?"
+    },
+    {
+      "question": "Get comment from the victim, witnesses, police and other official sources."
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Bosenyi",
+    "questions": [
+      {
+        "question": "What is the name and details of the victims?",
+        "description": "Names, ages, addresses, other personal information."
+      },
+      {
+        "question": "What was the crime and how was it committed?"
+      },
+      {
+        "question": "What is the date, time and location of the crime?",
+        "description": "Confirm with official sources."
+      },
+      {
+        "question": "In the case of death, what was the official cause?",
+        "description": "(According to paramedics, police or other official sources.)"
+      },
+      {
+        "question": "What injuries did the victims suffer and what weapon was used?"
+      },
+      {
+        "question": "What was the motivation for the crime and what is the background of victim?",
+        "description": "(if relevant?)"
+      },
+      {
+        "question": "Have there been any arrests and are there any suspects or clues?"
+      },
+      {
+        "question": "Are there any strange circumstances surrounding the crime?"
+      },
+      {
+        "question": "Get comment from the victim, witnesses, police and other official sources."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "ubugebengu",
+    "questions": [
+      {
+        "question": "obani amagama kanye nemininingwane ezisulu?",
+        "description": "amagama, iminyaka, amakheli, kanye neminye imininingwane mayelana nabo"
+      },
+      {
+        "question": "Ibuphi ubugebengu obenzekile nokuthi kwenzeke kanjani?"
+      },
+      {
+        "question": "Ingabe yenzeke kuphi, nini ngasikhathisini?",
+        "description": "Thola isiqiniseko esisemthethweni."
+      },
+      {
+        "question": "Ngokombiko wabezimo eziphuthumayo, amaphoyisa kanye neziphathimandla ingabe yini imbangela yokufa ?"
+      },
+      {
+        "question": "Ingabe abathintekayo balimele kanjani nokuthi hlobo luni lwesikhali olusetshenzisiwe?"
+      },
+      {
+        "question": "Ingabe yini imbangela yobugebengu kanye nemvelaphi yezisulu?",
+        "description": "(Uma kubalulekile)"
+      },
+      {
+        "question": "Ingabe bakhona ababoshiwe noma abasolwayo okanye olunye ulwazi?"
+      },
+      {
+        "question": "Ingabe sikhona isimo esingaqondakali mayelana nobugebengu?"
+      },
+      {
+        "question": "Thola uvo lwezisulu, ofakazi, amaphoyisa, kanye nakuziphathimandla ezinolwazi."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Crime",
+    "questions": [
+      {
+        "question": "Qual é o nome e identidade das vítimas?",
+        "description": "Nomes, idades, endereços, outra informação pessoal."
+      },
+      {
+        "question": "Qual foi o crime e como foi cometido?"
+      },
+      {
+        "question": "Qual é a data, hora e local do crime?",
+        "description": "Confirme com as fontes oficiais."
+      },
+      {
+        "question": "Em caso de morte, qual foi a causa oficial?",
+        "description": "(De acordo com o pessoal da saúde, polícia, outras fontes oficiais.)"
+      },
+      {
+        "question": "Que danos foram causados às vítimas e que arma foi usada?"
+      },
+      {
+        "question": "Qual foi o motivo do crime e qual é o historial da vítima?",
+        "description": "(se for relevante.)"
+      },
+      {
+        "question": "Tem havido alguma detenção e há alguns suspeitos ou pistas?"
+      },
+      {
+        "question": "Existem algumas circunstâncias estranhas em volta do crime?"
+      },
+      {
+        "question": "Obtenha declarações das vítimas, testemunhas, polícia e outras fontes oficiais."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Bosenyi",
+    "questions": [
+      {
+        "question": "What is the name and details of the victims?",
+        "description": "Names, ages, addresses, other personal information."
+      },
+      {
+        "question": "What was the crime and how was it committed?"
+      },
+      {
+        "question": "What is the date, time and location of the crime?",
+        "description": "Confirm with official sources."
+      },
+      {
+        "question": "In the case of death, what was the official cause?",
+        "description": "(According to paramedics, police or other official sources.)"
+      },
+      {
+        "question": "What injuries did the victims suffer and what weapon was used?"
+      },
+      {
+        "question": "What was the motivation for the crime and what is the background of victim?",
+        "description": "(if relevant?)"
+      },
+      {
+        "question": "Have there been any arrests and are there any suspects or clues?"
+      },
+      {
+        "question": "Are there any strange circumstances surrounding the crime?"
+      },
+      {
+        "question": "Get comment from the victim, witnesses, police and other official sources."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Crime",
+  "type": "questions",
+  "xho": {
+    "title": "Ulwaphulo-mthetho",
+    "questions": [
+      {
+        "question": "Ngobani na amagama neenkcukacha zoqhagamshelwano zeengxwelerha?",
+        "description": "Amagama, iminyaka yobudala, iidilesi nezinye iinkcukacha."
+      },
+      {
+        "question": "Ibiyi ntoni ulwaphulo-mthetho kwaye ludalwe njani na?"
+      },
+      {
+        "question": "Uthini umhla, ixesha kwakunye nendawo yolwaphulo-mthetho?",
+        "description": "Qondisisa kuma gosa asemthethweni."
+      },
+      {
+        "question": "Kumba wokufa, yintoni imbangi esemthethweni?",
+        "description": "(Ngokwa magosa ezonyango olukhawulezileyo, amapolisa okanye naliphi na igosa/icandelo elisemthethweni.)"
+      },
+      {
+        "question": "Iingxwelerha zifumene monzakalo mni kwaye yintoni isikhali esisetyenzisiweyo?"
+      },
+      {
+        "question": "Yintoni na ekhuthaze esisenzo solwaphulo-mthetho kwaye ithini intsukaphi yengxwelerha?",
+        "description": "(Ukuba ikhona indawo yayo)"
+      },
+      {
+        "question": "Bakhona abantu abathe babanjwa ngamapolisa kwaye bakhona abarhanelwa okanye imikhondo kusini na?"
+      },
+      {
+        "question": "Ingaba zikhona izehlo ezingaqondakaliyo nezingqonge indawo yolwaphulo-mthetho?"
+      },
+      {
+        "question": "Fumana izimvo zeengxwelerha, amangqina, amapolisa kwakunye nezinye iingxelo ezisemthethweni."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
