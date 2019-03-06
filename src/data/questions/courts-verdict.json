@@ -142,8 +142,37 @@
     ]
   },
   "por": {
+    "title": "Tribunais - Sentencas",
     "questions": [
-      {}
+      {
+        "question": "Qual é a sentença e os prejuíços, se é que foram considerados?",
+        "description": "(De igual, menor ou maior dimensão em relação aos danos estimados)"
+      },
+      {
+        "question": "Quem são as partes envolvidas?"
+      },
+      {
+        "question": "O juiz anunciou a sentença?",
+        "description": "Houve alguma alteração com o apresentado pelo assessor?"
+      },
+      {
+        "question": "Faça um resumo das alegações do Procurador/demandante?"
+      },
+      {
+        "question": "Qual foi o testemunho chave e quais os principais argumentos do advogado da defessa?"
+      },
+      {
+        "question": "Durante quanto tempo deliverou o tribunal antes da sentença?"
+      },
+      {
+        "question": "Há alguma apelação ou moção?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "sot": {
