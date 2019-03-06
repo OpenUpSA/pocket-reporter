@@ -1,0 +1,488 @@
+{
+  "spa": {
+    "title": "Gender-based violence",
+    "questions": [
+      {
+        "question": "Who was involved in the incident?"
+      },
+      {
+        "question": "Have there been any court appearances? If yes, when and where?",
+        "description": "(If the matter was remanded make a note of the date to follow up)"
+      },
+      {
+        "question": "What concerns does the victim have to share?"
+      },
+      {
+        "question": "Any additional information?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "When, where and what happened?"
+      },
+      {
+        "question": "Do the perpetrator and survivor know each other?",
+        "description": "If yes, what is the nature of their relationship?"
+      },
+      {
+        "question": "If they are not known to each other, how did the abuser come into contact with the survivor?"
+      },
+      {
+        "question": "Did the survivor seek help from a health centre/hospital/clinic?"
+      },
+      {
+        "question": "If yes, where? And what treatment did they receive? In the case of rape which of these treatments were they offered?",
+        "description": "(HIV test, emergency contraception, antibiotics and counselling)"
+      },
+      {
+        "question": "Has the incident been reported the police?"
+      },
+      {
+        "question": "If yes, how did the police respond to the complaint?"
+      },
+      {
+        "question": "Police’s response to your media query?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Gender-based violence",
+    "questions": [
+      {
+        "question": "Who was involved in the incident?"
+      },
+      {
+        "question": "Have there been any court appearances? If yes, when and where?",
+        "description": "(If the matter was remanded make a note of the date to follow up)"
+      },
+      {
+        "question": "What concerns does the victim have to share?"
+      },
+      {
+        "question": "Any additional information?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "When, where and what happened?"
+      },
+      {
+        "question": "Do the perpetrator and survivor know each other?",
+        "description": "If yes, what is the nature of their relationship?"
+      },
+      {
+        "question": "If they are not known to each other, how did the abuser come into contact with the survivor?"
+      },
+      {
+        "question": "Did the survivor seek help from a health centre/hospital/clinic?"
+      },
+      {
+        "question": "If yes, where? And what treatment did they receive? In the case of rape which of these treatments were they offered?",
+        "description": "(HIV test, emergency contraception, antibiotics and counselling)"
+      },
+      {
+        "question": "Has the incident been reported the police?"
+      },
+      {
+        "question": "If yes, how did the police respond to the complaint?"
+      },
+      {
+        "question": "Police’s response to your media query?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Gender-based violence",
+    "questions": [
+      {
+        "question": "Who was involved in the incident?"
+      },
+      {
+        "question": "Have there been any court appearances? If yes, when and where?",
+        "description": "(If the matter was remanded make a note of the date to follow up)"
+      },
+      {
+        "question": "What concerns does the victim have to share?"
+      },
+      {
+        "question": "Any additional information?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "When, where and what happened?"
+      },
+      {
+        "question": "Do the perpetrator and survivor know each other?",
+        "description": "If yes, what is the nature of their relationship?"
+      },
+      {
+        "question": "If they are not known to each other, how did the abuser come into contact with the survivor?"
+      },
+      {
+        "question": "Did the survivor seek help from a health centre/hospital/clinic?"
+      },
+      {
+        "question": "If yes, where? And what treatment did they receive? In the case of rape which of these treatments were they offered?",
+        "description": "(HIV test, emergency contraception, antibiotics and counselling)"
+      },
+      {
+        "question": "Has the incident been reported the police?"
+      },
+      {
+        "question": "If yes, how did the police respond to the complaint?"
+      },
+      {
+        "question": "Police’s response to your media query?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Who was involved in the incident?"
+    },
+    {
+      "question": "Have there been any court appearances? If yes, when and where?",
+      "description": "(If the matter was remanded make a note of the date to follow up)"
+    },
+    {
+      "question": "What concerns does the victim have to share?"
+    },
+    {
+      "question": "Any additional information?"
+    },
+    {
+      "question": "Contact details:",
+      "description": "phone number/email for your source/other useful contacts for your story?"
+    },
+    {
+      "question": "When, where and what happened?"
+    },
+    {
+      "question": "Do the perpetrator and survivor know each other?",
+      "description": "If yes, what is the nature of their relationship?"
+    },
+    {
+      "question": "If they are not known to each other, how did the abuser come into contact with the survivor?"
+    },
+    {
+      "question": "Did the survivor seek help from a health centre/hospital/clinic?"
+    },
+    {
+      "question": "If yes, where? And what treatment did they receive? In the case of rape which of these treatments were they offered?",
+      "description": "(HIV test, emergency contraception, antibiotics and counselling)"
+    },
+    {
+      "question": "Has the incident been reported the police?"
+    },
+    {
+      "question": "If yes, how did the police respond to the complaint?"
+    },
+    {
+      "question": "Police’s response to your media query?"
+    },
+    {
+      "question": " Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Gender-based violence",
+    "questions": [
+      {
+        "question": "Who was involved in the incident?"
+      },
+      {
+        "question": "Have there been any court appearances? If yes, when and where?",
+        "description": "(If the matter was remanded make a note of the date to follow up)"
+      },
+      {
+        "question": "What concerns does the victim have to share?"
+      },
+      {
+        "question": "Any additional information?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "When, where and what happened?"
+      },
+      {
+        "question": "Do the perpetrator and survivor know each other?",
+        "description": "If yes, what is the nature of their relationship?"
+      },
+      {
+        "question": "If they are not known to each other, how did the abuser come into contact with the survivor?"
+      },
+      {
+        "question": "Did the survivor seek help from a health centre/hospital/clinic?"
+      },
+      {
+        "question": "If yes, where? And what treatment did they receive? In the case of rape which of these treatments were they offered?",
+        "description": "(HIV test, emergency contraception, antibiotics and counselling)"
+      },
+      {
+        "question": "Has the incident been reported the police?"
+      },
+      {
+        "question": "If yes, how did the police respond to the complaint?"
+      },
+      {
+        "question": "Police’s response to your media query?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Gender-based violence",
+    "questions": [
+      {
+        "question": "Who was involved in the incident?"
+      },
+      {
+        "question": "Have there been any court appearances? If yes, when and where?",
+        "description": "(If the matter was remanded make a note of the date to follow up)"
+      },
+      {
+        "question": "What concerns does the victim have to share?",
+        "description": ""
+      },
+      {
+        "question": "Any additional information?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "When, where and what happened?"
+      },
+      {
+        "question": "Do the perpetrator and survivor know each other?",
+        "description": "If yes, what is the nature of their relationship?"
+      },
+      {
+        "question": "If they are not known to each other, how did the abuser come into contact with the survivor?"
+      },
+      {
+        "question": "Did the survivor seek help from a health centre/hospital/clinic?"
+      },
+      {
+        "question": "If yes, where? And what treatment did they receive? In the case of rape which of these treatments were they offered?",
+        "description": "(HIV test, emergency contraception, antibiotics and counselling)"
+      },
+      {
+        "question": "Has the incident been reported the police?"
+      },
+      {
+        "question": "If yes, how did the police respond to the complaint?"
+      },
+      {
+        "question": "Police’s response to your media query?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Gender-based violence",
+    "questions": [
+      {
+        "question": "Who was involved in the incident?"
+      },
+      {
+        "question": "Have there been any court appearances? If yes, when and where?",
+        "description": "(If the matter was remanded make a note of the date to follow up)"
+      },
+      {
+        "question": "What concerns does the victim have to share?"
+      },
+      {
+        "question": "Any additional information?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "When, where and what happened?"
+      },
+      {
+        "question": "Do the perpetrator and survivor know each other?",
+        "description": "If yes, what is the nature of their relationship?"
+      },
+      {
+        "question": "If they are not known to each other, how did the abuser come into contact with the survivor?"
+      },
+      {
+        "question": "Did the survivor seek help from a health centre/hospital/clinic?"
+      },
+      {
+        "question": "If yes, where? And what treatment did they receive? In the case of rape which of these treatments were they offered?",
+        "description": "(HIV test, emergency contraception, antibiotics and counselling)"
+      },
+      {
+        "question": "Has the incident been reported the police?"
+      },
+      {
+        "question": "If yes, how did the police respond to the complaint?"
+      },
+      {
+        "question": "Police’s response to your media query?"
+      },
+      {
+        "question": " Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Gender-based violence",
+    "questions": [
+      {
+        "question": "Who was involved in the incident?"
+      },
+      {
+        "question": "Have there been any court appearances? If yes, when and where? ",
+        "description": "(If the matter was remanded make a note of the date to follow up)"
+      },
+      {
+        "question": "What concerns does the victim have to share?"
+      },
+      {
+        "question": " Any additional information?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "When, where and what happened?"
+      },
+      {
+        "question": "Do the perpetrator and survivor know each other?",
+        "description": "If yes, what is the nature of their relationship?"
+      },
+      {
+        "question": "If they are not known to each other, how did the abuser come into contact with the survivor?"
+      },
+      {
+        "question": "Did the survivor seek help from a health centre/hospital/clinic?"
+      },
+      {
+        "question": "If yes, where? And what treatment did they receive? In the case of rape which of these treatments were they offered?",
+        "description": "(HIV test, emergency contraception, antibiotics and counselling)"
+      },
+      {
+        "question": "Has the incident been reported the police?"
+      },
+      {
+        "question": "If yes, how did the police respond to the complaint?"
+      },
+      {
+        "question": "Police’s response to your media query?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Gender-based violence",
+  "type": "questions",
+  "xho": {
+    "title": "Gender-based violence",
+    "questions": [
+      {
+        "question": "Who was involved in the incident?"
+      },
+      {
+        "question": "Have there been any court appearances? If yes, when and where?",
+        "description": "(If the matter was remanded make a note of the date to follow up)"
+      },
+      {
+        "question": "What concerns does the victim have to share?"
+      },
+      {
+        "question": "Any additional information?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "When, where and what happened?"
+      },
+      {
+        "question": "Do the perpetrator and survivor know each other?",
+        "description": "If yes, what is the nature of their relationship?"
+      },
+      {
+        "question": "If they are not known to each other, how did the abuser come into contact with the survivor?"
+      },
+      {
+        "question": "Did the survivor seek help from a health centre/hospital/clinic?"
+      },
+      {
+        "question": "If yes, where? And what treatment did they receive? In the case of rape which of these treatments were they offered?",
+        "description": "(HIV test, emergency contraception, antibiotics and counselling)"
+      },
+      {
+        "question": "Has the incident been reported the police?"
+      },
+      {
+        "question": "If yes, how did the police respond to the complaint?"
+      },
+      {
+        "question": "Police’s response to your media query?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
