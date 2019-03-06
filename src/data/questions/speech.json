@@ -1,0 +1,406 @@
+{
+  "spa": {
+    "title": "Discurso",
+    "questions": [
+      {
+        "question": "¿Cuál fue el punto principal del orador?"
+      },
+      {
+        "question": "¿Tiene copias de discursos y / o documentos de antecedentes?"
+      },
+      {
+        "question": "¿Cuáles son los datos de contacto (preferiblemente números de teléfono / tarjetas de visita) de los voceros en caso de consultas?"
+      },
+      {
+        "question": "¿Cuál es el nombre y el título del orador principal?",
+        "description": "(¡Asegúrese de que el nombre esté escrito correctamente!)"
+      },
+      {
+        "question": "¿Qué frases tiene para apoyar el punto principal?"
+      },
+      {
+        "question": "¿Cuál fue el propósito, la hora y el lugar del discurso?"
+      },
+      {
+        "question": "¿Cuántas personas asistieron y cuál fue su apariencia y reacciones?"
+      },
+      {
+        "question": "¿El orador hizo foco en algún punto adicional?"
+      },
+      {
+        "question": "¿Cuál es el trasfondo del punto principal?"
+      },
+      {
+        "question": "¿Qué comentarios hizo el orador antes y después de su discurso?"
+      },
+      {
+        "question": "Hay alguna información adicional desde el período de preguntas y respuestas"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Polelo",
+    "questions": [
+      {
+        "question": "What was the speaker's main point?"
+      },
+      {
+        "question": "Do you have copies of speeches and/or background documents?"
+      },
+      {
+        "question": "What are the contact details (preferably phone numbers/business cards) of speakers in case of queries?"
+      },
+      {
+        "question": "What is the name and title of the main speaker?",
+        "description": "(Make sure name is spelt correctly!)"
+      },
+      {
+        "question": "What quotes do you have to support main point?"
+      },
+      {
+        "question": "What was the purpose, time and location of the speech?"
+      },
+      {
+        "question": "How many people attended and what was their makeup and reactions?"
+      },
+      {
+        "question": "Did the speaker make any additional points?"
+      },
+      {
+        "question": "What is the background to the major point they made?"
+      },
+      {
+        "question": "What comments did the speaker's make before and after their speech?"
+      },
+      {
+        "question": "Is there any additional info from the question and answer period"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Spraak",
+    "questions": [
+      {
+        "question": "Wat was die spreker se hoofgedagte?"
+      },
+      {
+        "question": "Het jy afskrifte van toesprake en/of agtergrondmateriaal?"
+      },
+      {
+        "question": "Wat is die kontakbesonderhede (verkieslik telefoonnommers / besigheidskaartjies) van sprekers in geval van navrae?"
+      },
+      {
+        "question": "Wie is die hoofspreker en wat is sy titel?",
+        "description": "(Maak seker name is reg gespel)"
+      },
+      {
+        "question": "Watter aanhalings het jy om die hoofgedagte te ondersteun?"
+      },
+      {
+        "question": "Wat was die doel, tyd en plek van die toespraak?"
+      },
+      {
+        "question": "Hoeveel mense was daar, hoe is die skare saamgestel en wat was hul reaksie?"
+      },
+      {
+        "question": "Het die spreker enige addisionele gedagtes geopper?"
+      },
+      {
+        "question": "Wat is die aanloop tot die punt wat hulle wou maak?"
+      },
+      {
+        "question": "Watter kommentaar het sprekers gemaak voor en na hulle toesprake?"
+      },
+      {
+        "question": "Is daar enige bykomende inligting na aanleiding van die vraag- en antwoordsessie?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What was the speaker's main point?"
+    },
+    {
+      "question": "Do you have copies of speeches and/or background documents?"
+    },
+    {
+      "question": "What are the contact details (preferably phone numbers/business cards) of speakers in case of queries?"
+    },
+    {
+      "question": "What is the name and title of the main speaker?",
+      "description": "(Make sure name is spelt correctly!)"
+    },
+    {
+      "question": "What quotes do you have to support main point?"
+    },
+    {
+      "question": "What was the purpose, time and location of the speech?"
+    },
+    {
+      "question": "How many people attended and what was their makeup and reactions?"
+    },
+    {
+      "question": "Did the speaker make any additional points?"
+    },
+    {
+      "question": "What is the background to the major point they made?"
+    },
+    {
+      "question": "What comments did the speaker's make before and after their speech?"
+    },
+    {
+      "question": "Is there any additional info from the question and answer period"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Puo",
+    "questions": [
+      {
+        "question": "What was the speaker's main point?"
+      },
+      {
+        "question": "Do you have copies of speeches and/or background documents?"
+      },
+      {
+        "question": "What are the contact details (preferably phone numbers/business cards) of speakers in case of queries?"
+      },
+      {
+        "question": "What is the name and title of the main speaker?",
+        "description": "(Make sure name is spelt correctly!)"
+      },
+      {
+        "question": "What quotes do you have to support main point?"
+      },
+      {
+        "question": "What was the purpose, time and location of the speech?"
+      },
+      {
+        "question": "How many people attended and what was their makeup and reactions?"
+      },
+      {
+        "question": "Did the speaker make any additional points?"
+      },
+      {
+        "question": "What is the background to the major point they made?"
+      },
+      {
+        "question": "What comments did the speaker's make before and after their speech?"
+      },
+      {
+        "question": "Is there any additional info from the question and answer period"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Inkulumo",
+    "questions": [
+      {
+        "question": "Bekuyini ingqikithi yesikhulumi?"
+      },
+      {
+        "question": "Ingabe unawo amakhophi ezinkulumo noma imininingwane mayelana nodaba?"
+      },
+      {
+        "question": "Ithini imininingwane yezikhulumi uma kwenzeka kuba nemibuzo (okungenani izinombolo zocingo, amakhadi abo ebhizinisi)?"
+      },
+      {
+        "question": "Ingabe ubani igama kanye nesikhundla sesikhulumi?",
+        "description": "( Qinisekisa ukuthi igama libhaleke kahle!)"
+      },
+      {
+        "question": "Ingabe yini onayo ukweseka ingqikithi yenkulumo?"
+      },
+      {
+        "question": "Bekuyini inhloso, isikhathi, kanye nendawo okwethulwe kuyo inkulumo?"
+      },
+      {
+        "question": "Bebebangaki abantu abebethamele inkulumo nokuthi bayamukele kanjani?"
+      },
+      {
+        "question": "Ingabe kukhona amaphuzu abalulekile abekwe isikhulumi?"
+      },
+      {
+        "question": "Ithini ingqikithi yenkulumo?"
+      },
+      {
+        "question": "Ingabe imaphi amaphuzu abekwe izikhulumi ngaphambi nangemuva kwenkulumo?"
+      },
+      {
+        "question": "Ingabe kukhona olunye ulwazi olungaphezu kwemibuzo nezimpendulo?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Palestra",
+    "questions": [
+      {
+        "question": "Qual foi o principal tópico abordado pelo palestrante/orador?"
+      },
+      {
+        "question": "Você tem cópias dos discursos e/ou da bibliografia usada?"
+      },
+      {
+        "question": "Quais são os contactos (preferivelmente números de telefone/cartões de visita) dos palestrantes em caso de consulta?"
+      },
+      {
+        "question": "Qual é o nome e o cargo do principal orador?",
+        "description": "(Assegure-se que o nome é soletrado correctamente!)"
+      },
+      {
+        "question": "Que declarações você recolheu que sustentam esse facto?"
+      },
+      {
+        "question": "Qual foi a finalidade, hora e localização do discurso?"
+      },
+      {
+        "question": "Quantas pessoas participaram e quais foram as suas reacções?"
+      },
+      {
+        "question": "O orador focou outros tópicos?"
+      },
+      {
+        "question": "Qual é o histórico do principal tópico que eles apresentaram?"
+      },
+      {
+        "question": "Que comentários fez o orador antes e depois do seu discurso?"
+      },
+      {
+        "question": "Há alguma informação adicional do espaço de perguntas e respostas"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Puo",
+    "questions": [
+      {
+        "question": "What was the speaker's main point?"
+      },
+      {
+        "question": "Do you have copies of speeches and/or background documents?"
+      },
+      {
+        "question": "What are the contact details (preferably phone numbers/business cards) of speakers in case of queries?"
+      },
+      {
+        "question": "What is the name and title of the main speaker?",
+        "description": "(Make sure name is spelt correctly!)"
+      },
+      {
+        "question": "What quotes do you have to support main point?"
+      },
+      {
+        "question": "What was the purpose, time and location of the speech?"
+      },
+      {
+        "question": "How many people attended and what was their makeup and reactions?"
+      },
+      {
+        "question": "Did the speaker make any additional points?"
+      },
+      {
+        "question": "What is the background to the major point they made?"
+      },
+      {
+        "question": "What comments did the speaker's make before and after their speech?"
+      },
+      {
+        "question": "Is there any additional info from the question and answer period"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Speech",
+  "type": "questions",
+  "xho": {
+    "title": "Intheta",
+    "questions": [
+      {
+        "question": "Ngowuphi owona mxholo ubalaseleyo kwisithethi?"
+      },
+      {
+        "question": "Ingaba unazo na ii-kopi zee ntetha kwakunye/okanye iimpepha zentsusaphi?"
+      },
+      {
+        "question": "Zithini iinkcukacha zonxibelelwano (ii-nombolo-mnxeba/amakhadi eshishini) zabo bathe benza intetha, mlawumbi kubekho amakhwiniba/okungaqondakaliyo?"
+      },
+      {
+        "question": "Ngubani igama nesikhundla sesithethi esiphambili?",
+        "description": "(Uqinisekise ukuba igama libhalwe kakuhle!)"
+      },
+      {
+        "question": "Ngeziphi iintetho-nqo onazo ongazisebenzisa ukuxhasa elona nqaku libalaseleyo?"
+      },
+      {
+        "question": "Ibiyintoni na injongo, ixesha kwakunye nendawo yentetha?"
+      },
+      {
+        "question": "Bangaphi abantu abathe bazimasa kwaye bathethe bathini ngoku?"
+      },
+      {
+        "question": "Ingaba isithethi songeze amanye amanqaku?"
+      },
+      {
+        "question": "Yintoni na intsusa yelona nqaku libalaseleyo alikhankanyileyo?"
+      },
+      {
+        "question": "Zeziphi izimvo ezenzwe sisithethi ngaphambi nangasemva kwe ntetha?"
+      },
+      {
+        "question": "Ingaba kukhona okongezelekileyo kwi sashoni yemibuzo neempendulo?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
