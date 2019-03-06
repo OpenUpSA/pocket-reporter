@@ -1,0 +1,582 @@
+{
+  "spa": {
+    "title": "Marcha de protesta",
+    "questions": [
+      {
+        "question": "Consejo: Asegúrese de tener una bufanda grande y una botella de vinagre (empapar la bufanda en vinagre si la policía usa gas lacrimógeno) en caso de que haya gas lacrimógeno?"
+      },
+      {
+        "question": "¿Hubo alguna protesta relacionada en el pasado (cuántos, cuándo y dónde) y se logró algo?"
+      },
+      {
+        "question": "¿Cómo respondieron las autoridades y la policía a la protesta?"
+      },
+      {
+        "question": "¿Utilizó la policía alguna fuerza no letal (gases lacrimógenos, balas de goma) o fuerza letal (munición real), o ambas cosas?"
+      },
+      {
+        "question": "¿Había alguien herido? ¿Quién, cuántos y qué tan mal?"
+      },
+      {
+        "question": "¿A qué hospitales / clínicas fueron llevados los lesionados para su tratamiento?"
+      },
+      {
+        "question": "Si hay informes de uso violento de la fuerza por parte de la policía, ¿tiene evidencia y usted tiene una respuesta de la policía sobre esto?"
+      },
+      {
+        "question": "¿Cuál es el estado actual de la protesta?"
+      },
+      {
+        "question": "¿Qué tipo de protesta es? ¿Una marcha, una huelga, una barricada?"
+      },
+      {
+        "question": "¿Quiénes son los principales organizadores de la protesta? ",
+        "description": "Obtenga su título oficial, organización y datos de contacto."
+      },
+      {
+        "question": "¿Fue una protesta planificada o espontánea?"
+      },
+      {
+        "question": "¿Cuál es la razón de la protesta?"
+      },
+      {
+        "question": "¿Hubo alguna ONG o partidos políticos involucrados o relacionados con la protesta?",
+        "description": "Obtenga sus nombres, organización, datos de contacto y razón para participar."
+      },
+      {
+        "question": "¿Cuál es el tamaño de la multitud:",
+        "description": "no adivine! Consulte con los organizadores y la policía."
+      },
+      {
+        "question": "Obtenga una cita (o declaración) de los organizadores sobre la protesta"
+      },
+      {
+        "question": "Entrevista a un mínimo de 10 manifestantes:",
+        "description": "obtener su nombre, edad, dónde viven, por qué están protestando, ¿qué quieren lograr?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Mogwanto wa Boipelaetso",
+    "questions": [
+      {
+        "question": "Tip: Ensure you have a large scarf and a bottle of vinegar (soak scarf in vinegar if police use teargas) in case there is teargas?"
+      },
+      {
+        "question": "Have there been any related protests in the past (how many, when and where) and was anything achieved?"
+      },
+      {
+        "question": "How did the authorities and police respond to the protest?"
+      },
+      {
+        "question": "Did police use any non-lethal force (teargas, rubber bullets) or lethal force (live ammunition), or both?"
+      },
+      {
+        "question": "Was anyone injured? ",
+        "description": "Who, how many and how badly?"
+      },
+      {
+        "question": "To which hospitals/clinics were the injured taken for treatment?"
+      },
+      {
+        "question": "If there are reports of violent force from police, do you have evidence and do you have a response from the police about this?"
+      },
+      {
+        "question": "What is the current status of the protest?"
+      },
+      {
+        "question": "What kind of protest is it?",
+        "description": "A march, a strike, a barricade?"
+      },
+      {
+        "question": "Who are the main organisers of the protest?",
+        "description": "Get their official title, organisation and contact details."
+      },
+      {
+        "question": "Was the protest planned or unplanned?"
+      },
+      {
+        "question": "What is the reason for the protest?"
+      },
+      {
+        "question": "Were any NGOs or political parties involved or related to the protest? Get their names, organisation, contact details and reason for involved."
+      },
+      {
+        "question": "What is the size of the crowd:",
+        "description": "don't guess! Check with organisers and police."
+      },
+      {
+        "question": "Get a quote from the organisers about the protest"
+      },
+      {
+        "question": "Interview a minimum of 10 protesters:",
+        "description": "get their name, age, where they live, why they are protesting, what do they want to achieve?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Protesoptog",
+    "questions": [
+      {
+        "question": "Wenk: Maak seker jy het 'n groot serp en 'n bottel asyn (week serp in asyn indien polisie gebruik maak van traangas)"
+      },
+      {
+        "question": "Was daar enige verwante protesoptredes in die verlede (hoeveel, wanneer en waar) en is enige iets bereik?"
+      },
+      {
+        "question": "Hoe het die owerhede en die polisie reageer op die protes?"
+      },
+      {
+        "question": "Het polisie enige nie-dodelike (traangas, rubber koeëls) of dodelike wapens (lewendige ammunisie) gebruik, of albei?"
+      },
+      {
+        "question": "Is enigiemand beseer? Wie, hoeveel en hoe erg?"
+      },
+      {
+        "question": "Na watter hospitale/ klinieke is die beseerdes geneem vir behandeling?"
+      },
+      {
+        "question": "Indien daar gerugte van polisiegeweld is, het jy bewyse en het jy 'n reaksie van die polisie hieroor?"
+      },
+      {
+        "question": "Wat is die huidige stand van die protes?"
+      },
+      {
+        "question": "Watter soort protes is dit?",
+        "description": "`n Optog, 'n staking, 'n versperring?"
+      },
+      {
+        "question": "Wie is die hooforganiseerders van die protes?",
+        "description": "Kry hul amptelike titel, organisasie en kontakbesonderhede."
+      },
+      {
+        "question": "Was die protesoptrede beplan of onbeplan?"
+      },
+      {
+        "question": "Wat is die oorsaak van die protes?"
+      },
+      {
+        "question": "Is nie-regeringsorganisasies of politieke partye betrokke by die protesoptrede?",
+        "description": "Kry hul name, organisasie, kontakbesonderhede en rede vir betrokkenheid."
+      },
+      {
+        "question": "Hoe groot is die skare:",
+        "description": "moenie raai nie! Bevestig met organiseerders en polisie."
+      },
+      {
+        "question": "Haal een van die organiseerders woordeliks aan oor die optrede"
+      },
+      {
+        "question": "Voer onderhoude met ten minste 10 betogers:",
+        "description": "kry hul naam, ouderdom, waar hulle woon, waarom hulle protesteer, wat hulle wil bereik?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Tip: Ensure you have a large scarf and a bottle of vinegar (soak scarf in vinegar if police use teargas) in case there is teargas?"
+    },
+    {
+      "question": "Have there been any related protests in the past (how many, when and where) and was anything achieved?"
+    },
+    {
+      "question": "How did the authorities and police respond to the protest?"
+    },
+    {
+      "question": "Did police use any non-lethal force (teargas, rubber bullets) or lethal force (live ammunition), or both?"
+    },
+    {
+      "question": "Was anyone injured? Who, how many and how badly?"
+    },
+    {
+      "question": "To which hospitals/clinics were the injured taken for treatment?"
+    },
+    {
+      "question": "If there are reports of violent force from police, do you have evidence and do you have a response from the police about this?"
+    },
+    {
+      "question": "What is the current status of the protest?"
+    },
+    {
+      "question": "What kind of protest is it? A march, a strike, a barricade?"
+    },
+    {
+      "question": "Who are the main organisers of the protest?",
+      "description": "Get their official title, organisation and contact details."
+    },
+    {
+      "question": "Was the protest planned or unplanned?"
+    },
+    {
+      "question": "What is the reason for the protest?"
+    },
+    {
+      "question": "Were any NGOs or political parties involved or related to the protest?",
+      "description": "Get their names, organisation, contact details and reason for involved."
+    },
+    {
+      "question": "What is the size of the crowd: ",
+      "description": "don't guess! Check with organisers and police."
+    },
+    {
+      "question": "Get a quote from the organisers about the protest"
+    },
+    {
+      "question": "Interview a minimum of 10 protesters:",
+      "description": "get their name, age, where they live, why they are protesting, what do they want to achieve?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Mogwanto",
+    "questions": [
+      {
+        "question": "Tip: Ensure you have a large scarf and a bottle of vinegar (soak scarf in vinegar if police use teargas) in case there is teargas?"
+      },
+      {
+        "question": "Have there been any related protests in the past (how many, when and where) and was anything achieved?"
+      },
+      {
+        "question": "How did the authorities and police respond to the protest?"
+      },
+      {
+        "question": "Did police use any non-lethal force (teargas, rubber bullets) or lethal force (live ammunition), or both?"
+      },
+      {
+        "question": "Was anyone injured?",
+        "description": "Who, how many and how badly?"
+      },
+      {
+        "question": "To which hospitals/clinics were the injured taken for treatment?"
+      },
+      {
+        "question": "If there are reports of violent force from police, do you have evidence and do you have a response from the police about this?"
+      },
+      {
+        "question": "What is the current status of the protest?"
+      },
+      {
+        "question": "What kind of protest is it?",
+        "description": "A march, a strike, a barricade?"
+      },
+      {
+        "question": "Who are the main organisers of the protest?",
+        "description": "Get their official title, organisation and contact details."
+      },
+      {
+        "question": "Was the protest planned or unplanned?",
+        "description": ""
+      },
+      {
+        "question": "What is the reason for the protest?"
+      },
+      {
+        "question": "Were any NGOs or political parties involved or related to the protest?",
+        "description": "Get their names, organisation, contact details and reason for involved."
+      },
+      {
+        "question": "What is the size of the crowd:",
+        "description": "don't guess! Check with organisers and police."
+      },
+      {
+        "question": "Get a quote from the organisers about the protest",
+        "description": ""
+      },
+      {
+        "question": "Interview a minimum of 10 protesters:",
+        "description": "get their name, age, where they live, why they are protesting, what do they want to achieve?"
+      },
+      {
+        "question": "Additional info/notes",
+        "description": ""
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Imashi yombhikisho",
+    "questions": [
+      {
+        "question": "Icebo: Qinisekisa ukuthi unesikhafu esikhulu kanye nebhodlela likaviniga( cwilisa isikhafu kuviniga uma amaphoyisa esebenzisa isisi)"
+      },
+      {
+        "question": "Ingabe sekuke kwabakhona eminye imibhikisho ngaphambili, ( Ingabe yenzeka kuphini nini) ingabe kukhona okwazuzwa?"
+      },
+      {
+        "question": "Ingabe iziphathimandla namaphoyisa enzenjani mayelana nalombhikisho?"
+      },
+      {
+        "question": "Ingabe amaphoyisa asebenzisa ukuxazulula ngendluzula ( isisi, izinhlamvu zenjoloba) (badutshulwa ngezinhlamvu) noma kokubili?"
+      },
+      {
+        "question": "Ingabe kukhona owalimala?",
+        "description": "Ingabe bangakhi nokuthi ingabe balimele kangakanani?"
+      },
+      {
+        "question": "Ingabe abalimele batuthelwe kusiphi isibhedlela noma umtholampilo?"
+      },
+      {
+        "question": "Uma ngabe kunemibiko yodlame olwenziwe amaphoyisa, ingabe unabo ubufakazi nokuthi ingabe athini amaphoyisa ngalokhu?"
+      },
+      {
+        "question": "Ingabe sinjani isimo salombhikisho oqhubeka manje?"
+      },
+      {
+        "question": "Ingabe hlobo luni lombhikisho lolu?",
+        "description": "imashi, isteleka, noma isivimbelo?"
+      },
+      {
+        "question": "Ingabe obani abagqugquzeli balombhikisho?",
+        "description": "Thola imininingwane yabo okungaba amagama abo, izinhlangano abavela kuzo izinombolo zabo zocingo kanye nezikhundla zabo."
+      },
+      {
+        "question": "Ingabe umbhikisho ohleliwe noma ungahleliwe ?"
+      },
+      {
+        "question": "Yini imbangela yombhikisho?"
+      },
+      {
+        "question": "Ingabe bezikhona izinhlangano ezingenzinzuzo noma izinhlangano zepolitiki kulombhikisho?",
+        "description": "Thola amagama abo, izinhlangano zabo kanye nezinombolo zabo kanye nesizathu sokuzibandakanya kwabo."
+      },
+      {
+        "question": "Ingabe bebengakanani abantu abebebhikisha ngokwesibalo! Buza kubagqugquzeli kanye nasemaphoyiseni."
+      },
+      {
+        "question": "Thola okushiwo abagqugquzeli mayelana nalombhikisho."
+      },
+      {
+        "question": "Xoxisana nababhikishi ababalelwa kwabangu-10:",
+        "description": "thola ukuthi bahlala kuphi, amagama abo, iminyaka yabo, imbangela yokuzibandakanya, nokuthi yini abaqonde ukukuzuza ngalombhikisho?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Protesto",
+    "questions": [
+      {
+        "question": "Dica: Certifique-se que você tem um cachecol e uma garrafa de vinagre (molhe o lenço no vinagre se a polícia usa gas lacrimogêneo) em caso de gâs lacrimogêneo"
+      },
+      {
+        "question": "Têm havido quaisquer protestos similares no passado (quantos, quando e aonde) e nada foi alcançado?"
+      },
+      {
+        "question": "Como reagiram as autoridades e a polícia perante a manifestação ou protesto?"
+      },
+      {
+        "question": "A polícia usou alguma força não letal (gâs lacrimogêneo, balas de borracha) ou força letal (munição) ou ambas?"
+      },
+      {
+        "question": "Alguem ficou ferido?",
+        "description": "Quem, quantos e qual foi a gravidade?"
+      },
+      {
+        "question": "A quais hospitais/clínicas foram levados os feridos para serem tratados?"
+      },
+      {
+        "question": "Se há relatos de força violenta por parte da polícia, você tem alguma prova disso e qual foi a resposta da polícia perante isso?"
+      },
+      {
+        "question": "Qual é o actual estado do protesto?"
+      },
+      {
+        "question": "Que tipo de protesto é este?",
+        "description": "Uma marcha, uma greve, uma barricada?"
+      },
+      {
+        "question": "Quem são os principais organizadores do protesto?",
+        "description": "Obtenha o lema oficial, organização e contactos."
+      },
+      {
+        "question": "O protesto foi planeado ou não?"
+      },
+      {
+        "question": "Qual é o motivo do protesto?"
+      },
+      {
+        "question": "Há alguma ONG ou partido político envolvido ou relacionado com o protesto?",
+        "description": "Obtenha nomes, organização, contactos e motivo do seu envolvimento."
+      },
+      {
+        "question": "Qual é o número de participantes no protesto:",
+        "description": "não adivinhes! Confirme com os organizadores e a polícia."
+      },
+      {
+        "question": "Consiga uma declaração dos organizadores sobre o protesto"
+      },
+      {
+        "question": "Entreviste a um mínimo de 10 participantes:",
+        "description": "aliste o nome, idade, onde vivem, porqué estão a protestar, o quê eles pretendem conseguir?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Mogwanto",
+    "questions": [
+      {
+        "question": "Tip: Ensure you have a large scarf and a bottle of vinegar (soak scarf in vinegar if police use teargas) in case there is teargas?"
+      },
+      {
+        "question": "Have there been any related protests in the past (how many, when and where) and was anything achieved?"
+      },
+      {
+        "question": "How did the authorities and police respond to the protest?"
+      },
+      {
+        "question": "Did police use any non-lethal force (teargas, rubber bullets) or lethal force (live ammunition), or both?"
+      },
+      {
+        "question": "Was anyone injured?",
+        "description": "Who, how many and how badly?"
+      },
+      {
+        "question": "To which hospitals/clinics were the injured taken for treatment?"
+      },
+      {
+        "question": "If there are reports of violent force from police, do you have evidence and do you have a response from the police about this?"
+      },
+      {
+        "question": "What is the current status of the protest?"
+      },
+      {
+        "question": "What kind of protest is it?",
+        "description": "A march, a strike, a barricade?"
+      },
+      {
+        "question": "Who are the main organisers of the protest?",
+        "description": "Get their official title, organisation and contact details."
+      },
+      {
+        "question": "Was the protest planned or unplanned?"
+      },
+      {
+        "question": "What is the reason for the protest?"
+      },
+      {
+        "question": "Were any NGOs or political parties involved or related to the protest?",
+        "description": "Get their names, organisation, contact details and reason for involved."
+      },
+      {
+        "question": "What is the size of the crowd:",
+        "description": "don't guess! Check with organisers and police."
+      },
+      {
+        "question": "Get a quote from the organisers about the protest"
+      },
+      {
+        "question": "Interview a minimum of 10 protesters:",
+        "description": "get their name, age, where they live, why they are protesting, what do they want to achieve?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Protest March",
+  "type": "questions",
+  "xho": {
+    "title": "Umngcelele woqhankqalazo",
+    "questions": [
+      {
+        "question": "Icebo: Qinisekisa ukuba une sikhafu eside kwakunye ne bhotile ye vinika (ncinda isikhafu kwi vinika leyo xa amapolisa esebenzisa i-teargas)."
+      },
+      {
+        "question": "Kwakukhe kwabakho iintshukumo zoqhankqalazo eziyelelene nezi kumaxesha adlulileyo (Zazi ngaphi, nini, phi) kwaye ingaba ikhona na into eyaba yimpumelelo?"
+      },
+      {
+        "question": "Iziphatha-mandla kwakunye namapolisa bahlangabezene njani nolu qhankqalazo?"
+      },
+      {
+        "question": "Ingaba amapolisa asebenzisa iintshukumo ezingena bungozi kakhulu (i-teargas, i-rubber bullets) okanye ezinobungozi (imipu) okanye zombini?"
+      },
+      {
+        "question": "Ingaba bakhona abantu abonzakalayo?",
+        "description": "Ngobani, babe bangaphi kwaye bonzakala kangakanani na?"
+      },
+      {
+        "question": "Abo bathi bonzakala babhekiswa kweziphi na izibhedlele okanye iikliniki ukuze bafumane unyango?"
+      },
+      {
+        "question": "Ukuba kukho iingxelo zoku sebenziswa kodlame ngama polisa ingaba unabo na ubungqina kwakunye nempendulo yamapolisa ngesi sehlo?"
+      },
+      {
+        "question": "Ithini imeko yolu qhankqalazo sithetha nje?"
+      },
+      {
+        "question": "Ingaba luqhankqalazo olunjani na olu?",
+        "description": "Ingaba ngumngcelele, ugwayimbo, uvalo-zitalato?"
+      },
+      {
+        "question": "Ngoobani abona baququzeli baphambili kolu qhankqalazo?",
+        "description": "Fumana izikhundla zabo ezisemthethweni, amaqela abo kwakunye nee nkcukhacha zabo zonxibelelwano."
+      },
+      {
+        "question": "Ingaba oluqhankqalazo belucetyiwe okanye belunga cetywanga?"
+      },
+      {
+        "question": "Yintoni isizathu soluqhankqalazo?"
+      },
+      {
+        "question": "Ingaba ii-NGO okanye amaqela ezo politiko ziyabandakanyeka okanye ziyachaphazeleka kolu qhankqalazo?",
+        "description": "Fumana amagama abantu, amaqela, iinkcukhacha nezizathu zobandakanyo lwabo."
+      },
+      {
+        "question": "Bungakanani ubukhulu benginginya:",
+        "description": "ungaziqambeli ngokwakho! Dlana indlebe nabaququzeli kwakunye namapolisa."
+      },
+      {
+        "question": "Fumana intetho nqo yaba ququzeleli malunga noqhankqalazo"
+      },
+      {
+        "question": "Dlana indlebe nabaqhankqalazi abali-10 ubuncinane:",
+        "description": "fumana amagama abo, iindawo abahlala kuzo, izizathu zabo zokuqhankqalaza, yintoni abafuna ukuyi feza?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
