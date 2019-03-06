@@ -175,8 +175,45 @@
     ]
   },
   "por": {
+    "title": "Crime",
     "questions": [
-      {}
+      {
+        "question": "Qual é o nome e identidade das vítimas?",
+        "description": "Nomes, idades, endereços, outra informação pessoal."
+      },
+      {
+        "question": "Qual foi o crime e como foi cometido?"
+      },
+      {
+        "question": "Qual é a data, hora e local do crime?",
+        "description": "Confirme com as fontes oficiais."
+      },
+      {
+        "question": "Em caso de morte, qual foi a causa oficial?",
+        "description": "(De acordo com o pessoal da saúde, polícia, outras fontes oficiais.)"
+      },
+      {
+        "question": "Que danos foram causados às vítimas e que arma foi usada?"
+      },
+      {
+        "question": "Qual foi o motivo do crime e qual é o historial da vítima?",
+        "description": "(se for relevante.)"
+      },
+      {
+        "question": "Tem havido alguma detenção e há alguns suspeitos ou pistas?"
+      },
+      {
+        "question": "Existem algumas circunstâncias estranhas em volta do crime?"
+      },
+      {
+        "question": "Obtenha declarações das vítimas, testemunhas, polícia e outras fontes oficiais."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "sot": {
