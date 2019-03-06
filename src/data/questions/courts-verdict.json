@@ -1,7 +1,36 @@
 {
   "spa": {
+    "title": "Tribunales - Veredicto",
     "questions": [
-      {}
+      {
+        "question": "¿Cuál es el veredicto y la sentencia, si se otorga?",
+        "description": "(Igual, menor, mayor que los daños buscados?)"
+      },
+      {
+        "question": "¿Quiénes son las partes involucradas?"
+      },
+      {
+        "question": "¿El juez hizo una declaración?",
+        "description": "¿Se desvió de las conclusiones del experto?"
+      },
+      {
+        "question": "¿Un resumen de los hechos alegados por el demandante?"
+      },
+      {
+        "question": "¿Cuál fue el principal testimonio y los principales puntos del abogado / abogado?"
+      },
+      {
+        "question": "¿Por cuánto tiempo deliberó el tribunal antes de la sentencia?"
+      },
+      {
+        "question": "¿Hay alguna apelación o moción?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "nso": {
