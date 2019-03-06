@@ -1,0 +1,480 @@
+{
+  "spa": {
+    "title": "Incident at Public Health Facility",
+    "questions": [
+      {
+        "question": "Patient’s name and age?"
+      },
+      {
+        "question": "Does patient/family believe they have adequate access to the health care services they need?"
+      },
+      {
+        "question": "How far did they have to travel to get treated?"
+      },
+      {
+        "question": "Any additional comments?",
+        "description": "NB: If a healthcare worker is named, they must be given the right to respond to allegations against them. This is usually done through the Department of Health. Even if no health official is named, you still need to get Department of Health comment"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story"
+      },
+      {
+        "question": "Why did they seek help (what was wrong with them)?"
+      },
+      {
+        "question": "Name of public health institution that the patient visited?"
+      },
+      {
+        "question": "How long did they wait before being attended to?"
+      },
+      {
+        "question": "Were they satisfied with the level of care they received?",
+        "description": "(treatment, medication)"
+      },
+      {
+        "question": "If they were unhappy, why?"
+      },
+      {
+        "question": "Names of the health officials they say did not treat them well?"
+      },
+      {
+        "question": "Were they referred to any other health institution for help?"
+      },
+      {
+        "question": "If yes, where and what treatement did they get?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Incident at Public Health Facility",
+    "questions": [
+      {
+        "question": "Patient’s name and age?"
+      },
+      {
+        "question": "Does patient/family believe they have adequate access to the health care services they need?"
+      },
+      {
+        "question": "How far did they have to travel to get treated?"
+      },
+      {
+        "question": "Any additional comments?",
+        "description": "NB: If a healthcare worker is named, they must be given the right to respond to allegations against them. This is usually done through the Department of Health. Even if no health official is named, you still need to get Department of Health comment_"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story"
+      },
+      {
+        "question": "Why did they seek help (what was wrong with them)?"
+      },
+      {
+        "question": "Name of public health institution that the patient visited?"
+      },
+      {
+        "question": "How long did they wait before being attended to?"
+      },
+      {
+        "question": "Were they satisfied with the level of care they received?",
+        "description": "(treatment, medication)"
+      },
+      {
+        "question": "If they were unhappy, why?"
+      },
+      {
+        "question": "Names of the health officials they say did not treat them well?"
+      },
+      {
+        "question": "Were they referred to any other health institution for help?"
+      },
+      {
+        "question": "If yes, where and what treatement did they get?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Incident at Public Health Facility",
+    "questions": [
+      {
+        "question": "Patient’s name and age?"
+      },
+      {
+        "question": "Does patient/family believe they have adequate access to the health care services they need?"
+      },
+      {
+        "question": "How far did they have to travel to get treated?"
+      },
+      {
+        "question": "Any additional comments?",
+        "description": "NB: If a healthcare worker is named, they must be given the right to respond to allegations against them. This is usually done through the Department of Health. Even if no health official is named, you still need to get Department of Health comment"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story"
+      },
+      {
+        "question": "Why did they seek help (what was wrong with them)?"
+      },
+      {
+        "question": "Name of public health institution that the patient visited?"
+      },
+      {
+        "question": "How long did they wait before being attended to?"
+      },
+      {
+        "question": "Were they satisfied with the level of care they received?",
+        "description": "(treatment, medication)"
+      },
+      {
+        "question": "If they were unhappy, why?"
+      },
+      {
+        "question": "Names of the health officials they say did not treat them well?"
+      },
+      {
+        "question": "Were they referred to any other health institution for help?"
+      },
+      {
+        "question": "If yes, where and what treatement did they get?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Patient’s name and age?"
+    },
+    {
+      "question": "Does patient/family believe they have adequate access to the health care services they need?"
+    },
+    {
+      "question": "How far did they have to travel to get treated?"
+    },
+    {
+      "question": "Any additional comments?",
+      "description": "NB: If a healthcare worker is named, they must be given the right to respond to allegations against them. This is usually done through the Department of Health. Even if no health official is named, you still need to get Department of Health comment"
+    },
+    {
+      "question": "Contact details: phone number/email for your source/other useful contacts for your story"
+    },
+    {
+      "question": "Why did they seek help (what was wrong with them)?"
+    },
+    {
+      "question": "Name of public health institution that the patient visited?"
+    },
+    {
+      "question": "How long did they wait before being attended to?"
+    },
+    {
+      "question": "Were they satisfied with the level of care they received?",
+      "description": "(treatment, medication)"
+    },
+    {
+      "question": "If they were unhappy, why?"
+    },
+    {
+      "question": "Names of the health officials they say did not treat them well?"
+    },
+    {
+      "question": "Were they referred to any other health institution for help?"
+    },
+    {
+      "question": "If yes, where and what treatement did they get?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Incident at Public Health Facility",
+    "questions": [
+      {
+        "question": "Patient’s name and age?"
+      },
+      {
+        "question": "Does patient/family believe they have adequate access to the health care services they need?"
+      },
+      {
+        "question": "How far did they have to travel to get treated?"
+      },
+      {
+        "question": "Any additional comments?",
+        "description": "NB: If a healthcare worker is named, they must be given the right to respond to allegations against them. This is usually done through the Department of Health. Even if no health official is named, you still need to get Department of Health comment"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story"
+      },
+      {
+        "question": "Why did they seek help (what was wrong with them)?"
+      },
+      {
+        "question": "Name of public health institution that the patient visited?"
+      },
+      {
+        "question": "How long did they wait before being attended to?"
+      },
+      {
+        "question": "Were they satisfied with the level of care they received?",
+        "description": "(treatment, medication)"
+      },
+      {
+        "question": "If they were unhappy, why?"
+      },
+      {
+        "question": "Names of the health officials they say did not treat them well?"
+      },
+      {
+        "question": "Were they referred to any other health institution for help?"
+      },
+      {
+        "question": "If yes, where and what treatement did they get?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Incident at Public Health Facility",
+    "questions": [
+      {
+        "question": "Patient’s name and age?"
+      },
+      {
+        "question": "Does patient/family believe they have adequate access to the health care services they need?"
+      },
+      {
+        "question": "How far did they have to travel to get treated?"
+      },
+      {
+        "question": "Any additional comments?",
+        "description": "NB: If a healthcare worker is named, they must be given the right to respond to allegations against them. This is usually done through the Department of Health. Even if no health official is named, you still need to get Department of Health comment"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story"
+      },
+      {
+        "question": "Why did they seek help (what was wrong with them)?"
+      },
+      {
+        "question": "Name of public health institution that the patient visited?"
+      },
+      {
+        "question": "How long did they wait before being attended to?"
+      },
+      {
+        "question": "Were they satisfied with the level of care they received?",
+        "description": "(treatment, medication)"
+      },
+      {
+        "question": "If they were unhappy, why?"
+      },
+      {
+        "question": "Names of the health officials they say did not treat them well?"
+      },
+      {
+        "question": "Were they referred to any other health institution for help?"
+      },
+      {
+        "question": "If yes, where and what treatement did they get?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Incident at Public Health Facility",
+    "questions": [
+      {
+        "question": "Patient’s name and age?"
+      },
+      {
+        "question": "Does patient/family believe they have adequate access to the health care services they need?"
+      },
+      {
+        "question": "How far did they have to travel to get treated?"
+      },
+      {
+        "question": "Any additional comments?",
+        "description": "NB: If a healthcare worker is named, they must be given the right to respond to allegations against them. This is usually done through the Department of Health. Even if no health official is named, you still need to get Department of Health comment"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story"
+      },
+      {
+        "question": "Why did they seek help (what was wrong with them)?"
+      },
+      {
+        "question": "Name of public health institution that the patient visited?"
+      },
+      {
+        "question": "How long did they wait before being attended to?"
+      },
+      {
+        "question": "Were they satisfied with the level of care they received?",
+        "description": "(treatment, medication)"
+      },
+      {
+        "question": "If they were unhappy, why?"
+      },
+      {
+        "question": "Names of the health officials they say did not treat them well?"
+      },
+      {
+        "question": "Were they referred to any other health institution for help?"
+      },
+      {
+        "question": "If yes, where and what treatement did they get?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Incident at Public Health Facility",
+    "questions": [
+      {
+        "question": "Patient’s name and age?"
+      },
+      {
+        "question": "Does patient/family believe they have adequate access to the health care services they need?"
+      },
+      {
+        "question": "How far did they have to travel to get treated?"
+      },
+      {
+        "question": "Any additional comments?",
+        "description": "NB: If a healthcare worker is named, they must be given the right to respond to allegations against them. This is usually done through the Department of Health. Even if no health official is named, you still need to get Department of Health comment"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story"
+      },
+      {
+        "question": "Why did they seek help (what was wrong with them)?",
+        "description": ""
+      },
+      {
+        "question": "Name of public health institution that the patient visited?"
+      },
+      {
+        "question": "How long did they wait before being attended to?"
+      },
+      {
+        "question": "Were they satisfied with the level of care they received?",
+        "description": "(treatment, medication)"
+      },
+      {
+        "question": "If they were unhappy, why?"
+      },
+      {
+        "question": "Names of the health officials they say did not treat them well?"
+      },
+      {
+        "question": "Were they referred to any other health institution for help?"
+      },
+      {
+        "question": "If yes, where and what treatement did they get?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Incident at Public Health Facility",
+  "type": "questions",
+  "xho": {
+    "title": "Incident at Public Health Facility",
+    "questions": [
+      {
+        "question": "Patient’s name and age?"
+      },
+      {
+        "question": "Does patient/family believe they have adequate access to the health care services they need?"
+      },
+      {
+        "question": "How far did they have to travel to get treated?"
+      },
+      {
+        "question": "Any additional comments?",
+        "description": "NB: If a healthcare worker is named, they must be given the right to respond to allegations against them. This is usually done through the Department of Health. Even if no health official is named, you still need to get Department of Health comment"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story"
+      },
+      {
+        "question": "Why did they seek help (what was wrong with them)?",
+        "description": ""
+      },
+      {
+        "question": "Name of public health institution that the patient visited?"
+      },
+      {
+        "question": "How long did they wait before being attended to?"
+      },
+      {
+        "question": "Were they satisfied with the level of care they received?",
+        "description": "(treatment, medication)"
+      },
+      {
+        "question": "If they were unhappy, why?",
+        "description": ""
+      },
+      {
+        "question": "Names of the health officials they say did not treat them well?"
+      },
+      {
+        "question": "Were they referred to any other health institution for help?"
+      },
+      {
+        "question": "If yes, where and what treatement did they get?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
