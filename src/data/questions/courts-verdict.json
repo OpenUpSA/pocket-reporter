@@ -1,0 +1,304 @@
+{
+  "spa": {
+    "title": "Tribunales - Veredicto",
+    "questions": [
+      {
+        "question": "¿Cuál es el veredicto y la sentencia, si se otorga?",
+        "description": "(Igual, menor, mayor que los daños buscados?)"
+      },
+      {
+        "question": "¿Quiénes son las partes involucradas?"
+      },
+      {
+        "question": "¿El juez hizo una declaración?",
+        "description": "¿Se desvió de las conclusiones del experto?"
+      },
+      {
+        "question": "¿Un resumen de los hechos alegados por el demandante?"
+      },
+      {
+        "question": "¿Cuál fue el principal testimonio y los principales puntos del abogado / abogado?"
+      },
+      {
+        "question": "¿Por cuánto tiempo deliberó el tribunal antes de la sentencia?"
+      },
+      {
+        "question": "¿Hay alguna apelación o moción?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Kahlolo ya Dikgorotsheko",
+    "questions": [
+      {
+        "question": "What is the verdict and damages, if awarded?",
+        "description": "(Same, less, greater than the damages sought?)"
+      },
+      {
+        "question": "Who are the parties involved?"
+      },
+      {
+        "question": "Did the judge make a statement?",
+        "description": "Did it deviate from assessor's findings?"
+      },
+      {
+        "question": "Give a summary of the allegations by plaintiff?"
+      },
+      {
+        "question": "What was the key testimony and attorney/advocate's main points?"
+      },
+      {
+        "question": "For how long did the court deliberate before judgement?"
+      },
+      {
+        "question": "Are there any appeals or motions?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Howe - Uitspraak",
+    "questions": [
+      {
+        "question": "Wat is die uitspraak en skadevergoeding, indien enige?",
+        "description": "(Dieselfde, minder, of meer as die skadevergoeding waarom aansoek gedoen is?)"
+      },
+      {
+        "question": "Wie is die betrokke partye?"
+      },
+      {
+        "question": "Het die regter 'n verklaring gemaak? Het dit afgewyk van die assessor se bevindinge?"
+      },
+      {
+        "question": "Som die bewerings van die eisers op"
+      },
+      {
+        "question": "Wat was die belangrikste getuienis en die prokureur/advokaat se hoofpunte?"
+      },
+      {
+        "question": "Hoe lank het die hof beraadslaag voor uitspraak gelewer is?"
+      },
+      {
+        "question": "Gaan appèl aangeteken of mosies ingedien word?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is the verdict and damages, if awarded?",
+      "description": "(Same, less, greater than the damages sought?)"
+    },
+    {
+      "question": "Who are the parties involved?"
+    },
+    {
+      "question": "Did the judge make a statement?",
+      "description": "Did it deviate from assessor's findings?"
+    },
+    {
+      "question": "Give a summary of the allegations by plaintiff?"
+    },
+    {
+      "question": "What was the key testimony and attorney/advocate's main points?"
+    },
+    {
+      "question": "For how long did the court deliberate before judgement?"
+    },
+    {
+      "question": "Are there any appeals or motions?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Katlholo ya kgotlatshekelo",
+    "questions": [
+      {
+        "question": "What is the verdict and damages, if awarded?",
+        "description": "(Same, less, greater than the damages sought?)"
+      },
+      {
+        "question": "Who are the parties involved?"
+      },
+      {
+        "question": "Did the judge make a statement? Did it deviate from assessor's findings?"
+      },
+      {
+        "question": "Give a summary of the allegations by plaintiff?"
+      },
+      {
+        "question": "What was the key testimony and attorney/advocate's main points?"
+      },
+      {
+        "question": "For how long did the court deliberate before judgement?"
+      },
+      {
+        "question": "Are there any appeals or motions?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Inkantolo - Isinqumo",
+    "questions": [
+      {
+        "question": "Sithini isinqumo ngomonakalo, uma siphumile?",
+        "description": "(Siyafana, sincane, sikhulu kakhulu kunomonakalo odalekile? )"
+      },
+      {
+        "question": "ingabe iziphi izinhlaka ezithintekayo?"
+      },
+      {
+        "question": "kungabe ijaji lisenzile isitatimende?",
+        "description": "ingabe sehlukile kunokutholwe abacwaningi?"
+      },
+      {
+        "question": "nikeza imininingwane kafishane mayelana nezinsolo ezenziwe ummangali"
+      },
+      {
+        "question": "Ingabe ibuphi ubufakazi obuqanda ikhanda kanye namaphuzu amqoka kammeli noma umshushisi?"
+      },
+      {
+        "question": "ingabe inkantolo ithathe isikhathi esingakanani ngaphambi kokuthi kuphume isinqumo?"
+      },
+      {
+        "question": "ingabe zikhona izicelo zokubuyekezwa kwesinqumo noma iziphakamiso"
+      },
+      {
+        "question": " Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Tribunais - Sentencas",
+    "questions": [
+      {
+        "question": "Qual é a sentença e os prejuíços, se é que foram considerados?",
+        "description": "(De igual, menor ou maior dimensão em relação aos danos estimados)"
+      },
+      {
+        "question": "Quem são as partes envolvidas?"
+      },
+      {
+        "question": "O juiz anunciou a sentença?",
+        "description": "Houve alguma alteração com o apresentado pelo assessor?"
+      },
+      {
+        "question": "Faça um resumo das alegações do Procurador/demandante?"
+      },
+      {
+        "question": "Qual foi o testemunho chave e quais os principais argumentos do advogado da defessa?"
+      },
+      {
+        "question": "Durante quanto tempo deliverou o tribunal antes da sentença?"
+      },
+      {
+        "question": "Há alguma apelação ou moção?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Kahlolo ya Dikgorotsheko",
+    "questions": [
+      {
+        "question": "What is the verdict and damages, if awarded?",
+        "description": "(Same, less, greater than the damages sought?)"
+      },
+      {
+        "question": "Who are the parties involved?"
+      },
+      {
+        "question": "Did the judge make a statement? Did it deviate from assessor's findings?"
+      },
+      {
+        "question": "Give a summary of the allegations by plaintiff?"
+      },
+      {
+        "question": "What was the key testimony and attorney/advocate's main points?"
+      },
+      {
+        "question": "For how long did the court deliberate before judgement?"
+      },
+      {
+        "question": "Are there any appeals or motions?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Courts - Verdict",
+  "type": "questions",
+  "xho": {
+    "title": "Iinkundla zamatyala - Isigqibo",
+    "questions": [
+      {
+        "question": "Sithini isigqibo no monakalo, ukuba ikhona imbuyekezo?",
+        "description": "(Kuyafana, kungaphantsi, kungaphezulu kuno monakalo?)"
+      },
+      {
+        "question": "Ngobani aba chaphazelekayo?"
+      },
+      {
+        "question": "Ingaba umgwebi uyenzile ingxelo kusini na?",
+        "description": "Ingaba yohlukile na kuphando lomvavanyi?"
+      },
+      {
+        "question": "Chaza ngokufutshane izithyolo zalowo ufake ityala?"
+      },
+      {
+        "question": "Ibiyintoni na ubungqina kwakunye namanqaku abalaseleyo amagqwetha?"
+      },
+      {
+        "question": "Ithathe ithuba elingakanani na inkundla yamatyala phambi kokuba ithathe isigqibo?"
+      },
+      {
+        "question": "Ingaba zikhona na izibheno?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
