@@ -1,0 +1,387 @@
+{
+  "spa": {
+    "title": "Obituarios",
+    "questions": [
+      {
+        "question": "Cuál es el nombre, edad, dirección, ocupación del difunto?"
+      },
+      {
+        "question": "Anecdotas, recuerdos de amigos y familiares?"
+      },
+      {
+        "question": "¿Cuál fue el momento, el lugar y la causa de la muerte?"
+      },
+      {
+        "question": "Fecha y lugar de nacimiento de la persona"
+      },
+      {
+        "question": "¿Quiénes son los sobreviventes? (familia directa)"
+      },
+      {
+        "question": "¿Cuáles son los detalles sobre el funeral y el entierro?"
+      },
+      {
+        "question": "¿Cuáles son los logos del fallecido?"
+      },
+      {
+        "question": "¿Cuáles son los detalles de su educación?"
+      },
+      {
+        "question": "¿Eran miembros de clubes o sociedades, como un stokvel, Rotary o Lions?"
+      },
+      {
+        "question": "¿Hicieron servicio militar?",
+        "description": "(formal o no)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Dipoloko",
+    "questions": [
+      {
+        "question": "Naa leina ka botlalo la motho yo o ngwalago ka yena ke mang?"
+      },
+      {
+        "question": "Anecdotes, recollections of friends, relatives?"
+      },
+      {
+        "question": "What was the time, place and cause of death?"
+      },
+      {
+        "question": "Naa o belegetšwe kae le gona o be a dula kae?",
+        "description": "Naa o na le mengwaga e mekae le gona o belegwe neng?"
+      },
+      {
+        "question": "Who are they survived by?",
+        "description": "(immediate family)"
+      },
+      {
+        "question": "What are the funeral and burial arrangements?"
+      },
+      {
+        "question": "What are the deceased's accomplishments?"
+      },
+      {
+        "question": "What are the details of their education?"
+      },
+      {
+        "question": "Were they members of any clubs or societies, such as a stokvel, Rotary or Lions?"
+      },
+      {
+        "question": "Did they do military service?",
+        "description": "(formal or otherwise)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Obituaries",
+    "questions": [
+      {
+        "question": "What is the name, age, address, occupation of the deceased?"
+      },
+      {
+        "question": "Anecdotes, recollections of friends, relatives?"
+      },
+      {
+        "question": "What was the time, place and cause of death?"
+      },
+      {
+        "question": "What is the person's birthdate, birthplace?"
+      },
+      {
+        "question": "Who are they survived by?",
+        "description": "(immediate family)"
+      },
+      {
+        "question": "What are the funeral and burial arrangements?"
+      },
+      {
+        "question": "What are the deceased's accomplishments?"
+      },
+      {
+        "question": "What are the details of their education?"
+      },
+      {
+        "question": "Were they members of any clubs or societies, such as a stokvel, Rotary or Lions?"
+      },
+      {
+        "question": "Did they do military service?",
+        "description": "(formal or otherwise)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is the name, age, address, occupation of the deceased?"
+    },
+    {
+      "question": "Anecdotes, recollections of friends, relatives?"
+    },
+    {
+      "question": "What was the time, place and cause of death?"
+    },
+    {
+      "question": "What is the person's birthdate, birthplace?"
+    },
+    {
+      "question": "Who are they survived by?",
+      "description": "(immediate family)"
+    },
+    {
+      "question": "What are the funeral and burial arrangements?"
+    },
+    {
+      "question": "What are the deceased's accomplishments?"
+    },
+    {
+      "question": "What are the details of their education?"
+    },
+    {
+      "question": "Were they members of any clubs or societies, such as a stokvel, Rotary or Lions?"
+    },
+    {
+      "question": "Did they do military service?",
+      "description": "(formal or otherwise)"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Ditatodi",
+    "questions": [
+      {
+        "question": "What is the name, age, address, occupation of the deceased?"
+      },
+      {
+        "question": "Anecdotes, recollections of friends, relatives?"
+      },
+      {
+        "question": "What was the time, place and cause of death?"
+      },
+      {
+        "question": "What is the person's birthdate, birthplace?"
+      },
+      {
+        "question": "Who are they survived by?",
+        "description": "(immediate family)"
+      },
+      {
+        "question": "What are the funeral and burial arrangements?"
+      },
+      {
+        "question": "What are the deceased's accomplishments?"
+      },
+      {
+        "question": "What are the details of their education?"
+      },
+      {
+        "question": "Were they members of any clubs or societies, such as a stokvel, Rotary or Lions?"
+      },
+      {
+        "question": "Did they do military service?",
+        "description": "(formal or otherwise)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": " Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Imilando",
+    "questions": [
+      {
+        "question": "Ubani igama loshonileyo, ubenza hlobo luni lomsebenzi, kanye neminyaka yakhe nokuthi ubehlala kuphi ?"
+      },
+      {
+        "question": "Izigameko ezingomlando wezindaba ezimayelana nabangani kanye nezihlobo?"
+      },
+      {
+        "question": "Ushonele kuphi, nini ngasikhathi sini?"
+      },
+      {
+        "question": "Wazalwa nini lomuntu, ezalelwa kuphi?"
+      },
+      {
+        "question": "Ushiye bani emhlabeni?",
+        "description": "( umndeni wakhe)"
+      },
+      {
+        "question": "Athini amalungiselelo omgcwabo wakhe?"
+      },
+      {
+        "question": "Ingabe yini okuzuzwe umufi esaphila?"
+      },
+      {
+        "question": "Ithini imininingwane yemfundo yabo?"
+      },
+      {
+        "question": "Ingabe bebengamalunga lenhlangano thizeni emphakathini abebehlala kuwo?",
+        "description": "Okungaba istofela, nomasingcwabisane."
+      },
+      {
+        "question": "Ingabe bebenza umsebenzi wezokuvikela?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Obituarios",
+    "questions": [
+      {
+        "question": "Qual é o nome, idade, endereço, ocupação do falecido?"
+      },
+      {
+        "question": "Anedotas, lembranças de amigos, familiares?"
+      },
+      {
+        "question": "Qual foi a hora, lugar e causa da morte?"
+      },
+      {
+        "question": "Qual é a data e lugar de nascimento da pessoa?"
+      },
+      {
+        "question": "Quem são os sobreviventes?",
+        "description": "(família directa)"
+      },
+      {
+        "question": "Quais são os detalhes sobre o funeral e o enterro?"
+      },
+      {
+        "question": "Quais foram as realizações do falecido?"
+      },
+      {
+        "question": "Qual era o seu nível académico?"
+      },
+      {
+        "question": "Eram membros dalgum clube ou associação?"
+      },
+      {
+        "question": "Eles fizeram o serviço militar?",
+        "description": "(forma ou não)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Dipolokelo",
+    "questions": [
+      {
+        "question": "What is the name, age, address, occupation of the deceased?"
+      },
+      {
+        "question": "Anecdotes, recollections of friends, relatives?"
+      },
+      {
+        "question": "What was the time, place and cause of death?"
+      },
+      {
+        "question": "What is the person's birthdate, birthplace?"
+      },
+      {
+        "question": "Who are they survived by?",
+        "description": "(immediate family)"
+      },
+      {
+        "question": "What are the funeral and burial arrangements?"
+      },
+      {
+        "question": "What are the deceased's accomplishments?"
+      },
+      {
+        "question": "What are the details of their education?"
+      },
+      {
+        "question": "Were they members of any clubs or societies, such as a stokvel, Rotary or Lions?"
+      },
+      {
+        "question": "Did they do military service?",
+        "description": "(formal or otherwise)"
+      },
+      {
+        "question": " Additional info/notes"
+      },
+      {
+        "question": " Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Obituaries",
+  "type": "questions",
+  "xho": {
+    "title": "Ezemingcwabo",
+    "questions": [
+      {
+        "question": "Lithini igama, ubudala, idilesi nomsebenzi womfi?"
+      },
+      {
+        "question": "Amabali, iinkumbulo zezihlobo nezalamane?"
+      },
+      {
+        "question": "Belisithini na ixesha, indawo kwakunye nembangi yokufa?"
+      },
+      {
+        "question": "Luthini usuku loku zalwa nendawo yoku zalwa yomfi?"
+      },
+      {
+        "question": "Ushiya bani ngasemva?",
+        "description": "(Usapho lwako wabo)"
+      },
+      {
+        "question": "Athini na amalungiselelo enkonzo yomngcwabo nokufihla?"
+      },
+      {
+        "question": "Yintoni na amawonga/impumelelo yomfi?"
+      },
+      {
+        "question": "Zithini iinkcukacha zemfundo yabo?"
+      },
+      {
+        "question": "Bebe ngamalungu amaqela okanye ii-sosayeti ezifana nee-stokvel, i-Rotary okanye i-Lions?"
+      },
+      {
+        "question": "Ingaba bakhe balwenza na uqeqesho kwi nkonzo yobu joni?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
