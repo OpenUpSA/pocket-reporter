@@ -1,0 +1,442 @@
+{
+  "spa": {
+    "title": "Lack of Water",
+    "questions": [
+      {
+        "question": "Does your source have access to a reliable source of clean water?"
+      },
+      {
+        "question": "What is the municipality’s response to your queries?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Is there a disruption in water services?"
+      },
+      {
+        "question": "If yes, what is the problem?"
+      },
+      {
+        "question": "What has caused disruptions with water services?",
+        "description": "(e.g. drought, damaged pipes, lack of maintenance etc)"
+      },
+      {
+        "question": "What areas are affected?"
+      },
+      {
+        "question": "How long has this been going on?"
+      },
+      {
+        "question": "How are affected residents getting water?"
+      },
+      {
+        "question": "Which municipality is responsible and is it aware of the problem?"
+      },
+      {
+        "question": "Has the community engaged with the municipality?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Lack of Water",
+    "questions": [
+      {
+        "question": "Does your source have access to a reliable source of clean water?"
+      },
+      {
+        "question": "What is the municipality’s response to your queries?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Is there a disruption in water services?"
+      },
+      {
+        "question": "If yes, what is the problem?"
+      },
+      {
+        "question": "What has caused disruptions with water services?",
+        "description": "(e.g. drought, damaged pipes, lack of maintenance etc)"
+      },
+      {
+        "question": "What areas are affected?"
+      },
+      {
+        "question": "How long has this been going on?"
+      },
+      {
+        "question": "How are affected residents getting water?"
+      },
+      {
+        "question": "Which municipality is responsible and is it aware of the problem?"
+      },
+      {
+        "question": "Has the community engaged with the municipality?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Lack of Water",
+    "questions": [
+      {
+        "question": "Does your source have access to a reliable source of clean water?"
+      },
+      {
+        "question": "What is the municipality’s response to your queries?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Is there a disruption in water services?"
+      },
+      {
+        "question": "If yes, what is the problem?"
+      },
+      {
+        "question": "What has caused disruptions with water services?",
+        "description": "(e.g. drought, damaged pipes, lack of maintenance etc)"
+      },
+      {
+        "question": "What areas are affected?"
+      },
+      {
+        "question": "How long has this been going on?"
+      },
+      {
+        "question": "How are affected residents getting water?"
+      },
+      {
+        "question": "Which municipality is responsible and is it aware of the problem?"
+      },
+      {
+        "question": "Has the community engaged with the municipality?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Does your source have access to a reliable source of clean water?"
+    },
+    {
+      "question": "What is the municipality’s response to your queries?"
+    },
+    {
+      "question": "Is there anything you wish to add?"
+    },
+    {
+      "question": "Contact details:",
+      "description": "phone number/email for your source/other useful contacts for your story?"
+    },
+    {
+      "question": "Is there a disruption in water services?"
+    },
+    {
+      "question": "If yes, what is the problem?"
+    },
+    {
+      "question": "What has caused disruptions with water services?",
+      "description": "(e.g. drought, damaged pipes, lack of maintenance etc)"
+    },
+    {
+      "question": "What areas are affected?"
+    },
+    {
+      "question": "How long has this been going on?"
+    },
+    {
+      "question": "How are affected residents getting water?"
+    },
+    {
+      "question": "Which municipality is responsible and is it aware of the problem?"
+    },
+    {
+      "question": "Has the community engaged with the municipality?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Lack of Water",
+    "questions": [
+      {
+        "question": "Does your source have access to a reliable source of clean water?"
+      },
+      {
+        "question": "What is the municipality’s response to your queries?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Is there a disruption in water services?"
+      },
+      {
+        "question": "If yes, what is the problem?"
+      },
+      {
+        "question": "What has caused disruptions with water services?",
+        "description": "(e.g. drought, damaged pipes, lack of maintenance etc)"
+      },
+      {
+        "question": "What areas are affected?"
+      },
+      {
+        "question": "How long has this been going on?"
+      },
+      {
+        "question": "How are affected residents getting water?"
+      },
+      {
+        "question": "Which municipality is responsible and is it aware of the problem?"
+      },
+      {
+        "question": "Has the community engaged with the municipality?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Lack of Water",
+    "questions": [
+      {
+        "question": "Does your source have access to a reliable source of clean water?"
+      },
+      {
+        "question": "What is the municipality’s response to your queries?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Is there a disruption in water services?"
+      },
+      {
+        "question": "If yes, what is the problem?"
+      },
+      {
+        "question": "What has caused disruptions with water services?",
+        "description": "(e.g. drought, damaged pipes, lack of maintenance etc)"
+      },
+      {
+        "question": "What areas are affected?"
+      },
+      {
+        "question": "How long has this been going on?"
+      },
+      {
+        "question": "How are affected residents getting water?"
+      },
+      {
+        "question": "Which municipality is responsible and is it aware of the problem?"
+      },
+      {
+        "question": "Has the community engaged with the municipality?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Lack of Water",
+    "questions": [
+      {
+        "question": "Does your source have access to a reliable source of clean water?"
+      },
+      {
+        "question": "What is the municipality’s response to your queries?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Is there a disruption in water services?"
+      },
+      {
+        "question": "If yes, what is the problem?"
+      },
+      {
+        "question": "What has caused disruptions with water services?",
+        "description": "(e.g. drought, damaged pipes, lack of maintenance etc)"
+      },
+      {
+        "question": "What areas are affected?"
+      },
+      {
+        "question": "How long has this been going on?"
+      },
+      {
+        "question": "How are affected residents getting water?"
+      },
+      {
+        "question": "Which municipality is responsible and is it aware of the problem?"
+      },
+      {
+        "question": "Has the community engaged with the municipality?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Lack of Water",
+    "questions": [
+      {
+        "question": "Does your source have access to a reliable source of clean water?"
+      },
+      {
+        "question": "What is the municipality’s response to your queries?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Is there a disruption in water services?"
+      },
+      {
+        "question": "If yes, what is the problem?"
+      },
+      {
+        "question": "What has caused disruptions with water services?",
+        "description": "(e.g. drought, damaged pipes, lack of maintenance etc)"
+      },
+      {
+        "question": "What areas are affected?"
+      },
+      {
+        "question": "How long has this been going on?"
+      },
+      {
+        "question": "How are affected residents getting water?"
+      },
+      {
+        "question": "Which municipality is responsible and is it aware of the problem?"
+      },
+      {
+        "question": "Has the community engaged with the municipality?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Lack of Water",
+  "type": "questions",
+  "xho": {
+    "title": "Lack of Water",
+    "questions": [
+      {
+        "question": "Does your source have access to a reliable source of clean water?"
+      },
+      {
+        "question": "What is the municipality’s response to your queries?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Is there a disruption in water services?"
+      },
+      {
+        "question": "If yes, what is the problem?"
+      },
+      {
+        "question": "What has caused disruptions with water services?",
+        "description": "(e.g. drought, damaged pipes, lack of maintenance etc)"
+      },
+      {
+        "question": "What areas are affected?"
+      },
+      {
+        "question": "How long has this been going on?"
+      },
+      {
+        "question": "How are affected residents getting water?"
+      },
+      {
+        "question": "Which municipality is responsible and is it aware of the problem?"
+      },
+      {
+        "question": "Has the community engaged with the municipality?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
