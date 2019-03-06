@@ -1,0 +1,479 @@
+{
+  "spa": {
+    "title": "Deportes",
+    "questions": [
+      {
+        "question": "Qué deporte estás cubriendo?"
+      },
+      {
+        "question": "Recoger declaraciones de los entrenadores, jugadores y aficionados de los dos equipos."
+      },
+      {
+        "question": "Cuánto público había y cuál era su comportamiento?"
+      },
+      {
+        "question": "Hubo algún lesionado?"
+      },
+      {
+        "question": "Cuánto duró el partido? Hubo prórroga?"
+      },
+      {
+        "question": "Cuáles son las estadísticas del partido?"
+      },
+      {
+        "question": "Cuál es el nombre de los equipos que juegan?"
+      },
+      {
+        "question": "Cuál fue el resultado final?"
+      },
+      {
+        "question": "Dónde y cuándo tuvo lugar el partido?"
+      },
+      {
+        "question": "Cuál es la clave del juego, la estrategia"
+      },
+      {
+        "question": "Quiénes fueron los jugadores destacados?"
+      },
+      {
+        "question": "Cuál es el impacto del resultado en la clasificación, ranking, o records individuales?"
+      },
+      {
+        "question": "¿Cuál fue la evolución de puntuación del juego?"
+      },
+      {
+        "question": "¿Hay racha ganadoras / perdedoras, registros involucrados por equipo, jugador?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Sports",
+    "questions": [
+      {
+        "question": "What type of sport are you reporting on?"
+      },
+      {
+        "question": "Get comments from coaches, players and fans of both teams."
+      },
+      {
+        "question": "What was the crowd size and how was their behaviour?"
+      },
+      {
+        "question": "Go hlokofetše batho ba bakae le ba go gobala?"
+      },
+      {
+        "question": "How long was the game and did they run into extra time?"
+      },
+      {
+        "question": "What are the game's statistics?"
+      },
+      {
+        "question": "What is the name of the teams playing?"
+      },
+      {
+        "question": "What was the final score?"
+      },
+      {
+        "question": "Where and when did game take place?"
+      },
+      {
+        "question": "What was the key play, strategy"
+      },
+      {
+        "question": "Who were the outstanding players?"
+      },
+      {
+        "question": "What effect does the result have on standings, rankings, individual records?"
+      },
+      {
+        "question": "What was the scoring pattern of the game?"
+      },
+      {
+        "question": "Are there any winning/losing streaks, records involved by team, player?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Sports",
+    "questions": [
+      {
+        "question": "Oor watter sportsoort doen jy verslag?"
+      },
+      {
+        "question": "Kry kommentaar van afrigters, spelers en ondersteuners van albei spanne."
+      },
+      {
+        "question": "Hoe groot was was die skare en wat was hul gedrag?"
+      },
+      {
+        "question": "Was daar enige beserings?"
+      },
+      {
+        "question": "Hoe lank was die wedstryd en het hulle oor geloop in ekstra tyd?"
+      },
+      {
+        "question": "Wat is die wedstryd statistiek?"
+      },
+      {
+        "question": "Wat is die name van die spanne wat speel?"
+      },
+      {
+        "question": "Wat was die eindtelling?"
+      },
+      {
+        "question": "Waar en wanneer het die wedstryd plaasgevind?"
+      },
+      {
+        "question": "Wat was die sleutelspelstrategie?"
+      },
+      {
+        "question": "Watter spelers het `n uitsekende spel gelewer?"
+      },
+      {
+        "question": "Watter invloed het die resultaat op puntestand, ranglys, persoonlike rekords?"
+      },
+      {
+        "question": "Wat was die puntepatroon in die spel?"
+      },
+      {
+        "question": "Is daar enige wen/verloor tendens, rekords betrokke deur span, speler?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What type of sport are you reporting on?"
+    },
+    {
+      "question": "Get comments from coaches, players and fans of both teams."
+    },
+    {
+      "question": "What was the crowd size and how was their behaviour?"
+    },
+    {
+      "question": "Were there any injuries?"
+    },
+    {
+      "question": "How long was the game and did they run into extra time?"
+    },
+    {
+      "question": "What are the game's statistics?"
+    },
+    {
+      "question": "What is the name of the teams playing?"
+    },
+    {
+      "question": "What was the final score?"
+    },
+    {
+      "question": "Where and when did game take place?"
+    },
+    {
+      "question": "What was the key play, strategy"
+    },
+    {
+      "question": "Who were the outstanding players?"
+    },
+    {
+      "question": "What effect does the result have on standings, rankings, individual records?"
+    },
+    {
+      "question": "What was the scoring pattern of the game?"
+    },
+    {
+      "question": "Are there any winning/losing streaks, records involved by team, player?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Sports",
+    "questions": [
+      {
+        "question": "What type of sport are you reporting on?"
+      },
+      {
+        "question": "Get comments from coaches, players and fans of both teams."
+      },
+      {
+        "question": "What was the crowd size and how was their behaviour?"
+      },
+      {
+        "question": "Were there any injuries?"
+      },
+      {
+        "question": "How long was the game and did they run into extra time?"
+      },
+      {
+        "question": "What are the game's statistics?"
+      },
+      {
+        "question": "What is the name of the teams playing?"
+      },
+      {
+        "question": "What was the final score?"
+      },
+      {
+        "question": "Where and when did game take place?"
+      },
+      {
+        "question": "What was the key play, strategy"
+      },
+      {
+        "question": "Who were the outstanding players?"
+      },
+      {
+        "question": "What effect does the result have on standings, rankings, individual records?"
+      },
+      {
+        "question": "What was the scoring pattern of the game?"
+      },
+      {
+        "question": "Are there any winning/losing streaks, records involved by team, player?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Ezemidlalo",
+    "questions": [
+      {
+        "question": "Ingabe hlobo luni lomdlalo obika ngalo?"
+      },
+      {
+        "question": "Thola ukuphawula kumqeqeshi, abadlali, kanye nabalandeli bamaqembu omabili."
+      },
+      {
+        "question": "Bebengakanani abantu abebebuthene endaweni nokuthi baziphathe kanjani?"
+      },
+      {
+        "question": "Ingabe bakhona abalimele?"
+      },
+      {
+        "question": "Uthathe isikhathi esingakanani umdlalo nokuthi ingabe kuze kwafika esikhathini esengeziwe?"
+      },
+      {
+        "question": "Ingabe ithini imininingwane yomdlalo?"
+      },
+      {
+        "question": "Imaphi amaqembu abedlala?"
+      },
+      {
+        "question": "Ithini imiphumela yakamuva?"
+      },
+      {
+        "question": "Udlalwe nini kuphi umdlalo?"
+      },
+      {
+        "question": "Basebenzise siphi isitayela emdlaweni wabo?"
+      },
+      {
+        "question": "Obani abadlali abavelele?"
+      },
+      {
+        "question": "Ingabe imuphi umthelela, umphumela obe nawo ngokwamazinga kanye nomlando wabadlali?"
+      },
+      {
+        "question": "Basebenzise liphi isu ukushaya amagoli?"
+      },
+      {
+        "question": "Ingabe kukhona umlando thizeni mayelana nokunqoba noma ukwehlulwa kwamaqembu athintekayo?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Desporto",
+    "questions": [
+      {
+        "question": "Que tipo de desporto está a relatar?"
+      },
+      {
+        "question": "Obtenha comentários dos treinadores, jogadores e adeptos de ambas equipas."
+      },
+      {
+        "question": "Qual era o número de pessoas presentes e como foi o seu comportamento?"
+      },
+      {
+        "question": "Houve alguma lesão?"
+      },
+      {
+        "question": "Qual foi a duração do jogo?",
+        "description": "Houve tempo de compensação?"
+      },
+      {
+        "question": "Quais são as estatísticas do jogo?"
+      },
+      {
+        "question": "Qual é o nome das equipas que estão a jogar?"
+      },
+      {
+        "question": "Qual é o resultado final?"
+      },
+      {
+        "question": "Onde e quando teve lugar o jogo?"
+      },
+      {
+        "question": "Qual foi a peça chave, estratégia"
+      },
+      {
+        "question": "Quais foram os jogadores com melhor desempenho?"
+      },
+      {
+        "question": "Como afecta o resultado à classificação, ranking, records individuais?"
+      },
+      {
+        "question": "Qual foi o padrão de pontoação do jogo?"
+      },
+      {
+        "question": "Há alguma série de vitórias/fracassos, metas alcançadas pela equipa ou jogador?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Sports",
+    "questions": [
+      {
+        "question": "What type of sport are you reporting on?"
+      },
+      {
+        "question": "Get comments from coaches, players and fans of both teams."
+      },
+      {
+        "question": "What was the crowd size and how was their behaviour?"
+      },
+      {
+        "question": "Were there any injuries?"
+      },
+      {
+        "question": "How long was the game and did they run into extra time?"
+      },
+      {
+        "question": "What are the game's statistics?"
+      },
+      {
+        "question": "What is the name of the teams playing?"
+      },
+      {
+        "question": "What was the final score?"
+      },
+      {
+        "question": "Where and when did game take place?"
+      },
+      {
+        "question": "What was the key play, strategy"
+      },
+      {
+        "question": "Who were the outstanding players?"
+      },
+      {
+        "question": "What effect does the result have on standings, rankings, individual records?"
+      },
+      {
+        "question": "What was the scoring pattern of the game?"
+      },
+      {
+        "question": "Are there any winning/losing streaks, records involved by team, player?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Sports",
+  "type": "questions",
+  "xho": {
+    "title": "Ezemidlalo",
+    "questions": [
+      {
+        "question": "Ubhala ngeyiphi indidi yomdlalo ngoku?"
+      },
+      {
+        "question": "Fumana izimvo zabaqeqeshi, abadlali kwakunye nabalandeli bamaqela omabini."
+      },
+      {
+        "question": "Ubukhulu bezihlwele babungakanani na kwaye ziziphethe njani na?"
+      },
+      {
+        "question": "Ebekhona na umonzakalo?"
+      },
+      {
+        "question": "Uthathe ixesha elingakanani na umdlalo kwaye udlulele kwixesha elongeziweyo na?"
+      },
+      {
+        "question": "Zithini na iinkcukacha-manani zomdlalo?"
+      },
+      {
+        "question": "Athini amagama amaqela adlalayo?"
+      },
+      {
+        "question": "Ziphele zisithini na iziphumo?"
+      },
+      {
+        "question": "Ubudlalelwa phi, nini lomdlalo?"
+      },
+      {
+        "question": "Yintoni na elona cebo liphume phambili?"
+      },
+      {
+        "question": "Ngobani abadlali aba balaseleyo?"
+      },
+      {
+        "question": "Iziphumo zalomdlalo zizichaphazela njani i-standings, i-rankings nee-rekhodi zaba dlali?"
+      },
+      {
+        "question": "Amaxesha afakwe ngawo amanqaku?"
+      },
+      {
+        "question": "Ingaba akhona na ama-rekhodi okugqwesa okanye ukubethwa kumaqela nabadlali?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
