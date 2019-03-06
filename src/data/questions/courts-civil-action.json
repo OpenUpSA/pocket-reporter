@@ -274,8 +274,59 @@
     ]
   },
   "zul": {
+    "title": "Izinkantolo - isimangalo",
     "questions": [
-      {}
+      {
+        "question": "ubani umuntu noma inhlangano egcina imininingwane?",
+        "description": "igama, iminyaka,ikheli, kanye neminye imininingwane ethinta lowo muntu."
+      },
+      {
+        "question": "Ingabe lokhu kungaqhamuka noshitsho?",
+        "description": "ingabe kwake kwenzeka ekuqaleni?"
+      },
+      {
+        "question": "Ingabe kungenzeka ukuthi udaba luxoxwe ngaphandle kokuya enkantolo?"
+      },
+      {
+        "question": "Ingabe yini okubaluleka kwalokhu nokuthi kuzoba namuphi umthelela kwabanye"
+      },
+      {
+        "question": "Ngobani amagama abameli bezinhlangothi zombili?",
+        "description": "(qikelela isipelingi)"
+      },
+      {
+        "question": "umhlaka bani nokuthi ubani ijaji eliqhuba ukuqulwa noma ukulalelwa kwecala?"
+      },
+      {
+        "question": "uthini umlando kammngali noma lowo ofake isicelo enkantolo: umuntu ogcina imininingwane emayelana nokuqhubeka ecaleni?"
+      },
+      {
+        "question": "uthini umlando kammangalelwa noma ummangali?"
+      },
+      {
+        "question": "Igabe hlobo luni lomonakalo owenzekile"
+      },
+      {
+        "question": "ngabe yini umphumela wokuboshwa"
+      },
+      {
+        "question": "ingabe iluphi usuku lokufakwa kwesicelo nokuthi imaphi amandla inkantolo enawo?"
+      },
+      {
+        "question": "ingabe kukhona okuthile okugqugquzela lokhu (Uma kukhona)?"
+      },
+      {
+        "question": "ingabe yini umsuka wengxabano noma ukungaboni ngaso linye?"
+      },
+      {
+        "question": "ingabe akhona noma ake abakhona amacala afuze lawa inkantolo eseyake yathatha izinqumo kuwona (phambilini)?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "por": {
