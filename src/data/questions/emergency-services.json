@@ -1,0 +1,352 @@
+{
+  "spa": {
+    "title": "Emergency Services",
+    "questions": [
+      {
+        "question": "How do people in need of emergency treatment get to nearest healthcare centre?"
+      },
+      {
+        "question": "If by public transport or a taxi how far did they travel, and cost of the return trip"
+      },
+      {
+        "question": "If they rely on ambulances, are calls to emergency numbers answered promptly?"
+      },
+      {
+        "question": "How long does an ambulance usually take to get to them?"
+      },
+      {
+        "question": "If an ambulance does not arrive, what other options do patients have?"
+      },
+      {
+        "question": "Has the Department of Health been notified of any problems?"
+      },
+      {
+        "question": "How has the Department of Health responded to the community’s concerns?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Emergency Services",
+    "questions": [
+      {
+        "question": "How do people in need of emergency treatment get to nearest healthcare centre?"
+      },
+      {
+        "question": "If by public transport or a taxi how far did they travel, and cost of the return trip"
+      },
+      {
+        "question": "If they rely on ambulances, are calls to emergency numbers answered promptly?"
+      },
+      {
+        "question": "How long does an ambulance usually take to get to them?"
+      },
+      {
+        "question": "If an ambulance does not arrive, what other options do patients have?"
+      },
+      {
+        "question": "Has the Department of Health been notified of any problems?"
+      },
+      {
+        "question": "How has the Department of Health responded to the community’s concerns?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Emergency Services",
+    "questions": [
+      {
+        "question": "How do people in need of emergency treatment get to nearest healthcare centre?"
+      },
+      {
+        "question": "If by public transport or a taxi how far did they travel, and cost of the return trip"
+      },
+      {
+        "question": "If they rely on ambulances, are calls to emergency numbers answered promptly?"
+      },
+      {
+        "question": "How long does an ambulance usually take to get to them?"
+      },
+      {
+        "question": "If an ambulance does not arrive, what other options do patients have?"
+      },
+      {
+        "question": "Has the Department of Health been notified of any problems?"
+      },
+      {
+        "question": "How has the Department of Health responded to the community’s concerns?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "How do people in need of emergency treatment get to nearest healthcare centre?"
+    },
+    {
+      "question": "If by public transport or a taxi how far did they travel, and cost of the return trip"
+    },
+    {
+      "question": "If they rely on ambulances, are calls to emergency numbers answered promptly?"
+    },
+    {
+      "question": "How long does an ambulance usually take to get to them?"
+    },
+    {
+      "question": "If an ambulance does not arrive, what other options do patients have?"
+    },
+    {
+      "question": "Has the Department of Health been notified of any problems?"
+    },
+    {
+      "question": "How has the Department of Health responded to the community’s concerns?"
+    },
+    {
+      "question": "Any more comments?"
+    },
+    {
+      "question": "Contact details:",
+      "description": "phone number/email for your source/other useful contacts for your story?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Emergency Services",
+    "questions": [
+      {
+        "question": "How do people in need of emergency treatment get to nearest healthcare centre?"
+      },
+      {
+        "question": "If by public transport or a taxi how far did they travel, and cost of the return trip"
+      },
+      {
+        "question": "If they rely on ambulances, are calls to emergency numbers answered promptly?"
+      },
+      {
+        "question": "How long does an ambulance usually take to get to them?"
+      },
+      {
+        "question": "If an ambulance does not arrive, what other options do patients have?"
+      },
+      {
+        "question": "Has the Department of Health been notified of any problems?"
+      },
+      {
+        "question": "How has the Department of Health responded to the community’s concerns?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Emergency Services",
+    "questions": [
+      {
+        "question": "How do people in need of emergency treatment get to nearest healthcare centre?"
+      },
+      {
+        "question": "If by public transport or a taxi how far did they travel, and cost of the return trip"
+      },
+      {
+        "question": "If they rely on ambulances, are calls to emergency numbers answered promptly?"
+      },
+      {
+        "question": "How long does an ambulance usually take to get to them?"
+      },
+      {
+        "question": "If an ambulance does not arrive, what other options do patients have?"
+      },
+      {
+        "question": "Has the Department of Health been notified of any problems?"
+      },
+      {
+        "question": "How has the Department of Health responded to the community’s concerns?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Emergency Services",
+    "questions": [
+      {
+        "question": "How do people in need of emergency treatment get to nearest healthcare centre?"
+      },
+      {
+        "question": "If by public transport or a taxi how far did they travel, and cost of the return trip"
+      },
+      {
+        "question": "If they rely on ambulances, are calls to emergency numbers answered promptly?"
+      },
+      {
+        "question": "How long does an ambulance usually take to get to them?"
+      },
+      {
+        "question": "If an ambulance does not arrive, what other options do patients have?"
+      },
+      {
+        "question": "Has the Department of Health been notified of any problems?"
+      },
+      {
+        "question": "How has the Department of Health responded to the community’s concerns?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Emergency Services",
+    "questions": [
+      {
+        "question": "How do people in need of emergency treatment get to nearest healthcare centre?"
+      },
+      {
+        "question": "If by public transport or a taxi how far did they travel, and cost of the return trip"
+      },
+      {
+        "question": "If they rely on ambulances, are calls to emergency numbers answered promptly?"
+      },
+      {
+        "question": "How long does an ambulance usually take to get to them?"
+      },
+      {
+        "question": "If an ambulance does not arrive, what other options do patients have?"
+      },
+      {
+        "question": "Has the Department of Health been notified of any problems?"
+      },
+      {
+        "question": "How has the Department of Health responded to the community’s concerns?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Emergency Services",
+  "type": "questions",
+  "xho": {
+    "title": "Emergency Services",
+    "questions": [
+      {
+        "question": "How do people in need of emergency treatment get to nearest healthcare centre?"
+      },
+      {
+        "question": "If by public transport or a taxi how far did they travel, and cost of the return trip"
+      },
+      {
+        "question": "If they rely on ambulances, are calls to emergency numbers answered promptly?"
+      },
+      {
+        "question": "How long does an ambulance usually take to get to them?"
+      },
+      {
+        "question": "If an ambulance does not arrive, what other options do patients have?"
+      },
+      {
+        "question": "Has the Department of Health been notified of any problems?"
+      },
+      {
+        "question": "How has the Department of Health responded to the community’s concerns?"
+      },
+      {
+        "question": "Any more comments?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
