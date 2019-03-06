@@ -1,0 +1,444 @@
+{
+  "spa": {
+    "title": "Nutrition",
+    "questions": [
+      {
+        "question": "How much does your source spend a day/week/month on food for themselves?"
+      },
+      {
+        "question": "What portion of the household income is spent on food?"
+      },
+      {
+        "question": "Any comments you wish to add regarding this story?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What does your source/their family eat and drink most of the time?"
+      },
+      {
+        "question": "How many meals a day do they eat?"
+      },
+      {
+        "question": "How long have they been eating this way?"
+      },
+      {
+        "question": "Any health impact this diet has on them?",
+        "description": "(e.g. Diabetes, high blood pressure, stroke, heart problems?)"
+      },
+      {
+        "question": "Have they sought medical attention?"
+      },
+      {
+        "question": "What advice did they get from doctor/nurses regarding their diet?"
+      },
+      {
+        "question": "How many people are in their household?"
+      },
+      {
+        "question": "What is the main source of income for the family?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Nutrition",
+    "questions": [
+      {
+        "question": "How much does your source spend a day/week/month on food for themselves?"
+      },
+      {
+        "question": "What portion of the household income is spent on food?"
+      },
+      {
+        "question": "Any comments you wish to add regarding this story?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What does your source/their family eat and drink most of the time?"
+      },
+      {
+        "question": "How many meals a day do they eat?"
+      },
+      {
+        "question": "How long have they been eating this way?"
+      },
+      {
+        "question": "Any health impact this diet has on them?",
+        "description": "(e.g. Diabetes, high blood pressure, stroke, heart problems?)"
+      },
+      {
+        "question": "Have they sought medical attention?"
+      },
+      {
+        "question": "What advice did they get from doctor/nurses regarding their diet?"
+      },
+      {
+        "question": "How many people are in their household?"
+      },
+      {
+        "question": "What is the main source of income for the family?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Nutrition",
+    "questions": [
+      {
+        "question": "How much does your source spend a day/week/month on food for themselves?"
+      },
+      {
+        "question": "What portion of the household income is spent on food?"
+      },
+      {
+        "question": "Any comments you wish to add regarding this story?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What does your source/their family eat and drink most of the time?"
+      },
+      {
+        "question": "How many meals a day do they eat?"
+      },
+      {
+        "question": "How long have they been eating this way?"
+      },
+      {
+        "question": "Any health impact this diet has on them?",
+        "description": "(e.g. Diabetes, high blood pressure, stroke, heart problems?)"
+      },
+      {
+        "question": "Have they sought medical attention?"
+      },
+      {
+        "question": "What advice did they get from doctor/nurses regarding their diet?"
+      },
+      {
+        "question": "How many people are in their household?"
+      },
+      {
+        "question": "What is the main source of income for the family?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "How much does your source spend a day/week/month on food for themselves?"
+    },
+    {
+      "question": "What portion of the household income is spent on food?"
+    },
+    {
+      "question": "Any comments you wish to add regarding this story?"
+    },
+    {
+      "question": "Contact details:",
+      "description": "phone number/email for your source/other useful contacts for your story?"
+    },
+    {
+      "question": "What does your source/their family eat and drink most of the time?"
+    },
+    {
+      "question": "How many meals a day do they eat?"
+    },
+    {
+      "question": "How long have they been eating this way?"
+    },
+    {
+      "question": "Any health impact this diet has on them?",
+      "description": "(e.g. Diabetes, high blood pressure, stroke, heart problems?)"
+    },
+    {
+      "question": "Have they sought medical attention?"
+    },
+    {
+      "question": "What advice did they get from doctor/nurses regarding their diet?"
+    },
+    {
+      "question": "How many people are in their household?"
+    },
+    {
+      "question": "What is the main source of income for the family?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Nutrition",
+    "questions": [
+      {
+        "question": "How much does your source spend a day/week/month on food for themselves?"
+      },
+      {
+        "question": "What portion of the household income is spent on food?"
+      },
+      {
+        "question": "Any comments you wish to add regarding this story?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What does your source/their family eat and drink most of the time?",
+        "description": ""
+      },
+      {
+        "question": "How many meals a day do they eat?"
+      },
+      {
+        "question": "How long have they been eating this way?"
+      },
+      {
+        "question": "Any health impact this diet has on them?",
+        "description": "(e.g. Diabetes, high blood pressure, stroke, heart problems?)"
+      },
+      {
+        "question": "Have they sought medical attention?",
+        "description": ""
+      },
+      {
+        "question": "What advice did they get from doctor/nurses regarding their diet?"
+      },
+      {
+        "question": "How many people are in their household?"
+      },
+      {
+        "question": "What is the main source of income for the family?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Nutrition",
+    "questions": [
+      {
+        "question": "How much does your source spend a day/week/month on food for themselves?"
+      },
+      {
+        "question": "What portion of the household income is spent on food?"
+      },
+      {
+        "question": "Any comments you wish to add regarding this story?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What does your source/their family eat and drink most of the time?"
+      },
+      {
+        "question": "How many meals a day do they eat?"
+      },
+      {
+        "question": "How long have they been eating this way?"
+      },
+      {
+        "question": "Any health impact this diet has on them?",
+        "description": "(e.g. Diabetes, high blood pressure, stroke, heart problems?)"
+      },
+      {
+        "question": "Have they sought medical attention?"
+      },
+      {
+        "question": "What advice did they get from doctor/nurses regarding their diet?"
+      },
+      {
+        "question": "How many people are in their household?"
+      },
+      {
+        "question": "What is the main source of income for the family?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Nutrition",
+    "questions": [
+      {
+        "question": "How much does your source spend a day/week/month on food for themselves?"
+      },
+      {
+        "question": "What portion of the household income is spent on food?"
+      },
+      {
+        "question": "Any comments you wish to add regarding this story?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What does your source/their family eat and drink most of the time?"
+      },
+      {
+        "question": "How many meals a day do they eat?"
+      },
+      {
+        "question": "How long have they been eating this way?"
+      },
+      {
+        "question": "Any health impact this diet has on them?",
+        "description": "(e.g. Diabetes, high blood pressure, stroke, heart problems?)"
+      },
+      {
+        "question": "Have they sought medical attention?"
+      },
+      {
+        "question": "What advice did they get from doctor/nurses regarding their diet?"
+      },
+      {
+        "question": "How many people are in their household?"
+      },
+      {
+        "question": "What is the main source of income for the family?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Nutrition",
+    "questions": [
+      {
+        "question": "How much does your source spend a day/week/month on food for themselves?"
+      },
+      {
+        "question": "What portion of the household income is spent on food?"
+      },
+      {
+        "question": "Any comments you wish to add regarding this story?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What does your source/their family eat and drink most of the time?"
+      },
+      {
+        "question": "How many meals a day do they eat?"
+      },
+      {
+        "question": "How long have they been eating this way?"
+      },
+      {
+        "question": "Any health impact this diet has on them?",
+        "description": "(e.g. Diabetes, high blood pressure, stroke, heart problems?)"
+      },
+      {
+        "question": "Have they sought medical attention?"
+      },
+      {
+        "question": "What advice did they get from doctor/nurses regarding their diet?"
+      },
+      {
+        "question": "How many people are in their household?"
+      },
+      {
+        "question": "What is the main source of income for the family?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Nutrition",
+  "type": "questions",
+  "xho": {
+    "title": "Nutrition",
+    "questions": [
+      {
+        "question": "How much does your source spend a day/week/month on food for themselves?"
+      },
+      {
+        "question": "What portion of the household income is spent on food?"
+      },
+      {
+        "question": "Any comments you wish to add regarding this story?"
+      },
+      {
+        "question": "Contact details:",
+        "description": "phone number/email for your source/other useful contacts for your story?"
+      },
+      {
+        "question": "What does your source/their family eat and drink most of the time?"
+      },
+      {
+        "question": "How many meals a day do they eat?"
+      },
+      {
+        "question": "How long have they been eating this way?"
+      },
+      {
+        "question": "Any health impact this diet has on them?",
+        "description": "(e.g. Diabetes, high blood pressure, stroke, heart problems?)"
+      },
+      {
+        "question": "Have they sought medical attention?"
+      },
+      {
+        "question": "What advice did they get from doctor/nurses regarding their diet?"
+      },
+      {
+        "question": "How many people are in their household?"
+      },
+      {
+        "question": "What is the main source of income for the family?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
