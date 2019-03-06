@@ -10,8 +10,36 @@
     ]
   },
   "afr": {
+    "title": "Howe - Uitspraak",
     "questions": [
-      {}
+      {
+        "question": "Wat is die uitspraak en skadevergoeding, indien enige?",
+        "description": "(Dieselfde, minder, of meer as die skadevergoeding waarom aansoek gedoen is?)"
+      },
+      {
+        "question": "Wie is die betrokke partye?"
+      },
+      {
+        "question": "Het die regter 'n verklaring gemaak? Het dit afgewyk van die assessor se bevindinge?"
+      },
+      {
+        "question": "Som die bewerings van die eisers op"
+      },
+      {
+        "question": "Wat was die belangrikste getuienis en die prokureur/advokaat se hoofpunte?"
+      },
+      {
+        "question": "Hoe lank het die hof beraadslaag voor uitspraak gelewer is?"
+      },
+      {
+        "question": "Gaan appèl aangeteken of mosies ingedien word?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "questions": [
