@@ -1,0 +1,21 @@
+{
+  "type": "folders",
+  "title": "Test",
+  "translations": {
+    "afr": "Toets"
+  },
+  "icon": "ChildFriendly",
+  "questions": [
+    {
+      "undefined": "Obituaries"
+    },
+    {
+      "undefined": "Election Meeting"
+    }
+  ],
+  "resources": [
+    {
+      "undefined": "Test"
+    }
+  ]
+}
