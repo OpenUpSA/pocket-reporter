@@ -207,8 +207,44 @@
     ]
   },
   "zul": {
+    "title": "ubugebengu",
     "questions": [
-      {}
+      {
+        "question": "obani amagama kanye nemininingwane ezisulu?",
+        "description": "amagama, iminyaka, amakheli, kanye neminye imininingwane mayelana nabo"
+      },
+      {
+        "question": "Ibuphi ubugebengu obenzekile nokuthi kwenzeke kanjani?"
+      },
+      {
+        "question": "Ingabe yenzeke kuphi, nini ngasikhathisini?",
+        "description": "Thola isiqiniseko esisemthethweni."
+      },
+      {
+        "question": "Ngokombiko wabezimo eziphuthumayo, amaphoyisa kanye neziphathimandla ingabe yini imbangela yokufa ?"
+      },
+      {
+        "question": "Ingabe abathintekayo balimele kanjani nokuthi hlobo luni lwesikhali olusetshenzisiwe?"
+      },
+      {
+        "question": "Ingabe yini imbangela yobugebengu kanye nemvelaphi yezisulu?",
+        "description": "(Uma kubalulekile)"
+      },
+      {
+        "question": "Ingabe bakhona ababoshiwe noma abasolwayo okanye olunye ulwazi?"
+      },
+      {
+        "question": "Ingabe sikhona isimo esingaqondakali mayelana nobugebengu?"
+      },
+      {
+        "question": "Thola uvo lwezisulu, ofakazi, amaphoyisa, kanye nakuziphathimandla ezinolwazi."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "por": {
