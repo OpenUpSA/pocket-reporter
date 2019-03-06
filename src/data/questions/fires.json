@@ -1,0 +1,498 @@
+{
+  "spa": {
+    "title": "Incendios",
+    "questions": [
+      {
+        "question": "¿Cuántas personas están muertas y heridas?"
+      },
+      {
+        "question": "¿Hubo actos de valentía o rescates?"
+      },
+      {
+        "question": "Obtener comentarios de los vecinos, los testigos."
+      },
+      {
+        "question": "¿Cuántas autobombas y personal de los bomberos participan?"
+      },
+      {
+        "question": "Fuentes:",
+        "description": "Jefe de bomberos, policía, servicios de rescate, hospital, funerario, grupos solidarios"
+      },
+      {
+        "question": "¿Cuál es la identidad de las víctimas?",
+        "description": "Nombres, edades, direcciones, otros datos personales."
+      },
+      {
+        "question": "¿Dónde estaba el fuego y lo que ardía (un edificio, casa, campo, etc.)?"
+      },
+      {
+        "question": "¿Cuándo comenzó el incendio, dónde y cómo se propagó?"
+      },
+      {
+        "question": "¿Cuándo y después de cuánto tiempo se controló?"
+      },
+      {
+        "question": "¿Cuál fue la causa de merte y heridas de las víctimas y cuál es la gravedad de las lesiones?"
+      },
+      {
+        "question": "Daños materiales:",
+        "description": "¿cuál es el alcance, el costo del daño, el seguro? Es posible que necesite llamar a un experto."
+      },
+      {
+        "question": "Investigación:",
+        "description": "¿alguna circunstancia inusual?"
+      },
+      {
+        "question": "¿Adonde llevaron a los heridos y muertos?",
+        "description": "(¿Qué hospital o morgue?)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Mello",
+    "questions": [
+      {
+        "question": "How many people are dead and injured?"
+      },
+      {
+        "question": "Were there any acts of bravery or any rescues?"
+      },
+      {
+        "question": "Get comments from neighbours, eyewitnesses."
+      },
+      {
+        "question": "How many fire engines and firefighters involved?"
+      },
+      {
+        "question": "Sources:",
+        "description": "Fire chief, police, rescue services, hospital, mortuary, welfare agencies"
+      },
+      {
+        "question": "Naa go tsebilwe batšwasehlabelo?",
+        "description": "Maina, mengwaga, diaterese le tshedimošo e nngwe ka bona?"
+      },
+      {
+        "question": "Naa mollo o be o le kae, gona go be go eswa eng (moago, ntlo, tšhemo, bjbj)?"
+      },
+      {
+        "question": "Naa mollo o thomile neng, kae le gore naa o phatlaletše bjang?"
+      },
+      {
+        "question": "Ke neng le gona ka morago ga nako e kaakang fao mollo o ilego wa tlišwa ka tlase ga taolo?"
+      },
+      {
+        "question": "How were victims killed and injured and what is the extent of the injuries?"
+      },
+      {
+        "question": "Property loss:",
+        "description": "what is the extent, cost of damage, insurance? You may need to phone an expert."
+      },
+      {
+        "question": "Investigation:",
+        "description": "any unusual circumstances?"
+      },
+      {
+        "question": "Go hlokofetše batho ba bakae le ba go gobala?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Brande",
+    "questions": [
+      {
+        "question": "Hoeveel mense is dood en beseer?"
+      },
+      {
+        "question": "Was daar enige helde- of reddingsdade?"
+      },
+      {
+        "question": "Kry kommentaar van bure, ooggetuies."
+      },
+      {
+        "question": "Hoeveel brandweerwaens en brandbestryders was betrokke?"
+      },
+      {
+        "question": "Bronne:",
+        "description": "Brandweerhoof, polisie, nooddienste, hospitaal, forensiese dienste, maatskaplike dienste"
+      },
+      {
+        "question": "Watter besonderhede is daar van slagoffers?",
+        "description": "Name, ouderdomme, adresse, ander persoonlike inligting."
+      },
+      {
+        "question": "Waar was die brand en wat het gebrand ('n gebou, huis, veld, ens.)?"
+      },
+      {
+        "question": "Wanneer het die brand begin, waar en hoe het dit versprei?"
+      },
+      {
+        "question": "Wanneer en na hoe lank is dit onder beheer gebring?"
+      },
+      {
+        "question": "Hoe is slagoffers gedood en beseer en wat die omvang van die beserings?"
+      },
+      {
+        "question": "Eiendoms verlies:",
+        "description": "wat is die omvang die skade, versekering? Jy sal dalk ‘n kenner moet kontak."
+      },
+      {
+        "question": "Ondersoek:",
+        "description": "enige ongewone omstandighede?"
+      },
+      {
+        "question": "Waarheen is die beseerdes en oorledenes geneem?",
+        "description": "(Watter hospitaal of lykshuis)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "How many people are dead and injured?"
+    },
+    {
+      "question": "Were there any acts of bravery or any rescues?"
+    },
+    {
+      "question": "Get comments from neighbours, eyewitnesses."
+    },
+    {
+      "question": "How many fire engines and firefighters involved?"
+    },
+    {
+      "question": "Sources:",
+      "description": "Fire chief, police, rescue services, hospital, mortuary, welfare agencies"
+    },
+    {
+      "question": "What is the identification of victims?",
+      "description": "Names, ages, addresses, other personal information."
+    },
+    {
+      "question": "Where was the fire and what was burning (a building, house, field, etc.)?"
+    },
+    {
+      "question": "When did the fire start, where and how did it spread?"
+    },
+    {
+      "question": "When and after how long was it brought under control?"
+    },
+    {
+      "question": "How were victims killed and injured and what is the extent of the injuries?"
+    },
+    {
+      "question": "Property loss:",
+      "description": "what is the extent, cost of damage, insurance? You may need to phone an expert."
+    },
+    {
+      "question": "Investigation:",
+      "description": "any unusual circumstances?"
+    },
+    {
+      "question": "Where were the injured and dead taken?",
+      "description": "(Which hospital or morgue?)"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Melelo",
+    "questions": [
+      {
+        "question": "Ke ba ba kae ba ba gobetseng kgotsa go tlhokafala?"
+      },
+      {
+        "question": "Were there any acts of bravery or any rescues?"
+      },
+      {
+        "question": "Get comments from neighbours, eyewitnesses."
+      },
+      {
+        "question": "How many fire engines and firefighters involved?"
+      },
+      {
+        "question": "Sources:",
+        "description": "Fire chief, police, rescue services, hospital, mortuary, welfare agencies"
+      },
+      {
+        "question": "Ke bomang batswasetlhabelo?",
+        "description": "Maina, dingwaga tsa bona, diaterese, le tshedimosetso e nngwe le e nngwe ya sebele?"
+      },
+      {
+        "question": "Molelo o ne o le kae, go ne go sha eng?",
+        "description": "(kago, ntlo, tshimo, le tse dingwe)?"
+      },
+      {
+        "question": "Molelo o simolotse leng, kae, wa phatlhalala jang?"
+      },
+      {
+        "question": "Molelo o tlisitswe leng ka fa tlase ga taolo?"
+      },
+      {
+        "question": "How were victims killed and injured and what is the extent of the injuries?"
+      },
+      {
+        "question": "Property loss:",
+        "description": "what is the extent, cost of damage, insurance? You may need to phone an expert."
+      },
+      {
+        "question": "Investigation:",
+        "description": "any unusual circumstances?"
+      },
+      {
+        "question": "Where were the injured and dead taken?",
+        "description": "(Which hospital or morgue?)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Imililo",
+    "questions": [
+      {
+        "question": "bangaki abantu abashonile nabalimele?"
+      },
+      {
+        "question": "ingabe kube khona ukusindiswa kwabathile?"
+      },
+      {
+        "question": "Thola ukuphawula komakhelwane noma kwabazibonele ngokwabo"
+      },
+      {
+        "question": "Ngabe zingaki izicishamlilo noma abacishi mlilo abathintekayo?"
+      },
+      {
+        "question": "Imthombo:",
+        "description": "isikhulu kwezomlilo, iphoyisa, abezokutakula,abamakhaza, abezenhlala kahle"
+      },
+      {
+        "question": "Ithini imininingwane yezisulu?",
+        "description": "amagama, iminyaka, amakheli,kanye neminye imininingwane yabo"
+      },
+      {
+        "question": "ingabe ukhona umlilo obukhona nokuthi yini ebivutha ",
+        "description": "( isakhiwo, indlu,ihlanze, njalo njalo)"
+      },
+      {
+        "question": "uqale nini umlilo, kuphi nokuthi usabalale kangakanani?"
+      },
+      {
+        "question": "unqotshwe nini umlilo emuva kwesikhathi esingakanani"
+      },
+      {
+        "question": "ingabe izisulu zishone kanjani nokuthi zilimale kanjani, futhi zilimale kangakanani"
+      },
+      {
+        "question": "ukulahleka kwempahla: ",
+        "description": "ube ngakanani, izindleko zomonakalo, umshwalense? kungenzeka udinge nengcweti"
+      },
+      {
+        "question": "ucwaningo:",
+        "description": "ngabe zikhona izigameko ezingajwayelekile?"
+      },
+      {
+        "question": "bathathwe bayiswaphi abalimele nabashonile?",
+        "description": "(kusiphi isibhedlela noma amakhaza)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Incendios",
+    "questions": [
+      {
+        "question": "Quantas pessoas estão mortas ou feridas?"
+      },
+      {
+        "question": "Houve alguns actos de heroicidade ou resgates?"
+      },
+      {
+        "question": "Obtenha comentários de vizinhos e testemunhas."
+      },
+      {
+        "question": "Quantos carros de bombeiros e pessoal dos bombeiros estiveram envolvidos?"
+      },
+      {
+        "question": "Fontes:",
+        "description": "Chefe dos bombeiros, polícia, Serviços de resgate, hospital, casa mortuária, organizações de caridade"
+      },
+      {
+        "question": "Qual é a identidade das vítimas?",
+        "description": "Nomes, idades, endereços, outra informação pessoal."
+      },
+      {
+        "question": "Onde é que o incêndio teve lugar e o quê ardeu (prédio, casa, campo, etc)?"
+      },
+      {
+        "question": "Quando o fogo começou, onde e como espalhou-se?"
+      },
+      {
+        "question": "Quando e após quanto tempo o incêndio esteve sob controlo?"
+      },
+      {
+        "question": "Qual foi a causa da morte e ferimentos das vítimas e qual é a gravidade dos ferimentos?",
+        "description": ""
+      },
+      {
+        "question": "Danos materiais:",
+        "description": "qual é a extensão, custo dos danos, seguro? Você pode precisar de contactar com um especialista."
+      },
+      {
+        "question": "Investigação:",
+        "description": "qualquer circunstância fora do normal?"
+      },
+      {
+        "question": "Aonde foram levados os feridos e os mortos?",
+        "description": "(A qual hospital ou casa mortuária?)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Melelo",
+    "questions": [
+      {
+        "question": "Ho hlokohetse batho ba bakae hona ho lemetse ba bakae?"
+      },
+      {
+        "question": "Were there any acts of bravery or any rescues?"
+      },
+      {
+        "question": "Get comments from neighbours, eyewitnesses."
+      },
+      {
+        "question": "How many fire engines and firefighters involved?"
+      },
+      {
+        "question": "Sources:",
+        "description": "Fire chief, police, rescue services, hospital, mortuary, welfare agencies"
+      },
+      {
+        "question": "Na ho tsebilwe batswasehlabelo?",
+        "description": "Mabitso, dilemo, le lesedi le leng ka botho ba bona?"
+      },
+      {
+        "question": "Mollo o ne o le kae, hona ho be ho cha eng (moaho, ntlo, tshimo, le tse ding)?"
+      },
+      {
+        "question": "Mollo o qadile neng, kae le hore na o phatlaletse jwang?"
+      },
+      {
+        "question": "Ke neng le hona ka mora nako e kae ha mollo o ile wa tliswa ka tlasa taolo?"
+      },
+      {
+        "question": "How were victims killed and injured and what is the extent of the injuries?"
+      },
+      {
+        "question": "Property loss:",
+        "description": "what is the extent, cost of damage, insurance? You may need to phone an expert."
+      },
+      {
+        "question": "Investigation:",
+        "description": "any unusual circumstances?"
+      },
+      {
+        "question": "Where were the injured and dead taken?",
+        "description": "(Which hospital or morgue?)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Fires",
+  "type": "questions",
+  "xho": {
+    "title": "Imililo",
+    "questions": [
+      {
+        "question": "Bangaphi abantu abafileyo nabonzakeleyo?"
+      },
+      {
+        "question": "Ingaba bekukho neziphi na izenzo zobukrothi okanye uhlangulo?"
+      },
+      {
+        "question": "Fumana izimvo zabamelwane, amangqina."
+      },
+      {
+        "question": "Zingaphi injini zomlilo kwakunye nabacimi-mlilo abathe babandakanyeka?"
+      },
+      {
+        "question": "Imvelaphi yolwazi:",
+        "description": "U-Mphathi wesebe lezemililo, abezeenkonzo zohlangulo, iindawo zokugcina izidumbhu, ii-arhente zentlalo-ntle"
+      },
+      {
+        "question": "Ngoobani na iingxwelerha?",
+        "description": "Amagama, ubudala, iidilesi ezinye iinkcukhacha."
+      },
+      {
+        "question": "Wenzeki phi na umlilo kwaye yintoni ebisitsha (isakhiwo, indlu, ibala etc)?"
+      },
+      {
+        "question": "Uqalise nini umlilo, unwenwele phi kwaye njani?"
+      },
+      {
+        "question": "Ucinywe/ulawulwe nini kwaye emva kwexesha elingakanani na umlilo?"
+      },
+      {
+        "question": "Amaxhoba abulewe kwaye onzakale njani, lingakanani na iqondo lokonzakala?"
+      },
+      {
+        "question": "Ulahleko lwempahla:",
+        "description": "kweliphi iqondo, ixabiso lomonakalo, i-insurance? Kuzomele ukuba uqhagamshelane nechule kulomcimbi."
+      },
+      {
+        "question": "Uphando:",
+        "description": "Neziphi na izehlo ezingaqhelekanga?"
+      },
+      {
+        "question": "Abonzakeleyo nabafileyo bathathwa basiwa phi?",
+        "description": "(Kwesiphi isibhedlele okanye indawo yokugcina izidumbhu?)"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
