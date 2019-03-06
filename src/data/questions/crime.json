@@ -217,8 +217,45 @@
     ]
   },
   "sot": {
+    "title": "Bosenyi",
     "questions": [
-      {}
+      {
+        "question": "What is the name and details of the victims?",
+        "description": "Names, ages, addresses, other personal information."
+      },
+      {
+        "question": "What was the crime and how was it committed?"
+      },
+      {
+        "question": "What is the date, time and location of the crime?",
+        "description": "Confirm with official sources."
+      },
+      {
+        "question": "In the case of death, what was the official cause?",
+        "description": "(According to paramedics, police or other official sources.)"
+      },
+      {
+        "question": "What injuries did the victims suffer and what weapon was used?"
+      },
+      {
+        "question": "What was the motivation for the crime and what is the background of victim?",
+        "description": "(if relevant?)"
+      },
+      {
+        "question": "Have there been any arrests and are there any suspects or clues?"
+      },
+      {
+        "question": "Are there any strange circumstances surrounding the crime?"
+      },
+      {
+        "question": "Get comment from the victim, witnesses, police and other official sources."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "title": "Crime",
