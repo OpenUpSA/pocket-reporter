@@ -125,8 +125,37 @@
   "title": "Courts - Verdict",
   "type": "questions",
   "xho": {
+    "title": "Iinkundla zamatyala - Isigqibo",
     "questions": [
-      {}
+      {
+        "question": "Sithini isigqibo no monakalo, ukuba ikhona imbuyekezo?",
+        "description": "(Kuyafana, kungaphantsi, kungaphezulu kuno monakalo?)"
+      },
+      {
+        "question": "Ngobani aba chaphazelekayo?"
+      },
+      {
+        "question": "Ingaba umgwebi uyenzile ingxelo kusini na?",
+        "description": "Ingaba yohlukile na kuphando lomvavanyi?"
+      },
+      {
+        "question": "Chaza ngokufutshane izithyolo zalowo ufake ityala?"
+      },
+      {
+        "question": "Ibiyintoni na ubungqina kwakunye namanqaku abalaseleyo amagqwetha?"
+      },
+      {
+        "question": "Ithathe ithuba elingakanani na inkundla yamatyala phambi kokuba ithathe isigqibo?"
+      },
+      {
+        "question": "Ingaba zikhona na izibheno?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   }
 }
