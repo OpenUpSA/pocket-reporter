@@ -1,0 +1,408 @@
+{
+  "spa": {
+    "title": "Biografia",
+    "questions": [
+      {
+        "question": "¿Cuál es el nombre completo de la persona sobre la que está escribiendo?"
+      },
+      {
+        "question": "Detalles de premios / honores / reconocimiento formal.",
+        "description": "https://app.pocketreporter.co.za/#"
+      },
+      {
+        "question": "Resumir cualquiera de sus principales contribuciones a la sociedad y al mundo."
+      },
+      {
+        "question": "Enumere por lo menos TRES acontecimientos políticos o sociales importantes ocurridos durante la vida de esta persona. Para cada evento, explique cómo puede haber afectado su biografía."
+      },
+      {
+        "question": "¿Cuál es su edad y fecha de nacimiento?"
+      },
+      {
+        "question": "¿Cuál es el lugar de nacimiento y dónde viven?"
+      },
+      {
+        "question": "¿Cuál es su descripción física?",
+        "description": "(Esto es importante para agregar color a su pieza.)"
+      },
+      {
+        "question": "Detalles de su carácter y personalidad?",
+        "description": "(Pregúntale a la familia y amigos.)"
+      },
+      {
+        "question": "Detalles de su educación?",
+        "description": "(Incluya cualquier título obtenido.)"
+      },
+      {
+        "question": "Detalles de las relaciones personales con la familia, amigos, compañeros de trabajo."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": " Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Kanegophelo",
+    "questions": [
+      {
+        "question": "Naa leina ka botlalo la motho yo o ngwalago ka yena ke mang?"
+      },
+      {
+        "question": "Details of awards / honours / formal recognition.",
+        "description": "https://app.pocketreporter.co.za/#"
+      },
+      {
+        "question": "Summarise any of their major contributions to society and the world."
+      },
+      {
+        "question": "List at least THREE major political or social events which occurred during this person's life. For each event, explain how it may have affected your biographical subject."
+      },
+      {
+        "question": "Naa o na le mengwaga e mekae le gona o belegwe neng?"
+      },
+      {
+        "question": "Naa o belegetšwe kae le gona o be a dula kae?"
+      },
+      {
+        "question": "Naa o lebelelega bjang ka mmele",
+        "description": "(Se se bohlokwa go tšhela taba ya gago letswai)"
+      },
+      {
+        "question": "Dintlha ka semelo le boitshwaro bja bona?",
+        "description": "(Botšiša meloko le bagwera)"
+      },
+      {
+        "question": "Details of their education?",
+        "description": "(Include any degrees earned.)"
+      },
+      {
+        "question": "Details of personal relationships with family, friends, work colleagues."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Biografie",
+    "questions": [
+      {
+        "question": "Wat is die volle naam van die person oor wie jy skryf?"
+      },
+      {
+        "question": "Besonderhede van toekennings/ eerbewyse/ formele erkennings.",
+        "description": "https://app.pocketreporter.co.za/#"
+      },
+      {
+        "question": "Noem enige van hul groot bydraes tot die gemeenskap en die wêreld."
+      },
+      {
+        "question": "Noem ten minste DRIE belangrike politieke of maatskaplike aangeleenthede wat plaasgevind het tydens hierdie person se lewe. Gee `n verduideliking van elke gebeurtenis en hoe dit jou biografiese onderwerp kon beïnvloed het."
+      },
+      {
+        "question": "Hoe oud is hulle en wanneer is hulle gebore?"
+      },
+      {
+        "question": "Waar is hulle gebore en waar het hulle gebly?"
+      },
+      {
+        "question": "Gee ‘n fisiese beskrywing.",
+        "description": "(Dit is belangrik om u skryfstuk intersant te maak)"
+      },
+      {
+        "question": "Besonderhede oor hulle karakter en persoonlikheid?",
+        "description": "(Vra familie en vriende)"
+      },
+      {
+        "question": "Besonderhede oor hul opleinding.",
+        "description": "(Sluit einge grade verwerf in)"
+      },
+      {
+        "question": "Besonderhede oor persoonlike verhoudings met familie, vriende en kollegas."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is the full name of the person you're writing about?"
+    },
+    {
+      "question": "Details of awards / honours / formal recognition.",
+      "description": "https://app.pocketreporter.co.za/#"
+    },
+    {
+      "question": "Summarise any of their major contributions to society and the world."
+    },
+    {
+      "question": "List at least THREE major political or social events which occurred during this person's life. For each event, explain how it may have affected your biographical subject."
+    },
+    {
+      "question": "What is their age and date of birth?"
+    },
+    {
+      "question": "What is their place of birth and where did they live?"
+    },
+    {
+      "question": "What is their physical description?",
+      "description": "(This is important to add colour to your piece.)"
+    },
+    {
+      "question": "Details of their character and personality?",
+      "description": "(Ask family and friends.)"
+    },
+    {
+      "question": "Details of their education?",
+      "description": "(Include any degrees earned.)"
+    },
+    {
+      "question": "Details of personal relationships with family, friends, work colleagues."
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Tsa bophelo",
+    "questions": [
+      {
+        "question": "Leina ka botlalo la motho yo o ratang go kwala ka ga ena ke mang?"
+      },
+      {
+        "question": "Details of awards / honours / formal recognition.",
+        "description": "https://app.pocketreporter.co.za/#"
+      },
+      {
+        "question": "Summarise any of their major contributions to society and the world."
+      },
+      {
+        "question": "List at least THREE major political or social events which occurred during this person's life.",
+        "description": "For each event, explain how it may have affected your biographical subject."
+      },
+      {
+        "question": "O nale dingwaga tse kae, letlha la botsalo?"
+      },
+      {
+        "question": "O tsholetswe kae, o ne a nna kae?"
+      },
+      {
+        "question": "O bopegile jang",
+        "description": "(Seno se botlhokwa go tswaisa kgang)"
+      },
+      {
+        "question": "Dintlha ka semelo le popego tsa bona?",
+        "description": "(Botsa ba lelapa le ditsala)"
+      },
+      {
+        "question": "Details of their education?",
+        "description": "(Include any degrees earned.)"
+      },
+      {
+        "question": "Details of personal relationships with family, friends, work colleagues."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Umlando wempilo",
+    "questions": [
+      {
+        "question": "Ubani amagama aphelele omuntu obhala ngaye?"
+      },
+      {
+        "question": "Imininigwane yemiklomelo/ ukuhlonishwa/ imiyezane kwezemfundo.",
+        "description": "https://app.pocketreporter.co.za/#"
+      },
+      {
+        "question": "balula kafishane amagalelo abe nawo emphakathini kanye nasemhlabeni jikelele"
+      },
+      {
+        "question": "Isho izigameko ezintathu zepolitiki noma zasemphakathini ezenzeke ngesikhathi esaphila.",
+        "description": "umthelela ezibe nawo ngasinye emlandweni wempilo yakhe"
+      },
+      {
+        "question": "Baneminyaka emingaki, bazalwa nini?"
+      },
+      {
+        "question": "Yini igama lendawo abazalelwe kuyo nokuthi bebehlala kuphi?"
+      },
+      {
+        "question": "Bebengabantu abanjani ngokwesimo somzimba?",
+        "description": "(kubalulekile ukubalula ibala labo)"
+      },
+      {
+        "question": "Imininingwane mayelana nokuthi babengabantu abanjani?",
+        "description": "(buza umndeni nabangani)"
+      },
+      {
+        "question": "Imininingwane yabo kwezemfundo?",
+        "description": "(kufaka phakathi neziqu abazizuzile)"
+      },
+      {
+        "question": "Imininingwane mayelana nobudlelwane bakhe nomndeni wakhe, abangani, emsebenzini,ozakwabo"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Biografia",
+    "questions": [
+      {
+        "question": "Qual é o nome completo da pessoa sobre a que estás a escrever?"
+      },
+      {
+        "question": "Detalhes sobre prémios, menções de honra, ou outro reconhecimento formal."
+      },
+      {
+        "question": "Resuma uma das principais contribuições deles para a sociedade e para o mundo."
+      },
+      {
+        "question": "Liste pelo menos três grandes acontecimentos sociais ou políticos que tenham ocorrido durante a vida desta pessoa. Explique evento por evento como estes acontecimentos podem ter influenciado na sua vida."
+      },
+      {
+        "question": "Qual é sua idade e data de nascimento?"
+      },
+      {
+        "question": "Qual é o lugar de nascimento deles e onde é que eles viviam?"
+      },
+      {
+        "question": "Qual é sua descrição física?",
+        "description": "(Isto é importante para colorir a sua peça)"
+      },
+      {
+        "question": "Detalhes sobre o seu carácter e personalidade?",
+        "description": "(Pergunte à família e amigos)"
+      },
+      {
+        "question": "Detalhes sobre sua educação",
+        "description": "(Incluir nível académico)"
+      },
+      {
+        "question": "Detalhes sobre os seus relacionamentos pessoais com família, amigos, colegas."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Tsa bophelo",
+    "questions": [
+      {
+        "question": "Lebitso ka botlalo la motho eo o ngolang ka yena ke mang?"
+      },
+      {
+        "question": "Details of awards / honours / formal recognition.",
+        "description": "https://app.pocketreporter.co.za/#"
+      },
+      {
+        "question": "Summarise any of their major contributions to society and the world."
+      },
+      {
+        "question": "List at least THREE major political or social events which occurred during this person's life.",
+        "description": "For each event, explain how it may have affected your biographical subject."
+      },
+      {
+        "question": "O na le dilemo tse kae hona letsatsi la hao la tswalo ke mang?"
+      },
+      {
+        "question": "O tswaletswe kae hona o ne a dula kae?"
+      },
+      {
+        "question": "O shebahala jwang ka mmele",
+        "description": "(Sena se bohlokwa ho tshela taba ya hao ka letswai)"
+      },
+      {
+        "question": "Dintlha ka semelo le boitshwaro ba bona?",
+        "description": "(Botsa ba lelapa le metswalle)"
+      },
+      {
+        "question": "Details of their education?",
+        "description": "(Include any degrees earned.)"
+      },
+      {
+        "question": "Details of personal relationships with family, friends, work colleagues."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Biography",
+  "type": "questions",
+  "xho": {
+    "title": "Ibali lobom",
+    "questions": [
+      {
+        "question": "Ngubani na igama elipheleleyo lalowo ubhala ngaye?"
+      },
+      {
+        "question": "Iinkcukacha zee mbasa/amawonga neengqwalasela ezisemthethweni.",
+        "description": "https://app.pocketreporter.co.za/#"
+      },
+      {
+        "question": "Shwankathela neyiphi na inkxaxheba yakhe/yabo ekuhlaleni nakwi hlabathi."
+      },
+      {
+        "question": "Chaza izehlo zezo politiko okanye ezasekuhlaleni zibe ntathu ubuncinane nezathi zehla ngethuba umfi esaphila? Kwi sehlo ngasinye cacisa ukuba ingaba simchaphazele njani umfi?"
+      },
+      {
+        "question": "Ingakanani na iminyaka yabo yobu dala nosuku loku zalwa?"
+      },
+      {
+        "question": "Yintoni igama lendawo yabo/yakhe yokuzalwa kwaye e/bebehlala phi?"
+      },
+      {
+        "question": "Ungaba chaza njani ngokwe simo sabo?",
+        "description": "(Oku kubalulekile ukuphuhliseni umdla webali lakho.)"
+      },
+      {
+        "question": "Iinkcukacha zokuba ngumntu/ngabantu abanjani na?",
+        "description": "(Buza usapho nezihlobo)"
+      },
+      {
+        "question": "Iinkcukacha ze nqanaba lemfundo yakhe?",
+        "description": "(Ukhankanye neziphina ii-degrees azifundeleyo)"
+      },
+      {
+        "question": "Iinkcukacha ngendlela ayiyo kusapho lwakhe, kwizihlobo kwakunye nabo asebenza nabo."
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
