@@ -165,8 +165,37 @@
     ]
   },
   "zul": {
+    "title": "Inkantolo - Isinqumo",
     "questions": [
-      {}
+      {
+        "question": "Sithini isinqumo ngomonakalo, uma siphumile?",
+        "description": "(Siyafana, sincane, sikhulu kakhulu kunomonakalo odalekile? )"
+      },
+      {
+        "question": "ingabe iziphi izinhlaka ezithintekayo?"
+      },
+      {
+        "question": "kungabe ijaji lisenzile isitatimende?",
+        "description": "ingabe sehlukile kunokutholwe abacwaningi?"
+      },
+      {
+        "question": "nikeza imininingwane kafishane mayelana nezinsolo ezenziwe ummangali"
+      },
+      {
+        "question": "Ingabe ibuphi ubufakazi obuqanda ikhanda kanye namaphuzu amqoka kammeli noma umshushisi?"
+      },
+      {
+        "question": "ingabe inkantolo ithathe isikhathi esingakanani ngaphambi kokuthi kuphume isinqumo?"
+      },
+      {
+        "question": "ingabe zikhona izicelo zokubuyekezwa kwesinqumo noma iziphakamiso"
+      },
+      {
+        "question": " Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "por": {
