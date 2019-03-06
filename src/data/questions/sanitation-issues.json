@@ -1,0 +1,280 @@
+{
+  "spa": {
+    "title": "Sanitation Issues",
+    "questions": [
+      {
+        "question": "What kind of toilets do the community/ facility have?",
+        "description": "(There may be a combo of communal/chemical/flush etc)"
+      },
+      {
+        "question": "How many people have to share one toilet?"
+      },
+      {
+        "question": "If there are too few toilets, has the community complained to the municipality or their councillor?",
+        "description": "(If yes, when? If no, why not?)"
+      },
+      {
+        "question": "Municipality’s response to the situation?"
+      },
+      {
+        "question": "Municipality’s response to your media query?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Sanitation Issues",
+    "questions": [
+      {
+        "question": "What kind of toilets do the community/ facility have?",
+        "description": "(There may be a combo of communal/chemical/flush etc)"
+      },
+      {
+        "question": "How many people have to share one toilet?"
+      },
+      {
+        "question": "If there are too few toilets, has the community complained to the municipality or their councillor?",
+        "description": "(If yes, when? If no, why not?)"
+      },
+      {
+        "question": "Municipality’s response to the situation?"
+      },
+      {
+        "question": "Municipality’s response to your media query?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Sanitation Issues",
+    "questions": [
+      {
+        "question": "What kind of toilets do the community/ facility have?",
+        "description": "(There may be a combo of communal/chemical/flush etc)"
+      },
+      {
+        "question": "How many people have to share one toilet?"
+      },
+      {
+        "question": "If there are too few toilets, has the community complained to the municipality or their councillor?",
+        "description": "(If yes, when? If no, why not?)"
+      },
+      {
+        "question": "Municipality’s response to the situation?"
+      },
+      {
+        "question": "Municipality’s response to your media query?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What kind of toilets do the community/ facility have?",
+      "description": "(There may be a combo of communal/chemical/flush etc)"
+    },
+    {
+      "question": "How many people have to share one toilet?"
+    },
+    {
+      "question": "If there are too few toilets, has the community complained to the municipality or their councillor?",
+      "description": "(If yes, when? If no, why not?)"
+    },
+    {
+      "question": "Municipality’s response to the situation?"
+    },
+    {
+      "question": "Municipality’s response to your media query?"
+    },
+    {
+      "question": "Is there anything you wish to add?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Sanitation Issues",
+    "questions": [
+      {
+        "question": "What kind of toilets do the community/ facility have?",
+        "description": "(There may be a combo of communal/chemical/flush etc)"
+      },
+      {
+        "question": "How many people have to share one toilet?"
+      },
+      {
+        "question": "If there are too few toilets, has the community complained to the municipality or their councillor?",
+        "description": "(If yes, when? If no, why not?)"
+      },
+      {
+        "question": "Municipality’s response to the situation?"
+      },
+      {
+        "question": "Municipality’s response to your media query?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Sanitation Issues",
+    "questions": [
+      {
+        "question": "What kind of toilets do the community/ facility have?",
+        "description": "(There may be a combo of communal/chemical/flush etc)"
+      },
+      {
+        "question": "How many people have to share one toilet?"
+      },
+      {
+        "question": "If there are too few toilets, has the community complained to the municipality or their councillor?",
+        "description": "(If yes, when? If no, why not?)"
+      },
+      {
+        "question": "Municipality’s response to the situation?"
+      },
+      {
+        "question": "Municipality’s response to your media query?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Sanitation Issues",
+    "questions": [
+      {
+        "question": "What kind of toilets do the community/ facility have?",
+        "description": "(There may be a combo of communal/chemical/flush etc)"
+      },
+      {
+        "question": "How many people have to share one toilet?"
+      },
+      {
+        "question": "If there are too few toilets, has the community complained to the municipality or their councillor?",
+        "description": "(If yes, when? If no, why not?)"
+      },
+      {
+        "question": "Municipality’s response to the situation?"
+      },
+      {
+        "question": "Municipality’s response to your media query?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Sanitation Issues",
+    "questions": [
+      {
+        "question": "What kind of toilets do the community/ facility have?",
+        "description": "(There may be a combo of communal/chemical/flush etc)"
+      },
+      {
+        "question": "How many people have to share one toilet?"
+      },
+      {
+        "question": "If there are too few toilets, has the community complained to the municipality or their councillor?",
+        "description": "(If yes, when? If no, why not?)"
+      },
+      {
+        "question": "Municipality’s response to the situation?"
+      },
+      {
+        "question": "Municipality’s response to your media query?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": " Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Sanitation Issues",
+  "type": "questions",
+  "xho": {
+    "title": "Sanitation Issues",
+    "questions": [
+      {
+        "question": "What kind of toilets do the community/ facility have?",
+        "description": "(There may be a combo of communal/chemical/flush etc)"
+      },
+      {
+        "question": "How many people have to share one toilet?"
+      },
+      {
+        "question": "If there are too few toilets, has the community complained to the municipality or their councillor?",
+        "description": "(If yes, when? If no, why not?)"
+      },
+      {
+        "question": "Municipality’s response to the situation?"
+      },
+      {
+        "question": "Municipality’s response to your media query?"
+      },
+      {
+        "question": "Is there anything you wish to add?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
