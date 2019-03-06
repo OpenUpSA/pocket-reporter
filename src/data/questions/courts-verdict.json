@@ -34,8 +34,37 @@
     ]
   },
   "nso": {
+    "title": "Kahlolo ya Dikgorotsheko",
     "questions": [
-      {}
+      {
+        "question": "What is the verdict and damages, if awarded?",
+        "description": "(Same, less, greater than the damages sought?)"
+      },
+      {
+        "question": "Who are the parties involved?"
+      },
+      {
+        "question": "Did the judge make a statement?",
+        "description": "Did it deviate from assessor's findings?"
+      },
+      {
+        "question": "Give a summary of the allegations by plaintiff?"
+      },
+      {
+        "question": "What was the key testimony and attorney/advocate's main points?"
+      },
+      {
+        "question": "For how long did the court deliberate before judgement?"
+      },
+      {
+        "question": "Are there any appeals or motions?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "afr": {
