@@ -1,0 +1,501 @@
+{
+  "spa": {
+    "title": "Tribunales - Accion Civil",
+    "questions": [
+      {
+        "question": "¿Quién es la persona u organización que presenta la acción?",
+        "description": "Nombres, edades, direcciones, otra información personal."
+      },
+      {
+        "question": "¿Puede este proceso establecer un marco legal?",
+        "description": "Es un precedente?"
+      },
+      {
+        "question": "¿Existe la posibilidad de un acuerdo extrajudicial?"
+      },
+      {
+        "question": "¿Cuál es el significado de la acción y el efecto sobre otros?"
+      },
+      {
+        "question": "¿Cuáles son los nombres de los abogados de ambas partes?",
+        "description": "(¡Revise la ortografía!)"
+      },
+      {
+        "question": "¿Cuál es la fecha y quién es el juez presidente para el juicio o audiencia?"
+      },
+      {
+        "question": "¿Cuál es el antecedente del demandante o peticionario: la persona que presenta la acción?"
+      },
+      {
+        "question": "¿Cuál es el trasfondo del acusado o demandado?"
+      },
+      {
+        "question": "¿Qué tipo de daño se alega?"
+      },
+      {
+        "question": "¿Cuál es el resultado que se busca?"
+      },
+      {
+        "question": "¿Cuál es la fecha de presentación de la solicitud y cuál es el tribunal competente?"
+      },
+      {
+        "question": "¿Existe una motivación especial detrás de la acción (si la hay)?"
+      },
+      {
+        "question": "¿Cuál es el trasfondo del conflicto / desacuerdo?"
+      },
+      {
+        "question": "¿Existen o han habido casos similares decididos por tribunales (precedentes)?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Dikgorotsheko - Phethagatso ya Selapa",
+    "questions": [
+      {
+        "question": "Who is the person or organisation filing the action?",
+        "description": "Names, ages, addresses, other personal information."
+      },
+      {
+        "question": "Could this suit lead to a landmark action? Is it a precedent?"
+      },
+      {
+        "question": "Is there a possibility of an out-of-court settlement?"
+      },
+      {
+        "question": "What is the significance of the action and the effect on others?"
+      },
+      {
+        "question": "What are the names of the lawyers for both sides?",
+        "description": "(Check spelling!)"
+      },
+      {
+        "question": "What is the date and who is the presiding judge for the trial or hearing?"
+      },
+      {
+        "question": "What is the background of the plaintiff or petitioner: the person filing the action?"
+      },
+      {
+        "question": "What is the background of the defendant or respondent?"
+      },
+      {
+        "question": "What type of damage is alleged?"
+      },
+      {
+        "question": "What is the outcome being sought?"
+      },
+      {
+        "question": "What is the date of filing of the application and which is the court of jurisdiction?"
+      },
+      {
+        "question": "Is there a special motivation behind the action (if any)?"
+      },
+      {
+        "question": "What is the background to the conflict/disagreement?"
+      },
+      {
+        "question": "Are there or have there been any similar cases decided by courts (precedents)?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Howe - Sivele Geding",
+    "questions": [
+      {
+        "question": "Wie is die persoon of organisasie wat die aksie in gedien het?",
+        "description": "Name, ouderdomme, adresse, ander persoonlike inligting."
+      },
+      {
+        "question": "Is dit moontlik dat hierdie geding tot landmerkaksie sal lei?",
+        "description": "Skep dit 'n presedent?"
+      },
+      {
+        "question": "Is dit moontlik dat die saak buite die hof geskik sal word?"
+      },
+      {
+        "question": "Wat is die betekenis van die aksie en die gevolge daarvan op ander?"
+      },
+      {
+        "question": "Wat is die name van die prokureurs aan beide kante?",
+        "description": "(Kontroleer spelling!)"
+      },
+      {
+        "question": "Wanneer is die verhoor en wie is die voorsittende regter?"
+      },
+      {
+        "question": "Wat is die agtergrond van die eiser of aansoeker: die persoon wat die aksie in gedien het?"
+      },
+      {
+        "question": "Wat is die agtergrond van die verweeder of respondent?"
+      },
+      {
+        "question": "Watter tipe skade word beweer?"
+      },
+      {
+        "question": "Wat is die verlangde uitkoms?"
+      },
+      {
+        "question": "Op watter datum is die aansoek ingedien en watter hof het jurisdiksie?"
+      },
+      {
+        "question": "Is daar 'n spesifieke motivering agter die aksie (indien enige)?"
+      },
+      {
+        "question": "Wat is die agtergrond tot die konflik/meningsverskil?"
+      },
+      {
+        "question": "Is of was daar enige soortgelyke beslissings deur howe (presedente)?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Who is the person or organisation filing the action?",
+      "description": "Names, ages, addresses, other personal information."
+    },
+    {
+      "question": "Could this suit lead to a landmark action? Is it a precedent?"
+    },
+    {
+      "question": "Is there a possibility of an out-of-court settlement?"
+    },
+    {
+      "question": "What is the significance of the action and the effect on others?"
+    },
+    {
+      "question": "What are the names of the lawyers for both sides?",
+      "description": "(Check spelling!)"
+    },
+    {
+      "question": "What is the date and who is the presiding judge for the trial or hearing?"
+    },
+    {
+      "question": "What is the background of the plaintiff or petitioner: the person filing the action?"
+    },
+    {
+      "question": "What is the background of the defendant or respondent?"
+    },
+    {
+      "question": "What type of damage is alleged?"
+    },
+    {
+      "question": "What is the outcome being sought?"
+    },
+    {
+      "question": "What is the date of filing of the application and which is the court of jurisdiction?"
+    },
+    {
+      "question": "Is there a special motivation behind the action (if any)?"
+    },
+    {
+      "question": "What is the background to the conflict/disagreement?"
+    },
+    {
+      "question": "Are there or have there been any similar cases decided by courts (precedents)?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Dikgotlatshekelo - Kgato ya molao",
+    "questions": [
+      {
+        "question": "Who is the person or organisation filing the action?",
+        "description": "Names, ages, addresses, other personal information."
+      },
+      {
+        "question": "Could this suit lead to a landmark action? Is it a precedent?"
+      },
+      {
+        "question": "Is there a possibility of an out-of-court settlement?"
+      },
+      {
+        "question": "What is the significance of the action and the effect on others?"
+      },
+      {
+        "question": "What are the names of the lawyers for both sides?",
+        "description": "(Check spelling!)"
+      },
+      {
+        "question": "What is the date and who is the presiding judge for the trial or hearing?"
+      },
+      {
+        "question": "What is the background of the plaintiff or petitioner: the person filing the action?"
+      },
+      {
+        "question": "What is the background of the defendant or respondent?"
+      },
+      {
+        "question": "What type of damage is alleged?"
+      },
+      {
+        "question": "What is the outcome being sought?"
+      },
+      {
+        "question": "What is the date of filing of the application and which is the court of jurisdiction?"
+      },
+      {
+        "question": "Is there a special motivation behind the action (if any)?"
+      },
+      {
+        "question": "What is the background to the conflict/disagreement?"
+      },
+      {
+        "question": "Are there or have there been any similar cases decided by courts (precedents)?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Izinkantolo - isimangalo",
+    "questions": [
+      {
+        "question": "ubani umuntu noma inhlangano egcina imininingwane?",
+        "description": "igama, iminyaka,ikheli, kanye neminye imininingwane ethinta lowo muntu."
+      },
+      {
+        "question": "Ingabe lokhu kungaqhamuka noshitsho? ingabe kwake kwenzeka ekuqaleni?"
+      },
+      {
+        "question": "Ingabe kungenzeka ukuthi udaba luxoxwe ngaphandle kokuya enkantolo?"
+      },
+      {
+        "question": "Ingabe yini okubaluleka kwalokhu nokuthi kuzoba namuphi umthelela kwabanye"
+      },
+      {
+        "question": "Ngobani amagama abameli bezinhlangothi zombili?",
+        "description": "(qikelela isipelingi)"
+      },
+      {
+        "question": "umhlaka bani nokuthi ubani ijaji eliqhuba ukuqulwa noma ukulalelwa kwecala?"
+      },
+      {
+        "question": "uthini umlando kammngali noma lowo ofake isicelo enkantolo: umuntu ogcina imininingwane emayelana nokuqhubeka ecaleni?"
+      },
+      {
+        "question": "uthini umlando kammangalelwa noma ummangali?"
+      },
+      {
+        "question": "Igabe hlobo luni lomonakalo owenzekile"
+      },
+      {
+        "question": "ngabe yini umphumela wokuboshwa"
+      },
+      {
+        "question": "ingabe iluphi usuku lokufakwa kwesicelo nokuthi imaphi amandla inkantolo enawo?"
+      },
+      {
+        "question": "ingabe kukhona okuthile okugqugquzela lokhu (Uma kukhona)?"
+      },
+      {
+        "question": "ingabe yini umsuka wengxabano noma ukungaboni ngaso linye?"
+      },
+      {
+        "question": "ingabe akhona noma ake abakhona amacala afuze lawa inkantolo eseyake yathatha izinqumo kuwona (phambilini)?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Tribunais - Acao Civil",
+    "questions": [
+      {
+        "question": "Quem é a pessoa ou organização executando a ação judicial?",
+        "description": "Nomes, idades, endereços, outra informação pessoal."
+      },
+      {
+        "question": "Pode este processo estabelecer um marco legal?",
+        "description": "É um precedente?"
+      },
+      {
+        "question": "Existe uma possibilidade de acordo fora do tribunal?"
+      },
+      {
+        "question": "Qual é o significado por trás da ação e o efeito sobre outros?"
+      },
+      {
+        "question": "Quais são os nomes dos advogados de ambas partes?",
+        "description": "( Verifique a ortografia!)"
+      },
+      {
+        "question": "Qual é a data e quem é o juiz que vai presidir o julgamento ou audiência?"
+      },
+      {
+        "question": "Qual é o historial do demandante: a pessoa que apresenta a ação judicial?"
+      },
+      {
+        "question": "Qual é o historial do acusado?"
+      },
+      {
+        "question": "Que tipo de dano é alegado?"
+      },
+      {
+        "question": "Qual é o resultado a ser alcançado?"
+      },
+      {
+        "question": "Qual é a data de submetimento do requerimento e qual é o tribunal de juridisção?"
+      },
+      {
+        "question": "Há alguma motivação especial por trás da ação judicial (se existir)?"
+      },
+      {
+        "question": "Qual é o historial do conflito/desacordo?"
+      },
+      {
+        "question": "Há ou terão havido alguns casos similares julgados pelos tribunais (precedentes)?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Dikgorotsheko - Kgato ya molao",
+    "questions": [
+      {
+        "question": "Who is the person or organisation filing the action?",
+        "description": "Names, ages, addresses, other personal information."
+      },
+      {
+        "question": "Could this suit lead to a landmark action?",
+        "description": "Is it a precedent?"
+      },
+      {
+        "question": "Is there a possibility of an out-of-court settlement?"
+      },
+      {
+        "question": "What is the significance of the action and the effect on others?"
+      },
+      {
+        "question": "What are the names of the lawyers for both sides?",
+        "description": "(Check spelling!)"
+      },
+      {
+        "question": "What is the date and who is the presiding judge for the trial or hearing?"
+      },
+      {
+        "question": "What is the background of the plaintiff or petitioner: the person filing the action?"
+      },
+      {
+        "question": "What is the background of the defendant or respondent?"
+      },
+      {
+        "question": "What type of damage is alleged?"
+      },
+      {
+        "question": "What is the outcome being sought?"
+      },
+      {
+        "question": "What is the date of filing of the application and which is the court of jurisdiction?"
+      },
+      {
+        "question": "Is there a special motivation behind the action (if any)?"
+      },
+      {
+        "question": "What is the background to the conflict/disagreement?"
+      },
+      {
+        "question": "Are there or have there been any similar cases decided by courts (precedents)?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Courts - Civil Action",
+  "type": "questions",
+  "xho": {
+    "title": "Inyathelo lenkundla yamatyala",
+    "questions": [
+      {
+        "question": "Ngubani lomntu okanye iqela elithatha lamanyathelo?",
+        "description": "Amagama, ubudala, iidilesi, nezinye iinkcukhacha."
+      },
+      {
+        "question": "Ingaba esisigwebo singakhokela kumanyathelo angqingqwa?",
+        "description": "Ingaba singumzekelo?"
+      },
+      {
+        "question": "Sinako ukuthatyathwa isigqibo ngaphandle kwenkundla?"
+      },
+      {
+        "question": "Yintoni na eyi ngqwalasela yeli nyathelo kwaye ibachaphazela njani abanye abantu?"
+      },
+      {
+        "question": "Ngobani na amagama amagqwetha macala omabini?",
+        "description": "(Ujongisise izibhalo zawo)"
+      },
+      {
+        "question": "Uthini umhla kwaye ngubani i-Jaji esingathe elityala?"
+      },
+      {
+        "question": "Ithini imvelaphi yalowo ufaka ityala?"
+      },
+      {
+        "question": "Ithini imvelaphi yomthyolwa?"
+      },
+      {
+        "question": "Yeyiphi indidi yomonakalo obikwayo?"
+      },
+      {
+        "question": "Yintoni na iinjongo zelityala?"
+      },
+      {
+        "question": "Unini umhla woku faka isicelo kwaye yeyiphi inkundla yamatyala emele lomcimbi?"
+      },
+      {
+        "question": "Ingaba ikhona na into ekhuthaze ezizenzo (ukuba ikhona)?"
+      },
+      {
+        "question": "Ithini intsusa yale ngxabano okanye impikiswano?"
+      },
+      {
+        "question": "Ingaba akhona okanye akhe akhona na amatyala ayeleleneyo kweli athi asingathwa ziinkundla zamatyala (ezangaphambili)?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
