@@ -233,8 +233,60 @@
     ]
   },
   "por": {
+    "title": "Servicos de saude",
     "questions": [
-      {}
+      {
+        "question": "Qual é o nome do hospital ou clínica e onde é que está situada?"
+      },
+      {
+        "question": "Qual é a reacção dos responsáveis oficiais pelo serviço?"
+      },
+      {
+        "question": "Os pacientes tinham visitado as instalações anteriormente?",
+        "description": "Se sim, o seu arquivo estava disponível quando eles foram tratados?"
+      },
+      {
+        "question": "Que distância percorreram os pacientes entrevistados para chegar até lá?"
+      },
+      {
+        "question": "Como eles chegaram lá?",
+        "description": "(autocarro, taxi, comboio, a pé)"
+      },
+      {
+        "question": "Qual foi o custo da viagem de regresso?"
+      },
+      {
+        "question": "Quais serviços não estão a funcionar enquanto deveriam?",
+        "description": "(áreas sem prestação de serviços)"
+      },
+      {
+        "question": "Porquê esses serviços já não estão sendo prestados?"
+      },
+      {
+        "question": "Quem está afectado?",
+        "description": "(Um grupo concreto de pessoas/ área e quais são as suas origens socio-económicas?"
+      },
+      {
+        "question": "Quantas pessoas estão afectadas, em risco ou em perigo devido a retirada destes serviços?"
+      },
+      {
+        "question": "Quais são os nomes e idades dos afectados e quais são as suas experiências?"
+      },
+      {
+        "question": "Quanto tempo esperam os pacientes para serem atendidos por um médico ou outro pessoal de saúde?"
+      },
+      {
+        "question": "Há sufiente- e adequada- medicação disponível?"
+      },
+      {
+        "question": "Quem é o responsável da prestação de serviços?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "sot": {
