@@ -1,0 +1,18 @@
+{
+  "type": "folders",
+  "title": "Test",
+  "translations": {
+    "afr": "Test"
+  },
+  "icon": "Wifi",
+  "questions": [
+    {
+      "undefined": "Crime"
+    }
+  ],
+  "resources": [
+    {
+      "undefined": "Example Title"
+    }
+  ]
+}
