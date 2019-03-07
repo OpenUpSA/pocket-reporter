@@ -62,6 +62,7 @@ const createFolders = isoKeys => ({
       widget: 'list',
       fields: [{
         label: 'Title',
+        name: 'title',
         collection: 'resources',
         valueField: 'title',
         searchFields: ['title'],
