@@ -1,0 +1,424 @@
+{
+  "spa": {
+    "title": "Election Day",
+    "questions": [
+      {
+        "question": "Have you established contact and obtained contact details with the electoral officer in charge of the voting station?"
+      },
+      {
+        "question": "Have you asked if there any inconsistencies during the counting process?"
+      },
+      {
+        "question": "Did you establish and keep in continuous contact with the various political party representatives in the polling station who are also observing and ensuring the process is free and fair?"
+      },
+      {
+        "question": "Did you check in with them on any alleged irregularities on a regular basis?"
+      },
+      {
+        "question": "Have you observed and noted the electoral officers’ relationship and conduct with the different various political parties?"
+      },
+      {
+        "question": "Have you made notes about whether any of the behaviour pf the officers suggest favouritism or underline impartiality?"
+      },
+      {
+        "question": "What degree of freedom did political parties enjoy outside voting stations?"
+      },
+      {
+        "question": "Have you asked whether the party representatives were allowed to move around, organise and express their views outside the voting station?"
+      },
+      {
+        "question": "Have you asked whether any parties were allowed to electioneer on the voting station premises itself?"
+      },
+      {
+        "question": "Have you checked who the party agents are inside of the voting stations, and asked whether they had any concerns about the voting process?"
+      },
+      {
+        "question": "Have you taken note of the conduct of electoral officers during voting and counting?"
+      },
+      {
+        "question": "Have you noted whether there were impediments to free and fair voting and counting?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Election Day",
+    "questions": [
+      {
+        "question": "Have you established contact and obtained contact details with the electoral officer in charge of the voting station?"
+      },
+      {
+        "question": "Have you asked if there any inconsistencies during the counting process?"
+      },
+      {
+        "question": "Did you establish and keep in continuous contact with the various political party representatives in the polling station who are also observing and ensuring the process is free and fair?"
+      },
+      {
+        "question": "Did you check in with them on any alleged irregularities on a regular basis?"
+      },
+      {
+        "question": "Have you observed and noted the electoral officers’ relationship and conduct with the different various political parties?"
+      },
+      {
+        "question": "Have you made notes about whether any of the behaviour pf the officers suggest favouritism or underline impartiality?"
+      },
+      {
+        "question": "What degree of freedom did political parties enjoy outside voting stations?"
+      },
+      {
+        "question": "Have you asked whether the party representatives were allowed to move around, organise and express their views outside the voting station?"
+      },
+      {
+        "question": "Have you asked whether any parties were allowed to electioneer on the voting station premises itself?"
+      },
+      {
+        "question": "Have you checked who the party agents are inside of the voting stations, and asked whether they had any concerns about the voting process?"
+      },
+      {
+        "question": "Have you taken note of the conduct of electoral officers during voting and counting?"
+      },
+      {
+        "question": "Have you noted whether there were impediments to free and fair voting and counting?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Election Day",
+    "questions": [
+      {
+        "question": "Have you established contact and obtained contact details with the electoral officer in charge of the voting station?"
+      },
+      {
+        "question": "Have you asked if there any inconsistencies during the counting process?"
+      },
+      {
+        "question": "Did you establish and keep in continuous contact with the various political party representatives in the polling station who are also observing and ensuring the process is free and fair?"
+      },
+      {
+        "question": "Did you check in with them on any alleged irregularities on a regular basis?"
+      },
+      {
+        "question": "Have you observed and noted the electoral officers’ relationship and conduct with the different various political parties?"
+      },
+      {
+        "question": "Have you made notes about whether any of the behaviour pf the officers suggest favouritism or underline impartiality?"
+      },
+      {
+        "question": "What degree of freedom did political parties enjoy outside voting stations?"
+      },
+      {
+        "question": "Have you asked whether the party representatives were allowed to move around, organise and express their views outside the voting station?"
+      },
+      {
+        "question": "Have you asked whether any parties were allowed to electioneer on the voting station premises itself?"
+      },
+      {
+        "question": "Have you checked who the party agents are inside of the voting stations, and asked whether they had any concerns about the voting process?"
+      },
+      {
+        "question": "Have you taken note of the conduct of electoral officers during voting and counting?"
+      },
+      {
+        "question": "Have you noted whether there were impediments to free and fair voting and counting?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "Have you established contact and obtained contact details with the electoral officer in charge of the voting station?"
+    },
+    {
+      "question": "Have you asked if there any inconsistencies during the counting process?"
+    },
+    {
+      "question": "Did you establish and keep in continuous contact with the various political party representatives in the polling station who are also observing and ensuring the process is free and fair?"
+    },
+    {
+      "question": "Did you check in with them on any alleged irregularities on a regular basis?"
+    },
+    {
+      "question": "Have you observed and noted the electoral officers’ relationship and conduct with the different various political parties?"
+    },
+    {
+      "question": "Have you made notes about whether any of the behaviour pf the officers suggest favouritism or underline impartiality?"
+    },
+    {
+      "question": "What degree of freedom did political parties enjoy outside voting stations?"
+    },
+    {
+      "question": "Have you asked whether the party representatives were allowed to move around, organise and express their views outside the voting station?"
+    },
+    {
+      "question": "Have you asked whether any parties were allowed to electioneer on the voting station premises itself?"
+    },
+    {
+      "question": "Have you checked who the party agents are inside of the voting stations, and asked whether they had any concerns about the voting process?"
+    },
+    {
+      "question": "Have you taken note of the conduct of electoral officers during voting and counting?"
+    },
+    {
+      "question": "Have you noted whether there were impediments to free and fair voting and counting?"
+    },
+    {
+      "question": "Additional info/notes"
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Election Day",
+    "questions": [
+      {
+        "question": "Have you established contact and obtained contact details with the electoral officer in charge of the voting station?"
+      },
+      {
+        "question": "Have you asked if there any inconsistencies during the counting process?"
+      },
+      {
+        "question": "Did you establish and keep in continuous contact with the various political party representatives in the polling station who are also observing and ensuring the process is free and fair?"
+      },
+      {
+        "question": "Did you check in with them on any alleged irregularities on a regular basis?"
+      },
+      {
+        "question": "Have you observed and noted the electoral officers’ relationship and conduct with the different various political parties?"
+      },
+      {
+        "question": "Have you made notes about whether any of the behaviour pf the officers suggest favouritism or underline impartiality?"
+      },
+      {
+        "question": "What degree of freedom did political parties enjoy outside voting stations?"
+      },
+      {
+        "question": "Have you asked whether the party representatives were allowed to move around, organise and express their views outside the voting station?"
+      },
+      {
+        "question": "Have you asked whether any parties were allowed to electioneer on the voting station premises itself?"
+      },
+      {
+        "question": "Have you checked who the party agents are inside of the voting stations, and asked whether they had any concerns about the voting process?"
+      },
+      {
+        "question": "Have you taken note of the conduct of electoral officers during voting and counting?"
+      },
+      {
+        "question": "Have you noted whether there were impediments to free and fair voting and counting?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Election Day",
+    "questions": [
+      {
+        "question": "Have you established contact and obtained contact details with the electoral officer in charge of the voting station?"
+      },
+      {
+        "question": "Have you asked if there any inconsistencies during the counting process?"
+      },
+      {
+        "question": "Did you establish and keep in continuous contact with the various political party representatives in the polling station who are also observing and ensuring the process is free and fair?"
+      },
+      {
+        "question": "Did you check in with them on any alleged irregularities on a regular basis?"
+      },
+      {
+        "question": "Have you observed and noted the electoral officers’ relationship and conduct with the different various political parties?"
+      },
+      {
+        "question": "Have you made notes about whether any of the behaviour pf the officers suggest favouritism or underline impartiality?"
+      },
+      {
+        "question": "What degree of freedom did political parties enjoy outside voting stations?"
+      },
+      {
+        "question": "Have you asked whether the party representatives were allowed to move around, organise and express their views outside the voting station?"
+      },
+      {
+        "question": "Have you asked whether any parties were allowed to electioneer on the voting station premises itself?"
+      },
+      {
+        "question": "Have you checked who the party agents are inside of the voting stations, and asked whether they had any concerns about the voting process?"
+      },
+      {
+        "question": "Have you taken note of the conduct of electoral officers during voting and counting?"
+      },
+      {
+        "question": "Have you noted whether there were impediments to free and fair voting and counting?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Election Day",
+    "questions": [
+      {
+        "question": "Have you established contact and obtained contact details with the electoral officer in charge of the voting station?"
+      },
+      {
+        "question": "Have you asked if there any inconsistencies during the counting process?"
+      },
+      {
+        "question": "Did you establish and keep in continuous contact with the various political party representatives in the polling station who are also observing and ensuring the process is free and fair?"
+      },
+      {
+        "question": "Did you check in with them on any alleged irregularities on a regular basis?"
+      },
+      {
+        "question": "Have you observed and noted the electoral officers’ relationship and conduct with the different various political parties?"
+      },
+      {
+        "question": "Have you made notes about whether any of the behaviour pf the officers suggest favouritism or underline impartiality?"
+      },
+      {
+        "question": "What degree of freedom did political parties enjoy outside voting stations?"
+      },
+      {
+        "question": "Have you asked whether the party representatives were allowed to move around, organise and express their views outside the voting station?"
+      },
+      {
+        "question": "Have you asked whether any parties were allowed to electioneer on the voting station premises itself?"
+      },
+      {
+        "question": "Have you checked who the party agents are inside of the voting stations, and asked whether they had any concerns about the voting process?"
+      },
+      {
+        "question": "Have you taken note of the conduct of electoral officers during voting and counting?"
+      },
+      {
+        "question": "Have you noted whether there were impediments to free and fair voting and counting?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Election Day",
+    "questions": [
+      {
+        "question": "Have you established contact and obtained contact details with the electoral officer in charge of the voting station?"
+      },
+      {
+        "question": "Have you asked if there any inconsistencies during the counting process?"
+      },
+      {
+        "question": "Did you establish and keep in continuous contact with the various political party representatives in the polling station who are also observing and ensuring the process is free and fair?"
+      },
+      {
+        "question": "Did you check in with them on any alleged irregularities on a regular basis?"
+      },
+      {
+        "question": "Have you observed and noted the electoral officers’ relationship and conduct with the different various political parties?"
+      },
+      {
+        "question": "Have you made notes about whether any of the behaviour pf the officers suggest favouritism or underline impartiality?"
+      },
+      {
+        "question": "What degree of freedom did political parties enjoy outside voting stations?"
+      },
+      {
+        "question": "Have you asked whether the party representatives were allowed to move around, organise and express their views outside the voting station?"
+      },
+      {
+        "question": "Have you asked whether any parties were allowed to electioneer on the voting station premises itself?"
+      },
+      {
+        "question": "Have you checked who the party agents are inside of the voting stations, and asked whether they had any concerns about the voting process?"
+      },
+      {
+        "question": "Have you taken note of the conduct of electoral officers during voting and counting?"
+      },
+      {
+        "question": "Have you noted whether there were impediments to free and fair voting and counting?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Election Day",
+  "type": "questions",
+  "xho": {
+    "title": "Election Day",
+    "questions": [
+      {
+        "question": "Have you established contact and obtained contact details with the electoral officer in charge of the voting station?"
+      },
+      {
+        "question": "Have you asked if there any inconsistencies during the counting process?"
+      },
+      {
+        "question": "Did you establish and keep in continuous contact with the various political party representatives in the polling station who are also observing and ensuring the process is free and fair?"
+      },
+      {
+        "question": "Did you check in with them on any alleged irregularities on a regular basis?"
+      },
+      {
+        "question": "Have you observed and noted the electoral officers’ relationship and conduct with the different various political parties?"
+      },
+      {
+        "question": "Have you made notes about whether any of the behaviour pf the officers suggest favouritism or underline impartiality?"
+      },
+      {
+        "question": "What degree of freedom did political parties enjoy outside voting stations?"
+      },
+      {
+        "question": "Have you asked whether the party representatives were allowed to move around, organise and express their views outside the voting station?"
+      },
+      {
+        "question": "Have you asked whether any parties were allowed to electioneer on the voting station premises itself?"
+      },
+      {
+        "question": "Have you checked who the party agents are inside of the voting stations, and asked whether they had any concerns about the voting process?"
+      },
+      {
+        "question": "Have you taken note of the conduct of electoral officers during voting and counting?"
+      },
+      {
+        "question": "Have you noted whether there were impediments to free and fair voting and counting?"
+      },
+      {
+        "question": "Additional info/notes"
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
