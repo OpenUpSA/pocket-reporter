@@ -1,0 +1,26 @@
+{
+  "type": "folders",
+  "title": "WGTSTWRYHERSHYD",
+  "translations": {
+    "afr": "ADFS",
+    "spa": "AFDSAD",
+    "xho": "AFDSDA"
+  },
+  "icon": "TimeToLeave",
+  "questions": [
+    {
+      "undefined": "Crime"
+    },
+    {
+      "undefined": "Biography"
+    },
+    {
+      "undefined": "Courts - Verdict"
+    }
+  ],
+  "resources": [
+    {
+      "undefined": "Example Title"
+    }
+  ]
+}
