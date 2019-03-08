@@ -10,8 +10,60 @@
     ]
   },
   "afr": {
+    "title": "Gesondheidsdienste",
     "questions": [
-      {}
+      {
+        "question": "Wat is die naam van die hospitaal of kliniek en waar is dit geleë?"
+      },
+      {
+        "question": "Wat is die kommentaar van amptenare wat verantwoordelik is vir die lewering van die diens?"
+      },
+      {
+        "question": "Het pasiënte al voorheen die fasilteit besoek?",
+        "description": "Indien ja, was hul lêer beskikbaar toe hulle behandel is?"
+      },
+      {
+        "question": "Hoe ver moes pasiënte wat jy ondervra het, reis om daar te kom?"
+      },
+      {
+        "question": "Hoe het hulle daar gekom?",
+        "description": "(per bus, taxi, trein, of te voet)"
+      },
+      {
+        "question": "Wat was hul retoerkoste?"
+      },
+      {
+        "question": "Watter dienste word nie gelewer nie, al is hulle nodig?",
+        "description": "(areas van gebrekkige dienslewering)"
+      },
+      {
+        "question": "Hoekom word hierdie dienste nie meer gelewer nie?"
+      },
+      {
+        "question": "Wie word daardeur geraak?",
+        "description": "(`n Spesifieke groep mense/gebied uit watter sosio-ekonomiese agtergrond kom hulle)"
+      },
+      {
+        "question": "Hoeveel mense word geraak, of word in gevaar gestel as gevolg van die onttrekking van hierdie dienste?"
+      },
+      {
+        "question": "Wat is die name en ouderdomme van diegene wat geraak word en wat is hul ervarings?"
+      },
+      {
+        "question": "Hoe lank wag pasiënte voor`n dokter of gesondheidswerker hulle kan sien?"
+      },
+      {
+        "question": "Is daar genoeg - en die regte - medikasie beskikbaar?"
+      },
+      {
+        "question": "Wie is verantwoordelik vir die dienslewering?"
+      },
+      {
+        "question": "Additional info/notes "
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "questions": [
