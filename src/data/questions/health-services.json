@@ -1,0 +1,97 @@
+{
+  "spa": {
+    "questions": [
+      {}
+    ]
+  },
+  "nso": {
+    "questions": [
+      {}
+    ]
+  },
+  "afr": {
+    "questions": [
+      {}
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is the name of the hospital or clinic and where is it situated?"
+    },
+    {
+      "question": "What is the response from officials responsible for delivering the service?"
+    },
+    {
+      "question": "Have patients visited the facility previously? If yes, was their file available when they were treated?"
+    },
+    {
+      "question": "What distance did patients you interviewed have to travel to get there?"
+    },
+    {
+      "question": "How did they get there?",
+      "description": "(bus, taxi, train, walk)"
+    },
+    {
+      "question": "What was the cost of their return fare?"
+    },
+    {
+      "question": "What services are not being offered when they should be?",
+      "description": "(areas of lack of service delivery)"
+    },
+    {
+      "question": "Why are these services no longer being offered?"
+    },
+    {
+      "question": "Who is affected by this?",
+      "description": "(A particular group of people / area and what are their socio-economic backgrounds?"
+    },
+    {
+      "question": "How many people are affected, at risk or in danger because of the withdrawal of these services?"
+    },
+    {
+      "question": "What are the names and ages of those affected and what are their experiences?"
+    },
+    {
+      "question": "How long do patients wait to be seen by doctors/health workers?"
+    },
+    {
+      "question": "Is there sufficient - and the correct - medication available?"
+    },
+    {
+      "question": "Who is responsible for delivering the services?"
+    },
+    {
+      "question": "Additional info/notes "
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "questions": [
+      {}
+    ]
+  },
+  "zul": {
+    "questions": [
+      {}
+    ]
+  },
+  "por": {
+    "questions": [
+      {}
+    ]
+  },
+  "sot": {
+    "questions": [
+      {}
+    ]
+  },
+  "title": "Health Services",
+  "type": "questions",
+  "xho": {
+    "questions": [
+      {}
+    ]
+  }
+}
