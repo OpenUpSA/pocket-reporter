@@ -281,8 +281,57 @@
     ]
   },
   "zul": {
+    "title": "Imisebenzi yezempilo",
     "questions": [
-      {}
+      {
+        "question": "Yini igama lesibhedlela noma umtholampilo nokuthi sikuphi nendawo?"
+      },
+      {
+        "question": "Ingabe kuthini ukuphawula kweziphathimandla ababhekele ukuletha usizo?"
+      },
+      {
+        "question": "Ingabe iziguli zike zavakashela lesikhungo ngaphambili? Uma kunjalo ingabe abekhona amafayela abo ngaphambi kokwelashwa?"
+      },
+      {
+        "question": "Ingabe zihamba ibanga elingakanani iziguli oxoxisene nazo ukuze zifike khona?"
+      },
+      {
+        "question": "Ingabe bafike kanjani lapho? (Ngebhasi, itekisi, isitimela, noma ngezinyawo)"
+      },
+      {
+        "question": "Yimalini abayikhokhile ngezinto zokugibela ukuya nokubuya?"
+      },
+      {
+        "question": "Iluphi usizo olungatholakali ngesikhathi esifanele? (izinto ezingenziwa)."
+      },
+      {
+        "question": "Kungani lolusizo lungasazikezwa?"
+      },
+      {
+        "question": "obani othintekayo ngalokhu?",
+        "description": "( Uhlobo oluthize lwabantu lempilo yabo nemvelaphi yabo)."
+      },
+      {
+        "question": "Bangakhi abantu abathintekayo, abasengcupheni, noma abasengozini ngenxa yokuyekelwa kosizo?"
+      },
+      {
+        "question": "Obani amagama kanye neminyaka yalabo abathintekayo nokuthi batheke kanjani?"
+      },
+      {
+        "question": "Ingabe kuthatha isikhathi esingakanani ukuba iziguli zibonwe udokotela/ noma abasebenzi bezempilo?"
+      },
+      {
+        "question": "Ingabe akhona amakhambi afanele ngokwenele"
+      },
+      {
+        "question": "Ubani okunguyena obhekele ukuletha usizo?"
+      },
+      {
+        "question": "Additional info/notes "
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
     ]
   },
   "por": {
