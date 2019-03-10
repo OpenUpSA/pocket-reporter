@@ -1,0 +1,14 @@
+{
+  "type": "folders",
+  "title": "Sport",
+  "translations": {},
+  "icon": "FitnessCenter",
+  "questions": [
+    {
+      "undefined": "Sports"
+    }
+  ],
+  "resources": [
+    {}
+  ]
+}
