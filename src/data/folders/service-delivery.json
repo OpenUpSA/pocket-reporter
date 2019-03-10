@@ -1,0 +1,20 @@
+{
+  "type": "folders",
+  "title": "Service Delivery",
+  "translations": {},
+  "icon": "People",
+  "questions": [
+    {
+      "undefined": "Protest March"
+    },
+    {
+      "undefined": "Lack of Water"
+    },
+    {
+      "undefined": "Sanitation Issues"
+    }
+  ],
+  "resources": [
+    {}
+  ]
+}
