@@ -2,17 +2,11 @@
   "type": "folders",
   "title": "Legal",
   "translations": {},
-  "icon": "Work",
+  "icon": "BusinessCenter",
   "questions": [
-    {
-      "undefined": "Courts - Civil Action"
-    },
-    {
-      "undefined": "Courts - Verdict"
-    },
-    {
-      "undefined": "Crime"
-    }
+    {},
+    {},
+    {}
   ],
   "resources": [
     {}
