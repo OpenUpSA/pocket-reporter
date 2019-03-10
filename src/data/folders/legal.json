@@ -1,0 +1,20 @@
+{
+  "type": "folders",
+  "title": "Legal",
+  "translations": {},
+  "icon": "Work",
+  "questions": [
+    {
+      "undefined": "Courts - Civil Action"
+    },
+    {
+      "undefined": "Courts - Verdict"
+    },
+    {
+      "undefined": "Crime"
+    }
+  ],
+  "resources": [
+    {}
+  ]
+}
