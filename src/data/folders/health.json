@@ -1,0 +1,26 @@
+{
+  "type": "folders",
+  "title": "Health",
+  "translations": {},
+  "icon": "LocalHospital",
+  "questions": [
+    {
+      "undefined": "Specific Illness"
+    },
+    {
+      "undefined": "Incident at Public Health Facility"
+    },
+    {
+      "undefined": "Emergency Services"
+    },
+    {
+      "undefined": "Health infrastructure: Building & equipment"
+    },
+    {
+      "undefined": "Nutrition"
+    }
+  ],
+  "resources": [
+    {}
+  ]
+}
