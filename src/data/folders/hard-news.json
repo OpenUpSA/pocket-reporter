@@ -1,0 +1,17 @@
+{
+  "type": "folders",
+  "title": "Hard News",
+  "translations": {},
+  "icon": "TimeToLeave",
+  "questions": [
+    {
+      "undefined": "Motor Accidents"
+    },
+    {
+      "undefined": "Fires"
+    }
+  ],
+  "resources": [
+    {}
+  ]
+}
