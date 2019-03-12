@@ -1,0 +1,23 @@
+{
+  "type": "folders",
+  "title": "People and Profiles",
+  "translations": {},
+  "icon": "KeyboardVoice",
+  "questions": [
+    {
+      "undefined": "News conference"
+    },
+    {
+      "undefined": "Speech"
+    },
+    {
+      "undefined": "Biography"
+    },
+    {
+      "undefined": "Obituaries"
+    }
+  ],
+  "resources": [
+    {}
+  ]
+}
