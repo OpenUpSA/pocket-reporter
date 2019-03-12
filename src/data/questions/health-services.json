@@ -1,0 +1,510 @@
+{
+  "spa": {
+    "title": "Servicios de salud",
+    "questions": [
+      {
+        "question": "¿Cuál es el nombre del hospital o clínica y dónde está situado?"
+      },
+      {
+        "question": "¿Cuál es la respuesta de los responsables de brindar el servicio?"
+      },
+      {
+        "question": "¿Los pacientes han visitado anteriormente las instalaciones?",
+        "description": "En caso afirmativo, ¿estaba disponible su expediente cuando fueron tratados?"
+      },
+      {
+        "question": "¿Qué distancia han viajado para llegar allí los pacientes que usted entrevistó?"
+      },
+      {
+        "question": "¿Como llegaron ahi?",
+        "description": "(autobús, taxi, tren, paseo)"
+      },
+      {
+        "question": "¿Cuál fue el costo de su pasaje de regreso?"
+      },
+      {
+        "question": "¿Cuáles son los servicios que no están funcionando correctamente?",
+        "description": "(áreas sin prestación de servicios)"
+      },
+      {
+        "question": "¿Por qué estos servicios ya no se ofrecen?"
+      },
+      {
+        "question": "¿A quiénes afecta esto?",
+        "description": "Un grupo particular de personas / área y cuáles son sus antecedentes socioeconómicos?"
+      },
+      {
+        "question": "¿Cuántas personas están afectadas, en riesgo o en peligro debido a la retirada de estos servicios?"
+      },
+      {
+        "question": "¿Cuáles son los nombres y edades de los afectados y cuáles son sus experiencias?"
+      },
+      {
+        "question": "¿Cuánto tiempo esperan los pacientes para ser vistos por los médicos / trabajadores de salud?"
+      },
+      {
+        "question": "¿Hay suficientes - y correcto - medicamento disponible?"
+      },
+      {
+        "question": "¿Quién es responsable de la prestación de los servicios?"
+      },
+      {
+        "question": "Additional info/notes "
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "nso": {
+    "title": "Ditirelo tsa Maphelo",
+    "questions": [
+      {
+        "question": "What is the name of the hospital or clinic and where is it situated?"
+      },
+      {
+        "question": "What is the response from officials responsible for delivering the service?"
+      },
+      {
+        "question": "Have patients visited the facility previously?",
+        "description": "If yes, was their file available when they were treated?"
+      },
+      {
+        "question": "What distance did patients you interviewed have to travel to get there?"
+      },
+      {
+        "question": "How did they get there?",
+        "description": "(bus, taxi, train, walk)"
+      },
+      {
+        "question": "What was the cost of their return fare?"
+      },
+      {
+        "question": "What services are not being offered when they should be?",
+        "description": "(areas of lack of service delivery)"
+      },
+      {
+        "question": "Why are these services no longer being offered?"
+      },
+      {
+        "question": "Who is affected by this?",
+        "description": "(A particular group of people / area and what are their socio-economic backgrounds?"
+      },
+      {
+        "question": "How many people are affected, at risk or in danger because of the withdrawal of these services?"
+      },
+      {
+        "question": "What are the names and ages of those affected and what are their experiences?"
+      },
+      {
+        "question": "How long do patients wait to be seen by doctors/health workers?"
+      },
+      {
+        "question": "Is there sufficient - and the correct - medication available?"
+      },
+      {
+        "question": "Who is responsible for delivering the services?"
+      },
+      {
+        "question": "Additional info/notes "
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "afr": {
+    "title": "Gesondheidsdienste",
+    "questions": [
+      {
+        "question": "Wat is die naam van die hospitaal of kliniek en waar is dit geleë?"
+      },
+      {
+        "question": "Wat is die kommentaar van amptenare wat verantwoordelik is vir die lewering van die diens?"
+      },
+      {
+        "question": "Het pasiënte al voorheen die fasilteit besoek?",
+        "description": "Indien ja, was hul lêer beskikbaar toe hulle behandel is?"
+      },
+      {
+        "question": "Hoe ver moes pasiënte wat jy ondervra het, reis om daar te kom?"
+      },
+      {
+        "question": "Hoe het hulle daar gekom?",
+        "description": "(per bus, taxi, trein, of te voet)"
+      },
+      {
+        "question": "Wat was hul retoerkoste?"
+      },
+      {
+        "question": "Watter dienste word nie gelewer nie, al is hulle nodig?",
+        "description": "(areas van gebrekkige dienslewering)"
+      },
+      {
+        "question": "Hoekom word hierdie dienste nie meer gelewer nie?"
+      },
+      {
+        "question": "Wie word daardeur geraak?",
+        "description": "(`n Spesifieke groep mense/gebied uit watter sosio-ekonomiese agtergrond kom hulle)"
+      },
+      {
+        "question": "Hoeveel mense word geraak, of word in gevaar gestel as gevolg van die onttrekking van hierdie dienste?"
+      },
+      {
+        "question": "Wat is die name en ouderdomme van diegene wat geraak word en wat is hul ervarings?"
+      },
+      {
+        "question": "Hoe lank wag pasiënte voor`n dokter of gesondheidswerker hulle kan sien?"
+      },
+      {
+        "question": "Is daar genoeg - en die regte - medikasie beskikbaar?"
+      },
+      {
+        "question": "Wie is verantwoordelik vir die dienslewering?"
+      },
+      {
+        "question": "Additional info/notes "
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is the name of the hospital or clinic and where is it situated?"
+    },
+    {
+      "question": "What is the response from officials responsible for delivering the service?"
+    },
+    {
+      "question": "Have patients visited the facility previously? If yes, was their file available when they were treated?"
+    },
+    {
+      "question": "What distance did patients you interviewed have to travel to get there?"
+    },
+    {
+      "question": "How did they get there?",
+      "description": "(bus, taxi, train, walk)"
+    },
+    {
+      "question": "What was the cost of their return fare?"
+    },
+    {
+      "question": "What services are not being offered when they should be?",
+      "description": "(areas of lack of service delivery)"
+    },
+    {
+      "question": "Why are these services no longer being offered?"
+    },
+    {
+      "question": "Who is affected by this?",
+      "description": "(A particular group of people / area and what are their socio-economic backgrounds?"
+    },
+    {
+      "question": "How many people are affected, at risk or in danger because of the withdrawal of these services?"
+    },
+    {
+      "question": "What are the names and ages of those affected and what are their experiences?"
+    },
+    {
+      "question": "How long do patients wait to be seen by doctors/health workers?"
+    },
+    {
+      "question": "Is there sufficient - and the correct - medication available?"
+    },
+    {
+      "question": "Who is responsible for delivering the services?"
+    },
+    {
+      "question": "Additional info/notes "
+    },
+    {
+      "question": "Contact details of people you've interviewed"
+    }
+  ],
+  "tsn": {
+    "title": "Ditirelo tsa pholo",
+    "questions": [
+      {
+        "question": "What is the name of the hospital or clinic and where is it situated?"
+      },
+      {
+        "question": "What is the response from officials responsible for delivering the service?"
+      },
+      {
+        "question": "Have patients visited the facility previously?",
+        "description": "If yes, was their file available when they were treated?"
+      },
+      {
+        "question": "What distance did patients you interviewed have to travel to get there?"
+      },
+      {
+        "question": "How did they get there?",
+        "description": "(bus, taxi, train, walk)"
+      },
+      {
+        "question": "What was the cost of their return fare?"
+      },
+      {
+        "question": "What services are not being offered when they should be?",
+        "description": "(areas of lack of service delivery)"
+      },
+      {
+        "question": "Why are these services no longer being offered?"
+      },
+      {
+        "question": "Who is affected by this?",
+        "description": "(A particular group of people / area and what are their socio-economic backgrounds?"
+      },
+      {
+        "question": "How many people are affected, at risk or in danger because of the withdrawal of these services?"
+      },
+      {
+        "question": "What are the names and ages of those affected and what are their experiences?"
+      },
+      {
+        "question": "How long do patients wait to be seen by doctors/health workers?"
+      },
+      {
+        "question": "Is there sufficient - and the correct - medication available?"
+      },
+      {
+        "question": "Who is responsible for delivering the services?"
+      },
+      {
+        "question": "Additional info/notes "
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "zul": {
+    "title": "Imisebenzi yezempilo",
+    "questions": [
+      {
+        "question": "Yini igama lesibhedlela noma umtholampilo nokuthi sikuphi nendawo?"
+      },
+      {
+        "question": "Ingabe kuthini ukuphawula kweziphathimandla ababhekele ukuletha usizo?"
+      },
+      {
+        "question": "Ingabe iziguli zike zavakashela lesikhungo ngaphambili? Uma kunjalo ingabe abekhona amafayela abo ngaphambi kokwelashwa?"
+      },
+      {
+        "question": "Ingabe zihamba ibanga elingakanani iziguli oxoxisene nazo ukuze zifike khona?"
+      },
+      {
+        "question": "Ingabe bafike kanjani lapho? (Ngebhasi, itekisi, isitimela, noma ngezinyawo)"
+      },
+      {
+        "question": "Yimalini abayikhokhile ngezinto zokugibela ukuya nokubuya?"
+      },
+      {
+        "question": "Iluphi usizo olungatholakali ngesikhathi esifanele? (izinto ezingenziwa)."
+      },
+      {
+        "question": "Kungani lolusizo lungasazikezwa?"
+      },
+      {
+        "question": "obani othintekayo ngalokhu?",
+        "description": "( Uhlobo oluthize lwabantu lempilo yabo nemvelaphi yabo)."
+      },
+      {
+        "question": "Bangakhi abantu abathintekayo, abasengcupheni, noma abasengozini ngenxa yokuyekelwa kosizo?"
+      },
+      {
+        "question": "Obani amagama kanye neminyaka yalabo abathintekayo nokuthi batheke kanjani?"
+      },
+      {
+        "question": "Ingabe kuthatha isikhathi esingakanani ukuba iziguli zibonwe udokotela/ noma abasebenzi bezempilo?"
+      },
+      {
+        "question": "Ingabe akhona amakhambi afanele ngokwenele"
+      },
+      {
+        "question": "Ubani okunguyena obhekele ukuletha usizo?"
+      },
+      {
+        "question": "Additional info/notes "
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "por": {
+    "title": "Servicos de saude",
+    "questions": [
+      {
+        "question": "Qual é o nome do hospital ou clínica e onde é que está situada?"
+      },
+      {
+        "question": "Qual é a reacção dos responsáveis oficiais pelo serviço?"
+      },
+      {
+        "question": "Os pacientes tinham visitado as instalações anteriormente?",
+        "description": "Se sim, o seu arquivo estava disponível quando eles foram tratados?"
+      },
+      {
+        "question": "Que distância percorreram os pacientes entrevistados para chegar até lá?"
+      },
+      {
+        "question": "Como eles chegaram lá?",
+        "description": "(autocarro, taxi, comboio, a pé)"
+      },
+      {
+        "question": "Qual foi o custo da viagem de regresso?"
+      },
+      {
+        "question": "Quais serviços não estão a funcionar enquanto deveriam?",
+        "description": "(áreas sem prestação de serviços)"
+      },
+      {
+        "question": "Porquê esses serviços já não estão sendo prestados?"
+      },
+      {
+        "question": "Quem está afectado?",
+        "description": "(Um grupo concreto de pessoas/ área e quais são as suas origens socio-económicas?"
+      },
+      {
+        "question": "Quantas pessoas estão afectadas, em risco ou em perigo devido a retirada destes serviços?"
+      },
+      {
+        "question": "Quantas pessoas estão afectadas, em risco ou em perigo devido a retirada destes serviços?"
+      },
+      {
+        "question": "Quanto tempo esperam os pacientes para serem atendidos por um médico ou outro pessoal de saúde?"
+      },
+      {
+        "question": "Há sufiente- e adequada- medicação disponível?"
+      },
+      {
+        "question": "Quem é o responsável da prestação de serviços?"
+      },
+      {
+        "question": "Additional info/notes "
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "sot": {
+    "title": "Ditshebeletso tsa Maphelo",
+    "questions": [
+      {
+        "question": "What is the name of the hospital or clinic and where is it situated?"
+      },
+      {
+        "question": "What is the response from officials responsible for delivering the service?"
+      },
+      {
+        "question": "Have patients visited the facility previously?",
+        "description": "If yes, was their file available when they were treated?"
+      },
+      {
+        "question": "What distance did patients you interviewed have to travel to get there?"
+      },
+      {
+        "question": "How did they get there?",
+        "description": "(bus, taxi, train, walk)"
+      },
+      {
+        "question": "What was the cost of their return fare?"
+      },
+      {
+        "question": "What services are not being offered when they should be?",
+        "description": "(areas of lack of service delivery)"
+      },
+      {
+        "question": "Why are these services no longer being offered?"
+      },
+      {
+        "question": "Who is affected by this?",
+        "description": "(A particular group of people / area and what are their socio-economic backgrounds?"
+      },
+      {
+        "question": "How many people are affected, at risk or in danger because of the withdrawal of these services?"
+      },
+      {
+        "question": "What are the names and ages of those affected and what are their experiences?"
+      },
+      {
+        "question": "How long do patients wait to be seen by doctors/health workers?"
+      },
+      {
+        "question": "Is there sufficient - and the correct - medication available?"
+      },
+      {
+        "question": "Who is responsible for delivering the services?"
+      },
+      {
+        "question": "Additional info/notes "
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  },
+  "title": "Health Services",
+  "type": "questions",
+  "xho": {
+    "title": "Iinkonzo ze zeMpilo",
+    "questions": [
+      {
+        "question": "Lithini igama lesibhedlele okanye ikliniki kwaye ikweyiphi na indawo?"
+      },
+      {
+        "question": "Ithini ingxelo evela kumagosa achophele ukuziswa kwezi nkonzo?"
+      },
+      {
+        "question": "Ingaba izigulane zakhe zazityelela ezizakhiwo ngaphambili?",
+        "description": "Ukuba ewe, ingaba iimpepha zembali yazo yonyango ibikhona ngelixa lonyango?"
+      },
+      {
+        "question": "Uthini umgama ohanjwa zizigulane odlene nazo indlebe ukuze zifikelele phaya/apho?"
+      },
+      {
+        "question": "Bafikelela njani phaya/apho?",
+        "description": "(Nge-bhasi, uloliwe, bayahamba)"
+      },
+      {
+        "question": "Lithini na ixabiso lesithuthi ukuya noku buya?"
+      },
+      {
+        "question": "Zeziphi na iinkonzo ezinga nikezelwayo kodwa kumele zinikezelwe?",
+        "description": "(Apho kukho ukusilela kunikezelo lweenkonzo)"
+      },
+      {
+        "question": "Kutheni na ezinkonzo zingasa nikezekwa nje?"
+      },
+      {
+        "question": "Ngobani na aba chaphazelekayo koku?",
+        "description": "(Iqela labantu abathile/ingingqi kwaye ithini imvelaphi yezezimali nentlalo yabo?)"
+      },
+      {
+        "question": "Bangaphi na abantu aba chaphazelekayo, abase mngciphekweni okanye engozini ngenxa yoku rhoxiswa kwezinkonzo?"
+      },
+      {
+        "question": "Ngobani amagama nobudala babo bachaphazelekayo kwaye amava abo athini?"
+      },
+      {
+        "question": "Izigulane zilinda ixesha elingakanani na phambi ba babonwe ngoo gqirha/abasebenzi beze mpilo?"
+      },
+      {
+        "question": "Ingaba unyango olukhoyo lonele na kwaye lunyango lokwenene na?"
+      },
+      {
+        "question": "Ngubani na ono xanduva loku zisa ezi nkonzo?"
+      },
+      {
+        "question": "Additional info/notes "
+      },
+      {
+        "question": "Contact details of people you've interviewed"
+      }
+    ]
+  }
+}
