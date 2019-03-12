@@ -1,0 +1,20 @@
+{
+  "type": "folders",
+  "title": "Elections",
+  "translations": {},
+  "icon": "HowToVote",
+  "questions": [
+    {
+      "undefined": "Political Rally"
+    },
+    {
+      "undefined": "Election Meeting"
+    },
+    {
+      "undefined": "Election Day"
+    }
+  ],
+  "resources": [
+    {}
+  ]
+}
