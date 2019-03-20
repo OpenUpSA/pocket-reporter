@@ -5,16 +5,21 @@
   "icon": "HowToVote",
   "questions": [
     {
-      "undefined": "Political Rally"
+      "undefined": "Election Day"
     },
     {
       "undefined": "Election Meeting"
     },
     {
-      "undefined": "Election Day"
+      "undefined": "Political Rally"
     }
   ],
   "resources": [
-    {}
+    {
+      "undefined": "Election Reporting Handbook"
+    },
+    {
+      "undefined": "Elections Coverage Planning"
+    }
   ]
 }
