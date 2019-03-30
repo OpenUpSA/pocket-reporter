@@ -71,3 +71,5 @@ yarn-error.log
 # Additional Ignores
 .docz
 blueprint-templates
+
+.history

@@ -1,7 +1,12 @@
 import styled from 'styled-components';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import CardActionArea from '@material-ui/core/CardActionArea';
+
+import {
+  Card,
+  CardContent,
+  CardActionArea,
+  Typography,
+} from '@material-ui/core';
+
 import ClickWrapper from '../../components/ClickWrapper';
 
 
@@ -11,34 +16,45 @@ const List = styled.div`
   margin: 0 auto;
 `;
 
+const StyledCard = styled(Card)`
+  display: flex;
+  margin: 10px;
+`;
+
+const Click = styled(ClickWrapper)`
+  width: ${({ button }) => (button ? '100px' : '100%')};
+  border-left: ${({ button }) => (button ? '1px solid #d7d7d7' : 'none')};
+`;
 
 const StyledAction = styled(CardActionArea)`
   && {
-    padding: 0;
+    ${'' /* maybe remove height 100% for the purpose its serving...align items makes more sense */}
     height: 100%;
   }
 `;
 
 const StyledCardContent = styled(CardContent)`
   && {
-    justify-content: space-between;
     display: flex;
-    margin: 0;
+    justify-content: space-between;
   }
 `;
 
-
-const StyledCard = styled(Card)`
-  display: flex;
-  align-items: stretch;
-  margin: 10px;
+const Title = styled(Typography)`
+  && {
+    font-size: 18px;
+    margin-bottom: 2px;
+    line-height: 1.1;
+    color: #4a4a4a;
+  }
 `;
 
-
-const Click = styled(ClickWrapper)`
-  width: ${({ button }) => (button ? '100px' : '100%')};
-  border-left: ${({ button }) => (button ? '1px solid #d7d7d7' : 'none')};
+const Details = styled(Typography)`
+  && {
+    color: #4a4a4a;
+  }
 `;
+
 
 export {
   Click,
@@ -46,6 +62,8 @@ export {
   StyledCardContent,
   StyledAction,
   List,
+  Title,
+  Details,
 };
 
 
@@ -55,4 +73,6 @@ export default {
   StyledCardContent,
   StyledAction,
   List,
+  Title,
+  Details,
 };
