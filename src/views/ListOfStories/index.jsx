@@ -1,8 +1,5 @@
 import React from 'react';
 import t from 'prop-types';
-import { Typography } from '@material-ui/core';
-import CircularProgress from '@material-ui/core/CircularProgress';
-import EmailIcon from '@material-ui/icons/Email';
 import moment from 'moment';
 
 
@@ -16,6 +13,12 @@ import {
   Click,
   Title,
   Details,
+  ProgressContainer,
+  ProgressStyled,
+  ProgressBackground,
+  FloatingWrap,
+  EmailIconContainer,
+  EmailIconStyled,
 } from './styled';
 
 
@@ -25,6 +28,7 @@ const Card = (props) => {
     type,
     created,
     progress: value,
+    progressBackground: backgroundValue,
     click,
     link,
     id
@@ -42,13 +46,31 @@ const Card = (props) => {
               <Details>{type}</Details>
               <Details>{date}</Details>
             </div>
-            <CircularProgress variant="determinate" {...{ value }} />
+            <ProgressContainer>
+              <ProgressBackground
+                variant="determinate"
+                value={backgroundValue}
+                thickness="7"
+              />
+              <FloatingWrap>
+                <ProgressStyled
+                  variant="determinate"
+                  value={value}
+                  thickness="7"
+                />
+              </FloatingWrap>
+            </ProgressContainer>
           </StyledCardContent>
         </StyledAction>
       </Click>
       <Click button click="#" {...{ link }}>
         <StyledAction>
-          <EmailIcon />
+          <EmailIconContainer>
+            <EmailIconStyled
+              nativeColor="#4a4a4a"
+              classes={{ fontSizeLarge: 'fontSizeLarge' }}
+            />
+          </EmailIconContainer>
         </StyledAction>
       </Click>
     </StyledCard>
