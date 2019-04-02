@@ -23,6 +23,7 @@ const createProps = (seed) => {
       type: faker.commerce.department(),
       created: faker.date.past(),
       progress: randomNumber(0, 100),
+      progressBackground: 100,
       click: '#',
     })),
   };

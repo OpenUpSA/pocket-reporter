@@ -1,20 +1,31 @@
 {
   "type": "folders",
   "title": "Service Delivery",
-  "translations": {},
+  "translations": {
+    "afr": "",
+    "spa": "",
+    "xho": "",
+    "nso": " ",
+    "por": "",
+    "sot": "",
+    "tsn": "",
+    "zul": ""
+  },
   "icon": "People",
   "questions": [
     {
-      "undefined": "Protest March"
+      "content": "Protest March"
     },
     {
-      "undefined": "Lack of Water"
+      "content": "Lack of Water"
     },
     {
-      "undefined": "Sanitation Issues"
+      "content": "Sanitation Issues"
     }
   ],
   "resources": [
-    {}
+    {
+      "content": ""
+    }
   ]
 }

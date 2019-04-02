@@ -1,12 +1,12 @@
 const createResources = isoKey => (object) => {
-  if (!object) {
+  if (!object || !object.content) {
     return null;
   }
 
   const {
     title,
     body,
-  } = object || {};
+  } = object.content || {};
 
   if (isoKey === 'eng') {
     return {

@@ -15,6 +15,7 @@ const createAllItems = (response) => {
   const foldersArray = response.data.allFoldersJson.edges.map(({ node }) => node);
   const nestedAllItems = createNestedAll(isoKeys, foldersArray);
   const result = flatten(flatten((nestedAllItems))).filter(value => !!value);
+
   return result;
 };
 

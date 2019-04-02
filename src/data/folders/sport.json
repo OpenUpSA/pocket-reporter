@@ -1,14 +1,25 @@
 {
   "type": "folders",
   "title": "Sport",
-  "translations": {},
+  "translations": {
+    "afr": "",
+    "spa": "",
+    "xho": "",
+    "nso": "",
+    "por": "",
+    "sot": "",
+    "tsn": "",
+    "zul": ""
+  },
   "icon": "FitnessCenter",
   "questions": [
     {
-      "undefined": "Sports"
+      "content": "Sports"
     }
   ],
   "resources": [
-    {}
+    {
+      "content": ""
+    }
   ]
 }

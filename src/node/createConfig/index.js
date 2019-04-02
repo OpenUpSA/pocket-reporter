@@ -10,8 +10,8 @@ const createSentryConfig = require('./createSentryConfig');
 
 
 const mapping = {
-  'FoldersJson.questions': 'QuestionsJson.title',
-  'FoldersJson.resources': 'ResourcesJson.title',
+  'FoldersJson.questions.content': 'QuestionsJson.title',
+  'FoldersJson.resources.content': 'ResourcesJson.title',
 };
 
 

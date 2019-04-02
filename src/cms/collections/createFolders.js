@@ -5,6 +5,7 @@ const buildTranslation = isoKey => ({
   name: isoKey,
   widget: 'string',
   required: false,
+  default: '',
 });
 
 const removeEnglish = key => key !== 'eng';
@@ -49,11 +50,13 @@ const createFolders = isoKeys => ({
       widget: 'list',
       fields: [{
         label: 'Title',
+        name: 'content',
         collection: 'questions',
         valueField: 'title',
         searchFields: ['title'],
         widget: 'relation',
         required: false,
+        default: '',
       }],
     },
     {
@@ -62,12 +65,13 @@ const createFolders = isoKeys => ({
       widget: 'list',
       fields: [{
         label: 'Title',
-        name: 'title',
+        name: 'name',
         collection: 'resources',
         valueField: 'title',
         searchFields: ['title'],
         widget: 'relation',
         required: false,
+        default: '',
       }],
     },
   ],

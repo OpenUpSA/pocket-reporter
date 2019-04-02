@@ -1,29 +1,38 @@
 {
   "type": "folders",
   "title": "Health",
-  "translations": {},
+  "translations": {
+    "afr": "",
+    "spa": "",
+    "xho": "",
+    "nso": " ",
+    "por": "",
+    "sot": "",
+    "tsn": "",
+    "zul": ""
+  },
   "icon": "LocalHospital",
   "questions": [
     {
-      "undefined": "Health Services"
+      "content": "Health Services"
     },
     {
-      "undefined": "Specific Illness"
+      "content": "Specific Illness"
     },
     {
-      "undefined": "Incident at Public Health Facility"
+      "content": "Incident at Public Health Facility"
     },
     {
-      "undefined": "Emergency Services"
+      "content": "Emergency Services"
     },
     {
-      "undefined": "Health infrastructure: Building & equipment"
+      "content": "Health infrastructure: Building & equipment"
     },
     {
-      "undefined": "Nutrition"
+      "content": "Nutrition"
     }
   ],
   "resources": [
-    {}
+    { "content": "" }
   ]
 }

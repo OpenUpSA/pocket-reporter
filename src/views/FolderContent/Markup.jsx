@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import t from 'prop-types';
 
 
@@ -34,6 +34,16 @@ const CardIteration = (props) => {
 };
 
 
+const createWrapper = (title, values, callback) => (
+  <Fragment>
+    <Heading component="h3">{title}</Heading>
+    <Wrapper>
+      {!!values && !!values[0] && values.map(callback)}
+    </Wrapper>
+  </Fragment>
+);
+
+
 const Markup = (props) => {
   const {
     isoKey,
@@ -46,7 +56,6 @@ const Markup = (props) => {
     newTitle,
     createStory: createStoryFn,
   } = props;
-
 
   const createQuestionCard = addProps(CardIteration, { icon, link }, 'title');
   const createResourceCard = addProps(CardIteration, { icon, link, resource: true }, 'title');
@@ -64,14 +73,8 @@ const Markup = (props) => {
   return (
     <Layout title="Start a new story" back={`/${isoKey}/folders/index.html`} {...{ isoKey }}>
       <Modal {...modalProps} />
-      <Heading component="h3">Story Templates</Heading>
-      <Wrapper>
-        {questions.map(createQuestionCard)}
-      </Wrapper>
-      <Heading component="h3">Additional Resources</Heading>
-      <Wrapper>
-        {resources.map(createResourceCard)}
-      </Wrapper>
+      {!!questions && !!questions[0] && createWrapper('Story Templates', questions, createQuestionCard)}
+      {!!resources && !!resources[0] && createWrapper('Additional Resources', resources, createResourceCard)}
     </Layout>
   );
 };
