@@ -20,36 +20,10 @@
       "content": "Election Meeting"
     },
     {
-      "content": "Political Rally"
+      "content": "Protest March"
     }
   ],
   "resources": [
-    {
-      "content": "Helpful Guidelines For Journalists Covering The [SA] Election"
-    },
-    {
-      "content": "South African Press Code"
-    },
-    {
-      "content": "Reporting on an opinion poll"
-    },
-    {
-      "content": "How to detect potential election irregularities"
-    },
-    {
-      "content": "PRESS COUNCIL OF SA – GUIDANCE NOTES"
-    },
-    {
-      "content": "Election Reporting Handbook"
-    },
-    {
-      "content": "Rallies and Meetings"
-    },
-    {
-      "content": "Reporting on public opinion surveys"
-    },
-    {
-      "content": "ELECTIONS 2019 TRAINING – ADDITIONAL RESOURCES"
-    }
+    { "content": "" }
   ]
 }
