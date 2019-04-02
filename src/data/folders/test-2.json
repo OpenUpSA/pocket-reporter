@@ -1,0 +1,18 @@
+{
+  "type": "folders",
+  "title": "Test 2",
+  "translations": {
+    "afr": "sfhdasgf"
+  },
+  "icon": "Place",
+  "questions": [
+    {
+      "undefined": "Courts - Civil Action"
+    }
+  ],
+  "resources": [
+    {
+      "undefined": "Elections Coverage Planning"
+    }
+  ]
+}
