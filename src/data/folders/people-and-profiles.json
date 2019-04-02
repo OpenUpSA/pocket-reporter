@@ -1,23 +1,34 @@
 {
   "type": "folders",
   "title": "People and Profiles",
-  "translations": {},
+  "translations": {
+    "afr": "",
+    "spa": "",
+    "xho": "",
+    "nso": " ",
+    "por": "",
+    "sot": "",
+    "tsn": "",
+    "zul": ""
+  },
   "icon": "KeyboardVoice",
   "questions": [
     {
-      "undefined": "News conference"
+      "content": "News conference"
     },
     {
-      "undefined": "Speech"
+      "content": "Speech"
     },
     {
-      "undefined": "Biography"
+      "content": "Biography"
     },
     {
-      "undefined": "Obituaries"
+      "content": "Obituaries"
     }
   ],
   "resources": [
-    {}
+    {
+      "content": ""
+    }
   ]
 }

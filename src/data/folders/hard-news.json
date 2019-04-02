@@ -1,17 +1,28 @@
 {
   "type": "folders",
   "title": "Hard News",
-  "translations": {},
+  "translations": {
+    "afr": "",
+    "spa": "",
+    "xho": "",
+    "nso": " ",
+    "por": "",
+    "sot": "",
+    "tsn": "",
+    "zul": ""
+  },
   "icon": "TimeToLeave",
   "questions": [
     {
-      "undefined": "Motor Accidents"
+      "content": "Motor Accidents"
     },
     {
-      "undefined": "Fires"
+      "content": "Fires"
     }
   ],
   "resources": [
-    {}
+    {
+      "content": ""
+    }
   ]
 }

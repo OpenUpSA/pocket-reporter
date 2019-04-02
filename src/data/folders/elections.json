@@ -1,46 +1,55 @@
 {
   "type": "folders",
   "title": "Elections",
-  "translations": {},
+  "translations": {
+    "afr": "",
+    "spa": "",
+    "xho": "",
+    "nso": " ",
+    "por": "",
+    "sot": "",
+    "tsn": "",
+    "zul": ""
+  },
   "icon": "HowToVote",
   "questions": [
     {
-      "undefined": "Election Day"
+      "content": "Election Day"
     },
     {
-      "undefined": "Election Meeting"
+      "content": "Election Meeting"
     },
     {
-      "undefined": "Political Rally"
+      "content": "Political Rally"
     }
   ],
   "resources": [
     {
-      "undefined": "Helpful Guidelines For Journalists Covering The [SA] Election"
+      "content": "Helpful Guidelines For Journalists Covering The [SA] Election"
     },
     {
-      "undefined": "South African Press Code"
+      "content": "South African Press Code"
     },
     {
-      "undefined": "Reporting on an opinion poll"
+      "content": "Reporting on an opinion poll"
     },
     {
-      "undefined": "How to detect potential election irregularities"
+      "content": "How to detect potential election irregularities"
     },
     {
-      "undefined": "PRESS COUNCIL OF SA – GUIDANCE NOTES"
+      "content": "PRESS COUNCIL OF SA – GUIDANCE NOTES"
     },
     {
-      "undefined": "Election Reporting Handbook"
+      "content": "Election Reporting Handbook"
     },
     {
-      "undefined": "Rallies and Meetings"
+      "content": "Rallies and Meetings"
     },
     {
-      "undefined": "Reporting on public opinion surveys"
+      "content": "Reporting on public opinion surveys"
     },
     {
-      "undefined": "ELECTIONS 2019 TRAINING – ADDITIONAL RESOURCES"
+      "content": "ELECTIONS 2019 TRAINING – ADDITIONAL RESOURCES"
     }
   ]
 }
