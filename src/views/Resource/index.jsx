@@ -1,16 +1,14 @@
 import React from 'react';
 import t from 'prop-types';
 
-
 import Layout from '../../components/Layout';
-import Heading from '../../components/Heading';
-import { ResourceWrapper } from './styled';
+import { ResourceWrapper, Content } from './styled';
 
 
 const Resource = (props) => {
   const {
     title,
-    body: __html,
+    body,
     isoKey,
     parentUrl,
   } = props;
@@ -18,7 +16,7 @@ const Resource = (props) => {
   return (
     <Layout {...{ title, isoKey }} back={parentUrl}>
       <ResourceWrapper>
-        <ResourceWrapper dangerouslySetInnerHTML={{ __html }} />
+        <Content source={body} />
       </ResourceWrapper>
     </Layout>
   );
