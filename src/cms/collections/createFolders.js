@@ -48,7 +48,7 @@ const createFolders = isoKeys => ({
       name: 'questions',
       label: '✏️ Questions Title',
       widget: 'list',
-      field: [{
+      fields: [{
         label: 'Title',
         name: 'content',
         collection: 'questions',
@@ -63,7 +63,7 @@ const createFolders = isoKeys => ({
       name: 'resources',
       label: '📚 Resource Title',
       widget: 'list',
-      field: [{
+      fields: [{
         label: 'Title',
         name: 'content',
         collection: 'resources',
