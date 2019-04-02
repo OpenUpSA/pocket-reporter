@@ -1,5 +1,5 @@
 import { omit } from 'lodash';
-
+import generateUniqueId from 'uuid/v4';
 
 const ADD = 'stories/ADD';
 const REMOVE = 'storues/REMOVE';
@@ -19,19 +19,25 @@ const reducer = (state = {}, action = {}) => {
 };
 
 
-const add = ({ id, storyObject }) => ({
-  type: ADD,
-  payload: {
-    id, 
-    storyObject,
-  },
-});
+const add = (storyObject) => {
+  const id = generateUniqueId();
+  const timestamp = new Date().getTime();
+
+  return {
+    type: ADD,
+    payload: {
+      id,
+      timestamp,
+      storyObject,
+    },
+  };
+};
 
 
-const remove = (id) => ({
+const remove = id => ({
   type: ADD,
   payload: {
-    id, 
+    id,
   },
 });
 
