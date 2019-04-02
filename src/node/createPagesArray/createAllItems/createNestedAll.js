@@ -20,6 +20,10 @@ const createNestedAll = (isoKeys, dataSource) => {
 
 
     const addParentLinks = (items, parentUrl) => items.map((innerObject) => {
+      if (!innerObject) {
+        return null;
+      }
+
       const key = Object.keys(innerObject)[0];
       const newValue = {
         [key]: {

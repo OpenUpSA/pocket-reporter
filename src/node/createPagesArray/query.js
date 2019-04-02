@@ -2,7 +2,6 @@ module.exports = `{
   allFoldersJson {
     edges {
       node {
-        id
         icon
         title
         translations {
@@ -16,98 +15,65 @@ module.exports = `{
           zul
         }
         questions {
-          id
-          title
-          afr {
+          content {
             title
             questions {
-              description
               question
+              description
             }
-          }
-          spa {
-            title
-            questions {
-              description
-              question
+            afr {
+              title
+              questions {
+                question
+                description
+              }
             }
-          }
-          xho {
-            title
-            questions {
-              description
-              question
+            spa {
+              title
+              questions {
+                question
+                description
+              }
             }
-          }
-          nso {
-            title
-            questions {
-              description
-              question
+            xho {
+              title
+              questions {
+                question
+                description
+              }
             }
-          }
-          por {
-            title
-            questions {
-              description
-              question
+            nso {
+              title
+              questions {
+                question
+                description
+              }
             }
-          }
-          sot {
-            title
-            questions {
-              description
-              question
+            por {
+              title
+              questions {
+                question
+                description
+              }
             }
-          }
-          tsn {
-            title
-            questions {
-              description
-              question
+            tsn {
+              title
+              questions {
+                question
+                description
+              }
             }
-          }
-          zul {
-            title
-            questions {
-              description
-              question
+            zul {
+              title
+              questions {
+                question
+                description
+              }
             }
           }
         }
         resources {
-          id
-          title
-          body
-          afr {
-            title
-            body
-          }
-          spa {
-            title
-            body
-          }
-          xho {
-            title
-            body
-          }
-          nso {
-            title
-            body
-          }
-          por {
-            title
-            body
-          }
-          sot {
-            title
-            body
-          }
-          tsn {
-            title
-            body
-          }
-          zul {
+          content {
             title
             body
           }

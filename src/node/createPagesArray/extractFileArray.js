@@ -32,8 +32,3 @@ const convertItemsIntoPages = (dataSource, itemType, component) => {
 
 
 module.exports = convertItemsIntoPages;
-
-
-/*
-const postTemplate = path.resolve(`src/templates/post-page.js`)
-*/

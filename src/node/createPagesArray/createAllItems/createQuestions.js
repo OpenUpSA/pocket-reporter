@@ -1,12 +1,12 @@
 const createQuestions = isoKey => (object) => {
-  if (!object) {
+  if (!object || !object.content) {
     return null;
   }
 
   const {
     title,
     questions,
-  } = object;
+  } = object.content;
 
   if (isoKey === 'eng') {
     return {
