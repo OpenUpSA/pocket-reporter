@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { navigate } from 'gatsby';
 
 
-import { setLanguage } from '../../redux/modules/user';
+import { setLanguage } from '../../redux/modules/info';
 import SplashScreen from '../../views/SplashScreen';
 
 

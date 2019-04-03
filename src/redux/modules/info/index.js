@@ -1,4 +1,4 @@
-const SET_LANGUAGE = 'user/SET_LANGUAGE';
+const SET_LANGUAGE = 'info/SET_LANGUAGE';
 
 
 const reducer = (state = {}, action = {}) => {

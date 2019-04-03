@@ -24,7 +24,7 @@ const convertLanguageCodesToCorrectCodes = (locale) => {
 };
 
 const convertOldSchemaInfoToNewSchemaInfo = ({ locale }) => ({
-  lastAction: 12345678,
+  lastAction: null,
   language: convertLanguageCodesToCorrectCodes(locale),
 });
 
@@ -43,9 +43,10 @@ const createAnswerObject = id => ({ key, notes = null }) => {
 };
 
 const convertOldSchemaStoriesToNewSchemaStories = ({ stories }) => {
-  return stories.reduce((result, { created_at, updated_at, answers, id }) => ({
+  return stories.reduce((result, { created_at, updated_at, answers, id, title: name }) => ({
     ...result,
     [uuid()]: {
+      name,
       started: created_at,
       lastEdit: updated_at,
       answers: answers.map(createAnswerObject(id)),
@@ -59,10 +60,17 @@ const convertOldSchemaToNewSchema = oldStore => ({
 });
 
 const main = () => {
-  if (checkIfPropExistsInLocalStorage(LOCALSTORAGE_PROP)) {
-    const newStore = convertOldSchemaToNewSchema(getPropFromLocalStorage(LOCALSTORAGE_PROP));
-    addPropToLocalStorage(NEW_LOCALSTORAGE_PROP, JSON.stringify(newStore));
+  if (typeof window === 'undefined') {
+    return null;
   }
+
+  if (!checkIfPropExistsInLocalStorage(LOCALSTORAGE_PROP)) {
+    return null;
+  }
+
+  const newStore = convertOldSchemaToNewSchema(getPropFromLocalStorage(LOCALSTORAGE_PROP));
+  addPropToLocalStorage(NEW_LOCALSTORAGE_PROP, JSON.stringify(newStore));
+  return newStore;
 };
 
-export default main();
+export default main;

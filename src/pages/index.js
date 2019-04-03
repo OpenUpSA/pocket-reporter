@@ -6,8 +6,8 @@ import store from '../redux/store';
 import SplashScreen from '../views/SplashScreen';
 
 
-const { user, stories = [] } = store.getState();
-const { language } = user;
+const { info, stories = [] } = store.getState();
+const { language } = info;
 
 
 const props = {

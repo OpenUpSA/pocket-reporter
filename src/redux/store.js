@@ -2,20 +2,23 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import persistState from 'redux-localstorage';
 import thunk from 'redux-thunk';
-import './adapter';
+import adapter from './adapter';
+
 
 import initialState from './initialState.json';
 import stories from './modules/stories';
-import user from './modules/user';
+import info from './modules/info';
 
+const transformedStore = adapter();
+const state = transformedStore || initialState;
 
 const rawReducers = {
   stories,
-  user,
+  info,
 };
 
 
-const initLocalStorage = () => persistState(['stories', 'user'], { key: 'state' });
+const initLocalStorage = () => persistState(['info', 'stories'], { key: '03_04_2019' });
 const isNode = typeof window === 'undefined';
 
 
@@ -31,5 +34,6 @@ const createEnhancers = () => {
   return composeWithDevTools(middleware, initLocalStorage());
 };
 
+console.log(state);
 
-export default createStore(reducers, initialState, createEnhancers());
+export default createStore(reducers, state, createEnhancers());
