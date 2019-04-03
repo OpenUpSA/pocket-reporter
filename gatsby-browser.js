@@ -5,7 +5,11 @@ import { createElement } from 'react';
 import { Provider } from 'react-redux';
 import { navigate } from 'gatsby';
 
+import localStorageData from './localstorage-fake-data.json';
 
+localStorage.setItem('PocketReporter', JSON.stringify(localStorageData));
+
+// eslint-disable-next-line import/first
 import store from './src/redux/store';
 
 

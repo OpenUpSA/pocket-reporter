@@ -1,0 +1,218 @@
+{
+  "1": {
+    "name": "Conferencia de prensa",
+    "questions": {
+      "1": "\u00bfCu\u00e1les fueron los principales puntos abordados en la conferencia de prensa?",
+      "2": "\u00bfCu\u00e1les son los nombres y cargos o cargos oficiales de los oradores?",
+      "3": "\u00bfCu\u00e1l es el trasfondo de los principales puntos de la conferencia?",
+      "4": "\u00bfQu\u00e9 informaci\u00f3n adicional se obtuvo de la sesi\u00f3n de preguntas y respuestas?",
+      "5": "\u00bfQu\u00e9 preguntas no fueron contestadas o evitadas?",
+      "6": "Consejo: aseg\u00farese de obtener copias de cualquier documento de la conferencia de prensa",
+      "7": "\u00bfCu\u00e1les son los datos de contacto de los organizadores (preferiblemente n\u00fameros de tel\u00e9fono) en caso de consultas?"
+    }
+  },
+  "10": {
+    "name": "Deportes",
+    "questions": {
+      "1": "Qu\u00e9 deporte est\u00e1s cubriendo?",
+      "10": "Recoger declaraciones de los entrenadores, jugadores y aficionados de los dos equipos.",
+      "11": "Cu\u00e1nto p\u00fablico hab\u00eda y cu\u00e1l era su comportamiento?",
+      "12": "Hubo alg\u00fan lesionado?",
+      "13": "Cu\u00e1nto dur\u00f3 el partido? Hubo pr\u00f3rroga?",
+      "14": "Cu\u00e1les son las estad\u00edsticas del partido?",
+      "2": "Cu\u00e1l es el nombre de los equipos que juegan?",
+      "3": "Cu\u00e1l fue el resultado final?",
+      "4": "D\u00f3nde y cu\u00e1ndo tuvo lugar el partido?",
+      "5": "Cu\u00e1l es la clave del juego, la estrategia",
+      "6": "Qui\u00e9nes fueron los jugadores destacados?",
+      "7": "Cu\u00e1l es el impacto del resultado en la clasificaci\u00f3n, ranking, o records individuales?",
+      "8": "\u00bfCu\u00e1l fue la evoluci\u00f3n de puntuaci\u00f3n del juego?",
+      "9": "\u00bfHay racha ganadoras / perdedoras, registros involucrados por equipo, jugador?"
+    }
+  },
+  "11": {
+    "name": "Enfermedad espec\u00edfica",
+    "questions": {
+      "1": "Cu\u00e1l es el nombre de la enfermedad o problema que tiene el paciente?",
+      "2": "Cu\u00e1les son los principales s\u00edntomas?",
+      "3": "Que tratamiento recibieron?",
+      "4": "D\u00f3nde est\u00e1n siendo tratados?",
+      "5": "La enfermedad es contagiosa? Han habido otros informes sobre ella localmente o en el extranjero?",
+      "6": "Cu\u00e1l es la identidad de las v\u00edctimas? Nombres, edades, direcciones, otros dados personales.",
+      "7": "Qu\u00e9 coment\u00e1rios, si los hay, hicieron los funcionarios de salud sobre la enfermedad?",
+      "8": "Cu\u00e1l es la distancia que los pacientes que entrevist\u00f3 recorrieron para llegar hasta all\u00ed y cu\u00e1l es el costo del viaje de regreso?"
+    }
+  },
+  "12": {
+    "name": "Biograf\u00eda",
+    "questions": {
+      "1": "\u00bfCu\u00e1l es el nombre completo de la persona sobre la que est\u00e1 escribiendo?",
+      "10": "Detalles de premios / honores / reconocimiento formal.",
+      "12": "Resumir cualquiera de sus principales contribuciones a la sociedad y al mundo.",
+      "13": "Enumere por lo menos TRES acontecimientos pol\u00edticos o sociales importantes ocurridos durante la vida de esta persona. Para cada evento, explique c\u00f3mo puede haber afectado su biograf\u00eda.",
+      "2": "\u00bfCu\u00e1l es su edad y fecha de nacimiento?",
+      "3": "\u00bfCu\u00e1l es el lugar de nacimiento y d\u00f3nde viven?",
+      "6": "\u00bfCu\u00e1l es su descripci\u00f3n f\u00edsica? (Esto es importante para agregar color a su pieza.)",
+      "7": "Detalles de su car\u00e1cter y personalidad? (Preg\u00fantale a la familia y amigos.)",
+      "8": "Detalles de su educaci\u00f3n? (Incluya cualquier t\u00edtulo obtenido.)",
+      "9": "Detalles de las relaciones personales con la familia, amigos, compa\u00f1eros de trabajo."
+    }
+  },
+  "13": {
+    "name": "Obituarios",
+    "questions": {
+      "1": "Cu\u00e1l es el nombre, edad, direcci\u00f3n, ocupaci\u00f3n del difunto?",
+      "10": "Anecdotas, recuerdos de amigos y familiares?",
+      "2": "\u00bfCu\u00e1l fue el momento, el lugar y la causa de la muerte?",
+      "3": "Fecha y lugar de nacimiento de la persona",
+      "4": "\u00bfQui\u00e9nes son los sobreviventes? (familia directa)",
+      "5": "\u00bfCu\u00e1les son los detalles sobre el funeral y el entierro?",
+      "6": "\u00bfCu\u00e1les son los logos del fallecido?",
+      "7": "\u00bfCu\u00e1les son los detalles de su educaci\u00f3n?",
+      "8": "\u00bfEran miembros de clubes o sociedades, como un stokvel, Rotary o Lions?",
+      "9": "\u00bfHicieron servicio militar? (formal o no)"
+    }
+  },
+  "2": {
+    "name": "Discurso",
+    "questions": {
+      "1": "\u00bfCu\u00e1l fue el punto principal del orador?",
+      "10": "\u00bfTiene copias de discursos y / o documentos de antecedentes?",
+      "11": "\u00bfCu\u00e1les son los datos de contacto (preferiblemente n\u00fameros de tel\u00e9fono / tarjetas de visita) de los voceros en caso de consultas?",
+      "2": "\u00bfCu\u00e1l es el nombre y el t\u00edtulo del orador principal? (\u00a1Aseg\u00farese de que el nombre est\u00e9 escrito correctamente!)",
+      "3": "\u00bfQu\u00e9 frases tiene para apoyar el punto principal?",
+      "4": "\u00bfCu\u00e1l fue el prop\u00f3sito, la hora y el lugar del discurso?",
+      "5": "\u00bfCu\u00e1ntas personas asistieron y cu\u00e1l fue su apariencia y reacciones?",
+      "6": "\u00bfEl orador hizo foco en alg\u00fan punto adicional?",
+      "7": "\u00bfCu\u00e1l es el trasfondo del punto principal?",
+      "8": "\u00bfQu\u00e9 comentarios hizo el orador antes y despu\u00e9s de su discurso?",
+      "9": "Hay alguna informaci\u00f3n adicional desde el per\u00edodo de preguntas y respuestas"
+    }
+  },
+  "3": {
+    "name": "Marcha de protesta",
+    "questions": {
+      "1": "Consejo: Aseg\u00farese de tener una bufanda grande y una botella de vinagre (empapar la bufanda en vinagre si la polic\u00eda usa gas lacrim\u00f3geno) en caso de que haya gas lacrim\u00f3geno?",
+      "10": "\u00bfHubo alguna protesta relacionada en el pasado (cu\u00e1ntos, cu\u00e1ndo y d\u00f3nde) y se logr\u00f3 algo?",
+      "11": "\u00bfC\u00f3mo respondieron las autoridades y la polic\u00eda a la protesta?",
+      "12": "\u00bfUtiliz\u00f3 la polic\u00eda alguna fuerza no letal (gases lacrim\u00f3genos, balas de goma) o fuerza letal (munici\u00f3n real), o ambas cosas?",
+      "13": "\u00bfHab\u00eda alguien herido? \u00bfQui\u00e9n, cu\u00e1ntos y qu\u00e9 tan mal?",
+      "14": "\u00bfA qu\u00e9 hospitales / cl\u00ednicas fueron llevados los lesionados para su tratamiento?",
+      "15": "Si hay informes de uso violento de la fuerza por parte de la polic\u00eda, \u00bftiene evidencia y usted tiene una respuesta de la polic\u00eda sobre esto?",
+      "16": "\u00bfCu\u00e1l es el estado actual de la protesta?",
+      "2": "\u00bfQu\u00e9 tipo de protesta es? \u00bfUna marcha, una huelga, una barricada?",
+      "3": "\u00bfQui\u00e9nes son los principales organizadores de la protesta? Obtenga su t\u00edtulo oficial, organizaci\u00f3n y datos de contacto.",
+      "4": "\u00bfFue una protesta planificada o espont\u00e1nea?",
+      "5": "\u00bfCu\u00e1l es la raz\u00f3n de la protesta?",
+      "6": "\u00bfHubo alguna ONG o partidos pol\u00edticos involucrados o relacionados con la protesta? Obtenga sus nombres, organizaci\u00f3n, datos de contacto y raz\u00f3n para participar.",
+      "7": "\u00bfCu\u00e1l es el tama\u00f1o de la multitud: no adivine! Consulte con los organizadores y la polic\u00eda.",
+      "8": "Obtenga una cita (o declaraci\u00f3n) de los organizadores sobre la protesta",
+      "9": "Entrevista a un m\u00ednimo de 10 manifestantes: obtener su nombre, edad, d\u00f3nde viven, por qu\u00e9 est\u00e1n protestando, \u00bfqu\u00e9 quieren lograr?"
+    }
+  },
+  "4": {
+    "name": "Accidentes automovil\u00edsticos",
+    "questions": {
+      "1": "\u00bfA qu\u00e9 hora ocurri\u00f3 el accidente y d\u00f3nde?",
+      "10": "\u00bfAdonde trasladaron los heridos y los muertos? (\u00bfQu\u00e9 hospital o morgue?)",
+      "11": "\u00bfHubo actos de valent\u00eda o rescates?",
+      "12": "\u00bfHubo alguna detenci\u00f3n o cualquier otra acci\u00f3n legal?",
+      "13": "\u00bfCu\u00e1l es el da\u00f1o a los veh\u00edculos?",
+      "14": "\u00bfCu\u00e1l fue la velocidad de los veh\u00edculos involucrados?",
+      "15": "\u00bfDe d\u00f3nde ven\u00edan? / \u00bfhacia d\u00f3nde iban?",
+      "16": "\u00bfHab\u00eda alg\u00fan clima extra\u00f1o o condiciones de carretera que pudieran haber causado el accidente?",
+      "17": "\u00bfQu\u00e9 pas\u00f3 de acuerdo con testigos oculares, oficiales de investigaci\u00f3n y personas involucradas en un incidente?",
+      "18": "\u00bfCu\u00e1les son los arreglos funerarios para los muertos?",
+      "2": "\u00bfHubo personas heridas o muertas y cu\u00e1ntas?",
+      "3": "\u00bfQu\u00e9 tipo de veh\u00edculos estaban involucrados?",
+      "4": "\u00bfCu\u00e1l es la identidad de los conductores implicados? Nombres, edades, direcciones, otra informaci\u00f3n personal.",
+      "5": "\u00bfCu\u00e1l fue la causa del accidente? (seg\u00fan param\u00e9dicos, polic\u00edas u otras fuentes oficiales)",
+      "6": "\u00bfCu\u00e1l es la identificaci\u00f3n de los dem\u00e1s involucrados? (Pasajeros, peatones.)",
+      "7": "\u00bfCu\u00e1l es la identificaci\u00f3n de los heridos y muertos?",
+      "8": "\u00bfCu\u00e1l es el la gravedad de las lesiones?",
+      "9": "\u00bfCu\u00e1l es la condici\u00f3n de los heridos?"
+    }
+  },
+  "5": {
+    "name": "Servicios de salud",
+    "questions": {
+      "1": "\u00bfCu\u00e1l es el nombre del hospital o cl\u00ednica y d\u00f3nde est\u00e1 situado?",
+      "10": "\u00bfCu\u00e1l es la respuesta de los responsables de brindar el servicio?",
+      "11": "\u00bfLos pacientes han visitado anteriormente las instalaciones? En caso afirmativo, \u00bfestaba disponible su expediente cuando fueron tratados?",
+      "12": "\u00bfQu\u00e9 distancia han viajado para llegar all\u00ed los pacientes que usted entrevist\u00f3?",
+      "13": "\u00bfComo llegaron ahi? (autob\u00fas, taxi, tren, paseo)",
+      "14": "\u00bfCu\u00e1l fue el costo de su pasaje de regreso?",
+      "2": "\u00bfCu\u00e1les son los servicios que no est\u00e1n funcionando correctamente? (\u00e1reas sin prestaci\u00f3n de servicios)",
+      "3": "\u00bfPor qu\u00e9 estos servicios ya no se ofrecen?",
+      "4": "\u00bfA qui\u00e9nes afecta esto? Un grupo particular de personas / \u00e1rea y cu\u00e1les son sus antecedentes socioecon\u00f3micos?",
+      "5": "\u00bfCu\u00e1ntas personas est\u00e1n afectadas, en riesgo o en peligro debido a la retirada de estos servicios?",
+      "6": "\u00bfCu\u00e1les son los nombres y edades de los afectados y cu\u00e1les son sus experiencias?",
+      "7": "\u00bfCu\u00e1nto tiempo esperan los pacientes para ser vistos por los m\u00e9dicos / trabajadores de salud?",
+      "8": "\u00bfHay suficientes - y correcto - medicamento disponible?",
+      "9": "\u00bfQui\u00e9n es responsable de la prestaci\u00f3n de los servicios?"
+    }
+  },
+  "6": {
+    "name": "Tribunales - Acci\u00f3n Civil",
+    "questions": {
+      "1": "\u00bfQui\u00e9n es la persona u organizaci\u00f3n que presenta la acci\u00f3n? Nombres, edades, direcciones, otra informaci\u00f3n personal.",
+      "10": "\u00bfPuede este proceso establecer un marco legal? Es un precedente?",
+      "11": "\u00bfExiste la posibilidad de un acuerdo extrajudicial?",
+      "12": "\u00bfCu\u00e1l es el significado de la acci\u00f3n y el efecto sobre otros?",
+      "13": "\u00bfCu\u00e1les son los nombres de los abogados de ambas partes? (\u00a1Revise la ortograf\u00eda!)",
+      "14": "\u00bfCu\u00e1l es la fecha y qui\u00e9n es el juez presidente para el juicio o audiencia?",
+      "2": "\u00bfCu\u00e1l es el antecedente del demandante o peticionario: la persona que presenta la acci\u00f3n?",
+      "3": "\u00bfCu\u00e1l es el trasfondo del acusado o demandado?",
+      "4": "\u00bfQu\u00e9 tipo de da\u00f1o se alega?",
+      "5": "\u00bfCu\u00e1l es el resultado que se busca?",
+      "6": "\u00bfCu\u00e1l es la fecha de presentaci\u00f3n de la solicitud y cu\u00e1l es el tribunal competente?",
+      "7": "\u00bfExiste una motivaci\u00f3n especial detr\u00e1s de la acci\u00f3n (si la hay)?",
+      "8": "\u00bfCu\u00e1l es el trasfondo del conflicto / desacuerdo?",
+      "9": "\u00bfExisten o han habido casos similares decididos por tribunales (precedentes)?"
+    }
+  },
+  "7": {
+    "name": "Tribunales - Veredicto",
+    "questions": {
+      "1": "\u00bfCu\u00e1l es el veredicto y la sentencia, si se otorga? (Igual, menor, mayor que los da\u00f1os buscados?)",
+      "2": "\u00bfQui\u00e9nes son las partes involucradas?",
+      "3": "\u00bfEl juez hizo una declaraci\u00f3n? \u00bfSe desvi\u00f3 de las conclusiones del experto?",
+      "4": "\u00bfUn resumen de los hechos alegados por el demandante?",
+      "5": "\u00bfCu\u00e1l fue el principal testimonio y los principales puntos del abogado / abogado?",
+      "6": "\u00bfPor cu\u00e1nto tiempo deliber\u00f3 el tribunal antes de la sentencia?",
+      "7": "\u00bfHay alguna apelaci\u00f3n o moci\u00f3n?"
+    }
+  },
+  "8": {
+    "name": "Crimen",
+    "questions": {
+      "1": "\u00bfCu\u00e1l es el nombre y los detalles de las v\u00edctimas? Nombres, edades, direcciones, otra informaci\u00f3n personal.",
+      "2": "\u00bfCu\u00e1l fue el crimen y c\u00f3mo se cometi\u00f3?",
+      "3": "\u00bfCu\u00e1l es la fecha, hora y lugar del crimen? Confirme con fuentes oficiales.",
+      "4": "En el caso de la muerte, \u00bfcu\u00e1l fue la causa oficial? (Seg\u00fan param\u00e9dicos, polic\u00edas u otras fuentes oficiales.)",
+      "5": "\u00bfQu\u00e9 lesiones sufrieron las v\u00edctimas y qu\u00e9 arma se utiliz\u00f3?",
+      "6": "\u00bfCu\u00e1l fue la motivaci\u00f3n del crimen y cu\u00e1l es el origen de la v\u00edctima? (\u00bfsi es relevante?)",
+      "7": "\u00bfHa habido alguna detenci\u00f3n, hay sospechosos o pistas?",
+      "8": "\u00bfHay alguna circunstancia extra\u00f1a que rodee el crimen?",
+      "9": "Obtenga comentarios de la v\u00edctima, testigos, polic\u00edas y otras fuentes oficiales."
+    }
+  },
+  "9": {
+    "name": "Incendios",
+    "questions": {
+      "1": "\u00bfCu\u00e1ntas personas est\u00e1n muertas y heridas?",
+      "10": "\u00bfHubo actos de valent\u00eda o rescates?",
+      "11": "Obtener comentarios de los vecinos, los testigos.",
+      "12": "\u00bfCu\u00e1ntas autobombas y personal de los bomberos participan?",
+      "13": "Fuentes: Jefe de bomberos, polic\u00eda, servicios de rescate, hospital, funerario, grupos solidarios",
+      "2": "\u00bfCu\u00e1l es la identidad de las v\u00edctimas? Nombres, edades, direcciones, otros datos personales.",
+      "3": "\u00bfD\u00f3nde estaba el fuego y lo que ard\u00eda (un edificio, casa, campo, etc.)?",
+      "4": "\u00bfCu\u00e1ndo comenz\u00f3 el incendio, d\u00f3nde y c\u00f3mo se propag\u00f3?",
+      "5": "\u00bfCu\u00e1ndo y despu\u00e9s de cu\u00e1nto tiempo se control\u00f3?",
+      "6": "\u00bfCu\u00e1l fue la causa de merte y heridas de las v\u00edctimas y cu\u00e1l es la gravedad de las lesiones?",
+      "7": "Da\u00f1os materiales: \u00bfcu\u00e1l es el alcance, el costo del da\u00f1o, el seguro? Es posible que necesite llamar a un experto.",
+      "8": "Investigaci\u00f3n: \u00bfalguna circunstancia inusual?",
+      "9": "\u00bfAdonde llevaron a los heridos y muertos? (\u00bfQu\u00e9 hospital o morgue?)"
+    }
+  }
+}

@@ -2,6 +2,7 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import persistState from 'redux-localstorage';
 import thunk from 'redux-thunk';
+import './adapter';
 
 import initialState from './initialState.json';
 import stories from './modules/stories';
