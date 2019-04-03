@@ -1,15 +1,31 @@
-import { topics } from '../data/topics.json';
 import uuid from 'uuid/v4';
+import { topics } from '../data/topics.json';
 
 const LOCALSTORAGE_PROP = 'PocketReporter';
+const NEW_LOCALSTORAGE_PROP = '03_04_2019';
 
 const checkIfPropExistsInLocalStorage = prop => localStorage.getItem(prop) !== null;
 const getPropFromLocalStorage = prop => JSON.parse(localStorage.getItem(prop));
 const addPropToLocalStorage = (prop, data) => localStorage.setItem(prop, data);
 
+const convertLanguageCodesToCorrectCodes = (locale) => {
+  switch (locale) {
+    case 'en-za': return 'eng';
+    case 'af': return 'afr';
+    case 'es': return 'spa';
+    case 'xh': return 'xho';
+    case 'nso': return 'nso';
+    case 'pt': return 'por';
+    case 'st': return 'sot';
+    case 'tn': return 'tsn';
+    case 'ZU': return 'zul';
+    default: return null;
+  }
+};
+
 const convertOldSchemaInfoToNewSchemaInfo = ({ locale }) => ({
   lastAction: 12345678,
-  language: locale,
+  language: convertLanguageCodesToCorrectCodes(locale),
 });
 
 const createAnswerObject = id => ({ key, notes = null }) => {
@@ -27,13 +43,13 @@ const createAnswerObject = id => ({ key, notes = null }) => {
 };
 
 const convertOldSchemaStoriesToNewSchemaStories = ({ stories }) => {
-  return stories.map(({ created_at, updated_at, answers, id }) => ({
-    started: created_at,
-    lastEdit: updated_at,
-    answers: answers.map(createAnswerObject(id)),
-  })).reduce((result,current) => ({
+  return stories.reduce((result, { created_at, updated_at, answers, id }) => ({
     ...result,
-    [uuid()]: current,
+    [uuid()]: {
+      started: created_at,
+      lastEdit: updated_at,
+      answers: answers.map(createAnswerObject(id)),
+    },
   }), {});
 };
 
@@ -44,7 +60,8 @@ const convertOldSchemaToNewSchema = oldStore => ({
 
 const main = () => {
   if (checkIfPropExistsInLocalStorage(LOCALSTORAGE_PROP)) {
-    console.log(convertOldSchemaToNewSchema(getPropFromLocalStorage(LOCALSTORAGE_PROP)));
+    const newStore = convertOldSchemaToNewSchema(getPropFromLocalStorage(LOCALSTORAGE_PROP));
+    addPropToLocalStorage(NEW_LOCALSTORAGE_PROP, JSON.stringify(newStore));
   }
 };
 
