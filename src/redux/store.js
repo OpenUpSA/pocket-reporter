@@ -3,6 +3,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import persistState from 'redux-localstorage';
 import thunk from 'redux-thunk';
 import adapter from './adapter';
+import './actions/sendWithWhatsApp';
 
 
 import initialState from './initialState.json';
