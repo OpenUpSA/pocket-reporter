@@ -1,18 +1,5 @@
-import { createElement } from 'react';
+import folders from '../adapters/folders';
 
-
-import { Link as link } from 'gatsby';
-import ListOfFolders from '../views/ListOfFolders';
-
-
-const page = ({ pageContext }) => {
-  const props = {
-    ...pageContext,
-    link,
-  };
-
-  return createElement(ListOfFolders, props);
-};
-
+const page = ({ pageContext }) => folders(pageContext);
 
 export default page;

@@ -1,5 +1,4 @@
 import { omit } from 'lodash';
-import generateUniqueId from 'uuid/v4';
 
 const ADD = 'stories/ADD';
 const REMOVE = 'stories/REMOVE';
@@ -23,7 +22,7 @@ const reducer = (state = {}, action = {}) => {
   switch (action.type) {
     case ADD: return {
       ...state,
-      [generateUniqueId()]: {
+      [action.payload.id]: {
         answers: action.payload.questions.reduce(createAnswersObject, {}),
         lastEdit: null,
         name: action.payload.name,
@@ -58,8 +57,7 @@ const update = (id, questionkey, answer) => ({
   },
 });
 
-const add = (name, questions) => {
-  const id = generateUniqueId();
+const add = (id, name, questions) => {
   const timestamp = new Date().getTime();
 
   return {

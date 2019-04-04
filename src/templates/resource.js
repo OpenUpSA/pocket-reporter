@@ -1,5 +1,5 @@
-import { createElement } from 'react';
-import Resource from '../views/Resource';
+import resource from '../adapters/resources';
 
+const page = ({ pageContext }) => resource(pageContext);
 
-export default ({ pageContext }) => createElement(Resource, pageContext);
+export default page;

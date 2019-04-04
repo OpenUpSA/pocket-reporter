@@ -42,17 +42,24 @@ const createAnswerObject = id => ({ key, notes = null }) => {
   };
 };
 
-const convertOldSchemaStoriesToNewSchemaStories = ({ stories }) => {
-  return stories.reduce((result, { created_at, updated_at, answers, id, title: name }) => ({
-    ...result,
-    [uuid()]: {
-      name,
-      started: created_at,
-      lastEdit: updated_at,
-      answers: answers.map(createAnswerObject(id)),
-    },
-  }), {});
-};
+const convertOldSchemaStoriesToNewSchemaStories = ({ stories }) => stories.reduce((
+  result,
+  {
+    created_at,
+    updated_at,
+    answers,
+    id,
+    title: name,
+  },
+) => ({
+  ...result,
+  [uuid()]: {
+    name,
+    started: created_at,
+    lastEdit: updated_at,
+    answers: answers.map(createAnswerObject(id)),
+  },
+}), {});
 
 const convertOldSchemaToNewSchema = oldStore => ({
   info: convertOldSchemaInfoToNewSchemaInfo(oldStore),
