@@ -2,14 +2,45 @@ import { omit } from 'lodash';
 import generateUniqueId from 'uuid/v4';
 
 const ADD = 'stories/ADD';
-const REMOVE = 'storues/REMOVE';
+const REMOVE = 'stories/REMOVE';
+const UPDATE = 'stories/UPDATE';
 
+const createAnswersObject = (results, question, index) => ({
+  ...results,
+  [index]: {
+    answer: null,
+    description: null,
+    edits: 0,
+    firstAnswered: null,
+    lastEdit: null,
+    question,
+  },
+});
+
+const getTimestamp = new Date().getTime();
 
 const reducer = (state = {}, action = {}) => {
   switch (action.type) {
     case ADD: return {
       ...state,
-      [action.payload.id]: action.payload.storyObject,
+      [generateUniqueId()]: {
+        answers: action.payload.questions.reduce(createAnswersObject, {}),
+        lastEdit: null,
+        name: action.payload.name,
+        started: getTimestamp(),
+      },
+    };
+
+    case UPDATE: return {
+      ...state,
+      [action.payload.id]: {
+        ...state.stories[action.payload.id],
+        answers: {
+          ...state.stories[action.payload.id].answers,
+          [action.payload.questionkey]: action.payload.answer,
+        },
+        lastEdit: getTimestamp(),
+      },
     };
 
     case REMOVE: return omit(state, action.payload.id);
@@ -18,8 +49,16 @@ const reducer = (state = {}, action = {}) => {
   }
 };
 
+const update = (id, questionkey, answer) => ({
+  type: UPDATE,
+  payload: {
+    id,
+    questionkey,
+    answer,
+  },
+});
 
-const add = (storyObject) => {
+const add = (name, questions) => {
   const id = generateUniqueId();
   const timestamp = new Date().getTime();
 
@@ -28,7 +67,8 @@ const add = (storyObject) => {
     payload: {
       id,
       timestamp,
-      storyObject,
+      questions,
+      name,
     },
   };
 };
@@ -42,5 +82,5 @@ const remove = id => ({
 });
 
 
-export { add, remove };
+export { add, remove, update };
 export default reducer;

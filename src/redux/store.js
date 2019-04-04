@@ -34,6 +34,4 @@ const createEnhancers = () => {
   return composeWithDevTools(middleware, initLocalStorage());
 };
 
-console.log(state);
-
 export default createStore(reducers, state, createEnhancers());
