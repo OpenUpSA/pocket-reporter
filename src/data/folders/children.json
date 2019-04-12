@@ -1,0 +1,25 @@
+{
+  "type": "folders",
+  "title": "Children",
+  "translations": {
+    "afr": " ",
+    "spa": " ",
+    "xho": " ",
+    "nso": " ",
+    "por": " ",
+    "sot": " ",
+    "tsn": " ",
+    "zul": " "
+  },
+  "icon": "ChildFriendly",
+  "questions": [
+    {
+      "content": " "
+    }
+  ],
+  "resources": [
+    {
+      "content": " "
+    }
+  ]
+}
