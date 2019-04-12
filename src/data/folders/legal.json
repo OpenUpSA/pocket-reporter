@@ -1,0 +1,28 @@
+{
+  "type": "folders",
+  "title": "Legal",
+  "translations": {
+    "afr": " ",
+    "spa": " ",
+    "xho": " ",
+    "nso": " ",
+    "por": " ",
+    "sot": " ",
+    "tsn": " ",
+    "zul": " "
+  },
+  "icon": "VpnKey",
+  "questions": [
+    {
+      "content": "Courts - Civil Action"
+    },
+    {
+      "content": "Courts - Verdict"
+    }
+  ],
+  "resources": [
+    {
+      "content": " "
+    }
+  ]
+}
