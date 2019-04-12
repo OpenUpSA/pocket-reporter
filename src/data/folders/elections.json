@@ -14,18 +14,14 @@
   "icon": "HowToVote",
   "questions": [
     {
-      "undefined": "Election Day"
+      "content": "Election Day"
     },
     {
-      "undefined": "Election Meeting"
+      "content": "Election Meeting"
     },
-    {
-      "undefined": "Protest March"
-    }
+    {}
   ],
   "resources": [
-    {
-      "undefined": "Election Reporting Handbook"
-    }
+    {}
   ]
 }
