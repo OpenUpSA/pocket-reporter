@@ -16,7 +16,7 @@ import { schemas, persistedModules } from './data.json';
  */
 import stories from '../modules/stories';
 import info from '../modules/info';
-// import transformOldStore from '../../../blueprints/transformOldStore';
+import transformOldStore from './transformOldStore';
 import createBlankStore from './createBlankStore';
 
 const rawReducers = {
@@ -34,8 +34,7 @@ const { legacy: legacySchemaKey, production: productionSchemaKey } = schemas;
 const isBrowser = typeof window !== 'undefined';
 const newStore = isBrowser && window.localStorage.getItem(productionSchemaKey);
 const oldStore = isBrowser && !newStore && window.localStorage.getItem(legacySchemaKey);
-const finalInitialState = oldStore ? createBlankStore() : createBlankStore();
-// transformOldStore(oldStore)
+const finalInitialState = oldStore ? transformOldStore(JSON.parse(oldStore)) : createBlankStore();
 
 /**
  * Create function that will add additional functionality to store.

@@ -1,12 +1,10 @@
 /**
  * Import TypeScript static types
  */
-import { TisoKey } from '../../../data/constants/languages';
-
 /**
  * Converts old language keys to ISO 639-2 standard.
  */
-const convertOldLanguagesToIsoCodes = (locale): TisoKey | null => {
+const convertOldLanguagesToIsoCodes = locale => {
   switch (locale) {
     case 'en-za':
       return 'eng';
