@@ -1,0 +1,9 @@
+const createNetlifyCmsConfig = root => ({
+  resolve: 'gatsby-plugin-netlify-cms',
+  options: {
+    modulePath: `${root}/src/cms/index.js`,
+    manualInit: true,
+  },
+});
+
+export default createNetlifyCmsConfig;

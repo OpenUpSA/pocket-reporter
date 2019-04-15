@@ -1,0 +1,218 @@
+{
+  "1": {
+    "name": "Nuuskonferensie",
+    "questions": {
+      "1": "Wat was die hoofpunte gemaak met die aankondiging van die nuuskonferensie?",
+      "2": "Wat is die name en posbeskrywings of ampsposisies van sprekers?",
+      "3": "Wat is die agtergrond van die hoofpunte van die konferensie?",
+      "4": "Wat verdere inligting het uit die vraag- en antwoordsessie gekom?",
+      "5": "Watter vrae is nie beantwoord nie of is vermy?",
+      "6": "Wenk: maak seker jy kry afskrifte van enige inligtingsmateriaal van die nuuskonferensie",
+      "7": "Wat is die kontakbesonderhede van die organiseerders (verkieslik telefoonnommers) in geval van navrae?"
+    }
+  },
+  "10": {
+    "name": "Sport",
+    "questions": {
+      "1": "Oor watter sportsoort doen jy verslag?",
+      "10": "Kry kommentaar van afrigters, spelers en ondersteuners van albei spanne.",
+      "11": "Hoe groot was was die skare en wat was hul gedrag?",
+      "12": "Was daar enige beserings?",
+      "13": "Hoe lank was die wedstryd en het hulle oor geloop in ekstra tyd?",
+      "14": "Wat is die wedstryd statistiek?",
+      "2": "Wat is die name van die spanne wat speel?",
+      "3": "Wat was die eindtelling?",
+      "4": "Waar en wanneer het die wedstryd plaasgevind?",
+      "5": "Wat was die sleutelspelstrategie?",
+      "6": "Watter spelers het `n uitsekende spel gelewer?",
+      "7": "Watter invloed het die resultaat op puntestand, ranglys, persoonlike rekords?",
+      "8": "Wat was die puntepatroon in die spel?",
+      "9": "Is daar enige wen/verloor tendens, rekords betrokke deur span, speler?"
+    }
+  },
+  "11": {
+    "name": "Spesifieke siekte",
+    "questions": {
+      "1": "Wat is die naam van die pasi\u00ebnt se siekte of toestand?",
+      "2": "Wat is die belangrikste simptome?",
+      "3": "Watter behandeling het hulle ontvang?",
+      "4": "Waar word hulle behandel?",
+      "5": "Is die siekte aansteeklik en is daar enige ander verslae daarvan, hetsy plaaslik of in die buiteland?",
+      "6": "Watter identifikasie is daar van slagoffers? Name, ouderdomme, adresse, ander persoonlike inligting.",
+      "7": "Watter kommentaar, indien enige, het gesondheids werkers gelewer oor die siekte?",
+      "8": "Hoe ver het die pasi\u00ebnte wat jy ondervra gereis om daar te kom en wat was hul reisonkoste?"
+    }
+  },
+  "12": {
+    "name": "Biografie",
+    "questions": {
+      "1": "Wat is die volle naam van die person oor wie jy skryf?",
+      "10": "Besonderhede van toekennings/ eerbewyse/ formele erkennings.",
+      "12": "Noem enige van hul groot bydraes tot die gemeenskap en die w\u00eareld.",
+      "13": "Noem ten minste DRIE belangrike politieke of maatskaplike aangeleenthede wat plaasgevind het tydens hierdie person se lewe. Gee `n verduideliking van elke gebeurtenis en hoe dit jou biografiese onderwerp kon be\u00efnvloed het.",
+      "2": "Hoe oud is hulle en wanneer is hulle gebore?",
+      "3": "Waar is hulle gebore en waar het hulle gebly?",
+      "6": "Gee \u2018n fisiese beskrywing. (Dit is belangrik om u skryfstuk intersant te maak)",
+      "7": "Besonderhede oor hulle karakter en persoonlikheid? (Vra familie en vriende)",
+      "8": "Besonderhede oor hul opleinding. (Sluit einge grade verwerf in)",
+      "9": "Besonderhede oor persoonlike verhoudings met familie, vriende en kollegas."
+    }
+  },
+  "13": {
+    "name": "Doodsberigte",
+    "questions": {
+      "1": "Wat is die naam, ouderdom, adres, beroep van die oorledene?",
+      "10": "Staaltjies, herineringe van vriende of familie?",
+      "2": "Wanneer, waar en hoe is die persoon dood?",
+      "3": "Wat is die persoon se geboortedatum en -plek?",
+      "4": "Hulle word oorleef deur? (Onmiddelike familie)",
+      "5": "Wat is die begrafnis- en diensre\u00eblings?",
+      "6": "Wat het die oorledene alles bereik?",
+      "7": "Besonderhede van hul opleiding?",
+      "8": "Was hulle `n lid van enige klubs of organisasies soos `n stokvel, Rotary of Lions?",
+      "9": "Was hulle in die weermag? (formeel of andersins)"
+    }
+  },
+  "2": {
+    "name": "Spraak",
+    "questions": {
+      "1": "Wat was die spreker se hoofgedagte?",
+      "10": "Het jy afskrifte van toesprake en/of agtergrondmateriaal?",
+      "11": "Wat is die kontakbesonderhede (verkieslik telefoonnommers / besigheidskaartjies) van sprekers in geval van navrae?",
+      "2": "Wie is die hoofspreker en wat is sy titel? (Maak seker name is reg gespel)",
+      "3": "Watter aanhalings het jy om die hoofgedagte te ondersteun?",
+      "4": "Wat was die doel, tyd en plek van die toespraak?",
+      "5": "Hoeveel mense was daar, hoe is die skare saamgestel en wat was hul reaksie?",
+      "6": "Het die spreker enige addisionele gedagtes geopper?",
+      "7": "Wat is die aanloop tot die punt wat hulle wou maak?",
+      "8": "Watter kommentaar het sprekers gemaak voor en na hulle toesprake?",
+      "9": "Is daar enige bykomende inligting na aanleiding van die vraag- en antwoordsessie?"
+    }
+  },
+  "3": {
+    "name": "Protesoptog",
+    "questions": {
+      "1": "Wenk: Maak seker jy het 'n groot serp en 'n bottel asyn (week serp in asyn indien polisie gebruik maak van traangas)",
+      "10": "Was daar enige verwante protesoptredes in die verlede (hoeveel, wanneer en waar) en is enige iets bereik?",
+      "11": "Hoe het die owerhede en die polisie reageer op die protes?",
+      "12": "Het polisie enige nie-dodelike (traangas, rubber koe\u00ebls) of dodelike wapens (lewendige ammunisie) gebruik, of albei?",
+      "13": "Is enigiemand beseer? Wie, hoeveel en hoe erg?",
+      "14": "Na watter hospitale/ klinieke is die beseerdes geneem vir behandeling?",
+      "15": "Indien daar gerugte van polisiegeweld is, het jy bewyse en het jy 'n reaksie van die polisie hieroor?",
+      "16": "Wat is die huidige stand van die protes?",
+      "2": "Watter soort protes is dit? `n Optog, 'n staking, 'n versperring?",
+      "3": "Wie is die hooforganiseerders van die protes? Kry hul amptelike titel, organisasie en kontakbesonderhede.",
+      "4": "Was die protesoptrede beplan of onbeplan?",
+      "5": "Wat is die oorsaak van die protes?",
+      "6": "Is nie-regeringsorganisasies of politieke partye betrokke by die protesoptrede? Kry hul name, organisasie, kontakbesonderhede en rede vir betrokkenheid.",
+      "7": "Hoe groot is die skare: moenie raai nie! Bevestig met organiseerders en polisie.",
+      "8": "Haal een van die organiseerders woordeliks aan oor die optrede",
+      "9": "Voer onderhoude met ten minste 10 betogers: kry hul naam, ouderdom, waar hulle woon, waarom hulle protesteer, wat hulle wil bereik?"
+    }
+  },
+  "4": {
+    "name": "Motorongelukke",
+    "questions": {
+      "1": "Hoe laat en waar het die ongeluk plaasgevind?",
+      "10": "Waarheen is die beseerdes en oorledenes geneem? (Watter hospitaal of lykshuis)",
+      "11": "Was daar enige helde- of reddingsdade?",
+      "12": "Was daar enige arrestasies of ander regsoptrede?",
+      "13": "Wat is die skade aan die voertuie?",
+      "14": "Hoe vinning het die betrokke voertuie gery?",
+      "15": "Waarheen is hulle vandaan of op pad?",
+      "16": "Was daar enige vreemde weers- of padtoestande wat kon gelei het tot die ongeluk?",
+      "17": "Wat het volgens ooggetuies, ondersoekbeamptes en mense wat betrokke was by die voorval, gebeur?",
+      "18": "Wat is die begrafnisre\u00eblings?",
+      "2": "Is enige persone beseer of dood? Indien wel, hoeveel?",
+      "3": "Watter soort voertuie was betrokke?",
+      "4": "Wat is die besonderhede van die betrokke bestuurders? Name, ouderdomme, adresse, ander persoonlike inligting.",
+      "5": "Wat was die oorsaak van die ongeluk? (volgens paramedici, die polisie of ander amptelike bronne)",
+      "6": "Wat is die besonderhede van enige ander betrokkenes? (Passasiers, voetgangers.)",
+      "7": "Wat is die identiteit van die beseerdes en oorledenes?",
+      "8": "Wat is die omvang van die beserings?",
+      "9": "Wat is die toestand van die beseerdes?"
+    }
+  },
+  "5": {
+    "name": "Gesondheidsdienste",
+    "questions": {
+      "1": "Wat is die naam van die hospitaal of kliniek en waar is dit gele\u00eb?",
+      "10": "Wat is die kommentaar van amptenare wat verantwoordelik is vir die lewering van die diens?",
+      "11": "Het pasi\u00ebnte al voorheen die fasilteit besoek? Indien ja, was hul l\u00eaer beskikbaar toe hulle behandel is?",
+      "12": "Hoe ver moes pasi\u00ebnte wat jy ondervra het, reis om daar te kom?",
+      "13": "Hoe het hulle daar gekom? (per bus, taxi, trein, of te voet)",
+      "14": "Wat was hul retoerkoste?",
+      "2": "Watter dienste word nie gelewer nie, al is hulle nodig? (areas van gebrekkige dienslewering)",
+      "3": "Hoekom word hierdie dienste nie meer gelewer nie?",
+      "4": "Wie word daardeur geraak? (`n Spesifieke groep mense/gebied uit watter sosio-ekonomiese agtergrond kom hulle)",
+      "5": "Hoeveel mense word geraak, of word in gevaar gestel as gevolg van die onttrekking van hierdie dienste?",
+      "6": "Wat is die name en ouderdomme van diegene wat geraak word en wat is hul ervarings?",
+      "7": "Hoe lank wag pasi\u00ebnte voor`n dokter of gesondheidswerker hulle kan sien?",
+      "8": "Is daar genoeg - en die regte - medikasie beskikbaar?",
+      "9": "Wie is verantwoordelik vir die dienslewering?"
+    }
+  },
+  "6": {
+    "name": "Howe - Siviele Geding",
+    "questions": {
+      "1": "Wie is die persoon of organisasie wat die aksie in gedien het? Name, ouderdomme, adresse, ander persoonlike inligting.",
+      "10": "Is dit moontlik dat hierdie geding tot landmerkaksie sal lei? Skep dit 'n presedent?",
+      "11": "Is dit moontlik dat die saak buite die hof geskik sal word?",
+      "12": "Wat is die betekenis van die aksie en die gevolge daarvan op ander?",
+      "13": "Wat is die name van die prokureurs aan beide kante? (Kontroleer spelling!)",
+      "14": "Wanneer is die verhoor en wie is die voorsittende regter?",
+      "2": "Wat is die agtergrond van die eiser of aansoeker: die persoon wat die aksie in gedien het?",
+      "3": "Wat is die agtergrond van die verweeder of respondent?",
+      "4": "Watter tipe skade word beweer?",
+      "5": "Wat is die verlangde uitkoms?",
+      "6": "Op watter datum is die aansoek ingedien en watter hof het jurisdiksie?",
+      "7": "Is daar 'n spesifieke motivering agter die aksie (indien enige)?",
+      "8": "Wat is die agtergrond tot die konflik/meningsverskil?",
+      "9": "Is of was daar enige soortgelyke beslissings deur howe (presedente)?"
+    }
+  },
+  "7": {
+    "name": "Howe - Uitspraak",
+    "questions": {
+      "1": "Wat is die uitspraak en skadevergoeding, indien enige? (Dieselfde, minder, of meer as die skadevergoeding waarom aansoek gedoen is?)",
+      "2": "Wie is die betrokke partye?",
+      "3": "Het die regter 'n verklaring gemaak? Het dit afgewyk van die assessor se bevindinge?",
+      "4": "Som die bewerings van die eisers op",
+      "5": "Wat was die belangrikste getuienis en die prokureur/advokaat se hoofpunte?",
+      "6": "Hoe lank het die hof beraadslaag voor uitspraak gelewer is?",
+      "7": "Gaan app\u00e8l aangeteken of mosies ingedien word?"
+    }
+  },
+  "8": {
+    "name": "Misdaad",
+    "questions": {
+      "1": "Wat is die name en besonderhede van die slagoffers? Name, ouderdomme, adresse, ander persoonlike inligting.",
+      "2": "Wat was die misdaad en hoe is dit gepleeg?",
+      "3": "Op wattter datum, tyd en plek het die misdaad plaasgevind? Bevestig met amptelike bronne.",
+      "4": "In die geval van 'n sterfte, wat was die amptelike oorsaak? (Volgens paramedici, polisie of ander amptelike bronne.)",
+      "5": "Wat was die aard van die beserings en watter soort wapen is gebruik?",
+      "6": "Wat het aanleiding gegee tot die misdaad en wat is die agtergrond van die slagoffer? (indien van toepassing?)",
+      "7": "Was daar enige arrestasies en is daar enige verdagtes of leidrade?",
+      "8": "Is daar enige vreemde omstandighede wat die misdaad betref?",
+      "9": "Kry kommentaar van die slagoffer, getuies, polisie en ander amptelike bronne."
+    }
+  },
+  "9": {
+    "name": "Brande",
+    "questions": {
+      "1": "Hoeveel mense is dood en beseer?",
+      "10": "Was daar enige helde- of reddingsdade?",
+      "11": "Kry kommentaar van bure, ooggetuies.",
+      "12": "Hoeveel brandweerwaens en brandbestryders was betrokke?",
+      "13": "Bronne: Brandweerhoof, polisie, nooddienste, hospitaal, forensiese dienste, maatskaplike dienste",
+      "2": "Watter besonderhede is daar van slagoffers? Name, ouderdomme, adresse, ander persoonlike inligting.",
+      "3": "Waar was die brand en wat het gebrand ('n gebou, huis, veld, ens.)?",
+      "4": "Wanneer het die brand begin, waar en hoe het dit versprei?",
+      "5": "Wanneer en na hoe lank is dit onder beheer gebring?",
+      "6": "Hoe is slagoffers gedood en beseer en wat die omvang van die beserings?",
+      "7": "Eiendoms verlies: wat is die omvang die skade, versekering? Jy sal dalk \u2018n kenner moet kontak.",
+      "8": "Ondersoek: enige ongewone omstandighede?",
+      "9": "Waarheen is die beseerdes en oorledenes geneem? (Watter hospitaal of lykshuis)"
+    }
+  }
+}

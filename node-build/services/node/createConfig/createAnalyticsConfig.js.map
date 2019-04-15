@@ -1,0 +1,1 @@
+{"version":3,"file":"createAnalyticsConfig.js","sourceRoot":"","sources":["../../../../src/services/node/createConfig/createAnalyticsConfig.ts"],"names":[],"mappings":";;AAAA,IAAM,qBAAqB,GAAG,UAAA,UAAU;IACtC,IAAI,CAAC,UAAU,EAAE;QACf,OAAO,EAAE,CAAC;KACX;IAED,OAAO;QACL;YACE,OAAO,EAAE,gCAAgC;YACzC,OAAO,EAAE;gBACP,UAAU,YAAA;aACX;SACF;KACF,CAAC;AACJ,CAAC,CAAC;AAEF,kBAAe,qBAAqB,CAAC"}

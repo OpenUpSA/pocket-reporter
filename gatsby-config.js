@@ -1,28 +1,17 @@
-/* eslint-disable import/no-extraneous-dependencies */
+// Documentation for the Gatsby Config API (used by this file) at https://www.gatsbyjs.org/docs/gatsby-config/
 
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable @typescript-eslint/no-var-requires */
 
 const { config } = require('dotenv');
+const createGatsbyConfig = require('./node-build/services/node/createConfig').default;
 
+const env = config();
 
-const createConfig = require('./src/node/createConfig');
+/**
+ * Runs `createGatsbyConfig()`, a function that accepts all ENV variables and the project root path,
+ * and configures all Gatsby plugins based on the values passed.
+ */
+const gatsbyConfig = createGatsbyConfig(env, __dirname);
 
-
-const {
-  HOTJAR_ID: id,
-  HOTJAR_SNIPPET_VERSION: sv,
-  GOOGLE_ANALYTICS_ID: trackingId,
-  SENTRY_DNS: dsn,
-
-} = config();
-
-
-const passedProps = {
-  id,
-  sv,
-  trackingId,
-  dsn,
-  root: __dirname,
-};
-
-
-module.exports = createConfig(passedProps);
+module.exports = gatsbyConfig;

@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "./node-build"
+  },
+  "include": ["src/services/node/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts", "**/*.stories.tsx"]
+}

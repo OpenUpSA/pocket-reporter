@@ -1,5 +1,4 @@
 import { createElement } from 'react';
-import Resource from '../views/Resource';
+import Resource from '../components/views/Resource';
 
-
-export default ({ pageContext }) => createElement(Resource, pageContext);
+export default ({ pageContext }) => createElement('div', {}, '123');

@@ -1,18 +1,3 @@
-import { createElement } from 'react';
-import { Link as link } from 'gatsby';
+import ContentLoader from '../components/loaders/ContentLoader';
 
-
-import FolderContent from '../views/FolderContent';
-
-
-const page = ({ pageContext }) => {
-  const props = {
-    ...pageContext,
-    link,
-  };
-
-  return createElement(FolderContent, props);
-};
-
-
-export default page;
+export default ContentLoader;
