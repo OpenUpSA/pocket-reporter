@@ -41,7 +41,7 @@ class Story extends Component<Tprops, Tstate> {
   deleteAction() {
     const { navigate, onDeleteAction, id } = this.props;
     onDeleteAction(id);
-    navigate('/');
+    navigate('/stories');
   }
 
   render() {

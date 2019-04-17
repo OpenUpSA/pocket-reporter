@@ -21,7 +21,7 @@ const Markup = props => {
   const { isoKey, setLanguage } = props;
 
   return (
-    <Layout title="User Profile" back="/" {...{ isoKey }}>
+    <Layout title="User Profile" back={`/${isoKey}/folders/index.html`} {...{ isoKey }}>
       <StyledClickWrapper onClickEvent="/about" full>
         <AboutButton>Learn more about Pocket Reporter</AboutButton>
       </StyledClickWrapper>

@@ -28,7 +28,7 @@ const Footer = ({ isoKey }: PropsShape): JSX.Element => (
         <FooterToolbar>
           <FooterList>
             <FooterItem>
-              <ClickWrapper onClickEvent="/" full>
+              <ClickWrapper onClickEvent="/stories" full>
                 <FooterButton>
                   <List />
                   <span>My stories</span>

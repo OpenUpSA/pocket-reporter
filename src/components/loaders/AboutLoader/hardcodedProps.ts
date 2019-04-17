@@ -32,6 +32,17 @@ const hardcodedProps = {
       name: 'Raymond Joseph',
     },
     {
+      name: 'Lenina Rassool',
+    },
+    {
+      link: 'https://github.com/adieyal',
+      name: 'Adi Eyal',
+    },
+    {
+      link: 'https://github.com/longhotsummer',
+      name: 'Greg Kempe',
+    },
+    {
       link: 'https://github.com/schalkventer',
       name: 'Schalk Venter',
     },

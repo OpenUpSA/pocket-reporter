@@ -1,3 +1,3 @@
-import StoriesListLoader from '../components/loaders/StoriesListLoader';
+import StartLoader from '../components/loaders/StartLoader';
 
-export default StoriesListLoader;
+export default StartLoader;
