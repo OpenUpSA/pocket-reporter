@@ -35,7 +35,7 @@ var translations = function () { return schema_1.languages.filter(removeEnglish)
 var createResource = function () { return ({
     name: 'resources',
     label: '📚 Resources',
-    folder: 'src/data/resources/',
+    folder: 'src/data/saved/resources/',
     extension: 'json',
     create: true,
     fields: [

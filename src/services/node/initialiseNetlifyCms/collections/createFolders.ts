@@ -14,7 +14,7 @@ const translations = isoKeys => isoKeys.filter(removeEnglish).map(buildTranslati
 const createFolders = () => ({
   name: 'folders',
   label: '📁 Folders',
-  folder: 'src/data/folders/',
+  folder: 'src/data/saved/folders/',
   extension: 'json',
   create: true,
   fields: [

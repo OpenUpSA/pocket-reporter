@@ -48,7 +48,7 @@ var translations = function () { return schema_1.languages.filter(removeEnglish)
 var createQuestions = function () { return ({
     name: 'questions',
     label: '✏️ Questions',
-    folder: 'src/data/questions/',
+    folder: 'src/data/saved/questions/',
     extension: 'json',
     create: true,
     fields: [

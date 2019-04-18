@@ -41,7 +41,7 @@ const translations = () => languages.filter(removeEnglish).map(buildTranslation)
 const createQuestions = () => ({
   name: 'questions',
   label: '✏️ Questions',
-  folder: 'src/data/questions/',
+  folder: 'src/data/saved/questions/',
   extension: 'json',
   create: true,
   fields: [

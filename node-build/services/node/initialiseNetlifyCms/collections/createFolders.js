@@ -16,7 +16,7 @@ var translations = function (isoKeys) { return isoKeys.filter(removeEnglish).map
 var createFolders = function () { return ({
     name: 'folders',
     label: '📁 Folders',
-    folder: 'src/data/folders/',
+    folder: 'src/data/saved/folders/',
     extension: 'json',
     create: true,
     fields: [

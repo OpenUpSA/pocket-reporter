@@ -28,7 +28,7 @@ const translations = () => languages.filter(removeEnglish).map(buildTranslation)
 const createResource = () => ({
   name: 'resources',
   label: '📚 Resources',
-  folder: 'src/data/resources/',
+  folder: 'src/data/saved/resources/',
   extension: 'json',
   create: true,
   fields: [
