@@ -1,0 +1,29 @@
+{
+  "type": "folders",
+  "title": "Election Resources: South Africa",
+  "translations": {
+    "spa": " ",
+    "nso": " ",
+    "afr": " ",
+    "tsn": " ",
+    "zul": " ",
+    "por": " ",
+    "sot": " ",
+    "eng": " ",
+    "xho": " "
+  },
+  "icon": "Cancel",
+  "questions": [
+    {
+      "content": " "
+    }
+  ],
+  "resources": [
+    {
+      "content": "Helpful Guidelines For Journalists Covering The [SA] Election"
+    },
+    {
+      "content": "South African Press Code"
+    }
+  ]
+}
