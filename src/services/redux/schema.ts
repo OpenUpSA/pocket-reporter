@@ -123,6 +123,7 @@ export const mockStartedStory = (): TstartedStory =>
 export type Tstory = {
   lastEdit: TlastEditStory | null;
   started: TstartedStory;
+  sent: number;
   answers: {
     [key: string]: TanswerObject;
   };
@@ -131,6 +132,7 @@ export type Tstory = {
 export const mockStory = (answered?: boolean, edited?: boolean): Tstory => ({
   lastEdit: edited ? mockLastEditStory() : null,
   started: mockStartedStory(),
+  sent: faker.random.number(),
   answers: {
     [generateUniqueId()]: mockAnswerObject(
       !!answered && faker.random.boolean(),
@@ -158,7 +160,7 @@ export const mockJoined = (): TlastUserEdit => faker.date.between(veryLongAgo, l
  */
 export type Tlanguage = TisoKey;
 
-export const mockLanguage = (): Tlanguage => faker.random.arrayElement(isoKeys);
+export const mockLanguage = (): Tlanguage => faker.random.arrayElement(isoKeys) as TisoKey;
 
 /**
  * The shape of the `info` module in the project-wide Redux store.

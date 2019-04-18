@@ -1,10 +1,9 @@
 import React from 'react';
-import iconsObject from '../../../components/Icon/iconsObject';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
 import styled from 'styled-components';
-
+import iconsObject from '../../../../../components/global/Icon/iconsObject';
 
 const Wrapper = styled.form`
   display: inline-block;
@@ -24,7 +23,6 @@ const Wrapper = styled.form`
   transition: border-color 0.2s ease 0s;
 `;
 
-
 const StyledSelect = styled(Select)`
   & .select {
     padding: 14px 28px !important;
@@ -33,18 +31,18 @@ const StyledSelect = styled(Select)`
   &::before {
     border: 0px solid transparent !important;
   }
-`;
+` as any;
 
+const buildIcons = icons =>
+  Object.keys(icons).map(key => {
+    const Icon = icons[key];
 
-const buildIcons = (iconsObject) => Object.keys(iconsObject).map(key => {
-  const Icon = iconsObject[key];
-
-  return (
-    <MenuItem value={key}>
-      <Icon />
-    </MenuItem>
-  )
-});
+    return (
+      <MenuItem value={key}>
+        <Icon />
+      </MenuItem>
+    );
+  });
 
 const Markup = ({ value, handleChange: onChange }) => (
   <div>
@@ -57,6 +55,5 @@ const Markup = ({ value, handleChange: onChange }) => (
     </Wrapper>
   </div>
 );
-
 
 export default Markup;

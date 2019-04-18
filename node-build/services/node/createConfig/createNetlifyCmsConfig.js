@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var createNetlifyCmsConfig = function (root) { return ({
     resolve: 'gatsby-plugin-netlify-cms',
     options: {
-        modulePath: root + "/src/cms/index.js",
+        modulePath: root + "/node-build/services/node/initialiseNetlifyCms/index.js",
         manualInit: true,
     },
 }); };

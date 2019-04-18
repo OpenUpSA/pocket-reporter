@@ -5,8 +5,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var manifestConfig_1 = __importDefault(require("./manifestConfig"));
 var webfontsConfig_1 = __importDefault(require("./webfontsConfig"));
-// import createHotjarConfig from './createHotjarConfig';
+var createNetlifyCmsConfig_1 = __importDefault(require("./createNetlifyCmsConfig"));
 var createFilesystemConfig_1 = __importDefault(require("./createFilesystemConfig"));
+// import createHotjarConfig from './createHotjarConfig';
 // import createAnalyticsConfig from './createAnalyticsConfig';
 /**
  * A list of all Gatsby plugins used as is, without any configuration.
@@ -31,6 +32,7 @@ var withCustomConfig = function (env, root) {
         manifestConfig_1.default,
         webfontsConfig_1.default,
         createFilesystemConfig_1.default(root),
+        createNetlifyCmsConfig_1.default(root),
     ];
 };
 /**

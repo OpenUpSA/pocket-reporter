@@ -1,4 +1,4 @@
-import { isoToLanguage } from '../../helpers/languageConversions';
+import { languages } from '../../../../data/hardcoded/languages/schema';
 
 const langaugeInstance = (required = true) => [
   {
@@ -15,21 +15,17 @@ const langaugeInstance = (required = true) => [
   },
 ];
 
-const buildTranslation = isoKey => ({
-  label: isoToLanguage(isoKey),
+const buildTranslation = ({ isoKey, nativeName }) => ({
+  label: nativeName,
   name: isoKey,
   widget: 'object',
   fields: langaugeInstance(false),
 });
 
-const removeEnglish = key => key !== 'eng';
+const removeEnglish = ({ isoKey }) => isoKey !== 'eng';
+const translations = () => languages.filter(removeEnglish).map(buildTranslation);
 
-const translations = isoKeys => isoKeys
-  .filter(removeEnglish)
-  .map(buildTranslation);
-
-  
-const createResource = isoKeys => ({
+const createResource = () => ({
   name: 'resources',
   label: '📚 Resources',
   folder: 'src/data/resources/',
@@ -43,7 +39,7 @@ const createResource = isoKeys => ({
       default: 'resources',
     },
     ...langaugeInstance(true),
-    ...translations(isoKeys),
+    ...translations(),
   ],
 });
 

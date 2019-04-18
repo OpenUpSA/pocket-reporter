@@ -1,4 +1,4 @@
-import { isoToLanguage } from '../../helpers/languageConversions';
+import { languages } from '../../../../data/hardcoded/languages/schema';
 
 const langaugeInstance = (required = true) => [
   {
@@ -28,20 +28,17 @@ const langaugeInstance = (required = true) => [
   },
 ];
 
-const buildTranslation = isoKey => ({
-  label: isoToLanguage(isoKey),
+const buildTranslation = ({ isoKey, nativeName }) => ({
+  label: nativeName,
   name: isoKey,
   widget: 'object',
   fields: langaugeInstance(false),
 });
 
-const removeEnglish = key => key !== 'eng';
+const removeEnglish = ({ isoKey }) => isoKey !== 'eng';
+const translations = () => languages.filter(removeEnglish).map(buildTranslation);
 
-const translations = isoKeys => isoKeys
-  .filter(removeEnglish)
-  .map(buildTranslation);
-
-const createQuestions = isoKeys => ({
+const createQuestions = () => ({
   name: 'questions',
   label: '✏️ Questions',
   folder: 'src/data/questions/',
@@ -55,7 +52,7 @@ const createQuestions = isoKeys => ({
       default: 'questions',
     },
     ...langaugeInstance(true),
-    ...translations(isoKeys),
+    ...translations(),
   ],
 });
 

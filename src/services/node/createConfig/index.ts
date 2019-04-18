@@ -2,8 +2,9 @@ import { Tenv, Troot } from './schema';
 
 import manifestConfig from './manifestConfig';
 import webfontsConfig from './webfontsConfig';
-// import createHotjarConfig from './createHotjarConfig';
+import createNetlifyCmsConfig from './createNetlifyCmsConfig';
 import createFilesystemConfig from './createFilesystemConfig';
+// import createHotjarConfig from './createHotjarConfig';
 // import createAnalyticsConfig from './createAnalyticsConfig';
 
 /**
@@ -31,6 +32,7 @@ const withCustomConfig = (env: Tenv, root: Troot) => {
     manifestConfig,
     webfontsConfig,
     createFilesystemConfig(root),
+    createNetlifyCmsConfig(root),
     // !!id && !!sv && createAnalyticsConfig(id, sv),
     // !!trackingId && createHotjarConfig(trackingId),
   ];

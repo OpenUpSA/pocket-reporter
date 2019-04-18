@@ -6,6 +6,6 @@
     "sourceMap": true,
     "outDir": "./node-build"
   },
-  "include": ["src/services/node/**/*"],
+  "include": ["src/services/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts", "**/*.stories.tsx"]
 }

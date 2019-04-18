@@ -1,5 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
-
+/* eslint-disable @typescript-eslint/camelcase */
 
 import CMS, { init } from 'netlify-cms';
 import IconSelector from './widgets/IconSelector';
@@ -7,13 +7,6 @@ import IconSelectorMarkup from './widgets/IconSelector/Markup';
 import createFolders from './collections/createFolders';
 import createQuestions from './collections/createQuestions';
 import createResources from './collections/createResources';
-import aboutPage from './collections/aboutPage';
-import languages from '../config/languages';
-
-
-const isoKeys = Object.keys(languages);
-const languageValues = isoKeys.map(key => languages[key]);
-
 
 const config = {
   backend: {
@@ -27,23 +20,9 @@ const config = {
   editor: {
     preview: false,
   },
-  collections: [
-    createFolders(isoKeys),
-    createQuestions(isoKeys),
-    createResources(isoKeys),
-    {
-      name: 'static-content',
-      label: '📌 Static Web Pages',
-      folder: 'src/data/static-content/about/',
-      files: [
-        aboutPage,
-      ],
-    },
-  ],
+  collections: [createFolders(), createQuestions(), createResources()],
 };
 
-
 CMS.registerWidget('icon-selector', IconSelector, IconSelectorMarkup);
-
 
 init({ config });

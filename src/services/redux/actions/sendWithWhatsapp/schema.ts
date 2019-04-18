@@ -1,7 +1,7 @@
 import faker from 'faker';
 import { v4 as generateUniqueId } from 'uuid';
 
-const idsArray = [1, 2, 3, 4, 5, 6, 7, 8].map(generateUniqueId);
+const idsArray = [1, 2, 3, 4, 5, 6, 7, 8].map(() => generateUniqueId());
 
 /**
  * TODO: Add description.
