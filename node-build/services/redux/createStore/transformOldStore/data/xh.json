@@ -1,0 +1,219 @@
+"use strict";
+{
+    "1": {
+        "name": "Inkomfa yoonondaba",
+        "questions": {
+            "1": "Zeziphina ezona ntetho zibalaseleyo ezithe zabhengezwa kwi nkomfa yoonondaba?",
+            "2": "Ngobani amagama kwakunye nezikhundla ezisemthethweni zabo bathe benza iintetho?",
+            "3": "Ithini intsusa yawona manqaku abalaseleyo kule nkomfa?",
+            "4": "Lwazi luni oluthe lwavela ngelixa leseshoni yemibuzo neempendulo?",
+            "5": "Yeyiphi na imibuzo engaphendulwanga?",
+            "6": "Icebo: qinisekisa ukuba uzifumanela ii-kopi (copies) zamaxwebhu/amaphepha anikezelwe kwi nkomfa",
+            "7": "Zithini iinkcukacha zonxibelelwano zabo baququzelela le nkomfa (ii-nombolo zomnxeba) mhlawumbi kubekho amakhwiniba/okudinga ingcaciso?"
+        }
+    },
+    "10": {
+        "name": "Ezemidlalo",
+        "questions": {
+            "1": "Ubhala ngeyiphi indidi yomdlalo ngoku?",
+            "10": "Fumana izimvo zabaqeqeshi, abadlali kwakunye nabalandeli bamaqela omabini.",
+            "11": "Ubukhulu bezihlwele babungakanani na kwaye ziziphethe njani na?",
+            "12": "Ebekhona na umonzakalo?",
+            "13": "Uthathe ixesha elingakanani na umdlalo kwaye udlulele kwixesha elongeziweyo na?",
+            "14": "Zithini na iinkcukacha-manani zomdlalo?",
+            "2": "Athini amagama amaqela adlalayo?",
+            "3": "Ziphele zisithini na iziphumo?",
+            "4": "Ubudlalelwa phi, nini lomdlalo?",
+            "5": "Yintoni na elona cebo liphume phambili?",
+            "6": "Ngobani abadlali aba balaseleyo?",
+            "7": "Iziphumo zalomdlalo zizichaphazela njani i-standings, i-rankings nee-rekhodi zaba dlali?",
+            "8": "Amaxesha afakwe ngawo amanqaku?",
+            "9": "Ingaba akhona na ama-rekhodi okugqwesa okanye ukubethwa kumaqela nabadlali?"
+        }
+    },
+    "11": {
+        "name": "Isigulo esithile",
+        "questions": {
+            "1": "Yintoni na igama lesigulo/imeko yesigulane?",
+            "2": "Zeziphi ezona mpawu zesisigulo?",
+            "3": "Isigulane sifumene nyango luni?",
+            "4": "Ingaba banyangwa phi?",
+            "5": "Ingaba esi sigulo sikhawuleza sosulele kwaye zikhe zakhona kusini na ezinye iingxelo ngesi sigulo kwindawo ohlala kuyo okanye phesheya?",
+            "6": "Ngoobani na iingxwelerha? Amagama, iminyaka yobudala, iidilesi nezinye iinkcukacha.",
+            "7": "Zithini izimvo ezenzwe ngabasebenzi bezempilo ngesi sigulo, ukuba bezikhona?",
+            "8": "Uthini umgama ohanjwe zizigulane odlene nazo indlebe ukuze zifike phaya kwaye lithini ixabiso lesithuthi, ukuya nokubuya?"
+        }
+    },
+    "12": {
+        "name": "Ibali lobom",
+        "questions": {
+            "1": "Ngubani na igama elipheleleyo lalowo ubhala ngaye?",
+            "10": "Iinkcukacha zee mbasa/amawonga neengqwalasela ezisemthethweni.",
+            "12": "Shwankathela neyiphi na inkxaxheba yakhe/yabo ekuhlaleni nakwi hlabathi.",
+            "13": "Chaza izehlo zezo politiko okanye ezasekuhlaleni zibe ntathu ubuncinane nezathi zehla ngethuba umfi esaphila? Kwi sehlo ngasinye cacisa ukuba ingaba simchaphazele njani umfi?",
+            "2": "Ingakanani na iminyaka yabo yobu dala nosuku loku zalwa?",
+            "3": "Yintoni igama lendawo yabo/yakhe yokuzalwa kwaye e/bebehlala phi?",
+            "6": "Ungaba chaza njani ngokwe simo sabo? (Oku kubalulekile ukuphuhliseni umdla webali lakho.)",
+            "7": "Iinkcukacha zokuba ngumntu/ngabantu abanjani na? (Buza usapho nezihlobo)",
+            "8": "Iinkcukacha ze nqanaba lemfundo yakhe? (Ukhankanye neziphina ii-degrees azifundeleyo)",
+            "9": "Iinkcukacha ngendlela ayiyo kusapho lwakhe, kwizihlobo kwakunye nabo asebenza nabo."
+        }
+    },
+    "13": {
+        "name": "Ezemingcwabo",
+        "questions": {
+            "1": "Lithini igama, ubudala, idilesi nomsebenzi womfi?",
+            "10": "Amabali, iinkumbulo zezihlobo nezalamane?",
+            "2": "Belisithini na ixesha, indawo kwakunye nembangi yokufa?",
+            "3": "Luthini usuku loku zalwa nendawo yoku zalwa yomfi?",
+            "4": "Ushiya bani ngasemva? (Usapho lwako wabo)",
+            "5": "Athini na amalungiselelo enkonzo yomngcwabo nokufihla?",
+            "6": "Yintoni na amawonga/impumelelo yomfi?",
+            "7": "Zithini iinkcukacha zemfundo yabo?",
+            "8": "Bebe ngamalungu amaqela okanye ii-sosayeti ezifana nee-stokvel, i-Rotary okanye i-Lions?",
+            "9": "Ingaba bakhe balwenza na uqeqesho kwi nkonzo yobu joni?"
+        }
+    },
+    "2": {
+        "name": "Intetha",
+        "questions": {
+            "1": "Ngowuphi owona mxholo ubalaseleyo kwisithethi?",
+            "10": "Ingaba unazo na ii-kopi zee ntetha kwakunye/okanye iimpepha zentsusaphi?",
+            "11": "Zithini iinkcukacha zonxibelelwano (ii-nombolo-mnxeba/amakhadi eshishini) zabo bathe benza intetha, mlawumbi kubekho amakhwiniba/okungaqondakaliyo?",
+            "2": "Ngubani igama nesikhundla sesithethi esiphambili? (Uqinisekise ukuba igama libhalwe kakuhle!)",
+            "3": "Ngeziphi iintetho-nqo onazo ongazisebenzisa ukuxhasa elona nqaku libalaseleyo?",
+            "4": "Ibiyintoni na injongo, ixesha kwakunye nendawo yentetha?",
+            "5": "Bangaphi abantu abathe bazimasa kwaye bathethe bathini ngoku?",
+            "6": "Ingaba isithethi songeze amanye amanqaku?",
+            "7": "Yintoni na intsusa yelona nqaku libalaseleyo alikhankanyileyo?",
+            "8": "Zeziphi izimvo ezenzwe sisithethi ngaphambi nangasemva kwe ntetha?",
+            "9": "Ingaba kukhona okongezelekileyo kwi sashoni yemibuzo neempendulo?"
+        }
+    },
+    "3": {
+        "name": "Umngcelele woqhankqalazo ",
+        "questions": {
+            "1": "Icebo: Qinisekisa ukuba une sikhafu eside kwakunye ne bhotile ye vinika (ncinda isikhafu kwi vinika leyo xa amapolisa esebenzisa i-teargas).",
+            "10": "Kwakukhe kwabakho iintshukumo zoqhankqalazo eziyelelene nezi kumaxesha adlulileyo (Zazi ngaphi, nini, phi) kwaye ingaba ikhona na into eyaba yimpumelelo?",
+            "11": "Iziphatha-mandla kwakunye namapolisa bahlangabezene njani nolu qhankqalazo?",
+            "12": "Ingaba amapolisa asebenzisa iintshukumo ezingena bungozi kakhulu (i-teargas, i-rubber bullets) okanye ezinobungozi (imipu) okanye zombini?",
+            "13": "Ingaba bakhona abantu abonzakalayo? Ngobani, babe bangaphi kwaye bonzakala kangakanani na?",
+            "14": "Abo bathi bonzakala babhekiswa kweziphi na izibhedlele okanye iikliniki ukuze bafumane unyango?",
+            "15": "Ukuba kukho iingxelo zoku sebenziswa kodlame ngama polisa ingaba unabo na ubungqina kwakunye nempendulo yamapolisa ngesi sehlo?",
+            "16": "Ithini imeko yolu qhankqalazo sithetha nje?",
+            "2": "Ingaba luqhankqalazo olunjani na olu? Ingaba ngumngcelele, ugwayimbo, uvalo-zitalato?",
+            "3": "Ngoobani abona baququzeli baphambili kolu qhankqalazo? Fumana izikhundla zabo ezisemthethweni, amaqela abo kwakunye nee nkcukhacha zabo zonxibelelwano.",
+            "4": "Ingaba oluqhankqalazo belucetyiwe okanye belunga cetywanga?",
+            "5": "Yintoni isizathu soluqhankqalazo?",
+            "6": "Ingaba ii-NGO okanye amaqela ezo politiko ziyabandakanyeka okanye ziyachaphazeleka kolu qhankqalazo? Fumana amagama abantu, amaqela, iinkcukhacha nezizathu zobandakanyo lwabo.",
+            "7": "Bungakanani ubukhulu benginginya: ungaziqambeli ngokwakho! Dlana indlebe nabaququzeli kwakunye namapolisa.",
+            "8": "Fumana intetho nqo yaba ququzeleli malunga noqhankqalazo",
+            "9": "Dlana indlebe nabaqhankqalazi abali-10 ubuncinane: fumana amagama abo, iindawo abahlala kuzo, izizathu zabo zokuqhankqalaza, yintoni abafuna ukuyi feza?"
+        }
+    },
+    "4": {
+        "name": "Iingozi zeemoto",
+        "questions": {
+            "1": "Ingozi yehle ngeliphi ixesha kwaye phi?",
+            "10": "Abo bafileyo nabo nzakeleyo babhekiswe ngaphi na? (Kwesiphi isibhedlele okanye indawo yezidumbhu?)",
+            "11": "Ingaba bezikhona na izenzo zobukroti okanye uhlangulo?",
+            "12": "Bebe khona na aba banjiweyo okanye abathathelwe amanyathelo asemthethweni?",
+            "13": "Yintoni na umonakalo kwizithuthi?",
+            "14": "Besisithini na isantya sezithuthi ezo?",
+            "15": "Babe vela phi/besiya phi?",
+            "16": "Ingaba bekukho imozulu engaqondakaliyo okanye imeko yezendlela engaba kanti yadala le ngozi?",
+            "17": "Ngokwa mangqina, abecuphi nabantu aba chaphazelekayo kule ngozi kwenzeke ntoni?",
+            "18": "Athini amalungiselelo enkonzo yomngcwabo yomfi?",
+            "2": "Bebekhona na abantu abonzakeleyo okanye abafileyo kwaye bangaphi?",
+            "3": "Ziintlobo ezinjani zeemoto ezi zichaphazelekileyo?",
+            "4": "Ngubani na umqhubi? Amagama, ubudala, iidilesi nezinye iinkcukhacha.",
+            "5": "Yintoni na imbangi yalengozi? (Ngokwa magosa ezoncedo olukhawulezileyo, amapolisa okanye nabani na osemthethweni)",
+            "6": "Ngobani na abanye abachaphazelekayo? (Abakhweli, abahambi ngendlela.)",
+            "7": "Ngubani na owonzakeleyo nothe wafa?",
+            "8": "Ungakanani na umonzakalo odalwe yile ngozi?",
+            "9": "Injani imeko yabo bonzakeleyo?"
+        }
+    },
+    "5": {
+        "name": "Iinkonzo ze zeMpilo",
+        "questions": {
+            "1": "Lithini igama lesibhedlele okanye ikliniki kwaye ikweyiphi na indawo?",
+            "10": "Ithini ingxelo evela kumagosa achophele ukuziswa kwezi nkonzo?",
+            "11": "Ingaba izigulane zakhe zazityelela ezizakhiwo ngaphambili? Ukuba ewe, ingaba iimpepha zembali yazo yonyango ibikhona ngelixa lonyango?",
+            "12": "Uthini umgama ohanjwa zizigulane odlene nazo indlebe ukuze zifikelele phaya/apho?",
+            "13": "Bafikelela njani phaya/apho? (Nge-bhasi, uloliwe, bayahamba)",
+            "14": "Lithini na ixabiso lesithuthi ukuya noku buya?",
+            "2": "Zeziphi na iinkonzo ezinga nikezelwayo kodwa kumele zinikezelwe? (Apho kukho ukusilela kunikezelo lweenkonzo)",
+            "3": "Kutheni na ezinkonzo zingasa nikezekwa nje?",
+            "4": "Ngobani na aba chaphazelekayo koku? (Iqela labantu abathile/ingingqi kwaye ithini imvelaphi yezezimali nentlalo yabo?)",
+            "5": "Bangaphi na abantu aba chaphazelekayo, abase mngciphekweni okanye engozini ngenxa yoku rhoxiswa kwezinkonzo?",
+            "6": "Ngobani amagama nobudala babo bachaphazelekayo kwaye amava abo athini?",
+            "7": "Izigulane zilinda ixesha elingakanani na phambi ba babonwe ngoo gqirha/abasebenzi beze mpilo?",
+            "8": "Ingaba unyango olukhoyo lonele na kwaye lunyango lokwenene na?",
+            "9": "Ngubani na ono xanduva loku zisa ezi nkonzo?"
+        }
+    },
+    "6": {
+        "name": "Inyathelo lenkundla yamatyala",
+        "questions": {
+            "1": "Ngubani lomntu okanye iqela elithatha lamanyathelo? Amagama, ubudala, iidilesi, nezinye iinkcukhacha.",
+            "10": "Ingaba esisigwebo singakhokela kumanyathelo angqingqwa? Ingaba singumzekelo?",
+            "11": "Sinako ukuthatyathwa isigqibo ngaphandle kwenkundla?",
+            "12": "Yintoni na eyi ngqwalasela yeli nyathelo kwaye ibachaphazela njani abanye abantu?",
+            "13": "Ngobani na amagama amagqwetha macala omabini? (Ujongisise izibhalo zawo)",
+            "14": "Uthini umhla kwaye ngubani i-Jaji esingathe elityala?",
+            "2": "Ithini imvelaphi yalowo ufaka ityala?",
+            "3": "Ithini imvelaphi yomthyolwa?",
+            "4": "Yeyiphi indidi yomonakalo obikwayo?",
+            "5": "Yintoni na iinjongo zelityala?",
+            "6": "Unini umhla woku faka isicelo kwaye yeyiphi inkundla yamatyala emele lomcimbi?",
+            "7": "Ingaba ikhona na into ekhuthaze ezizenzo (ukuba ikhona)?",
+            "8": "Ithini intsusa yale ngxabano okanye impikiswano?",
+            "9": "Ingaba akhona okanye akhe akhona na amatyala ayeleleneyo kweli athi asingathwa ziinkundla zamatyala (ezangaphambili)?"
+        }
+    },
+    "7": {
+        "name": "Iinkundla zamatyala - Isigqibo",
+        "questions": {
+            "1": "Sithini isigqibo no monakalo, ukuba ikhona imbuyekezo? (Kuyafana, kungaphantsi, kungaphezulu kuno monakalo?)",
+            "2": "Ngobani aba chaphazelekayo?",
+            "3": "Ingaba umgwebi uyenzile ingxelo kusini na? Ingaba yohlukile na kuphando lomvavanyi?",
+            "4": "Chaza ngokufutshane izithyolo zalowo ufake ityala?",
+            "5": "Ibiyintoni na ubungqina kwakunye namanqaku abalaseleyo amagqwetha?",
+            "6": "Ithathe ithuba elingakanani na inkundla yamatyala phambi kokuba ithathe isigqibo?",
+            "7": "Ingaba zikhona na izibheno?"
+        }
+    },
+    "8": {
+        "name": "Ulwaphulo-mthetho",
+        "questions": {
+            "1": "Ngobani na amagama neenkcukacha zoqhagamshelwano zeengxwelerha? Amagama, iminyaka yobudala, iidilesi nezinye iinkcukacha.",
+            "2": "Ibiyi ntoni ulwaphulo-mthetho kwaye ludalwe njani na?",
+            "3": "Uthini umhla, ixesha kwakunye nendawo yolwaphulo-mthetho? Qondisisa kuma gosa asemthethweni.",
+            "4": "Kumba wokufa, yintoni imbangi esemthethweni? (Ngokwa magosa ezonyango olukhawulezileyo, amapolisa okanye naliphi na igosa/icandelo elisemthethweni.)",
+            "5": "Iingxwelerha zifumene monzakalo mni kwaye yintoni isikhali esisetyenzisiweyo?",
+            "6": "Yintoni na ekhuthaze esisenzo solwaphulo-mthetho kwaye ithini intsukaphi yengxwelerha? (Ukuba  ikhona indawo yayo)",
+            "7": "Bakhona abantu abathe babanjwa ngamapolisa kwaye bakhona abarhanelwa okanye imikhondo kusini na?",
+            "8": "Ingaba zikhona izehlo ezingaqondakaliyo nezingqonge indawo yolwaphulo-mthetho?",
+            "9": "Fumana izimvo zeengxwelerha, amangqina, amapolisa kwakunye nezinye iingxelo ezisemthethweni."
+        }
+    },
+    "9": {
+        "name": "Imililo ",
+        "questions": {
+            "1": "Bangaphi abantu abafileyo nabonzakeleyo?",
+            "10": "Ingaba bekukho neziphi na izenzo zobukrothi okanye uhlangulo?",
+            "11": "Fumana izimvo zabamelwane, amangqina.",
+            "12": "Zingaphi injini zomlilo kwakunye nabacimi-mlilo abathe babandakanyeka?",
+            "13": "Imvelaphi yolwazi: U-Mphathi wesebe lezemililo, abezeenkonzo zohlangulo, iindawo zokugcina izidumbhu, ii-arhente zentlalo-ntle",
+            "2": "Ngoobani na iingxwelerha? Amagama, ubudala, iidilesi ezinye iinkcukhacha.",
+            "3": "Wenzeki phi na umlilo kwaye yintoni ebisitsha (isakhiwo, indlu, ibala etc)?",
+            "4": "Uqalise nini umlilo, unwenwele phi kwaye njani?",
+            "5": "Ucinywe/ulawulwe nini kwaye emva kwexesha elingakanani na umlilo?",
+            "6": "Amaxhoba abulewe kwaye onzakale njani, lingakanani na iqondo lokonzakala?",
+            "7": "Ulahleko lwempahla: kweliphi iqondo, ixabiso lomonakalo, i-insurance? Kuzomele ukuba uqhagamshelane nechule kulomcimbi.",
+            "8": "Uphando: Neziphi na izehlo ezingaqhelekanga?",
+            "9": "Abonzakeleyo nabafileyo bathathwa basiwa phi? (Kwesiphi isibhedlele okanye indawo yokugcina izidumbhu?)"
+        }
+    }
+}

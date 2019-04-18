@@ -1,0 +1,1 @@
+{"version":3,"file":"createFilesystemConfig.js","sourceRoot":"","sources":["../../../../src/services/node/createConfig/createFilesystemConfig.ts"],"names":[],"mappings":";;AAAA,IAAM,sBAAsB,GAAG,UAAA,IAAI,IAAI,OAAA,CAAC;IACtC,OAAO,EAAE,0BAA0B;IACnC,OAAO,EAAE;QACP,IAAI,EAAE,MAAM;QACZ,IAAI,EAAK,IAAI,qBAAkB;KAChC;CACF,CAAC,EANqC,CAMrC,CAAC;AAEH,kBAAe,sBAAsB,CAAC"}
