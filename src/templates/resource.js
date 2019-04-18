@@ -1,4 +1,3 @@
-import { createElement } from 'react';
-import Resource from '../components/views/Resource';
+import ResourceLoader from '../components/loaders/ResourceLoader';
 
-export default ({ pageContext }) => createElement('div', {}, '123');
+export default ResourceLoader;
