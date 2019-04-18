@@ -1,0 +1,391 @@
+"use strict";
+{
+    "1": {
+        "name": "Khonferense ya Boraditaba",
+        "questions": {
+            "1": "What were the major points made in the announcement of the press conference?",
+            "2": "What are the names and job titles or official positions of speakers?",
+            "3": "What is the background of major points of the conference?",
+            "4": "What further info came out of the question and answer session?",
+            "5": "What questions were not answered or avoided?",
+            "6": "Tip: make sure you get copies of any handouts from the press conference",
+            "7": "What are the contact details of the organisers (preferably phone numbers) in case of queries?"
+        }
+    },
+    "10": {
+        "name": "Sports",
+        "questions": {
+            "1": "What type of sport are you reporting on?",
+            "10": "Get comments from coaches, players and fans of both teams.",
+            "11": "What was the crowd size and how was their behaviour?",
+            "12": "Were there any injuries?",
+            "13": "How long was the game and did they run into extra time?",
+            "14": "What are the game's statistics?",
+            "2": "What is the name of the teams playing?",
+            "3": "What was the final score?",
+            "4": "Where and when did game take place?",
+            "5": "What was the key play, strategy",
+            "6": "Who were the outstanding players?",
+            "7": "What effect does the result have on standings, rankings, individual records?",
+            "8": "What was the scoring pattern of the game?",
+            "9": "Are there any winning/losing streaks, records involved by team, player?"
+        }
+    },
+    "11": {
+        "name": "Bolwetsi bo Itseng",
+        "questions": {
+            "1": "What is the name of the sickness/condition that the patient has?",
+            "2": "What are the main symptoms?",
+            "3": "What treatment did they receive?",
+            "4": "Where are they are being treated?",
+            "5": "Is the illness contagious and have there been any other reports of it locally or abroad?",
+            "6": "Na ho tsebilwe batswasehlabelo? Mabitso, dilemo, le lesedi le leng ka botho ba bona?",
+            "7": "What comments, if any, did health workers make on the sickness?",
+            "8": "What distance did patients you interviewed have to travel to get there and what is the cost of their return fares?"
+        }
+    },
+    "12": {
+        "name": "Tsa bophelo",
+        "questions": {
+            "1": "Lebitso ka botlalo la motho eo o ngolang ka yena ke mang?",
+            "10": "Details of awards / honours / formal recognition.",
+            "12": "Summarise any of their major contributions to society and the world.",
+            "13": "List at least THREE major political or social events which occurred during this person's life. For each event, explain how it may have affected your biographical subject.",
+            "2": "O na le dilemo tse kae hona letsatsi la hao la tswalo ke mang?",
+            "3": "O tswaletswe kae hona o ne a dula kae?",
+            "6": "O shebahala jwang ka mmele (Sena se bohlokwa ho tshela taba ya hao ka letswai)",
+            "7": "Dintlha ka semelo le boitshwaro ba bona? (Botsa ba lelapa le metswalle)",
+            "8": "Details of their education? (Include any degrees earned.)",
+            "9": "Details of personal relationships with family, friends, work colleagues."
+        }
+    },
+    "13": {
+        "name": "Dipolokelo",
+        "questions": {
+            "1": "What is the name, age, address, occupation of the deceased?",
+            "10": "Anecdotes, recollections of friends, relatives?",
+            "2": "What was the time, place and cause of death?",
+            "3": "What is the person's birthdate, birthplace?",
+            "4": "Who are they survived by? (immediate family)",
+            "5": "What are the funeral and burial arrangements?",
+            "6": "What are the deceased's accomplishments?",
+            "7": "What are the details of their education?",
+            "8": "Were they members of any clubs or societies, such as a stokvel, Rotary or Lions?",
+            "9": "Did they do military service? (formal or otherwise)"
+        }
+    },
+    "14": {
+        "name": "Political rally",
+        "questions": {
+            "1": "Have you got copies or recordings of the main speakers\u2019 speeches?",
+            "10": "Did you take down their contact details?",
+            "11": "Did you contact the interviewees for responses to the main speaker\u2019s speech afterwards?",
+            "12": "Did the interviewees believe the promises made by the speakers (and why)?",
+            "13": "What sort of reception did the main speaker, and others, receive from the crowd?",
+            "14": "What was the crowd\u2019s general mood and ambience?",
+            "15": "Did you ensure that your business card was circulated to as many people as possible, especially those interviewed?",
+            "2": "Have you confirmed the approximate crowd numbers with an independent source (police or venue management)?",
+            "3": "Were there incidents of violence and/or injuries that can be confirmed with an independent source (police and emergency services)?",
+            "4": "Have you conducted a minimum of 10 interviews with rally attendees from separate parts of the venue?",
+            "5": "Did you establish where they live and what the socio-economic and political issues that affect them in these towns/areas/wards/streets were?",
+            "6": "Did you get the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?",
+            "7": "Why did the interviewees attend the rally and what did they hope would come out of attending?",
+            "8": "Where any attendees given a free lunch and a T-shirt in exchange for their presence?",
+            "9": "Did you interview a wide spectrum of people living in different geographical areas and with different socio-economic backgrounds?"
+        }
+    },
+    "15": {
+        "name": "Election meeting",
+        "questions": {
+            "1": "Have you established whether it is a political party branch meeting, a town hall meeting, ward councillor feedback session, a debate between political parties, a meeting of disaffected community members et cetera?",
+            "10": "Have you confirmed the biographical details of those interviewed, including ages, education levels, employment status and number of dependents?",
+            "11": "Did the interviewees express any changes in their everyday condition since the previous election?",
+            "12": "Have you asked them how effective and accessible the current councillors are?",
+            "13": "Have you asked them how voting works?",
+            "14": "What were the reasons for people to attend the meeting?",
+            "15": "Do they believe the promises made by the speakers?",
+            "16": "The contact numbers of all interviewees noted?",
+            "2": "What is the main topic or theme?",
+            "3": "Did you get the organisers\u2019 contact details?",
+            "4": "Have you double-checked the correct spelling and address of the venue?",
+            "5": "Have you confirmed official attendance at the event with an independent source (police or venue management)?",
+            "6": "Have you confirmed any incidents of violence and/or injuries with an independent source (police, emergency services or venue management)?",
+            "7": "Have you conducted a minimum of ten interviews with attendees from separate parts of the venue?",
+            "8": "Where do those interviewed live?",
+            "9": "What are the socio-economic and political issues that affect them in these towns/areas/wards/streets?"
+        }
+    },
+    "16": {
+        "name": "Election day",
+        "questions": {
+            "1": "Have you established contact and obtained contact details with the electoral officer in charge of the voting station?",
+            "10": "Have you asked if there any inconsistencies during the counting process?",
+            "11": "Did you establish and keep in continuous contact with the various political party representatives in the polling station who are also observing and ensuring the process is free and fair?",
+            "12": "Did you check in with them on any alleged irregularities on a regular basis?",
+            "2": "Have you observed and noted the electoral officers\u2019 relationship and conduct with the different various political parties?",
+            "3": "Have you made notes about whether any of the behaviour pf the officers suggest favouritism or underline impartiality?",
+            "4": "What degree of freedom did political parties enjoy outside voting stations?",
+            "5": "Have you asked whether the party representatives were allowed to move around, organise and express their views outside the voting station?",
+            "6": "Have you asked whether any parties were allowed to electioneer on the voting station premises itself?",
+            "7": "Have you checked who the party agents are inside of the voting stations, and asked whether they had any concerns about the voting process?",
+            "8": "Have you taken note of the conduct of electoral officers during voting and counting?",
+            "9": "Have you noted whether there were impediments to free and fair voting and counting?"
+        }
+    },
+    "17": {
+        "name": "Incident at Public Health Facility",
+        "questions": {
+            "1": "Patient\u2019s name and age?",
+            "10": "Does patient/family believe they have adequate access to the health care services they need?",
+            "11": "How far did they have to travel to get treated?",
+            "12": "Any additional comments? _NB: If a healthcare worker is named, they must be given the right to respond to allegations against them. This is usually done through the Department of Health. Even if no health official is named, you still need to get Department of Health comment_",
+            "13": "Contact details: phone number/email for your source/other useful contacts for your story",
+            "2": "Why did they seek help (what was wrong with them)?",
+            "3": "Name of public health institution that the patient visited?",
+            "5": "Were they satisfied with the level of care they received? (treatment, medication)",
+            "6": "If they were unhappy, why?",
+            "7": "Names of the health officials they say did not treat them well?",
+            "8": "Were they referred to any other health institution for help?",
+            "9": "If yes, where and what treatement did they get?"
+        }
+    },
+    "17questions": {
+        "4": "How long did they wait before being attended to?"
+    },
+    "18": {
+        "name": "Gender-based violence",
+        "questions": {
+            "1": "Who was involved in the incident?",
+            "10": "Have there been any court appearances? If yes, when and where? (If the matter was remanded make a note of the date to follow up)",
+            "11": "What concerns does the victim have to share?",
+            "12": "Any additional information?",
+            "13": "Contact details: phone number/email for your source/other useful contacts for your story?",
+            "2": "When, where and what happened?",
+            "3": "Do the perpetrator and survivor know each other? If yes, what is the nature of their relationship?",
+            "4": "If they are not known to each other, how did the abuser come into contact with the survivor?",
+            "5": "Did the survivor seek help from a health centre/hospital/clinic?",
+            "6": "If yes, where? And what treatment did they receive? _In the case of rape which of these treatments were they offered? (HIV test, emergency contraception, antibiotics and counselling)_",
+            "7": "Has the incident been reported the police?",
+            "8": "If yes, how did the police respond to the complaint?",
+            "9": "Police\u2019s response to your media query?"
+        }
+    },
+    "19": {
+        "name": "Emergency services",
+        "questions": {
+            "1": "How do people in need of emergency treatment get to nearest healthcare centre?",
+            "2": "If by public transport or a taxi how far did they travel, and cost of the return trip",
+            "3": "If they rely on ambulances, are calls to emergency numbers answered promptly?",
+            "4": "How long does an ambulance usually take to get to them?",
+            "5": "If an ambulance does not arrive, what other options do patients have?",
+            "6": "Has the Department of Health been notified of any problems?",
+            "7": "How has the Department of Health responded to the community\u2019s concerns?",
+            "8": "Any more comments?",
+            "9": "Contact details: phone number/email for your source/other useful contacts for your story?"
+        }
+    },
+    "2": {
+        "name": "Puo",
+        "questions": {
+            "1": "What was the speaker's main point?",
+            "10": "Do you have copies of speeches and/or background documents?",
+            "11": "What are the contact details (preferably phone numbers/business cards) of speakers in case of queries?",
+            "2": "What is the name and title of the main speaker? (Make sure name is spelt correctly!)",
+            "3": "What quotes do you have to support main point?",
+            "4": "What was the purpose, time and location of the speech?",
+            "5": "How many people attended and what was their makeup and reactions?",
+            "6": "Did the speaker make any additional points?",
+            "7": "What is the background to the major point they made?",
+            "8": "What comments did the speaker's make before and after their speech?",
+            "9": "Is there any additional info from the question and answer period"
+        }
+    },
+    "20": {
+        "name": "Health infrastructure: Building & equipment",
+        "questions": {
+            "1": "Where is the building situated?",
+            "10": "How long will it take to fix?",
+            "11": "Any more comments?",
+            "12": "Contact details: phone number/email for your source/other useful contacts for your story?",
+            "2": "What condition is it in?",
+            "3": "Which department is responsible for maintaining the infrastructure?",
+            "4": "Were responsible officials notified of the conditions?",
+            "5": "What was their response?",
+            "6": "What risks does the structure pose to people who are exposed to the conditions as they are? (e.g. damp, broken windows etc).",
+            "7": "Are health services being affected by any of these conditions?",
+            "8": "Have other plans been put in place while solutions are being sought?",
+            "9": "Who is affected?"
+        }
+    },
+    "21": {
+        "name": "Lack of Water",
+        "questions": {
+            "1": "Does your source have access to a reliable source of clean water?",
+            "10": "What is the municipality\u2019s response to your queries?",
+            "11": "Is there anything you wish to add?",
+            "12": "Contact details: phone number/email for your source/other useful contacts for your story?",
+            "2": "Is there a disruption in water services?",
+            "3": "If yes, what is the problem?",
+            "4": "What has caused disruptions with water services? (e.g. drought, damaged pipes, lack of maintenance etc)",
+            "5": "What areas are affected?",
+            "6": "How long has this been going on?",
+            "7": "How are affected residents getting water?",
+            "8": "Which municipality is responsible and is it aware of the problem?",
+            "9": "Has the community engaged with the municipality?"
+        }
+    },
+    "22": {
+        "name": "Sanitation issues",
+        "questions": {
+            "1": "What kind of toilets do the community/ facility have? (There may be a combo of communal/chemical/flush etc)",
+            "2": "How many people have to share one toilet?",
+            "3": "If there are too few toilets, has the community complained to the municipality or their councillor? (If yes, when? If no, why not?)",
+            "4": "Municipality\u2019s response to the situation?",
+            "5": "Municipality\u2019s response to your media query?",
+            "6": "Is there anything you wish to add?"
+        }
+    },
+    "23": {
+        "name": "Nutrition",
+        "questions": {
+            "1": "How much does your source spend a day/week/month on food for themselves?",
+            "10": "What portion of the household income is spent on food?",
+            "11": "Any comments you wish to add regarding this story?",
+            "12": "Contact details: phone number/email for your source/other useful contacts for your story?",
+            "2": "What does your source/their family eat and drink most of the time?",
+            "3": "How many meals a day do they eat?",
+            "4": "How long have they been eating this way?",
+            "5": "Any health impact this diet has on them? (e.g. Diabetes, high blood pressure, stroke, heart problems?)",
+            "6": "Have they sought medical attention?",
+            "7": "What advice did they get from doctor/nurses regarding their diet?",
+            "8": "How many people are in their household?",
+            "9": "What is the main source of income for the family?"
+        }
+    },
+    "3": {
+        "name": "Mogwanto",
+        "questions": {
+            "1": "Tip: Ensure you have a large scarf and a bottle of vinegar (soak scarf in vinegar if police use teargas) in case there is teargas?",
+            "10": "Have there been any related protests in the past (how many, when and where) and was anything achieved?",
+            "11": "How did the authorities and police respond to the protest?",
+            "12": "Did police use any non-lethal force (teargas, rubber bullets) or lethal force (live ammunition), or both?",
+            "13": "Was anyone injured? Who, how many and how badly?",
+            "14": "To which hospitals/clinics were the injured taken for treatment?",
+            "15": "If there are reports of violent force from police, do you have evidence and do you have a response from the police about this?",
+            "16": "What is the current status of the protest?",
+            "2": "What kind of protest is it? A march, a strike, a barricade?",
+            "3": "Who are the main organisers of the protest? Get their official title, organisation and contact details.",
+            "4": "Was the protest planned or unplanned?",
+            "5": "What is the reason for the protest?",
+            "6": "Were any NGOs or political parties involved or related to the protest? Get their names, organisation, contact details and reason for involved.",
+            "7": "What is the size of the crowd: don't guess! Check with organisers and police.",
+            "8": "Get a quote from the organisers about the protest",
+            "9": "Interview a minimum of 10 protesters: get their name, age, where they live, why they are protesting, what do they want to achieve?"
+        }
+    },
+    "4": {
+        "name": "Dikotsi tsa Dikoloi",
+        "questions": {
+            "1": "What time did the accident happen and where?",
+            "10": "Where were the injured and dead taken? (Which hospital or morgue?)",
+            "11": "Were there any acts of bravery or any rescues?",
+            "12": "Were there any arrests or other legal action?",
+            "13": "What is the damage to the vehicles?",
+            "14": "What was the speed of vehicles involved?",
+            "15": "Where were they coming from/going to?",
+            "16": "Were there any strange weather or road conditions that could have caused the accident?",
+            "17": "What happened according to eyewitnesses, investigating officers and people involved in incident?",
+            "18": "What are the funeral arrangements for the dead?",
+            "2": "Were any people injured or dead and how many?",
+            "3": "What type of vehicles were involved?",
+            "4": "What is the identification of the drivers involved?  Names, ages, addresses, other personal information.",
+            "5": "What was the cause of the accident? (according to paramedics, police or other official sources)",
+            "6": "What is the identification of any others involved? (Passengers, pedestrians.)",
+            "7": "What is the identification of the injured and dead?",
+            "8": "What is the extent of any injuries?",
+            "9": "What is the condition of the injured?"
+        }
+    },
+    "5": {
+        "name": "Ditshebeletso tsa Maphelo",
+        "questions": {
+            "1": "What is the name of the hospital or clinic and where is it situated?",
+            "10": "What is the response from officials responsible for delivering the service?",
+            "11": "Have patients visited the facility previously? If yes, was their file available when they were treated?",
+            "12": "What distance did patients you interviewed have to travel to get there?",
+            "13": "How did they get there? (bus, taxi, train, walk)",
+            "14": "What was the cost of their return fare?",
+            "2": "What services are not being offered when they should be? (areas of lack of service delivery)",
+            "3": "Why are these services no longer being offered?",
+            "4": "Who is affected by this? (A particular group of people / area and what are their socio-economic backgrounds?",
+            "5": "How many people are affected, at risk or in danger because of the withdrawal of these services?",
+            "6": "What are the names and ages of those affected and what are their experiences?",
+            "7": "How long do patients wait to be seen by doctors/health workers?",
+            "8": "Is there sufficient - and the correct - medication available?",
+            "9": "Who is responsible for delivering the services?"
+        }
+    },
+    "6": {
+        "name": "Dikgorotsheko \u2013 Kgato ya molao",
+        "questions": {
+            "1": "Who is the person or organisation filing the action? Names, ages, addresses, other personal information.",
+            "10": "Could this suit lead to a landmark action? Is it a precedent?",
+            "11": "Is there a possibility of an out-of-court settlement?",
+            "12": "What is the significance of the action and the effect on others?",
+            "13": "What are the names of the lawyers for both sides? (Check spelling!)",
+            "14": "What is the date and who is the presiding judge for the trial or hearing?",
+            "2": "What is the background of the plaintiff or petitioner: the person filing the action?",
+            "3": "What is the background of the defendant or respondent?",
+            "4": "What type of damage is alleged?",
+            "5": "What is the outcome being sought?",
+            "6": "What is the date of filing of the application and which is the court of jurisdiction?",
+            "7": "Is there a special motivation behind the action (if any)?",
+            "8": "What is the background to the conflict/disagreement?",
+            "9": "Are there or have there been any similar cases decided by courts (precedents)?"
+        }
+    },
+    "7": {
+        "name": "Kahlolo ya Dikgorotsheko",
+        "questions": {
+            "1": "What is the verdict and damages, if awarded? (Same, less, greater than the damages sought?)",
+            "2": "Who are the parties involved?",
+            "3": "Did the judge  make a statement? Did it deviate from assessor's findings?",
+            "4": "Give a summary of the allegations by plaintiff?",
+            "5": "What was the key testimony and attorney/advocate's main points?",
+            "6": "For how long did the court deliberate before judgement?",
+            "7": "Are there any appeals or motions?"
+        }
+    },
+    "8": {
+        "name": "Bosenyi",
+        "questions": {
+            "1": "What is the name and details of the victims? Names, ages, addresses, other personal information.",
+            "2": "What was the crime and how was it committed?",
+            "3": "What is the date, time and location of the crime? Confirm with official sources.",
+            "4": "In the case of death, what was the official cause? (According to paramedics, police or other official sources.)",
+            "5": "What injuries did the victims suffer and what weapon was used?",
+            "6": "What was the motivation for the crime and what is the background of victim? (if relevant?)",
+            "7": "Have there been any arrests and are there any suspects or clues?",
+            "8": "Are there any strange circumstances surrounding the crime?",
+            "9": "Get comment from the victim, witnesses, police and other official sources."
+        }
+    },
+    "9": {
+        "name": "Melelo",
+        "questions": {
+            "1": "Ho hlokohetse batho ba bakae hona ho lemetse ba bakae?",
+            "10": "Were there any acts of bravery or any rescues?",
+            "11": "Get comments from neighbours, eyewitnesses.",
+            "12": "How many fire engines and firefighters involved?",
+            "13": "Sources: Fire chief, police, rescue services, hospital, mortuary, welfare agencies",
+            "2": "Na ho tsebilwe batswasehlabelo? Mabitso, dilemo, le lesedi le leng ka botho ba bona?",
+            "3": "Mollo o ne o le kae, hona ho be ho cha eng (moaho, ntlo, tshimo, le tse ding)?",
+            "4": "Mollo o qadile neng, kae le hore na o phatlaletse jwang?",
+            "5": "Ke neng le hona ka mora nako e kae ha mollo o ile wa tliswa ka tlasa taolo?",
+            "6": "How were victims killed and injured and what is the extent of the injuries?",
+            "7": "Property loss: what is the extent, cost of damage, insurance? You may need to phone an expert.",
+            "8": "Investigation: any unusual circumstances?",
+            "9": "Where were the injured and dead taken? (Which hospital or morgue?)"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"createBlankStore.js","sourceRoot":"","sources":["../../../../src/services/redux/createStore/createBlankStore.ts"],"names":[],"mappings":";;AAAA,IAAM,gBAAgB,GAAG,cAAM,OAAA,CAAC;IAC9B,IAAI,EAAE;QACJ,UAAU,EAAE,IAAI;QAChB,MAAM,EAAE,IAAI,IAAI,EAAE,CAAC,OAAO,EAAE;QAC5B,QAAQ,EAAE,IAAI;KACf;IACD,OAAO,EAAE,EAAE;CACZ,CAAC,EAP6B,CAO7B,CAAC;AAEH,kBAAe,gBAAgB,CAAC"}
