@@ -16,11 +16,12 @@
   },
   "questions": [
     {
-      "question": "When reporting on an election, always remember: ",
+      "question": ".",
       "description": "Other than in exceptional circumstances, all ballots are counted at the polling station where they were cast, in the presence of the Presiding officer, party representatives and independent observers. The final results are announced at the voting station by the Presiding Officer, in the presence of party agents and members of the public. Counting starts immediately after the station closes and continues until a final result is reached. \r\n\n**NB: The final result is the one announced by the Presiding Officer, no-one else**\r\n\nNote: _After voting closes conduct interviews with the Presiding officer, party agents, candidates and members of the public._"
     },
     {
-      "question": "What is the location of the polling station? "
+      "question": "What is the location of the polling station? ",
+      "description": ""
     },
     {
       "question": "How many voters were registered to vote there and how may actually cast their votes?"
