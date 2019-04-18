@@ -1,0 +1,101 @@
+{
+  "spa": {
+    "questions": [
+      {}
+    ]
+  },
+  "nso": {
+    "questions": [
+      {}
+    ]
+  },
+  "afr": {
+    "questions": [
+      {}
+    ]
+  },
+  "questions": [
+    {
+      "question": ".",
+      "description": "Other than in exceptional circumstances, all ballots are counted at the polling station where they were cast, in the presence of the Presiding officer, party representatives and independent observers. The final results are announced at the voting station by the Presiding Officer, in the presence of party agents and members of the public. Counting starts immediately after the station closes and continues until a final result is reached. \r\n\n**NB: The final result is the one announced by the Presiding Officer, no-one else**\r\n\nNote: _After voting closes conduct interviews with the Presiding officer, party agents, candidates and members of the public._"
+    },
+    {
+      "question": "What is the location of the polling station? ",
+      "description": ""
+    },
+    {
+      "question": "How many voters were registered to vote there and how may actually cast their votes?"
+    },
+    {
+      "question": "How many spoiled ballots were rejected?"
+    },
+    {
+      "question": "Why were they rejected? (e.g. more than one party selected on a ballot paper)"
+    },
+    {
+      "question": "How long did the counting process last and did it go smoothly?"
+    },
+    {
+      "question": "Where there any recounts? If so, how many?"
+    },
+    {
+      "question": "Did any of the parties involved lodge an objection to the final result?"
+    },
+    {
+      "question": "What was the decision of the IEC to this objection?"
+    },
+    {
+      "question": "Has an objection to the IEC’s decision been lodged with the Electoral Court?"
+    },
+    {
+      "question": "What was the atmosphere at the polling station like before and after the announcement? (Look for “colour” to enrich your report)"
+    },
+    {
+      "question": "How did the supporters of the winning candidate react?"
+    },
+    {
+      "question": "Get comments from the winning candidate.",
+      "description": "CANDIDATE  NAME: \n\nCOMMENTS:"
+    },
+    {
+      "question": "How did the supporters of the losing candidate react?"
+    },
+    {
+      "question": "Get comments from the losing candidate.",
+      "description": "If it was a close race, ask the losing candidate about that."
+    },
+    {
+      "question": "Additional Notes/Observations"
+    },
+    {
+      "question": "Contact details/resources for your story."
+    }
+  ],
+  "tsn": {
+    "questions": [
+      {}
+    ]
+  },
+  "zul": {
+    "questions": [
+      {}
+    ]
+  },
+  "por": {
+    "questions": [
+      {}
+    ]
+  },
+  "sot": {
+    "questions": [
+      {}
+    ]
+  },
+  "title": "Reporting on election results at a polling station",
+  "type": "questions",
+  "xho": {
+    "questions": [
+      {}
+    ]
+  }
+}
