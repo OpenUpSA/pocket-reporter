@@ -1,0 +1,98 @@
+{
+  "spa": {
+    "questions": [
+      {}
+    ]
+  },
+  "nso": {
+    "questions": [
+      {}
+    ]
+  },
+  "afr": {
+    "title": "",
+    "questions": []
+  },
+  "questions": [
+    {
+      "question": "PROMISES: What promises were made? (E.g. pledges to build houses, lower taxes or to waive education fees. ",
+      "description": "Answer:"
+    },
+    {
+      "question": "WHAT CONCERNS OR ISSUES WERE RAISED BY THE AUDIENCE?",
+      "description": "Answer:"
+    },
+    {
+      "question": "HECKLERS: Disrupt proceedings by hard shouting or harassing speakers. Listen carefully - what they say can add colour to your story? Also note the responses from speakers, organisers and audiences. ",
+      "description": "Answer:"
+    },
+    {
+      "question": "THE UNEXPECTED: Did anything unexpected, quirky or unusual happen?",
+      "description": "Answer:"
+    },
+    {
+      "question": "CONTRADICTIONS: Did any of the speakers make contradictory statements or shifts from their party’s policies?",
+      "description": "Answer:"
+    },
+    {
+      "question": "MOOD: what is the mood of the rally/meeting? (Tense, light-hearted, trouble makers in the crowd etc)",
+      "description": "Answer:"
+    },
+    {
+      "question": "THE CROWD: How big was it? (Even if they differ, ensure you quote a variety of sources: your estimates, the police, the organisers, stadium management etc)",
+      "description": "_Tip: Count the number of people in a section of the crowd. Then estimate out how many similar sized sections there are and multiply these by the number of people in the section you counted to get a rough estimate)_\n\nAnswer:"
+    },
+    {
+      "question": "SECURITY: What security (Police, army, private security etc) is there and how they armed? ",
+      "description": "Answer:"
+    },
+    {
+      "question": "ANY OPPOSITION SUPPORTERS: Were they armed, even with stones, and how did they behave?"
+    },
+    {
+      "question": "ANY COMMOTIONS OR VIOLENCE:  (You may have missed something so don’t jump to conclusions if something happens. Interview as many people as possible)",
+      "description": "Answer:"
+    },
+    {
+      "question": "RIGHT OF REPLY: Did any speakers attack political opponents? Get a response from those who were attacked)",
+      "description": "Answer:"
+    },
+    {
+      "question": "ADDITIONAL NOTES"
+    },
+    {
+      "question": "CONTACT DETAILS OF ORGANISERS AND PEOPLE YOU INTERVIEWED"
+    },
+    {
+      "question": "Adapted from the International Federation of Journalists ELECTION REPORTING HANDBOOK",
+      "description": ""
+    }
+  ],
+  "tsn": {
+    "questions": [
+      {}
+    ]
+  },
+  "zul": {
+    "questions": [
+      {}
+    ]
+  },
+  "por": {
+    "questions": [
+      {}
+    ]
+  },
+  "sot": {
+    "questions": [
+      {}
+    ]
+  },
+  "title": "SA Elections Rallies and Meetings ",
+  "type": "questions",
+  "xho": {
+    "questions": [
+      {}
+    ]
+  }
+}
