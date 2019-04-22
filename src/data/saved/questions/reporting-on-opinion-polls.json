@@ -1,0 +1,115 @@
+{
+  "spa": {
+    "questions": [
+      {}
+    ]
+  },
+  "nso": {
+    "questions": [
+      {}
+    ]
+  },
+  "afr": {
+    "questions": [
+      {}
+    ]
+  },
+  "questions": [
+    {
+      "question": "SURVEYS",
+      "description": "A survey is a method of gathering information from a sample of individuals within a particular group or population. This information is then used to draw conclusions about the entire group or population."
+    },
+    {
+      "question": "Was the information collected scientifically? ",
+      "description": "Note: It’s not if it was conducted via Twitter, the Internet or by a newspaper, or a radio or TV station asking readers, listeners or viewer to call, SMS or WhatsApp to indicate their preferences."
+    },
+    {
+      "question": "Who commissioned it, and why? ",
+      "description": "Note: Be wary if it’s commissioned by a special interest group, a political party or a private corporation, this might have led to bias in the questions or in interpreting responses."
+    },
+    {
+      "question": "Who does the survey cover?  ",
+      "description": "Note: Does it claim to be a survey claiming of the views of all citizens of the  country, or only a specific group?"
+    },
+    {
+      "question": "What was the sampling method? ",
+      "description": "Note: Did the researcher use a specific scientific method for picking respondents or - a sure sign of an unscientific survey – or did people volunteer to participate?"
+    },
+    {
+      "question": "Does the sample of people polled reflect the diversity and gender of the population?  ",
+      "description": "For example: If 30% of people live in cities and 70 in rural areas and the population is 48% males and 52% female, the people polled should reflect this\r."
+    },
+    {
+      "question": "Did you check for a sampling error and what was it? ",
+      "description": "For example: If the survey says that 52% of respondents were in favour of a new law with 48% against it, and the margin of error is +/- 5 percentage points, it’s impossible to say “most people favour the new law”."
+    },
+    {
+      "question": "How was the data collected?",
+      "description": "By email, telephone or in person? (Since there isn’t a cellphone directory, phone surveys generally only represent people with landlines.)"
+    },
+    {
+      "question": "Are rural dwellers included?",
+      "description": "If not, it can’t be representative"
+    },
+    {
+      "question": "Where the interviews done: in person, in people’s homes, or in shopping malls or on pavements?",
+      "description": "If they were done in places other than homes, view the results sceptically."
+    },
+    {
+      "question": "How many non-responses were there, and what steps were taken to minimise non-responses?",
+      "description": "If the non-response rate is large that’s a problem"
+    },
+    {
+      "question": "When was the survey done? ",
+      "description": "Be aware that big events can have a dramatic impact on results."
+    },
+    {
+      "question": "What questions were asked, and in what order?",
+      "description": "The phrasing of questions can have a dramatic impact on the results. Test your own reaction to any specific question for bias– does it seem fair and or biased?"
+    },
+    {
+      "question": "Would most people clearly understand the questions? ",
+      "description": "Tip: Test the questions on yourself or a friend of colleague"
+    },
+    {
+      "question": "Have the researchers supplied details of the questions asked, details of the people they polled, how they were selected and how, where and when the research was done?"
+    },
+    {
+      "question": "If the researcher has not supplied details, ask for it. ",
+      "description": "Note:  If they won’t supply details to you, rather don’t do a story? Someone who has done proper research should be happy to supply this information."
+    },
+    {
+      "question": "Additional Notes"
+    },
+    {
+      "question": "Important contact details "
+    }
+  ],
+  "tsn": {
+    "questions": [
+      {}
+    ]
+  },
+  "zul": {
+    "questions": [
+      {}
+    ]
+  },
+  "por": {
+    "questions": [
+      {}
+    ]
+  },
+  "sot": {
+    "questions": [
+      {}
+    ]
+  },
+  "title": "Reporting on Opinion Polls",
+  "type": "questions",
+  "xho": {
+    "questions": [
+      {}
+    ]
+  }
+}
