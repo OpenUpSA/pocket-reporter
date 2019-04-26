@@ -142,13 +142,13 @@
   },
   "questions": [
     {
-      "question": "Have you established contact and obtained contact details with the electoral officer in charge of the voting station?"
+      "question": "What is the name and  contact details of the electoral officer in charge of the voting station?"
     },
     {
-      "question": "Have you asked if there any inconsistencies during the counting process?"
+      "question": "Were there any problems during the counting process? If yes, what were they? "
     },
     {
-      "question": "Did you establish and keep in continuous contact with the various political party representatives in the polling station who are also observing and ensuring the process is free and fair?"
+      "question": "What are the names of the various political party representatives at the polling station who are also observing and ensuring the process is free and What comments do they have about the election? "
     },
     {
       "question": "Did you check in with them on any alleged irregularities on a regular basis?"
