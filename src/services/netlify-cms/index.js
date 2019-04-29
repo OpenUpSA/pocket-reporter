@@ -8,6 +8,9 @@ import createFolders from './collections/createFolders';
 import createQuestions from './collections/createQuestions';
 import createResources from './collections/createResources';
 
+import FolderPreview  from './previews/FolderPreview'
+
+
 const config = {
   backend: {
     name: 'github',
@@ -24,5 +27,6 @@ const config = {
 };
 
 CMS.registerWidget('icon-selector', IconSelector, IconSelectorMarkup);
+CMS.registerPreviewTemplate("folders", FolderPreview);
 
 init({ config });
