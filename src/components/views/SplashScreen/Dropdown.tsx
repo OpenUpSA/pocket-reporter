@@ -6,7 +6,7 @@ import { StyledSelect, SelectWrap } from './styled';
 
 // isoKey ? mappings.find(({ isoKey: id }): string => id === isoKey).nativeName |
 
-const Dropdown = ({ setIsoKey, isoKey, disabled, setLanguage }): JSX.Element => (
+const Dropdown = ({ disabled, setLanguage }): JSX.Element => (
   <SelectWrap>
     <StyledSelect
       disabled={disabled}

@@ -4,7 +4,6 @@ import manifestConfig from './manifestConfig';
 import webfontsConfig from './webfontsConfig';
 import createNetlifyCmsConfig from './createNetlifyCmsConfig';
 import createFilesystemConfig from './createFilesystemConfig';
-import offlineConfig from './offlineConfig';
 // import createHotjarConfig from './createHotjarConfig';
 // import createAnalyticsConfig from './createAnalyticsConfig';
 
@@ -12,6 +11,7 @@ import offlineConfig from './offlineConfig';
  * A list of all Gatsby plugins used as is, without any configuration.
  */
 const noConfig = [
+  'gatsby-plugin-offline',
   'gatsby-plugin-i18n',
   'gatsby-plugin-material-ui',
   'gatsby-plugin-netlify',
@@ -30,7 +30,6 @@ const withCustomConfig = (env: Tenv, root: Troot) => {
 
   return [
     manifestConfig,
-    offlineConfig,
     webfontsConfig,
     createFilesystemConfig(root),
     createNetlifyCmsConfig(root),
@@ -55,7 +54,7 @@ const createConfig = (env, root) => ({
     title: 'Pocket Reporter',
     siteUrl: 'https://app.pocketreporter.co.za',
   },
-  plugins: [...noConfig, ...withCustomConfig(env, root)],
+  plugins: [...withCustomConfig(env, root), ...noConfig],
   mapping,
 });
 
