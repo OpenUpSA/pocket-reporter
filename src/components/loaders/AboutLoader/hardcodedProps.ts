@@ -3,7 +3,7 @@ const hardcodedProps = {
   page: 'about',
   tagline: 'The news editor in your pocket.',
   body:
-    '#### Background \r\r\n\n Pocket Reporter is built by [OpenUp](http://openup.org.za) and is inspired by the []Virtual Reporter tool](http://nqabile.co.za/virtual) by [Kanthan Pillay](http://kanthanpillay.com/content/about). \r\r\n\n #### OpenUp \r\r\n\n OpenUp is a non-profit organisation that promotes informed decision-making that drives social change. Find out more at [http://openup.org.za](http://openup.org.za).',
+    '#### Background \r\r\n\n Pocket Reporter is built by [OpenUp](http://openup.org.za) and is inspired by the [Virtual Reporter tool](http://nqabile.co.za/virtual) by [Kanthan Pillay](http://kanthanpillay.com/content/about). \r\r\n\n #### OpenUp \r\r\n\n OpenUp is a non-profit organisation that promotes informed decision-making that drives social change. Find out more at [http://openup.org.za](http://openup.org.za).',
   partners: [
     {
       link: 'http://openup.org.za/',
