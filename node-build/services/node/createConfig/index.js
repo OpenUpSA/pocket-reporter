@@ -7,6 +7,7 @@ var manifestConfig_1 = __importDefault(require("./manifestConfig"));
 var webfontsConfig_1 = __importDefault(require("./webfontsConfig"));
 var createNetlifyCmsConfig_1 = __importDefault(require("./createNetlifyCmsConfig"));
 var createFilesystemConfig_1 = __importDefault(require("./createFilesystemConfig"));
+var offlineConfig_1 = __importDefault(require("./offlineConfig"));
 // import createHotjarConfig from './createHotjarConfig';
 // import createAnalyticsConfig from './createAnalyticsConfig';
 /**
@@ -16,7 +17,6 @@ var noConfig = [
     'gatsby-plugin-i18n',
     'gatsby-plugin-material-ui',
     'gatsby-plugin-netlify',
-    'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-styled-components',
@@ -30,6 +30,7 @@ var withCustomConfig = function (env, root) {
     var id = env.HOTJAR_ID, sv = env.HOTJAR_SNIPPET_VERSION, trackingId = env.GOOGLE_ANALYTICS_ID;
     return [
         manifestConfig_1.default,
+        offlineConfig_1.default,
         webfontsConfig_1.default,
         createFilesystemConfig_1.default(root),
         createNetlifyCmsConfig_1.default(root),

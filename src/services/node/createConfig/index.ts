@@ -4,6 +4,7 @@ import manifestConfig from './manifestConfig';
 import webfontsConfig from './webfontsConfig';
 import createNetlifyCmsConfig from './createNetlifyCmsConfig';
 import createFilesystemConfig from './createFilesystemConfig';
+import offlineConfig from './offlineConfig';
 // import createHotjarConfig from './createHotjarConfig';
 // import createAnalyticsConfig from './createAnalyticsConfig';
 
@@ -14,7 +15,6 @@ const noConfig = [
   'gatsby-plugin-i18n',
   'gatsby-plugin-material-ui',
   'gatsby-plugin-netlify',
-  'gatsby-plugin-offline',
   'gatsby-plugin-react-helmet',
   'gatsby-plugin-sitemap',
   'gatsby-plugin-styled-components',
@@ -30,6 +30,7 @@ const withCustomConfig = (env: Tenv, root: Troot) => {
 
   return [
     manifestConfig,
+    offlineConfig,
     webfontsConfig,
     createFilesystemConfig(root),
     createNetlifyCmsConfig(root),
