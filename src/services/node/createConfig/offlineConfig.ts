@@ -3,12 +3,6 @@ const options = {
   globDirectory: '.',
   globPatterns: '*',
   cacheId: `gatsby-plugin-offline`,
-  runtimeCaching: [
-    {
-      urlPattern: /.*/,
-      handler: `cacheFirst`,
-    },
-  ],
   skipWaiting: true,
   clientsClaim: true,
 }
