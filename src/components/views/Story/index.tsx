@@ -4,6 +4,7 @@ import Presentation from './Presentation';
 interface Tprops {
   navigate: any;
   onSendAction: any;
+  onSendEmailAction: any;
   onDeleteAction: any;
   id: any;
   story: any;
@@ -18,6 +19,7 @@ class Story extends Component<Tprops, Tstate> {
     toggleDeleteModal: this.toggleDeleteModal.bind(this),
     sendAction: this.sendAction.bind(this),
     deleteAction: this.deleteAction.bind(this),
+    sendEmailAction: this.sendEmailAction.bind(this),
   };
 
   constructor(props) {
@@ -36,6 +38,11 @@ class Story extends Component<Tprops, Tstate> {
   sendAction() {
     const { onSendAction, id } = this.props;
     onSendAction(id);
+  }
+
+  sendEmailAction() {
+    const { onSendEmailAction, id } = this.props;
+    onSendEmailAction(id);
   }
 
   deleteAction() {

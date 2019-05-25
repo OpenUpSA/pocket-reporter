@@ -64,7 +64,7 @@ class ViewLoader extends Component {
       return { title, ...innerProps };
     });
 
-    const { onSendAction, onDeleteAction, onUpdateAction } = this.props;
+    const { onSendAction, onDeleteAction, onUpdateAction, onSendEmailAction } = this.props;
     return (
       <Story
         {...{
@@ -72,6 +72,7 @@ class ViewLoader extends Component {
           answers,
           whatsapp,
           onSendAction,
+          onSendEmailAction,
           onDeleteAction,
           onUpdateAction,
           navigate,

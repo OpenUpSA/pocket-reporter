@@ -7,13 +7,13 @@ var manifestConfig_1 = __importDefault(require("./manifestConfig"));
 var webfontsConfig_1 = __importDefault(require("./webfontsConfig"));
 var createNetlifyCmsConfig_1 = __importDefault(require("./createNetlifyCmsConfig"));
 var createFilesystemConfig_1 = __importDefault(require("./createFilesystemConfig"));
-var offlineConfig_1 = __importDefault(require("./offlineConfig"));
 // import createHotjarConfig from './createHotjarConfig';
 // import createAnalyticsConfig from './createAnalyticsConfig';
 /**
  * A list of all Gatsby plugins used as is, without any configuration.
  */
 var noConfig = [
+    'gatsby-plugin-offline',
     'gatsby-plugin-i18n',
     'gatsby-plugin-material-ui',
     'gatsby-plugin-netlify',
@@ -30,7 +30,6 @@ var withCustomConfig = function (env, root) {
     var id = env.HOTJAR_ID, sv = env.HOTJAR_SNIPPET_VERSION, trackingId = env.GOOGLE_ANALYTICS_ID;
     return [
         manifestConfig_1.default,
-        offlineConfig_1.default,
         webfontsConfig_1.default,
         createFilesystemConfig_1.default(root),
         createNetlifyCmsConfig_1.default(root),
@@ -51,7 +50,7 @@ var createConfig = function (env, root) { return ({
         title: 'Pocket Reporter',
         siteUrl: 'https://app.pocketreporter.co.za',
     },
-    plugins: noConfig.concat(withCustomConfig(env, root)),
+    plugins: withCustomConfig(env, root).concat(noConfig),
     mapping: mapping,
 }); };
 exports.default = createConfig;
