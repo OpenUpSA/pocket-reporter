@@ -11,12 +11,8 @@
     "start:gatsby": "gatsby develop -o",
     "start:gatsby:open": "gatsby develop ",
     "start": "yarn build:config && yarn start:gatsby:open",
-    "test:jest": "jest",
     "test:gatsby": "yarn build:gatsby",
-    "test:jest:watch": "jest --watchAll",
-    "test:lint": "eslint src",
-    "test:lint:fix": "eslint src --fix",
-    "test": "yarn test:jest && yarn test:gatsby"
+    "test": "yarn test:gatsby"
   },
   "dependencies": {
     "@material-ui/core": "^3.9.2",
