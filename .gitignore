@@ -72,4 +72,8 @@ yarn-error.log
 .docz
 server.auth.json
 private-key.json
+.temp_config
+static/
 \.*.swp
+*.map
+.out

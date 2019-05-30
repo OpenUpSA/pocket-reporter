@@ -8,12 +8,7 @@ import { withA11y } from '@storybook/addon-a11y';
 import { withKnobs } from "@storybook/addon-knobs";
 import { configureReadme } from 'storybook-readme';
 
-
 const req = require.context("../src", true, /.stories.tsx$/);
-function loadStories() {
-  req.keys().forEach(req);
-}
-
 const Wrapper = ({ children }) => <Fragment><CssBaseline />{children}</Fragment>
 
 const Documentation = styled.div`
@@ -30,5 +25,9 @@ configureReadme({
 addDecorator(withKnobs);
 addDecorator(withA11y);
 addDecorator(addReadme);
+
+function loadStories() {
+  req.keys().forEach(req);
+}
 
 configure(loadStories, module);

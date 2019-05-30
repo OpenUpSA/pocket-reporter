@@ -4,7 +4,7 @@
     "noEmit": false,
     "module": "commonjs",
     "sourceMap": true,
-    "outDir": "./node-build"
+    "outDir": "./.temp_config"
   },
   "include": ["src/services/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts", "**/*.stories.tsx"]

@@ -2,7 +2,10 @@
   "scripts": {
     "build:gatsby": "gatsby build",
     "build:config": "tsc -b ./tsconfig.gatsby.json",
-    "build": "yarn build:config && yarn build:gatsby",
+    "build:storybook": "build-storybook -c .storybook -o public/docs/",
+    "prebuild": "yarn build:config",
+    "build": "yarn build:gatsby",
+    "postbuild": "yarn build:storybook",
     "start:docs": "docz dev",
     "start:storybook": "start-storybook -p 9001 -c .storybook",
     "start:gatsby": "gatsby develop -o",
