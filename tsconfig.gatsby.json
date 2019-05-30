@@ -4,8 +4,15 @@
     "noEmit": false,
     "module": "commonjs",
     "sourceMap": true,
-    "outDir": "./node-build"
+    "outDir": "./temp_config"
   },
   "include": ["src/services/**/*"],
-  "exclude": ["node_modules", "**/*.spec.ts", "**/*.stories.tsx"]
+  "exclude": [
+    "node_modules",
+    ".cache",
+    "temp_config",
+    ".vscode",
+    "**/*.spec.ts",
+    "**/*.stories.tsx"
+  ]
 }

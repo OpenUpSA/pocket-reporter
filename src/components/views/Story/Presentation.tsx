@@ -45,7 +45,7 @@ const Question = ({ loading, id, title, description, answer, index, onUpdateActi
   );
 };
 
-const createButtons = (sendAction, toggleDeleteModal) => (
+const createButtons = (sendAction, sendEmailAction, toggleDeleteModal) => (
   <QuestionActions>
     <ButtonClick onClickEvent={toggleDeleteModal}>
       <Button color="secondary">Delete story</Button>
@@ -53,11 +53,15 @@ const createButtons = (sendAction, toggleDeleteModal) => (
     <ButtonClick onClickEvent={sendAction}>
       <GreenButton variant="contained">Send via WhatsApp</GreenButton>
     </ButtonClick>
+    <ButtonClick onClickEvent={sendEmailAction}>
+      <GreenButton variant="contained">Send via Email</GreenButton>
+    </ButtonClick>
   </QuestionActions>
 );
 
 const Markup = ({
   sendAction,
+  sendEmailAction,
   deleteAction,
   onUpdateAction,
   deleteModal,
@@ -94,7 +98,7 @@ const Markup = ({
           <Question {...{ ...props, onUpdateAction, index, id }} />
         ))}
       </QuestionList>
-      {createButtons(sendAction, toggleDeleteModal)}
+      {createButtons(sendAction, sendEmailAction, toggleDeleteModal)}
     </Layout>
   );
 };

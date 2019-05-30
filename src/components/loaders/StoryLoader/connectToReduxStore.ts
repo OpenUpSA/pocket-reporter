@@ -1,6 +1,7 @@
 import { connect } from 'react-redux';
 import { update, remove } from '../../../services/redux/modules/stories';
 import sendWithWhatsapp from '../../../services/redux/actions/sendWithWhatsapp';
+import sendWithEmail from '../../../services/redux/actions/sendWithEmail';
 
 /**
  * TODO: Add description
@@ -16,6 +17,7 @@ const stateToProps = ({ stories }, ownProps) => ({
 const dispatchToProps = (dispatch, ownProps) => ({
   onUpdateAction: (id, key, answer) => dispatch(update(id, key, answer)),
   onDeleteAction: id => dispatch(remove(id)),
+  onSendEmailAction: id => dispatch(sendWithEmail(id)),
   onSendAction: id => dispatch(sendWithWhatsapp(id)),
   ...ownProps,
 });

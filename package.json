@@ -2,18 +2,17 @@
   "scripts": {
     "build:gatsby": "gatsby build",
     "build:config": "tsc -b ./tsconfig.gatsby.json",
-    "build": "yarn build:config && yarn build:gatsby",
+    "build:storybook": "build-storybook -c .storybook -o public/docs/",
+    "prebuild": "yarn build:config",
+    "build": "yarn build:gatsby",
+    "postbuild": "yarn build:storybook",
     "start:docs": "docz dev",
     "start:storybook": "start-storybook -p 9001 -c .storybook",
     "start:gatsby": "gatsby develop -o",
     "start:gatsby:open": "gatsby develop ",
     "start": "yarn build:config && yarn start:gatsby:open",
-    "test:jest": "jest",
     "test:gatsby": "yarn build:gatsby",
-    "test:jest:watch": "jest --watchAll",
-    "test:lint": "eslint src",
-    "test:lint:fix": "eslint src --fix",
-    "test": "yarn test:jest && yarn test:gatsby"
+    "test": "yarn test:gatsby"
   },
   "dependencies": {
     "@material-ui/core": "^3.9.2",
