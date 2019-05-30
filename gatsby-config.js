@@ -4,7 +4,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 const { config } = require('dotenv');
-const createGatsbyConfig = require('./.temp-config/services/node/createConfig').default;
+const createGatsbyConfig = require('./.temp_config/services/node/createConfig').default;
 
 const env = config();
 
