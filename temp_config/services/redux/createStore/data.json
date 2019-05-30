@@ -1,0 +1,15 @@
+"use strict";
+{
+    "schemas": {
+        "list": [
+            "PocketReporter",
+            "12-04-2019"
+        ],
+        "legacy": "PocketReporter",
+        "production": "12-04-2019"
+    },
+    "persistedModules": [
+        "info",
+        "stories"
+    ]
+}

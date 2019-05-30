@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
 const { resolve } = require('path');
-const createPagesArray = require('./.temp_config/services/node/createPagesArray').default;
+const createPagesArray = require('./temp_config/services/node/createPagesArray').default;
 
 const query = `{
   allFoldersJson {

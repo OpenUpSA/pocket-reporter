@@ -1,5 +1,5 @@
 {
-  "exclude": ["node_modules", ".cache", ".temp_config", ".vscode"],
+  "exclude": ["node_modules", ".cache", "temp_config", ".vscode"],
   "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
