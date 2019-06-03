@@ -13,7 +13,7 @@ const About = (props: Tprops): JSX.Element => {
     <Layout title="About Pocket Reporter" back="/profile" {...{ isoKey }}>
       <AboutWrapper>
         <p>{tagline}</p>
-        <AboutButton variant="contained">Send us feedback</AboutButton>
+        <AboutButton variant="contained" href="mailto:info@openup.org.za" target="_blank">Send us feedback</AboutButton>
         <AboutText source={body} />
         {partners.length > 0 && <Partners {...{ partners }} />}
         {contributors.length > 0 && <Contributors {...{ contributors }} />}

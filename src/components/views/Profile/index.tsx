@@ -22,7 +22,7 @@ const Markup = props => {
 
   return (
     <Layout title="User Profile" back={`/${isoKey}/folders/index.html`} {...{ isoKey }}>
-      <StyledClickWrapper onClickEvent="/about" full>
+      <StyledClickWrapper onClickEvent="/about/index.html" full>
         <AboutButton>Learn more about Pocket Reporter</AboutButton>
       </StyledClickWrapper>
       <Heading>Change Language</Heading>
