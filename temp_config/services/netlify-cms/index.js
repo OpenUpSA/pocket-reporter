@@ -33,7 +33,7 @@ var createResources_1 = __importDefault(require("./collections/createResources")
 var config = {
     backend: {
         name: 'github',
-        repo: 'desafinadude/pocket-reporter',
+        repo: 'OpenUpSA/pocket-reporter',
     },
     media_folder: 'static/assets',
     public_folder: 'assets',
