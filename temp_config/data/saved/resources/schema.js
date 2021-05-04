@@ -14,6 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.mockResource = void 0;
 /**
  * Imports tooling required to build mock data
  */
@@ -22,5 +23,5 @@ var mockLanguageResource = function () { return ({
     title: faker_1.default.commerce.productName(),
     body: faker_1.default.lorem.paragraphs(8),
 }); };
-exports.mockResource = function () { return (__assign({}, mockLanguageResource(), { afr: faker_1.default.random.boolean() ? mockLanguageResource() : null, spa: faker_1.default.random.boolean() ? mockLanguageResource() : null, xho: faker_1.default.random.boolean() ? mockLanguageResource() : null, nso: faker_1.default.random.boolean() ? mockLanguageResource() : null, por: faker_1.default.random.boolean() ? mockLanguageResource() : null, sot: faker_1.default.random.boolean() ? mockLanguageResource() : null, tsn: faker_1.default.random.boolean() ? mockLanguageResource() : null, zul: faker_1.default.random.boolean() ? mockLanguageResource() : null })); };
+exports.mockResource = function () { return (__assign(__assign({}, mockLanguageResource()), { afr: faker_1.default.random.boolean() ? mockLanguageResource() : null, spa: faker_1.default.random.boolean() ? mockLanguageResource() : null, xho: faker_1.default.random.boolean() ? mockLanguageResource() : null, nso: faker_1.default.random.boolean() ? mockLanguageResource() : null, por: faker_1.default.random.boolean() ? mockLanguageResource() : null, sot: faker_1.default.random.boolean() ? mockLanguageResource() : null, tsn: faker_1.default.random.boolean() ? mockLanguageResource() : null, zul: faker_1.default.random.boolean() ? mockLanguageResource() : null })); };
 //# sourceMappingURL=schema.js.map

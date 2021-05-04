@@ -3,6 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.mockText = exports.mockId = void 0;
 var faker_1 = __importDefault(require("faker"));
 var uuid_1 = require("uuid");
 var idsArray = [1, 2, 3, 4, 5, 6, 7, 8].map(function () { return uuid_1.v4(); });

@@ -14,6 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.mockResponse = exports.mockNestedResource = exports.mockNestedStoryTemplate = void 0;
 var faker_1 = __importDefault(require("faker"));
 var schema_1 = require("../../../data/saved/folders/schema");
 var schema_2 = require("../../../data/saved/questions/schema");
@@ -29,7 +30,7 @@ var mockNestedContent = function () { return ({
     resources: [1, 2, 3, 4, 5].map(exports.mockNestedResource),
 }); };
 var mockNestedFolder = function () { return ({
-    node: __assign({}, schema_1.mockFolder(), mockNestedContent()),
+    node: __assign(__assign({}, schema_1.mockFolder()), mockNestedContent()),
 }); };
 exports.mockResponse = function () { return ({
     data: {

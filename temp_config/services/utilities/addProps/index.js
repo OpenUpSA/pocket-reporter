@@ -15,7 +15,7 @@ var react_1 = require("react");
 var addProps = function (Component, outerProps, keyString) { return function (innerProps, index) {
     var children = outerProps.children;
     var key = innerProps[keyString] || null;
-    var newProps = __assign({}, outerProps, innerProps, { key: key,
+    var newProps = __assign(__assign(__assign({}, outerProps), innerProps), { key: key,
         index: index });
     return react_1.createElement(Component, newProps, children);
 }; };

@@ -60,7 +60,7 @@ var createAnswerObject = function (answers, oldIsoKey, id) {
     var result = answers.reduce(function (innerResult, _a) {
         var _b;
         var key = _a.key, notes = _a.notes;
-        return (__assign({}, innerResult, (_b = {}, _b[key] = {
+        return (__assign(__assign({}, innerResult), (_b = {}, _b[key] = {
             question: findQuestion(oldIsoKey, id, key),
             answer: notes || null,
             edits: 0,
@@ -76,7 +76,7 @@ var convertToNewAnswers = function (stories, oldIsoKey) {
         var created_at = _a.created_at, updated_at = _a.updated_at, answers = _a.answers, topic = _a.topic, name = _a.title;
         var id = parseInt(topic, 10);
         var template = oldDataObject[oldIsoKey][id].name;
-        return __assign({}, result, (_b = {}, _b[v4_1.default()] = {
+        return __assign(__assign({}, result), (_b = {}, _b[v4_1.default()] = {
             name: name,
             template: template,
             started: created_at,

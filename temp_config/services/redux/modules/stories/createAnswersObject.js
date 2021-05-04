@@ -17,7 +17,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var createAnswersObject = function (result, _a, index) {
     var _b;
     var question = _a.question, description = _a.description;
-    return (__assign({}, result, (_b = {}, _b[index] = {
+    return (__assign(__assign({}, result), (_b = {}, _b[index] = {
         answer: null,
         description: description,
         edits: 0,

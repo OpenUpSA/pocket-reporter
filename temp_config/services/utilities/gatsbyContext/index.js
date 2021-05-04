@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.Consumer = exports.Provider = void 0;
 var react_1 = require("react");
 var fallback = {
     navigate: function () { return window.location.href; },

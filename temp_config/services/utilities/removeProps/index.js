@@ -11,6 +11,7 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.createRemoveProps = void 0;
 var react_1 = require("react");
 var forceToArray = function (value) { return (Array.isArray(value) ? value : [value]); };
 var notInsideArray = function (array) {
@@ -23,7 +24,7 @@ var createRemoveProps = function (scopedCreateElement) { return function (compon
         var newPropsKeys = Object.keys(props).filter(notInsideArray(forceToArray(blacklist)));
         var newProps = newPropsKeys.reduce(function (result, key) {
             var _a;
-            return (__assign({}, result, (_a = {}, _a[key] = props[key], _a)));
+            return (__assign(__assign({}, result), (_a = {}, _a[key] = props[key], _a)));
         }, {});
         return scopedCreateElement(component, newProps, props.children);
     };

@@ -14,6 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.logAsSent = exports.update = exports.remove = exports.add = void 0;
 /**
  * Import third-party tooling.
  */
@@ -40,9 +41,9 @@ var reducer = function (state, _a) {
     var _f = _a === void 0 ? {} : _a, type = _f.type, payload = _f.payload;
     switch (type) {
         case LOG_SENT:
-            return __assign({}, state, (_b = {}, _b[payload.id] = __assign({}, state[payload.id], { sent: state[payload.id].sent + 1 }), _b));
+            return __assign(__assign({}, state), (_b = {}, _b[payload.id] = __assign(__assign({}, state[payload.id]), { sent: state[payload.id].sent + 1 }), _b));
         case ADD:
-            return __assign({}, state, (_c = {}, _c[payload.id] = {
+            return __assign(__assign({}, state), (_c = {}, _c[payload.id] = {
                 answers: payload.questions.reduce(createAnswersObject_1.default, {}),
                 lastEdit: null,
                 sent: 0,
@@ -51,7 +52,7 @@ var reducer = function (state, _a) {
                 started: getTimeStamp_1.default(),
             }, _c));
         case UPDATE:
-            return __assign({}, state, (_d = {}, _d[payload.id] = __assign({}, state[payload.id], { answers: __assign({}, state[payload.id].answers, (_e = {}, _e[payload.questionkey] = __assign({}, state[payload.id].answers[payload.questionkey], { answer: payload.answer }), _e)), lastEdit: getTimeStamp_1.default() }), _d));
+            return __assign(__assign({}, state), (_d = {}, _d[payload.id] = __assign(__assign({}, state[payload.id]), { answers: __assign(__assign({}, state[payload.id].answers), (_e = {}, _e[payload.questionkey] = __assign(__assign({}, state[payload.id].answers[payload.questionkey]), { answer: payload.answer }), _e)), lastEdit: getTimeStamp_1.default() }), _d));
         case REMOVE:
             return lodash_1.omit(state, payload.id);
         default:

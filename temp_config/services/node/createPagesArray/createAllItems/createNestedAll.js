@@ -11,6 +11,13 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
+var __spreadArrays = (this && this.__spreadArrays) || function () {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
@@ -37,7 +44,7 @@ var createNestedAll = function (isoKeys, dataSource) {
                     }
                     var key = Object.keys(innerObject)[0];
                     var newValue = (_a = {},
-                        _a[key] = __assign({}, innerObject[key], { parentUrl: parentUrl }),
+                        _a[key] = __assign(__assign({}, innerObject[key]), { parentUrl: parentUrl }),
                         _a);
                     return newValue;
                 });
@@ -45,7 +52,7 @@ var createNestedAll = function (isoKeys, dataSource) {
             var title = object.title, translations = object.translations, icon = object.icon;
             if (isoKey === 'eng') {
                 var link_1 = "/eng/folders/" + change_case_1.kebab(title) + "/index.html";
-                return [
+                return __spreadArrays([
                     (_a = {},
                         _a["/eng/folders/index.html"] = {
                             type: 'folder',
@@ -70,11 +77,11 @@ var createNestedAll = function (isoKeys, dataSource) {
                             questions: questions.filter(function (notNull) { return !!notNull; }),
                         },
                         _b)
-                ].concat(addParentLinks(resources, link_1));
+                ], addParentLinks(resources, link_1));
             }
             if (!translations[isoKey] || /^\s+$/.test(translations[isoKey])) {
                 var link_2 = "/" + isoKey + "/folders/" + change_case_1.kebab(title) + "/index.html";
-                return [
+                return __spreadArrays([
                     (_c = {},
                         _c["/" + isoKey + "/folders/index.html"] = {
                             type: 'folder',
@@ -99,10 +106,10 @@ var createNestedAll = function (isoKeys, dataSource) {
                             questions: questions.filter(function (notNull) { return !!notNull; }),
                         },
                         _d)
-                ].concat(addParentLinks(resources, link_2));
+                ], addParentLinks(resources, link_2));
             }
             var link = "/" + isoKey + "/folders/" + translations[change_case_1.kebab(isoKey)] + "/index.html";
-            return [
+            return __spreadArrays([
                 (_e = {},
                     _e["/" + isoKey + "/folders/index.html"] = {
                         type: 'folder',
@@ -127,7 +134,7 @@ var createNestedAll = function (isoKeys, dataSource) {
                         questions: questions.filter(function (notNull) { return !!notNull; }),
                     },
                     _f)
-            ].concat(addParentLinks(resources, link));
+            ], addParentLinks(resources, link));
         })
             .filter(function (notNull) { return !!notNull; });
     });

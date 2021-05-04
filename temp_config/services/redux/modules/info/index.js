@@ -11,6 +11,7 @@ var __assign = (this && this.__assign) || function () {
     return __assign.apply(this, arguments);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.setLanguage = void 0;
 /**
  * Register action types for this module.
  */
@@ -24,7 +25,7 @@ var reducer = function (state, _a) {
     var _b = _a === void 0 ? {} : _a, type = _b.type, payload = _b.payload;
     switch (type) {
         case SET_LANGUAGE:
-            return __assign({}, state, { language: payload.language });
+            return __assign(__assign({}, state), { language: payload.language });
         default:
             return state;
     }

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.languages = exports.nativeNames = exports.isoKeys = void 0;
 exports.isoKeys = ['eng', 'afr', 'spa', 'xho', 'nso', 'por', 'sot', 'tsn', 'zul'];
 exports.nativeNames = [
     'English',

@@ -16,6 +16,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.mockOldStore = exports.mockOldStoryItem = exports.mockOldLanguageKey = exports.mockStore = exports.mockInfo = exports.mockLanguage = exports.mockJoined = exports.mockLastUserEdit = exports.mockStory = exports.mockStartedStory = exports.mockLastEditStory = exports.mockAnswerObject = exports.mockAnswerLastEdit = exports.mockFirstAnswered = exports.mockEdits = exports.mockSingleAnswer = exports.mockDescription = exports.mockQuestion = exports.mockLastAction = void 0;
 /**
  * Imports tooling required to build mock data
  */
@@ -87,7 +88,7 @@ exports.mockInfo = function () { return ({
 }); };
 var addObject = function (result) {
     var _a;
-    return (__assign({}, result, (_a = {}, _a[uuid_1.v4()] = exports.mockStory(), _a)));
+    return (__assign(__assign({}, result), (_a = {}, _a[uuid_1.v4()] = exports.mockStory(), _a)));
 };
 exports.mockStore = function () { return ({
     info: exports.mockInfo(),

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.arrayOfNumbers = exports.randomLengthBlankArray = exports.blankArray = exports.randomNumber = void 0;
 var randomNumber = function (min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; };
 exports.randomNumber = randomNumber;
 var blankArray = function (length) { return Array(length).fill(null); };
