@@ -18,6 +18,10 @@
     {
       "question": "How are you?",
       "description": "Why not be polite?"
+    },
+    {
+      "question": "Seriously though...are you ok?",
+      "description": "People might say they're ok, even if they're not."
     }
   ],
   "tsn": {
