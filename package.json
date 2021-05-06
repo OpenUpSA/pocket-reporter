@@ -132,6 +132,9 @@
     "ts-node": "^8.0.3",
     "typescript": "^3.4.3"
   },
+  "resolutions": {
+    "sharp": "^0.28.1"
+  },
   "husky": {
     "hooks": {
       "pre-push": "npm test"
