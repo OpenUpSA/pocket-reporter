@@ -41,7 +41,7 @@ const createFolders = () => ({
       widget: 'icon-selector',
     },
     {
-      name: 'templates',
+      name: 'questions',
       label: '✏️ Templates Title',
       widget: 'list',
       fields: [
