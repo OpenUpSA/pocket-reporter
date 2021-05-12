@@ -42,7 +42,7 @@ const createFolders = () => ({
     },
     {
       name: 'questions',
-      label: '✏️ Questions Title',
+      label: '✏️ Templates Title',
       widget: 'list',
       fields: [
         {
