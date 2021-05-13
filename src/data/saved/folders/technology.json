@@ -1,0 +1,26 @@
+{
+  "type": "folders",
+  "title": "Technology",
+  "translations": {
+    "spa": " ",
+    "nso": " ",
+    "afr": " ",
+    "tsn": " ",
+    "zul": " ",
+    "por": " ",
+    "sot": " ",
+    "eng": " ",
+    "xho": " "
+  },
+  "icon": "Wifi",
+  "questions": [
+    {
+      "content": "Biography"
+    }
+  ],
+  "resources": [
+    {
+      "content": "Reporting on an opinion poll"
+    }
+  ]
+}
