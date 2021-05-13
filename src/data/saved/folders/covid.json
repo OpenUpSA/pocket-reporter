@@ -1,0 +1,26 @@
+{
+  "type": "folders",
+  "title": "Covid",
+  "translations": {
+    "spa": " ",
+    "nso": " ",
+    "afr": " ",
+    "tsn": " ",
+    "zul": " ",
+    "por": " ",
+    "sot": " ",
+    "eng": " ",
+    "xho": " "
+  },
+  "icon": "WbSunny",
+  "questions": [
+    {
+      "content": "Biography"
+    }
+  ],
+  "resources": [
+    {
+      "content": " "
+    }
+  ]
+}
