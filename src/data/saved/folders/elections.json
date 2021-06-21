@@ -20,6 +20,9 @@
       "content": "Election Meeting"
     },
     {
+      "content": "Biography"
+    },
+    {
       "content": "Election Day"
     },
     {
@@ -30,9 +33,6 @@
     },
     {
       "content": "Reporting on Opinion Polls"
-    },
-    {
-      "content": "Biography"
     }
   ],
   "resources": [
