@@ -14,13 +14,13 @@
   "icon": "HowToVote",
   "questions": [
     {
-      "content": "Election Day"
+      "content": "Political Rally"
     },
     {
       "content": "Election Meeting"
     },
     {
-      "content": "Political Rally"
+      "content": "Election Day"
     },
     {
       "content": "Reporting on election results at a polling station"
