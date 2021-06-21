@@ -14,13 +14,16 @@
   "icon": "HowToVote",
   "questions": [
     {
-      "content": "Election Day"
+      "content": "Political Rally"
     },
     {
       "content": "Election Meeting"
     },
     {
-      "content": "Political Rally"
+      "content": "Biography"
+    },
+    {
+      "content": "Election Day"
     },
     {
       "content": "Reporting on election results at a polling station"
@@ -30,9 +33,6 @@
     },
     {
       "content": "Reporting on Opinion Polls"
-    },
-    {
-      "content": "Biography"
     }
   ],
   "resources": [
