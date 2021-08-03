@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, TextField } from '@material-ui/core';
 import Heading from '../../global/Heading';
+import ReactMarkdown from 'react-markdown'
 
 import DeleteModal from './DeleteModal';
 
@@ -32,7 +33,7 @@ const Question = ({ loading, id, title, description, answer, index, onUpdateActi
       <HeadingWrap>
         <Heading>{title}</Heading>
       </HeadingWrap>
-      <Description>{description}</Description>
+      <Description><><ReactMarkdown>{description}</ReactMarkdown></></Description>
       <TextField
         fullWidth
         multiline
