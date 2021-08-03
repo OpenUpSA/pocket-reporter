@@ -136,7 +136,8 @@
   },
   "questions": [
     {
-      "question": "What is the full name and surname of the person you're writing about?"
+      "question": "What is the full name and surname of the person you're writing about?",
+      "description": "**What is the full name and surname of the person you're writing about?**"
     },
     {
       "question": "Details of awards / honours / formal recognition.",
