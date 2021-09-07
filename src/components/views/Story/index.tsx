@@ -52,7 +52,7 @@ class Story extends Component<Tprops, Tstate> {
   }
 
   render() {
-    return <Presentation {...{ ...this.props, ...this.state, ...this.events }} />;
+    return <Presentation title={this.props.name} {...{ ...this.props, ...this.state, ...this.events }} />;
   }
 }
 
