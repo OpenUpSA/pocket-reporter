@@ -137,11 +137,11 @@
   "questions": [
     {
       "question": "What is the full name and surname of the person you're writing about?",
-      "description": "**What is the full name and surname of the person you're writing about?**"
+      "description": "****"
     },
     {
       "question": "Details of awards / honours / formal recognition.",
-      "description": "[Pocket Reporter](https://app.pocketreporter.co.za/#)"
+      "description": ""
     },
     {
       "question": "Summarise any of their major contributions to society and the world."
@@ -171,7 +171,8 @@
       "question": "Details of personal relationships with family, friends, work colleagues."
     },
     {
-      "question": "Additional info/notes"
+      "question": "Additional info/notes",
+      "description": ""
     },
     {
       "question": "Contact details of people you've interviewed"
