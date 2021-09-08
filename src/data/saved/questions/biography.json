@@ -171,7 +171,8 @@
       "question": "Details of personal relationships with family, friends, work colleagues."
     },
     {
-      "question": "Additional info/notes"
+      "question": "Additional info/notes",
+      "description": "test\n\n[sometihng](http://example.com)"
     },
     {
       "question": "Contact details of people you've interviewed"
