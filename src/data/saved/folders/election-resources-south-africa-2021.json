@@ -1,0 +1,32 @@
+{
+  "type": "folders",
+  "title": "Election Resources: South Africa - 2021",
+  "translations": {
+    "spa": " ",
+    "nso": " ",
+    "afr": " ",
+    "tsn": " ",
+    "zul": " ",
+    "por": " ",
+    "sot": " ",
+    "eng": " ",
+    "xho": " "
+  },
+  "icon": "HowToVote",
+  "questions": [
+    {
+      "content": " "
+    }
+  ],
+  "resources": [
+    {
+      "content": "Elections Coverage Planning"
+    },
+    {
+      "content": "How to detect potential election irregularities"
+    },
+    {
+      "content": "Election Reporting Handbook"
+    }
+  ]
+}
