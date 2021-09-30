@@ -19,6 +19,9 @@ const Markup = ({ setIsoKey, isoKey, loading, setLanguage }): JSX.Element => {
           </Heading>
         </HeadingWrap>
         <Dropdown {...{ setIsoKey, isoKey, setLanguage }} disabled={loading} />
+
+        <a href="/help" style={{color: '#fff', fontFamily: 'sans-serif', fontSize: '18px', textDecoration: 'none'}}>How to Use Pocket Reporter</a>
+
       </StyledWrapper>
     </Layout>
   );
