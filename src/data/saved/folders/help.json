@@ -1,0 +1,26 @@
+{
+  "type": "folders",
+  "title": "Help",
+  "translations": {
+    "spa": " ",
+    "nso": " ",
+    "afr": " ",
+    "tsn": " ",
+    "zul": " ",
+    "por": " ",
+    "sot": " ",
+    "eng": " ",
+    "xho": " "
+  },
+  "icon": "School",
+  "questions": [
+    {
+      "content": " "
+    }
+  ],
+  "resources": [
+    {
+      "content": " "
+    }
+  ]
+}
