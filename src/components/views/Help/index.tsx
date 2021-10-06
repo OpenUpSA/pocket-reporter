@@ -2,12 +2,11 @@ import React from 'react';
 
 import Layout from '../../global/Layout';
 import Grid from '@material-ui/core/Grid';
-import pr1 from '../../../../static/assets/pr1.jpg';
-import pr2 from '../../../../static/assets/pr2.jpg';
-import pr3 from '../../../../static/assets/pr3.jpg';
-import pr4 from '../../../../static/assets/pr4.jpg';
-import pr5 from '../../../../static/assets/pr5.jpg';
-
+import pr1 from '../../../data/assets/hardcoded/pr1.jpg';
+import pr2 from '../../../data/assets/hardcoded/pr2.jpg';
+import pr3 from '../../../data/assets/hardcoded/pr3.jpg';
+import pr4 from '../../../data/assets/hardcoded/pr4.jpg';
+import pr5 from '../../../data/assets/hardcoded/pr5.jpg';
 
 const Help = (): JSX.Element => {
 
