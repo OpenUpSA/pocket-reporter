@@ -1,0 +1,26 @@
+{
+  "type": "folders",
+  "title": "Court Reporting",
+  "translations": {
+    "spa": " ",
+    "nso": " ",
+    "afr": " ",
+    "tsn": " ",
+    "zul": " ",
+    "por": " ",
+    "sot": " ",
+    "eng": " ",
+    "xho": " "
+  },
+  "icon": "BusinessCenter",
+  "questions": [
+    {
+      "content": " "
+    }
+  ],
+  "resources": [
+    {
+      "content": " "
+    }
+  ]
+}
