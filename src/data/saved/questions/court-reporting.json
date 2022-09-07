@@ -1,0 +1,62 @@
+{
+    "title": "Court Reporting",
+    "type": "questions",
+    "questions": [
+        {
+            "question": "Who is being charged?",
+            "description": "Names, ages, addresses, other personal information"
+        },
+        {
+            "question": "Is the person being charged associated with a particular company, or particular government entity or department?",
+            "description": "If it is company, you may be able to find details on the CIPC website"
+        },
+        {
+            "question": "What is the background of the accused?",
+            "description": "Include details that may be relevant too in sentencing"
+        },
+        {
+            "question": "What statute is the person being charged under?"
+        },
+        {
+            "question": "What is the court (and tier) is the matter being heard at?"
+        },
+        {
+            "question": "What is the charge/charges being pursued?",
+            "description": "List all counts"
+        },
+        {
+            "question": "What is the significance of the action allegedly committed by the person charged, and the effect on others?",
+        },
+        {
+            "question": "Who is the Prosecutor?",
+            "description": "Check spelling"
+        },
+        {
+            "question": "Who is the defense attorney or counsel?",
+            "description": "Check spelling"
+        },
+        {
+            "question": "What is the date and who is the presiding judge for the trial or hearing?"
+        },
+        {
+            "question": "At what stage is the trial? Is this an appeal? When are the next scheduled hearings?",
+            "description": "A simple outline of key stages under normal criminal procedure are: Bail hearing; Charges before court and plea; Hearing; Trial-within-a-trial; Judgement; Sentencing and mitigation"
+        },
+        {
+            "question": "What is the background to the case and the most relevant facts?"
+        },
+        {
+            "question": "Did this involve a referral/involvement of another agency, ie the Special Investigating Unit?"
+        },
+        {
+            "question": "Are there or have there been any similar cases decided by courts (precedents)?"
+        },
+        {
+            "question": "Additional info/note",
+            "description": "Approach the Registrar for access to the court file"
+        },
+        {
+            "question": "Contact details of people you've interviewed"
+        }
+    ]
+}
