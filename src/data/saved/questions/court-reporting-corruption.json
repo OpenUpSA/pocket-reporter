@@ -18,7 +18,7 @@
             "question": "What statute is the person being charged under?"
         },
         {
-            "question": "What is the court (and tier) is the matter being heard at?"
+            "question": "What court (and tier) is the matter being heard at?"
         },
         {
             "question": "What is the charge/charges being pursued?",
