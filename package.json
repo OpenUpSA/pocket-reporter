@@ -24,7 +24,6 @@
     "deepmerge": "^3.2.0",
     "faker": "^4.1.0",
     "gatsby": "^2.0.76",
-    "gatsby-plugin-google-gtag": "^5.11.0",
     "gatsby-plugin-i18n": "^1.0.1",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
@@ -43,7 +42,6 @@
     "redux-localstorage": "^0.4.1",
     "redux-thunk": "^2.3.0",
     "scroll-into-view": "^1.9.5",
-    "sharp": "^0.28.1",
     "styled-components": "^4.2.0",
     "utility-types": "^3.5.0",
     "uuid": "^3.3.2"
@@ -100,6 +98,7 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-app": "^4.0.1",
+    "gatsby-plugin-google-analytics": "^2.0.8",
     "gatsby-plugin-hotjar": "^1.0.1",
     "gatsby-plugin-manifest": "^2.0.12",
     "gatsby-plugin-material-ui": "^1.1.0",
