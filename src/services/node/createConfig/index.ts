@@ -5,7 +5,7 @@ import webfontsConfig from './webfontsConfig';
 import createNetlifyCmsConfig from './createNetlifyCmsConfig';
 import createFilesystemConfig from './createFilesystemConfig';
 // import createHotjarConfig from './createHotjarConfig';
-// import createAnalyticsConfig from './createAnalyticsConfig';
+import createAnalyticsConfig from './createAnalyticsConfig';
 
 /**
  * A list of all Gatsby plugins used as is, without any configuration.
@@ -26,14 +26,28 @@ const noConfig = [
  * A function that creates a list of all Gatsby plugins with custom configuration applied via functions. Also removes plugins (via `filter` method) that do not have required configuration passed from ENV variable (for example, a Google Analytics ID is only passed in production)
  */
 const withCustomConfig = (env: Tenv, root: Troot) => {
-  const { HOTJAR_ID: id, HOTJAR_SNIPPET_VERSION: sv, GOOGLE_ANALYTICS_ID: trackingId } = env;
+  const { parsed: { HOTJAR_ID: id, HOTJAR_SNIPPET_VERSION: sv, GOOGLE_ANALYTICS_ID: trackingId }, } = env;
 
   return [
     manifestConfig,
     webfontsConfig,
     createFilesystemConfig(root),
     createNetlifyCmsConfig(root),
-    // !!id && !!sv && createAnalyticsConfig(id, sv),
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          trackingId, // Google Analytics / GA
+        ],
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+        },
+      },
+    },
+    //createAnalyticsConfig(trackingId),
     // !!trackingId && createHotjarConfig(trackingId),
   ];
 };

@@ -47,7 +47,7 @@ var removeEnglish = function (_a) {
 var translations = function () { return languages_1.languages.filter(removeEnglish).map(buildTranslation); };
 var createQuestions = function () { return ({
     name: 'questions',
-    label: '✏️ Questions',
+    label: '✏️ Templates',
     folder: 'src/data/saved/questions/',
     extension: 'json',
     create: true,
