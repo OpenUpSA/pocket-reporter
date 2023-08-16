@@ -98,8 +98,6 @@
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-app": "^4.0.1",
-    "gatsby-plugin-google-analytics": "^2.0.8",
-    "gatsby-plugin-hotjar": "^1.0.1",
     "gatsby-plugin-manifest": "^2.0.12",
     "gatsby-plugin-material-ui": "^1.1.0",
     "gatsby-plugin-netlify": "^2.0.6",
