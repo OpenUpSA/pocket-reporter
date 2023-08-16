@@ -7,8 +7,6 @@ var manifestConfig_1 = __importDefault(require("./manifestConfig"));
 var webfontsConfig_1 = __importDefault(require("./webfontsConfig"));
 var createNetlifyCmsConfig_1 = __importDefault(require("./createNetlifyCmsConfig"));
 var createFilesystemConfig_1 = __importDefault(require("./createFilesystemConfig"));
-// import createHotjarConfig from './createHotjarConfig';
-// import createAnalyticsConfig from './createAnalyticsConfig';
 /**
  * A list of all Gatsby plugins used as is, without any configuration.
  */
@@ -27,7 +25,6 @@ var noConfig = [
  * A function that creates a list of all Gatsby plugins with custom configuration applied via functions. Also removes plugins (via `filter` method) that do not have required configuration passed from ENV variable (for example, a Google Analytics ID is only passed in production)
  */
 var withCustomConfig = function (env, root) {
-    var id = env.HOTJAR_ID, sv = env.HOTJAR_SNIPPET_VERSION, trackingId = env.GOOGLE_ANALYTICS_ID;
     return [
         manifestConfig_1.default,
         webfontsConfig_1.default,

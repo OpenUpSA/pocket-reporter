@@ -4,8 +4,6 @@ import manifestConfig from './manifestConfig';
 import webfontsConfig from './webfontsConfig';
 import createNetlifyCmsConfig from './createNetlifyCmsConfig';
 import createFilesystemConfig from './createFilesystemConfig';
-// import createHotjarConfig from './createHotjarConfig';
-// import createAnalyticsConfig from './createAnalyticsConfig';
 
 /**
  * A list of all Gatsby plugins used as is, without any configuration.
@@ -26,15 +24,11 @@ const noConfig = [
  * A function that creates a list of all Gatsby plugins with custom configuration applied via functions. Also removes plugins (via `filter` method) that do not have required configuration passed from ENV variable (for example, a Google Analytics ID is only passed in production)
  */
 const withCustomConfig = (env: Tenv, root: Troot) => {
-  const { HOTJAR_ID: id, HOTJAR_SNIPPET_VERSION: sv, GOOGLE_ANALYTICS_ID: trackingId } = env;
-
   return [
     manifestConfig,
     webfontsConfig,
     createFilesystemConfig(root),
     createNetlifyCmsConfig(root),
-    // !!id && !!sv && createAnalyticsConfig(id, sv),
-    // !!trackingId && createHotjarConfig(trackingId),
   ];
 };
 
